@@ -429,41 +429,22 @@
                 const startDate = `${currentMonth}-01`;
                 const endDate = `${year}-${String(parseInt(month) + 1).padStart(2, '0')}-01`;
                 
-                // Get leads data for the month with pagination
-                let allLeads = [];
-                let offset = 0;
-                const pageSize = 1000;
+                // Get pre-aggregated counts from RPC function (fast!)
+                const { data: counts, error: countsError } = await supabase
+                    .rpc('get_attorney_lockdown_counts', {
+                        p_start_date: startDate,
+                        p_end_date: endDate
+                    });
                 
-                while (true) {
-                    const { data: leads, error: leadsError } = await supabase
-                        .from('leads')
-                        .select('attorney, leadStatus')
-                        .neq('office', 'xSTAFF')
-                        .neq('submitterName', 'Katiria Bonilla')
-                        .gte('dateLockedDown', startDate)
-                        .lt('dateLockedDown', endDate)
-                        .range(offset, offset + pageSize - 1);
-                    
-                    if (leadsError) throw leadsError;
-                    allLeads = allLeads.concat(leads);
-                    if (leads.length < pageSize) break;
-                    offset += pageSize;
-                }
+                if (countsError) throw countsError;
                 
-                // Count leads by attorney
+                // Build lookup maps
                 const attorneyCounts = {};
                 const attorneyVoids = {};
                 
-                allLeads.forEach(lead => {
-                    if (!lead.attorney) return;
-                    
-                    attorneyCounts[lead.attorney] = (attorneyCounts[lead.attorney] || 0) + 1;
-                    
-                    // Check for voided status
-                    const status = (lead.leadStatus || '').toLowerCase();
-                    if (status.includes('void') || status.includes('dropped') || status.includes('no case')) {
-                        attorneyVoids[lead.attorney] = (attorneyVoids[lead.attorney] || 0) + 1;
-                    }
+                counts.forEach(row => {
+                    attorneyCounts[row.attorney] = row.total_count;
+                    attorneyVoids[row.attorney] = row.voided_count;
                 });
                 
                 // Calculate metrics for each goal
