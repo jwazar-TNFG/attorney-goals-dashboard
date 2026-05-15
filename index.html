@@ -3,15 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attorney Goals Dashboard - May 2026</title>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <title>Attorney Goals Dashboard</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -19,99 +13,49 @@
             min-height: 100vh;
             padding: 12px;
         }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
+        .header { text-align: center; margin-bottom: 20px; }
         .header h1 {
             font-size: 1.5rem;
             margin-bottom: 5px;
             background: linear-gradient(90deg, #00d4ff, #7c3aed);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
-        
-        .header .subtitle {
-            color: #94a3b8;
-            font-size: 0.9rem;
-        }
-        
-        .last-updated {
-            color: #64748b;
-            font-size: 0.75rem;
-            margin-top: 5px;
-        }
-        
+        .subtitle { color: #94a3b8; font-size: 0.9rem; }
+        .last-updated { color: #64748b; font-size: 0.75rem; margin-top: 5px; }
         .summary-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 10px;
             margin-bottom: 20px;
         }
-        
-        @media (min-width: 768px) {
-            .summary-grid {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-        
+        @media (min-width: 768px) { .summary-grid { grid-template-columns: repeat(4, 1fr); } }
         .summary-card {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255,255,255,0.05);
             border-radius: 12px;
             padding: 15px;
             text-align: center;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255,255,255,0.1);
         }
-        
-        .summary-card .value {
-            font-size: 1.8rem;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        
-        .summary-card .label {
-            color: #94a3b8;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
+        .summary-card .value { font-size: 1.8rem; font-weight: bold; margin-bottom: 5px; }
+        .summary-card .label { color: #94a3b8; font-size: 0.8rem; text-transform: uppercase; }
         .summary-card.goal .value { color: #60a5fa; }
         .summary-card.delivered .value { color: #34d399; }
         .summary-card.owed .value { color: #f87171; }
         .summary-card.percent .value { color: #fbbf24; }
-        
-        .overall-progress {
-            background: rgba(255, 255, 255, 0.05);
+        .progress-container {
+            background: rgba(255,255,255,0.05);
             border-radius: 12px;
             padding: 15px;
             margin-bottom: 20px;
         }
-        
-        .overall-progress .label {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 0.9rem;
-        }
-        
-        .progress-bar {
-            height: 24px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            overflow: hidden;
-            position: relative;
-        }
-        
+        .progress-label { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.9rem; }
+        .progress-bar { height: 24px; background: rgba(255,255,255,0.1); border-radius: 12px; overflow: hidden; }
         .progress-fill {
             height: 100%;
             background: linear-gradient(90deg, #34d399, #22c55e);
             border-radius: 12px;
-            transition: width 0.5s ease;
+            transition: width 0.3s;
             display: flex;
             align-items: center;
             justify-content: flex-end;
@@ -119,29 +63,18 @@
             font-weight: bold;
             font-size: 0.8rem;
         }
-        
-        .controls {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-        }
-        
+        .controls { display: flex; gap: 10px; margin-bottom: 15px; flex-wrap: wrap; }
         .controls select, .controls input {
             flex: 1;
             min-width: 120px;
             padding: 10px 12px;
             border-radius: 8px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.05);
             color: #fff;
             font-size: 0.9rem;
         }
-        
-        .controls select option {
-            background: #1a1a2e;
-        }
-        
+        .controls select option { background: #1a1a2e; }
         .refresh-btn {
             padding: 10px 20px;
             background: linear-gradient(90deg, #7c3aed, #2563eb);
@@ -150,456 +83,198 @@
             color: #fff;
             font-weight: bold;
             cursor: pointer;
-            transition: transform 0.2s;
         }
-        
-        .refresh-btn:hover {
-            transform: scale(1.05);
-        }
-        
-        .refresh-btn:active {
-            transform: scale(0.95);
-        }
-        
-        .table-container {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 12px;
-            overflow: hidden;
-            backdrop-filter: blur(10px);
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        
+        .table-container { background: rgba(255,255,255,0.05); border-radius: 12px; overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; min-width: 500px; }
         th {
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0,0,0,0.3);
             padding: 12px 8px;
             text-align: left;
             font-size: 0.75rem;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
             color: #94a3b8;
             cursor: pointer;
-            user-select: none;
             white-space: nowrap;
         }
-        
-        th:hover {
-            background: rgba(0, 0, 0, 0.4);
-        }
-        
+        th:hover { background: rgba(0,0,0,0.4); }
         th.sorted-asc::after { content: ' ↑'; }
         th.sorted-desc::after { content: ' ↓'; }
-        
-        td {
-            padding: 12px 8px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            font-size: 0.9rem;
-        }
-        
-        tr:hover {
-            background: rgba(255, 255, 255, 0.05);
-        }
-        
-        .firm-name {
-            font-weight: 600;
-            max-width: 150px;
-        }
-        
+        td { padding: 12px 8px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.85rem; }
+        tr:hover { background: rgba(255,255,255,0.05); }
+        .firm-name { font-weight: 600; }
         .state-badge {
             display: inline-block;
             padding: 3px 8px;
-            background: rgba(96, 165, 250, 0.2);
+            background: rgba(96,165,250,0.2);
             border-radius: 4px;
             font-size: 0.75rem;
             color: #60a5fa;
         }
-        
-        .number {
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .number.goal { color: #60a5fa; }
-        .number.gross { color: #94a3b8; }
-        .number.voided { color: #f87171; }
-        .number.net { color: #34d399; }
-        .number.owed { color: #fbbf24; }
-        .number.complete { color: #22c55e; }
-        
-        .mini-progress {
-            width: 80px;
-            height: 8px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 4px;
-            overflow: hidden;
-        }
-        
-        .mini-progress-fill {
-            height: 100%;
-            border-radius: 4px;
-            transition: width 0.3s ease;
-        }
-        
-        .mini-progress-fill.low { background: #f87171; }
-        .mini-progress-fill.medium { background: #fbbf24; }
-        .mini-progress-fill.high { background: #34d399; }
-        .mini-progress-fill.complete { background: #22c55e; }
-        
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #94a3b8;
-        }
-        
-        .loading::after {
-            content: '';
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #94a3b8;
-            border-top-color: transparent;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-left: 10px;
-            vertical-align: middle;
-        }
-        
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        
-        .row-complete {
-            background: rgba(34, 197, 94, 0.1) !important;
-        }
-        
-        .row-danger {
-            background: rgba(248, 113, 113, 0.05);
-        }
-        
-        /* Mobile optimizations */
+        .num { font-weight: 600; text-align: center; }
+        .num.goal { color: #60a5fa; }
+        .num.net { color: #34d399; }
+        .num.owed { color: #fbbf24; }
+        .num.void { color: #f87171; }
+        .num.done { color: #22c55e; }
+        .row-done { background: rgba(34,197,94,0.1) !important; }
+        .mini-bar { width: 60px; height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px; overflow: hidden; }
+        .mini-fill { height: 100%; border-radius: 4px; }
+        .mini-fill.low { background: #f87171; }
+        .mini-fill.med { background: #fbbf24; }
+        .mini-fill.high { background: #34d399; }
+        .loading { text-align: center; padding: 40px; color: #94a3b8; }
         @media (max-width: 600px) {
             .header h1 { font-size: 1.2rem; }
             .summary-card .value { font-size: 1.4rem; }
-            td, th { padding: 8px 4px; font-size: 0.8rem; }
-            .firm-name { max-width: 100px; }
-        }
-        
-        .month-selector {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 15px;
-        }
-        
-        .month-btn {
-            padding: 8px 16px;
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 8px;
-            color: #fff;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        
-        .month-btn.active {
-            background: linear-gradient(90deg, #7c3aed, #2563eb);
-            border-color: transparent;
-        }
-        
-        .month-btn:hover:not(.active) {
-            background: rgba(255, 255, 255, 0.15);
+            td, th { padding: 8px 4px; font-size: 0.75rem; }
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>🎯 Attorney Goals Dashboard</h1>
+        <h1>🎯 Attorney Goals</h1>
         <div class="subtitle" id="monthDisplay">May 2026</div>
         <div class="last-updated" id="lastUpdated">Loading...</div>
     </div>
     
-    <div class="month-selector">
-        <button class="month-btn" data-month="2026-04">Apr</button>
-        <button class="month-btn active" data-month="2026-05">May</button>
-        <button class="month-btn" data-month="2026-06">Jun</button>
-    </div>
-    
     <div class="summary-grid">
-        <div class="summary-card goal">
-            <div class="value" id="totalGoal">-</div>
-            <div class="label">Total Goal</div>
-        </div>
-        <div class="summary-card delivered">
-            <div class="value" id="totalDelivered">-</div>
-            <div class="label">Delivered</div>
-        </div>
-        <div class="summary-card owed">
-            <div class="value" id="totalOwed">-</div>
-            <div class="label">Owed</div>
-        </div>
-        <div class="summary-card percent">
-            <div class="value" id="totalPercent">-</div>
-            <div class="label">% to Goal</div>
-        </div>
+        <div class="summary-card goal"><div class="value" id="totalGoal">—</div><div class="label">Goal</div></div>
+        <div class="summary-card delivered"><div class="value" id="totalDelivered">—</div><div class="label">Delivered</div></div>
+        <div class="summary-card owed"><div class="value" id="totalOwed">—</div><div class="label">Owed</div></div>
+        <div class="summary-card percent"><div class="value" id="totalPercent">—</div><div class="label">Progress</div></div>
     </div>
     
-    <div class="overall-progress">
-        <div class="label">
-            <span>Overall Progress</span>
-            <span id="progressLabel">0 / 0</span>
-        </div>
-        <div class="progress-bar">
-            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
-        </div>
+    <div class="progress-container">
+        <div class="progress-label"><span>Overall</span><span id="progressLabel">—</span></div>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
     </div>
     
     <div class="controls">
-        <select id="stateFilter">
-            <option value="">All States</option>
-        </select>
+        <select id="stateFilter"><option value="">All States</option></select>
         <input type="text" id="searchInput" placeholder="Search firm...">
-        <button class="refresh-btn" onclick="loadData()">🔄 Refresh</button>
+        <button class="refresh-btn" onclick="loadData()">🔄</button>
     </div>
     
     <div class="table-container">
-        <table id="dataTable">
+        <table>
             <thead>
                 <tr>
                     <th data-sort="firm_name">Firm</th>
                     <th data-sort="state">State</th>
                     <th data-sort="monthly_goal">Goal</th>
-                    <th data-sort="gross">Signed</th>
-                    <th data-sort="voided">Void</th>
                     <th data-sort="net">Net</th>
                     <th data-sort="owed">Owed</th>
-                    <th data-sort="percent">Progress</th>
+                    <th data-sort="percent">%</th>
                 </tr>
             </thead>
-            <tbody id="tableBody">
-                <tr><td colspan="8" class="loading">Loading data...</td></tr>
-            </tbody>
+            <tbody id="tbody"><tr><td colspan="6" class="loading">Loading...</td></tr></tbody>
         </table>
     </div>
+
+<script>
+const API = 'https://ymhhdipaplhzxpfhrunp.supabase.co/rest/v1';
+const KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InltaGhkaXBhcGxoenhwZmhydW5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3NjI3NjEsImV4cCI6MjA1ODMzODc2MX0.rmNdSE5PK4-PGLvQC2Yup8r_8KZAERaUnKbjlZKCfNU';
+const HDR = { 'apikey': KEY, 'Authorization': 'Bearer ' + KEY, 'Content-Type': 'application/json' };
+
+let data = [], sort = { col: 'owed', dir: 'desc' };
+const month = '2026-05';
+
+async function loadData() {
+    try {
+        const [goals, counts] = await Promise.all([
+            fetch(API + '/attorney_goals?select=*', { headers: HDR }).then(r => r.json()),
+            fetch(API + '/rpc/get_attorney_lockdown_counts', {
+                method: 'POST',
+                headers: HDR,
+                body: JSON.stringify({ p_start_date: month + '-01', p_end_date: '2026-06-01' })
+            }).then(r => r.json())
+        ]);
+        
+        const cntMap = {}, voidMap = {};
+        counts.forEach(r => { cntMap[r.attorney] = r.total_count; voidMap[r.attorney] = r.voided_count; });
+        
+        data = goals.map(g => {
+            let gross = 0, voided = 0;
+            (g.lead_attorney_names || []).forEach(n => { gross += cntMap[n] || 0; voided += voidMap[n] || 0; });
+            const net = gross - voided, owed = Math.max(0, g.monthly_goal - net);
+            const pct = g.monthly_goal > 0 ? Math.round(net / g.monthly_goal * 100) : 0;
+            return { ...g, gross, voided, net, owed, percent: pct };
+        });
+        
+        updateUI();
+        document.getElementById('lastUpdated').textContent = 'Updated: ' + new Date().toLocaleTimeString();
+    } catch (e) {
+        document.getElementById('tbody').innerHTML = '<tr><td colspan="6" style="color:#f87171;text-align:center">Error: ' + e.message + '</td></tr>';
+    }
+}
+
+function updateUI() {
+    const tg = data.reduce((s, d) => s + d.monthly_goal, 0);
+    const td = data.reduce((s, d) => s + d.net, 0);
+    const to = data.reduce((s, d) => s + d.owed, 0);
+    const pct = tg > 0 ? Math.round(td / tg * 100) : 0;
     
-    <script>
-        // Supabase setup
-        const SUPABASE_URL = 'https://ymhhdipaplhzxpfhrunp.supabase.co';
-        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InltaGhkaXBhcGxoenhwZmhydW5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3NjI3NjEsImV4cCI6MjA1ODMzODc2MX0.rmNdSE5PK4-PGLvQC2Yup8r_8KZAERaUnKbjlZKCfNU';
-        
-        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-        
-        let allData = [];
-        let currentSort = { column: 'owed', direction: 'desc' };
-        let currentMonth = '2026-05';
-        
-        const monthNames = {
-            '2026-04': 'April 2026',
-            '2026-05': 'May 2026',
-            '2026-06': 'June 2026'
-        };
-        
-        // Month selector
-        document.querySelectorAll('.month-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.month-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                currentMonth = btn.dataset.month;
-                document.getElementById('monthDisplay').textContent = monthNames[currentMonth];
-                loadData();
-            });
-        });
-        
-        async function loadData() {
-            const tbody = document.getElementById('tableBody');
-            tbody.innerHTML = '<tr><td colspan="8" class="loading">Loading data...</td></tr>';
-            
-            try {
-                // Get attorney goals
-                const { data: goals, error: goalsError } = await supabase
-                    .from('attorney_goals')
-                    .select('*');
-                
-                if (goalsError) throw goalsError;
-                
-                // Calculate date range for selected month
-                const [year, month] = currentMonth.split('-');
-                const startDate = `${currentMonth}-01`;
-                const endDate = `${year}-${String(parseInt(month) + 1).padStart(2, '0')}-01`;
-                
-                // Get pre-aggregated counts from RPC function (fast!)
-                const { data: counts, error: countsError } = await supabase
-                    .rpc('get_attorney_lockdown_counts', {
-                        p_start_date: startDate,
-                        p_end_date: endDate
-                    });
-                
-                if (countsError) throw countsError;
-                
-                // Build lookup maps
-                const attorneyCounts = {};
-                const attorneyVoids = {};
-                
-                counts.forEach(row => {
-                    attorneyCounts[row.attorney] = row.total_count;
-                    attorneyVoids[row.attorney] = row.voided_count;
-                });
-                
-                // Calculate metrics for each goal
-                allData = goals.map(goal => {
-                    let gross = 0;
-                    let voided = 0;
-                    
-                    (goal.lead_attorney_names || []).forEach(name => {
-                        gross += attorneyCounts[name] || 0;
-                        voided += attorneyVoids[name] || 0;
-                    });
-                    
-                    const net = gross - voided;
-                    const owed = Math.max(0, goal.monthly_goal - net);
-                    const percent = goal.monthly_goal > 0 ? Math.round((net / goal.monthly_goal) * 100) : 0;
-                    
-                    return {
-                        ...goal,
-                        gross,
-                        voided,
-                        net,
-                        owed,
-                        percent
-                    };
-                });
-                
-                updateSummary();
-                populateStateFilter();
-                renderTable();
-                
-                document.getElementById('lastUpdated').textContent = 
-                    `Last updated: ${new Date().toLocaleString()}`;
-                
-            } catch (error) {
-                console.error('Error loading data:', error);
-                tbody.innerHTML = `<tr><td colspan="8" style="color: #f87171; text-align: center; padding: 20px;">Error loading data: ${error.message}</td></tr>`;
-            }
-        }
-        
-        function updateSummary() {
-            const totalGoal = allData.reduce((sum, d) => sum + d.monthly_goal, 0);
-            const totalDelivered = allData.reduce((sum, d) => sum + d.net, 0);
-            const totalOwed = allData.reduce((sum, d) => sum + d.owed, 0);
-            const totalPercent = totalGoal > 0 ? Math.round((totalDelivered / totalGoal) * 100) : 0;
-            
-            document.getElementById('totalGoal').textContent = totalGoal.toLocaleString();
-            document.getElementById('totalDelivered').textContent = totalDelivered.toLocaleString();
-            document.getElementById('totalOwed').textContent = totalOwed.toLocaleString();
-            document.getElementById('totalPercent').textContent = `${totalPercent}%`;
-            
-            document.getElementById('progressLabel').textContent = `${totalDelivered.toLocaleString()} / ${totalGoal.toLocaleString()}`;
-            document.getElementById('progressFill').style.width = `${Math.min(100, totalPercent)}%`;
-            document.getElementById('progressFill').textContent = totalPercent >= 10 ? `${totalPercent}%` : '';
-        }
-        
-        function populateStateFilter() {
-            const states = [...new Set(allData.map(d => d.state))].sort();
-            const select = document.getElementById('stateFilter');
-            select.innerHTML = '<option value="">All States</option>' + 
-                states.map(s => `<option value="${s}">${s}</option>`).join('');
-        }
-        
-        function getFilteredData() {
-            const stateFilter = document.getElementById('stateFilter').value;
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            
-            return allData.filter(d => {
-                if (stateFilter && d.state !== stateFilter) return false;
-                if (searchTerm && !d.firm_name.toLowerCase().includes(searchTerm)) return false;
-                return true;
-            });
-        }
-        
-        function sortData(data) {
-            return [...data].sort((a, b) => {
-                let aVal = a[currentSort.column];
-                let bVal = b[currentSort.column];
-                
-                if (typeof aVal === 'string') {
-                    aVal = aVal.toLowerCase();
-                    bVal = bVal.toLowerCase();
-                }
-                
-                if (currentSort.direction === 'asc') {
-                    return aVal > bVal ? 1 : -1;
-                } else {
-                    return aVal < bVal ? 1 : -1;
-                }
-            });
-        }
-        
-        function renderTable() {
-            const filtered = getFilteredData();
-            const sorted = sortData(filtered);
-            const tbody = document.getElementById('tableBody');
-            
-            // Update header sort indicators
-            document.querySelectorAll('th').forEach(th => {
-                th.classList.remove('sorted-asc', 'sorted-desc');
-                if (th.dataset.sort === currentSort.column) {
-                    th.classList.add(`sorted-${currentSort.direction}`);
-                }
-            });
-            
-            if (sorted.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; padding: 20px; color: #94a3b8;">No matching records</td></tr>';
-                return;
-            }
-            
-            tbody.innerHTML = sorted.map(d => {
-                const isComplete = d.net >= d.monthly_goal;
-                const progressClass = d.percent >= 100 ? 'complete' : d.percent >= 75 ? 'high' : d.percent >= 50 ? 'medium' : 'low';
-                const rowClass = isComplete ? 'row-complete' : d.percent < 25 ? 'row-danger' : '';
-                
-                return `
-                    <tr class="${rowClass}">
-                        <td class="firm-name">${d.firm_name}</td>
-                        <td><span class="state-badge">${d.state}</span></td>
-                        <td class="number goal">${d.monthly_goal}</td>
-                        <td class="number gross">${d.gross}</td>
-                        <td class="number voided">${d.voided || '-'}</td>
-                        <td class="number net">${d.net}</td>
-                        <td class="number ${isComplete ? 'complete' : 'owed'}">${isComplete ? '✓' : d.owed}</td>
-                        <td>
-                            <div class="mini-progress">
-                                <div class="mini-progress-fill ${progressClass}" style="width: ${Math.min(100, d.percent)}%"></div>
-                            </div>
-                        </td>
-                    </tr>
-                `;
-            }).join('');
-        }
-        
-        // Event listeners
-        document.getElementById('stateFilter').addEventListener('change', renderTable);
-        document.getElementById('searchInput').addEventListener('input', renderTable);
-        
-        document.querySelectorAll('th[data-sort]').forEach(th => {
-            th.addEventListener('click', () => {
-                const column = th.dataset.sort;
-                if (currentSort.column === column) {
-                    currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
-                } else {
-                    currentSort.column = column;
-                    currentSort.direction = 'desc';
-                }
-                renderTable();
-            });
-        });
-        
-        // Initial load
-        loadData();
-        
-        // Auto-refresh every 5 minutes
-        setInterval(loadData, 5 * 60 * 1000);
-    </script>
+    document.getElementById('totalGoal').textContent = tg.toLocaleString();
+    document.getElementById('totalDelivered').textContent = td.toLocaleString();
+    document.getElementById('totalOwed').textContent = to.toLocaleString();
+    document.getElementById('totalPercent').textContent = pct + '%';
+    document.getElementById('progressLabel').textContent = td.toLocaleString() + ' / ' + tg.toLocaleString();
+    document.getElementById('progressFill').style.width = Math.min(100, pct) + '%';
+    document.getElementById('progressFill').textContent = pct >= 10 ? pct + '%' : '';
+    
+    const states = [...new Set(data.map(d => d.state))].sort();
+    const sel = document.getElementById('stateFilter');
+    const cur = sel.value;
+    sel.innerHTML = '<option value="">All States</option>' + states.map(s => '<option value="' + s + '">' + s + '</option>').join('');
+    sel.value = cur;
+    
+    render();
+}
+
+function render() {
+    const sf = document.getElementById('stateFilter').value;
+    const q = document.getElementById('searchInput').value.toLowerCase();
+    let filtered = data.filter(d => (!sf || d.state === sf) && (!q || d.firm_name.toLowerCase().includes(q)));
+    
+    filtered.sort((a, b) => {
+        let av = a[sort.col], bv = b[sort.col];
+        if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+        return sort.dir === 'asc' ? (av > bv ? 1 : -1) : (av < bv ? 1 : -1);
+    });
+    
+    document.querySelectorAll('th').forEach(th => {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+        if (th.dataset.sort === sort.col) th.classList.add('sorted-' + sort.dir);
+    });
+    
+    const tbody = document.getElementById('tbody');
+    if (!filtered.length) { tbody.innerHTML = '<tr><td colspan="6" class="loading">No results</td></tr>'; return; }
+    
+    tbody.innerHTML = filtered.map(d => {
+        const done = d.net >= d.monthly_goal;
+        const cls = d.percent >= 75 ? 'high' : d.percent >= 50 ? 'med' : 'low';
+        return '<tr class="' + (done ? 'row-done' : '') + '">' +
+            '<td class="firm-name">' + d.firm_name + '</td>' +
+            '<td><span class="state-badge">' + d.state + '</span></td>' +
+            '<td class="num goal">' + d.monthly_goal + '</td>' +
+            '<td class="num net">' + d.net + '</td>' +
+            '<td class="num ' + (done ? 'done' : 'owed') + '">' + (done ? '✓' : d.owed) + '</td>' +
+            '<td><div class="mini-bar"><div class="mini-fill ' + cls + '" style="width:' + Math.min(100, d.percent) + '%"></div></div></td></tr>';
+    }).join('');
+}
+
+document.getElementById('stateFilter').onchange = render;
+document.getElementById('searchInput').oninput = render;
+document.querySelectorAll('th[data-sort]').forEach(th => {
+    th.onclick = () => {
+        if (sort.col === th.dataset.sort) sort.dir = sort.dir === 'asc' ? 'desc' : 'asc';
+        else { sort.col = th.dataset.sort; sort.dir = 'desc'; }
+        render();
+    };
+});
+
+loadData();
+setInterval(loadData, 300000);
+</script>
 </body>
 </html>
