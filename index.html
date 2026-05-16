@@ -23,6 +23,89 @@
         }
         .subtitle { color: #94a3b8; font-size: 0.9rem; }
         .last-updated { color: #64748b; font-size: 0.75rem; margin-top: 5px; }
+        .pace-indicator { 
+            display: inline-block;
+            background: rgba(255,255,255,0.1);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-top: 8px;
+            color: #94a3b8;
+        }
+        .pace-indicator strong { color: #fbbf24; }
+        
+        /* State Heatmap */
+        .heatmap-section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .heatmap-title {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .heatmap-title span { font-size: 1.1rem; }
+        .heatmap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 10px;
+        }
+        .state-tile {
+            padding: 12px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            position: relative;
+        }
+        .state-tile:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+        .state-tile.critical { background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); }
+        .state-tile.behind { background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%); }
+        .state-tile.ontrack { background: linear-gradient(135deg, #ca8a04 0%, #a16207 100%); }
+        .state-tile.ahead { background: linear-gradient(135deg, #16a34a 0%, #15803d 100%); }
+        .state-tile.done { background: linear-gradient(135deg, #059669 0%, #047857 100%); }
+        .state-name { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+        .state-stats { font-size: 0.75rem; opacity: 0.9; }
+        .state-pace { 
+            font-size: 0.7rem; 
+            margin-top: 4px; 
+            padding: 2px 6px; 
+            background: rgba(0,0,0,0.2); 
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .state-tile.critical .state-pace { background: rgba(0,0,0,0.3); }
+        
+        .heatmap-legend {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.7rem;
+            color: #94a3b8;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+        .legend-dot.critical { background: #dc2626; }
+        .legend-dot.behind { background: #ea580c; }
+        .legend-dot.ontrack { background: #ca8a04; }
+        .legend-dot.ahead { background: #16a34a; }
+        
         .summary-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -50,7 +133,7 @@
             margin-bottom: 20px;
         }
         .progress-label { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.9rem; }
-        .progress-bar { height: 24px; background: rgba(255,255,255,0.1); border-radius: 12px; overflow: hidden; }
+        .progress-bar { height: 24px; background: rgba(255,255,255,0.1); border-radius: 12px; overflow: hidden; position: relative; }
         .progress-fill {
             height: 100%;
             background: linear-gradient(90deg, #34d399, #22c55e);
@@ -62,6 +145,25 @@
             padding-right: 10px;
             font-weight: bold;
             font-size: 0.8rem;
+        }
+        .pace-marker {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: #fbbf24;
+            border-radius: 2px;
+            z-index: 10;
+        }
+        .pace-marker::after {
+            content: 'Pace';
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.65rem;
+            color: #fbbf24;
+            white-space: nowrap;
         }
         .controls { display: flex; gap: 10px; margin-bottom: 15px; flex-wrap: wrap; }
         .controls select, .controls input {
@@ -118,6 +220,7 @@
             .header h1 { font-size: 1.2rem; }
             .summary-card .value { font-size: 1.4rem; }
             td, th { padding: 8px 4px; font-size: 0.75rem; }
+            .heatmap-grid { grid-template-columns: repeat(2, 1fr); }
         }
     </style>
 </head>
@@ -126,6 +229,21 @@
         <h1>🎯 Attorney Goals</h1>
         <div class="subtitle" id="monthDisplay">May 2026</div>
         <div class="last-updated" id="lastUpdated">Loading...</div>
+        <div class="pace-indicator">Day <strong id="dayOfMonth">—</strong> of <strong id="daysInMonth">—</strong> — should be at <strong id="expectedPace">—</strong></div>
+    </div>
+    
+    <!-- State Heatmap -->
+    <div class="heatmap-section">
+        <div class="heatmap-title"><span>🗺️</span> State Pace Tracker</div>
+        <div class="heatmap-grid" id="heatmapGrid">
+            <div class="loading">Loading...</div>
+        </div>
+        <div class="heatmap-legend">
+            <div class="legend-item"><div class="legend-dot critical"></div> Critical (&lt;70% of pace)</div>
+            <div class="legend-item"><div class="legend-dot behind"></div> Behind (70-90%)</div>
+            <div class="legend-item"><div class="legend-dot ontrack"></div> On Track (90-110%)</div>
+            <div class="legend-item"><div class="legend-dot ahead"></div> Ahead (&gt;110%)</div>
+        </div>
     </div>
     
     <div class="summary-grid">
@@ -137,7 +255,10 @@
     
     <div class="progress-container">
         <div class="progress-label"><span>Overall</span><span id="progressLabel">—</span></div>
-        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill" style="width:0%"></div>
+            <div class="pace-marker" id="paceMarker" style="left:50%"></div>
+        </div>
     </div>
     
     <div class="controls">
@@ -164,6 +285,23 @@
 <script>
 let data = [], sort = { col: 'owed', dir: 'desc' };
 
+// Calculate pace info
+function getPaceInfo() {
+    const now = new Date();
+    const day = now.getDate();
+    const daysInMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0).getDate();
+    const expectedPct = Math.round((day / daysInMonth) * 100);
+    return { day, daysInMonth, expectedPct };
+}
+
+function getStateClass(actualPct, expectedPct) {
+    if (actualPct >= expectedPct) return 'ahead';
+    const ratio = actualPct / expectedPct;
+    if (ratio >= 0.9) return 'ontrack';
+    if (ratio >= 0.7) return 'behind';
+    return 'critical';
+}
+
 async function loadData() {
     try {
         const resp = await fetch('data.json?' + Date.now());
@@ -178,6 +316,12 @@ async function loadData() {
 }
 
 function updateUI() {
+    const pace = getPaceInfo();
+    document.getElementById('dayOfMonth').textContent = pace.day;
+    document.getElementById('daysInMonth').textContent = pace.daysInMonth;
+    document.getElementById('expectedPace').textContent = pace.expectedPct + '%';
+    document.getElementById('paceMarker').style.left = pace.expectedPct + '%';
+    
     const tg = data.reduce((s, d) => s + d.monthly_goal, 0);
     const td = data.reduce((s, d) => s + d.net, 0);
     const to = data.reduce((s, d) => s + d.owed, 0);
@@ -190,6 +334,37 @@ function updateUI() {
     document.getElementById('progressLabel').textContent = td.toLocaleString() + ' / ' + tg.toLocaleString();
     document.getElementById('progressFill').style.width = Math.min(100, pct) + '%';
     document.getElementById('progressFill').textContent = pct >= 10 ? pct + '%' : '';
+    
+    // Build state heatmap
+    const stateStats = {};
+    data.forEach(d => {
+        if (!stateStats[d.state]) stateStats[d.state] = { goal: 0, net: 0 };
+        stateStats[d.state].goal += d.monthly_goal;
+        stateStats[d.state].net += d.net;
+    });
+    
+    // Sort states by how far behind they are (worst first)
+    const sortedStates = Object.entries(stateStats)
+        .map(([state, s]) => ({
+            state,
+            goal: s.goal,
+            net: s.net,
+            pct: s.goal > 0 ? Math.round(s.net / s.goal * 100) : 0,
+            paceRatio: s.goal > 0 ? (s.net / s.goal * 100) / pace.expectedPct : 1
+        }))
+        .sort((a, b) => a.paceRatio - b.paceRatio);
+    
+    const heatmapHtml = sortedStates.map(s => {
+        const cls = s.pct >= 100 ? 'done' : getStateClass(s.pct, pace.expectedPct);
+        const diff = s.pct - pace.expectedPct;
+        const diffStr = diff >= 0 ? '+' + diff + '%' : diff + '%';
+        return `<div class="state-tile ${cls}" onclick="document.getElementById('stateFilter').value='${s.state}';render();">
+            <div class="state-name">${s.state}</div>
+            <div class="state-stats">${s.net} / ${s.goal}</div>
+            <div class="state-pace">${s.pct}% (${diffStr} vs pace)</div>
+        </div>`;
+    }).join('');
+    document.getElementById('heatmapGrid').innerHTML = heatmapHtml;
     
     const states = [...new Set(data.map(d => d.state))].sort();
     const sel = document.getElementById('stateFilter');
@@ -243,6 +418,7 @@ document.querySelectorAll('th[data-sort]').forEach(th => {
 });
 
 loadData();
+setInterval(loadData, 300000); // Refresh every 5 min
 </script>
 </body>
 </html>
