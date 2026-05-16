@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T15:34:24",
+  "updated": "2026-05-16T15:40:14",
   "month": "May 2026",
   "data": [
     {
@@ -506,11 +506,11 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0
+      "net": 1,
+      "owed": 4,
+      "percent": 20
     }
   ]
 }

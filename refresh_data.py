@@ -106,6 +106,17 @@ def map_attorney(db_name: str, db_state: str, mapping: dict, goals: list) -> tup
         'maryland': 'MI/MA/WA/VI',
     }
     
+    # Special state overrides (when DB state is wrong)
+    # Key = (attorney_name_lower, db_state_lower), Value = correct_state
+    STATE_OVERRIDES = {
+        ('scarfone - dc', 'washington'): 'district of columbia',
+    }
+    
+    # Check for state overrides (when DB has wrong state)
+    override_key = (db_name_lower, db_state_lower)
+    if override_key in STATE_OVERRIDES:
+        db_state_lower = STATE_OVERRIDES[override_key]
+    
     # Check explicit mapping first
     if db_name_lower in mapping.get('mappings', {}):
         mapped_firm = mapping['mappings'][db_name_lower]

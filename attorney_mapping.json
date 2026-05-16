@@ -93,7 +93,8 @@
     "robert dominguez (washington)": "Founders Law",
     "robert dominguez (virginia)": "Founders Law",
     "robert dominguez": "Founders Law",
-    "robert dominguez (maryland)": "Founders Law"
+    "robert dominguez (maryland)": "Founders Law",
+    "scarfone - dc": "Scarfone"
   },
   "state_overrides": {
     "_comment": "For entries where DB state differs from goal state",
