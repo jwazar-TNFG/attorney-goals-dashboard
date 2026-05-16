@@ -35,6 +35,7 @@ def get_lockdown_counts(sb, start_date: str, end_date: str) -> dict:
             .gte('dateLockedDown', start_date) \
             .lt('dateLockedDown', end_date) \
             .not_.is_('attorney', 'null') \
+            .order('idLead') \
             .range(offset, offset + batch_size - 1) \
             .execute()
         
@@ -62,6 +63,7 @@ def get_voided_counts(sb, start_date: str, end_date: str) -> dict:
             .lt('dateLockedDown', end_date) \
             .not_.is_('attorney', 'null') \
             .not_.is_('dateDropped', 'null') \
+            .order('idLead') \
             .range(offset, offset + batch_size - 1) \
             .execute()
         

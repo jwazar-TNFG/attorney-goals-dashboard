@@ -81,7 +81,9 @@
     "steinger, greene & feiner (sfl/b)": "SGF",
     "jimmy de la espriella (texas)": "Jimmy DLE",
     "jimmy de la espriella (georgia)": "Jimmy DLE",
-    "jimmy de la espriella": "Jimmy DLE"
+    "jimmy de la espriella": "Jimmy DLE",
+    "the illinois hammer": "The IL Hammer",
+    "illinois hammer": "The IL Hammer"
   },
   "state_overrides": {
     "_comment": "For entries where DB state differs from goal state",
