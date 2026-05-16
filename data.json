@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T15:59:49",
+  "updated": "2026-05-16T17:01:11",
   "month": "May 2026",
   "data": [
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 53,
+      "gross": 55,
       "voided": 0,
-      "net": 53,
+      "net": 55,
       "owed": 0,
-      "percent": 132,
+      "percent": 138,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 109,
+      "gross": 111,
       "voided": 3,
-      "net": 106,
-      "owed": 187,
-      "percent": 36,
+      "net": 108,
+      "owed": 185,
+      "percent": 37,
       "paid": true
     },
     {
@@ -161,10 +161,10 @@
       "state": "Texas",
       "monthly_goal": 70,
       "gross": 74,
-      "voided": 17,
-      "net": 57,
-      "owed": 13,
-      "percent": 81,
+      "voided": 19,
+      "net": 55,
+      "owed": 15,
+      "percent": 79,
       "paid": true
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 47,
+      "gross": 48,
       "voided": 6,
-      "net": 41,
-      "owed": 59,
-      "percent": 41,
+      "net": 42,
+      "owed": 58,
+      "percent": 42,
       "paid": null
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 44,
+      "gross": 45,
       "voided": 13,
-      "net": 31,
-      "owed": 4,
-      "percent": 89,
+      "net": 32,
+      "owed": 3,
+      "percent": 91,
       "paid": false
     },
     {
