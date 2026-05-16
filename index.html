@@ -366,11 +366,23 @@ function updateUI() {
     }).join('');
     document.getElementById('heatmapGrid').innerHTML = heatmapHtml;
     
+    // Build priority states list (critical or behind)
+    const pace = getPaceInfo();
+    const priorityStates = sortedStates.filter(s => s.pct < 100 && (s.pct / pace.expectedPct) < 0.9).map(s => s.state);
+    
     const states = [...new Set(data.map(d => d.state))].sort();
     const sel = document.getElementById('stateFilter');
     const cur = sel.value;
-    sel.innerHTML = '<option value="">All States</option>' + states.map(s => '<option value="' + s + '">' + s + '</option>').join('');
+    let optionsHtml = '<option value="">All States</option>';
+    if (priorityStates.length > 0) {
+        optionsHtml += '<option value="__priorities__">🚨 Priorities (' + priorityStates.length + ')</option>';
+    }
+    optionsHtml += states.map(s => '<option value="' + s + '">' + s + '</option>').join('');
+    sel.innerHTML = optionsHtml;
     sel.value = cur;
+    
+    // Store priority states globally for filtering
+    window.priorityStates = priorityStates;
     
     render();
 }
@@ -378,7 +390,16 @@ function updateUI() {
 function render() {
     const sf = document.getElementById('stateFilter').value;
     const q = document.getElementById('searchInput').value.toLowerCase();
-    let filtered = data.filter(d => (!sf || d.state === sf) && (!q || d.firm_name.toLowerCase().includes(q)));
+    let filtered = data.filter(d => {
+        // Handle priorities filter
+        let stateMatch = !sf;
+        if (sf === '__priorities__') {
+            stateMatch = window.priorityStates && window.priorityStates.includes(d.state);
+        } else if (sf) {
+            stateMatch = d.state === sf;
+        }
+        return stateMatch && (!q || d.firm_name.toLowerCase().includes(q));
+    });
     
     filtered.sort((a, b) => {
         let av = a[sort.col], bv = b[sort.col];
