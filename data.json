@@ -176,11 +176,11 @@
       "firm_name": "Newman Injury Law",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 3,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0
+      "net": 3,
+      "owed": 2,
+      "percent": 60
     },
     {
       "firm_name": "VG LAW",
