@@ -370,22 +370,27 @@ function updateUI() {
     }).join('');
     document.getElementById('heatmapGrid').innerHTML = heatmapHtml;
     
-    // Build priority states list (critical or behind)
-    const priorityStates = sortedStates.filter(s => s.pct < 100 && (s.pct / pace.expectedPct) < 0.9).map(s => s.state);
+    // Build priority FIRMS list (individual firms behind pace, excluding those at 100%+)
+    const priorityFirms = data.filter(d => {
+        if (d.percent >= 100) return false; // Already hit goal
+        const firmPaceRatio = d.percent / pace.expectedPct;
+        return firmPaceRatio < 0.9; // Behind pace by 10%+
+    }).map(d => d.firm_name + '|' + d.state); // Unique key since same firm can be in multiple states
     
     const states = [...new Set(data.map(d => d.state))].sort();
     const sel = document.getElementById('stateFilter');
     const cur = sel.value;
     let optionsHtml = '<option value="">All States</option>';
-    if (priorityStates.length > 0) {
-        optionsHtml += '<option value="__priorities__">🚨 Priorities (' + priorityStates.length + ')</option>';
+    if (priorityFirms.length > 0) {
+        optionsHtml += '<option value="__priorities__">🚨 Priorities (' + priorityFirms.length + ')</option>';
     }
     optionsHtml += states.map(s => '<option value="' + s + '">' + s + '</option>').join('');
     sel.innerHTML = optionsHtml;
     sel.value = cur;
     
-    // Store priority states globally for filtering
-    window.priorityStates = priorityStates;
+    // Store priority firms globally for filtering
+    window.priorityFirms = priorityFirms;
+    window.expectedPct = pace.expectedPct;
     
     render();
 }
@@ -394,14 +399,15 @@ function render() {
     const sf = document.getElementById('stateFilter').value;
     const q = document.getElementById('searchInput').value.toLowerCase();
     let filtered = data.filter(d => {
-        // Handle priorities filter
-        let stateMatch = !sf;
+        // Handle priorities filter - now filters by INDIVIDUAL FIRM performance
+        let match = !sf;
         if (sf === '__priorities__') {
-            stateMatch = window.priorityStates && window.priorityStates.includes(d.state);
+            const firmKey = d.firm_name + '|' + d.state;
+            match = window.priorityFirms && window.priorityFirms.includes(firmKey);
         } else if (sf) {
-            stateMatch = d.state === sf;
+            match = d.state === sf;
         }
-        return stateMatch && (!q || d.firm_name.toLowerCase().includes(q));
+        return match && (!q || d.firm_name.toLowerCase().includes(q));
     });
     
     filtered.sort((a, b) => {
