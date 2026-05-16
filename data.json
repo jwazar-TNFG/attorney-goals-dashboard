@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T15:32:14",
+  "updated": "2026-05-16T15:34:24",
   "month": "May 2026",
   "data": [
     {
@@ -496,11 +496,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 37,
-      "voided": 3,
-      "net": 34,
-      "owed": 11,
-      "percent": 76
+      "gross": 45,
+      "voided": 4,
+      "net": 41,
+      "owed": 4,
+      "percent": 91
     },
     {
       "firm_name": "Scarfone",

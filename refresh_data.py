@@ -97,11 +97,13 @@ def map_attorney(db_name: str, db_state: str, mapping: dict, goals: list) -> tup
     db_state_lower = (db_state or 'unknown').lower().strip()
     
     # Combined state mappings (states that roll up into a single goal row)
+    # Founders has a global retainer for these states
     COMBINED_STATES = {
         'michigan': 'MI/MA/WA/VI',
         'massachusetts': 'MI/MA/WA/VI', 
         'washington': 'MI/MA/WA/VI',
         'virginia': 'MI/MA/WA/VI',
+        'maryland': 'MI/MA/WA/VI',
     }
     
     # Check explicit mapping first
