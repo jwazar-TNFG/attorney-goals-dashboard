@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T15:40:14",
+  "updated": "2026-05-16T15:57:22",
   "month": "May 2026",
   "data": [
     {
@@ -10,7 +10,8 @@
       "voided": 17,
       "net": 196,
       "owed": 104,
-      "percent": 65
+      "percent": 65,
+      "paid": false
     },
     {
       "firm_name": "ASK GARY",
@@ -20,7 +21,8 @@
       "voided": 2,
       "net": 10,
       "owed": 50,
-      "percent": 17
+      "percent": 17,
+      "paid": false
     },
     {
       "firm_name": "Scarfone Law",
@@ -30,7 +32,8 @@
       "voided": 3,
       "net": 17,
       "owed": 33,
-      "percent": 34
+      "percent": 34,
+      "paid": null
     },
     {
       "firm_name": "SGF",
@@ -40,7 +43,8 @@
       "voided": 0,
       "net": 53,
       "owed": 0,
-      "percent": 132
+      "percent": 132,
+      "paid": null
     },
     {
       "firm_name": "YIA",
@@ -50,7 +54,8 @@
       "voided": 7,
       "net": 39,
       "owed": 1,
-      "percent": 98
+      "percent": 98,
+      "paid": null
     },
     {
       "firm_name": "Steve Kerman",
@@ -60,7 +65,8 @@
       "voided": 0,
       "net": 0,
       "owed": 40,
-      "percent": 0
+      "percent": 0,
+      "paid": null
     },
     {
       "firm_name": "Friedland (JAX)",
@@ -70,7 +76,8 @@
       "voided": 0,
       "net": 5,
       "owed": 35,
-      "percent": 12
+      "percent": 12,
+      "paid": null
     },
     {
       "firm_name": "Friedland (ORL)",
@@ -80,7 +87,8 @@
       "voided": 3,
       "net": 10,
       "owed": 20,
-      "percent": 33
+      "percent": 33,
+      "paid": null
     },
     {
       "firm_name": "OVADIA LAW",
@@ -90,7 +98,8 @@
       "voided": 5,
       "net": 28,
       "owed": 2,
-      "percent": 93
+      "percent": 93,
+      "paid": false
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -100,7 +109,8 @@
       "voided": 1,
       "net": 8,
       "owed": 16,
-      "percent": 33
+      "percent": 33,
+      "paid": null
     },
     {
       "firm_name": "Lady Law (FL/Premium)",
@@ -110,7 +120,8 @@
       "voided": 15,
       "net": 34,
       "owed": 0,
-      "percent": 170
+      "percent": 170,
+      "paid": false
     },
     {
       "firm_name": "Arias & Abbass",
@@ -120,7 +131,8 @@
       "voided": 1,
       "net": 8,
       "owed": 12,
-      "percent": 40
+      "percent": 40,
+      "paid": null
     },
     {
       "firm_name": "Big Ben",
@@ -130,7 +142,8 @@
       "voided": 1,
       "net": 16,
       "owed": 0,
-      "percent": 160
+      "percent": 160,
+      "paid": true
     },
     {
       "firm_name": "Edward Law",
@@ -140,7 +153,8 @@
       "voided": 3,
       "net": 106,
       "owed": 187,
-      "percent": 36
+      "percent": 36,
+      "paid": true
     },
     {
       "firm_name": "Mike F",
@@ -150,7 +164,8 @@
       "voided": 17,
       "net": 57,
       "owed": 13,
-      "percent": 81
+      "percent": 81,
+      "paid": true
     },
     {
       "firm_name": "The Founders Law",
@@ -160,7 +175,8 @@
       "voided": 0,
       "net": 5,
       "owed": 25,
-      "percent": 17
+      "percent": 17,
+      "paid": null
     },
     {
       "firm_name": "YIA",
@@ -170,7 +186,8 @@
       "voided": 1,
       "net": 23,
       "owed": 0,
-      "percent": 115
+      "percent": 115,
+      "paid": null
     },
     {
       "firm_name": "Newman Injury Law",
@@ -180,7 +197,8 @@
       "voided": 0,
       "net": 3,
       "owed": 2,
-      "percent": 60
+      "percent": 60,
+      "paid": false
     },
     {
       "firm_name": "VG LAW",
@@ -190,7 +208,8 @@
       "voided": 0,
       "net": 13,
       "owed": 0,
-      "percent": 260
+      "percent": 260,
+      "paid": false
     },
     {
       "firm_name": "Jimmy DLE",
@@ -200,7 +219,8 @@
       "voided": 0,
       "net": 1,
       "owed": 4,
-      "percent": 20
+      "percent": 20,
+      "paid": null
     },
     {
       "firm_name": "Shulman MVA",
@@ -210,7 +230,8 @@
       "voided": 4,
       "net": 42,
       "owed": 68,
-      "percent": 38
+      "percent": 38,
+      "paid": null
     },
     {
       "firm_name": "Friedland",
@@ -220,7 +241,8 @@
       "voided": 1,
       "net": 32,
       "owed": 18,
-      "percent": 64
+      "percent": 64,
+      "paid": false
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -230,7 +252,8 @@
       "voided": 6,
       "net": 33,
       "owed": 17,
-      "percent": 66
+      "percent": 66,
+      "paid": false
     },
     {
       "firm_name": "Shulman WC",
@@ -240,7 +263,8 @@
       "voided": 4,
       "net": 7,
       "owed": 15,
-      "percent": 32
+      "percent": 32,
+      "paid": null
     },
     {
       "firm_name": "HESS",
@@ -250,7 +274,8 @@
       "voided": 2,
       "net": 7,
       "owed": 0,
-      "percent": 140
+      "percent": 140,
+      "paid": false
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -260,7 +285,8 @@
       "voided": 5,
       "net": 86,
       "owed": 4,
-      "percent": 96
+      "percent": 96,
+      "paid": false
     },
     {
       "firm_name": "HESS",
@@ -270,7 +296,8 @@
       "voided": 2,
       "net": 7,
       "owed": 0,
-      "percent": 140
+      "percent": 140,
+      "paid": false
     },
     {
       "firm_name": "Bader Law",
@@ -280,7 +307,8 @@
       "voided": 6,
       "net": 72,
       "owed": 53,
-      "percent": 58
+      "percent": 58,
+      "paid": true
     },
     {
       "firm_name": "Scarfone Law",
@@ -290,7 +318,8 @@
       "voided": 6,
       "net": 41,
       "owed": 59,
-      "percent": 41
+      "percent": 41,
+      "paid": null
     },
     {
       "firm_name": "The Founders Law",
@@ -300,7 +329,8 @@
       "voided": 0,
       "net": 25,
       "owed": 25,
-      "percent": 50
+      "percent": 50,
+      "paid": null
     },
     {
       "firm_name": "YIA",
@@ -310,7 +340,8 @@
       "voided": 2,
       "net": 13,
       "owed": 11,
-      "percent": 54
+      "percent": 54,
+      "paid": null
     },
     {
       "firm_name": "Jimmy DLE",
@@ -320,7 +351,8 @@
       "voided": 0,
       "net": 0,
       "owed": 20,
-      "percent": 0
+      "percent": 0,
+      "paid": null
     },
     {
       "firm_name": "Hines Law (WC)",
@@ -330,7 +362,8 @@
       "voided": 2,
       "net": 11,
       "owed": 4,
-      "percent": 73
+      "percent": 73,
+      "paid": null
     },
     {
       "firm_name": "Friedland",
@@ -340,7 +373,8 @@
       "voided": 0,
       "net": 20,
       "owed": 50,
-      "percent": 29
+      "percent": 29,
+      "paid": false
     },
     {
       "firm_name": "The IL Hammer",
@@ -350,7 +384,8 @@
       "voided": 0,
       "net": 37,
       "owed": 23,
-      "percent": 62
+      "percent": 62,
+      "paid": null
     },
     {
       "firm_name": "Big Ben",
@@ -360,7 +395,8 @@
       "voided": 0,
       "net": 13,
       "owed": 16,
-      "percent": 45
+      "percent": 45,
+      "paid": true
     },
     {
       "firm_name": "The Founders Law",
@@ -370,7 +406,8 @@
       "voided": 1,
       "net": 15,
       "owed": 31,
-      "percent": 33
+      "percent": 33,
+      "paid": null
     },
     {
       "firm_name": "Big Ben",
@@ -380,7 +417,8 @@
       "voided": 0,
       "net": 10,
       "owed": 19,
-      "percent": 34
+      "percent": 34,
+      "paid": true
     },
     {
       "firm_name": "YIA",
@@ -390,7 +428,8 @@
       "voided": 1,
       "net": 7,
       "owed": 8,
-      "percent": 47
+      "percent": 47,
+      "paid": null
     },
     {
       "firm_name": "YIA",
@@ -400,7 +439,8 @@
       "voided": 1,
       "net": 35,
       "owed": 25,
-      "percent": 58
+      "percent": 58,
+      "paid": null
     },
     {
       "firm_name": "Bernheim",
@@ -410,7 +450,8 @@
       "voided": 13,
       "net": 31,
       "owed": 4,
-      "percent": 89
+      "percent": 89,
+      "paid": false
     },
     {
       "firm_name": "Schwed Law",
@@ -420,7 +461,8 @@
       "voided": 3,
       "net": 21,
       "owed": 0,
-      "percent": 105
+      "percent": 105,
+      "paid": true
     },
     {
       "firm_name": "Michael Kelly",
@@ -430,7 +472,8 @@
       "voided": 9,
       "net": 70,
       "owed": 30,
-      "percent": 70
+      "percent": 70,
+      "paid": true
     },
     {
       "firm_name": "Rubenstein (Boston)",
@@ -440,7 +483,8 @@
       "voided": 0,
       "net": 6,
       "owed": 24,
-      "percent": 20
+      "percent": 20,
+      "paid": false
     },
     {
       "firm_name": "Kelly McCallum",
@@ -450,7 +494,8 @@
       "voided": 0,
       "net": 1,
       "owed": 9,
-      "percent": 10
+      "percent": 10,
+      "paid": false
     },
     {
       "firm_name": "Buckeye Law",
@@ -460,7 +505,8 @@
       "voided": 0,
       "net": 23,
       "owed": 37,
-      "percent": 38
+      "percent": 38,
+      "paid": true
     },
     {
       "firm_name": "Schwed Law",
@@ -470,7 +516,8 @@
       "voided": 0,
       "net": 1,
       "owed": 4,
-      "percent": 20
+      "percent": 20,
+      "paid": true
     },
     {
       "firm_name": "Founders Law",
@@ -480,7 +527,8 @@
       "voided": 5,
       "net": 35,
       "owed": 0,
-      "percent": 100
+      "percent": 100,
+      "paid": null
     },
     {
       "firm_name": "Scarfone",
@@ -490,7 +538,8 @@
       "voided": 3,
       "net": 16,
       "owed": 0,
-      "percent": 320
+      "percent": 320,
+      "paid": false
     },
     {
       "firm_name": "Founders Law",
@@ -500,7 +549,8 @@
       "voided": 4,
       "net": 41,
       "owed": 4,
-      "percent": 91
+      "percent": 91,
+      "paid": null
     },
     {
       "firm_name": "Scarfone",
@@ -510,7 +560,8 @@
       "voided": 0,
       "net": 1,
       "owed": 4,
-      "percent": 20
+      "percent": 20,
+      "paid": false
     }
   ]
 }
