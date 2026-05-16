@@ -259,37 +259,6 @@ def refresh_data():
         goal['owed'] = max(0, goal['monthly_goal'] - goal['net'])
         goal['percent'] = round(goal['net'] / goal['monthly_goal'] * 100) if goal['monthly_goal'] > 0 else 0
     
-    # Get payment status (use previous month since current month may not be entered yet)
-    prev_month = now.month - 1 if now.month > 1 else 12
-    prev_year = now.year if now.month > 1 else now.year - 1
-    payment_status = get_payment_status(prev_year, prev_month)
-    
-    # Add payment status to goals
-    for goal in current['data']:
-        # Try to match payment record by firm name
-        firm_lower = goal['firm_name'].lower()
-        paid = None
-        
-        # Try various name patterns to match payment records
-        for payment_name, status in payment_status.items():
-            # Direct match or partial match
-            if firm_lower in payment_name or payment_name in firm_lower:
-                # Also check state if possible
-                state_abbrev = {
-                    'florida': 'fl', 'texas': 'tx', 'georgia': 'ga', 'new york': 'ny',
-                    'illinois': 'il', 'california': 'ca', 'colorado': 'co', 'ohio': 'oh',
-                    'massachusetts': 'ma', 'tennessee': 'tn', 'arkansas': 'ar',
-                    'district of columbia': 'dc', 'utah': 'ut', 'new jersey': 'nj'
-                }
-                goal_state_abbrev = state_abbrev.get(goal['state'].lower(), goal['state'].lower()[:2])
-                if goal_state_abbrev in payment_name or goal['state'].lower() in payment_name:
-                    paid = status['paid']
-                    break
-                elif paid is None:  # Take first match if no state match yet
-                    paid = status['paid']
-        
-        goal['paid'] = paid  # True, False, or None (unknown)
-    
     # Update metadata
     current['updated'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
     current['month'] = month_name

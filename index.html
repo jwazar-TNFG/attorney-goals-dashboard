@@ -263,11 +263,6 @@
     
     <div class="controls">
         <select id="stateFilter"><option value="">All States</option></select>
-        <select id="paymentFilter">
-            <option value="">All Payment Status</option>
-            <option value="unpaid">⚠️ Unpaid Only</option>
-            <option value="paid">💰 Paid Only</option>
-        </select>
         <input type="text" id="searchInput" placeholder="Search firm...">
     </div>
     
@@ -402,23 +397,17 @@ function updateUI() {
 
 function render() {
     const sf = document.getElementById('stateFilter').value;
-    const pf = document.getElementById('paymentFilter').value;
     const q = document.getElementById('searchInput').value.toLowerCase();
     let filtered = data.filter(d => {
         // Handle priorities filter - now filters by INDIVIDUAL FIRM performance
-        let stateMatch = !sf;
+        let match = !sf;
         if (sf === '__priorities__') {
             const firmKey = d.firm_name + '|' + d.state;
-            stateMatch = window.priorityFirms && window.priorityFirms.includes(firmKey);
+            match = window.priorityFirms && window.priorityFirms.includes(firmKey);
         } else if (sf) {
-            stateMatch = d.state === sf;
+            match = d.state === sf;
         }
-        // Handle payment filter
-        let paymentMatch = !pf;
-        if (pf === 'unpaid') paymentMatch = d.paid === false;
-        if (pf === 'paid') paymentMatch = d.paid === true;
-        
-        return stateMatch && paymentMatch && (!q || d.firm_name.toLowerCase().includes(q));
+        return match && (!q || d.firm_name.toLowerCase().includes(q));
     });
     
     filtered.sort((a, b) => {
@@ -438,11 +427,8 @@ function render() {
     tbody.innerHTML = filtered.map(d => {
         const done = d.net >= d.monthly_goal;
         const cls = d.percent >= 75 ? 'high' : d.percent >= 50 ? 'med' : 'low';
-        // Payment indicator: 💰 = paid, ⚠️ = unpaid, empty = unknown
-        const paidIcon = d.paid === true ? '<span title="Paid">💰</span>' : 
-                        d.paid === false ? '<span title="Unpaid" style="opacity:0.8">⚠️</span>' : '';
         return '<tr class="' + (done ? 'row-done' : '') + '">' +
-            '<td class="firm-name">' + paidIcon + ' ' + d.firm_name + '</td>' +
+            '<td class="firm-name">' + d.firm_name + '</td>' +
             '<td><span class="state-badge">' + d.state + '</span></td>' +
             '<td class="num goal">' + d.monthly_goal + '</td>' +
             '<td class="num net">' + d.net + '</td>' +
@@ -452,7 +438,6 @@ function render() {
 }
 
 document.getElementById('stateFilter').onchange = render;
-document.getElementById('paymentFilter').onchange = render;
 document.getElementById('searchInput').oninput = render;
 document.querySelectorAll('th[data-sort]').forEach(th => {
     th.onclick = () => {
