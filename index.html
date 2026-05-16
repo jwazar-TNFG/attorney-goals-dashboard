@@ -304,14 +304,18 @@ function getStateClass(actualPct, expectedPct) {
 
 async function loadData() {
     try {
-        const resp = await fetch('data.json?' + Date.now());
+        const baseUrl = 'https://jwazar-tnfg.github.io/attorney-goals-dashboard/';
+        const resp = await fetch(baseUrl + 'data.json?' + Date.now(), { cache: 'no-store' });
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
         const json = await resp.json();
         data = json.data;
         document.getElementById('monthDisplay').textContent = json.month;
         document.getElementById('lastUpdated').textContent = 'Data as of: ' + new Date(json.updated).toLocaleString();
         updateUI();
     } catch (e) {
-        document.getElementById('tbody').innerHTML = '<tr><td colspan="6" style="color:#f87171;text-align:center">Error loading data</td></tr>';
+        document.getElementById('heatmapGrid').innerHTML = '<div style="color:#f87171">Error: ' + e.message + '</div>';
+        document.getElementById('tbody').innerHTML = '<tr><td colspan="6" style="color:#f87171;text-align:center">Error: ' + e.message + '</td></tr>';
+        console.error('Load failed:', e);
     }
 }
 
