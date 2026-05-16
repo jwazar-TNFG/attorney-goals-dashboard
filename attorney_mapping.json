@@ -83,7 +83,16 @@
     "jimmy de la espriella (georgia)": "Jimmy DLE",
     "jimmy de la espriella": "Jimmy DLE",
     "the illinois hammer": "The IL Hammer",
-    "illinois hammer": "The IL Hammer"
+    "illinois hammer": "The IL Hammer",
+    "robert dominguez (georgia)": "The Founders Law",
+    "robert dominguez (texas)": "The Founders Law",
+    "robert dominguez (colorado)": "The Founders Law",
+    "robert dominguez (california)": "Founders Law",
+    "robert dominguez (michigan)": "Founders Law",
+    "robert dominguez (massachusetts)": "Founders Law",
+    "robert dominguez (washington)": "Founders Law",
+    "robert dominguez (virginia)": "Founders Law",
+    "robert dominguez": "Founders Law"
   },
   "state_overrides": {
     "_comment": "For entries where DB state differs from goal state",
@@ -96,7 +105,6 @@
     "ralph sanchez",
     "path medical",
     "cor medical",
-    "robert dominguez",
     "david m benenfeld",
     "rosenberg & rosenberg",
     "ion -",

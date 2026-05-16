@@ -96,14 +96,30 @@ def map_attorney(db_name: str, db_state: str, mapping: dict, goals: list) -> tup
     db_name_lower = db_name.lower().strip()
     db_state_lower = (db_state or 'unknown').lower().strip()
     
+    # Combined state mappings (states that roll up into a single goal row)
+    COMBINED_STATES = {
+        'michigan': 'MI/MA/WA/VI',
+        'massachusetts': 'MI/MA/WA/VI', 
+        'washington': 'MI/MA/WA/VI',
+        'virginia': 'MI/MA/WA/VI',
+    }
+    
     # Check explicit mapping first
     if db_name_lower in mapping.get('mappings', {}):
         mapped_firm = mapping['mappings'][db_name_lower]
+        
+        # Check if this state maps to a combined state
+        goal_state = COMBINED_STATES.get(db_state_lower, db_state_lower)
+        
         # Find matching goal entry
+        for goal in goals:
+            if goal['firm_name'].lower() == mapped_firm.lower() and goal['state'].lower() == goal_state.lower():
+                return (goal['firm_name'], goal['state'])
+        # If combined state doesn't match, try original state
         for goal in goals:
             if goal['firm_name'].lower() == mapped_firm.lower() and goal['state'].lower() == db_state_lower:
                 return (goal['firm_name'], goal['state'])
-        # If state doesn't match exactly, just match by name
+        # If state doesn't match exactly, just match by name (first match)
         for goal in goals:
             if goal['firm_name'].lower() == mapped_firm.lower():
                 return (goal['firm_name'], goal['state'])

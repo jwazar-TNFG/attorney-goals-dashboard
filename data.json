@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T15:29:11",
+  "updated": "2026-05-16T15:32:14",
   "month": "May 2026",
   "data": [
     {
@@ -156,11 +156,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 0,
+      "gross": 5,
       "voided": 0,
-      "net": 0,
-      "owed": 30,
-      "percent": 0
+      "net": 5,
+      "owed": 25,
+      "percent": 17
     },
     {
       "firm_name": "YIA",
@@ -296,11 +296,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 0,
+      "gross": 25,
       "voided": 0,
-      "net": 0,
-      "owed": 50,
-      "percent": 0
+      "net": 25,
+      "owed": 25,
+      "percent": 50
     },
     {
       "firm_name": "YIA",
@@ -366,11 +366,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 0,
-      "voided": 0,
-      "net": 0,
-      "owed": 46,
-      "percent": 0
+      "gross": 16,
+      "voided": 1,
+      "net": 15,
+      "owed": 31,
+      "percent": 33
     },
     {
       "firm_name": "Big Ben",
@@ -476,11 +476,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 0,
-      "voided": 0,
-      "net": 0,
-      "owed": 35,
-      "percent": 0
+      "gross": 40,
+      "voided": 5,
+      "net": 35,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "Scarfone",
@@ -496,11 +496,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 0,
-      "voided": 0,
-      "net": 0,
-      "owed": 45,
-      "percent": 0
+      "gross": 37,
+      "voided": 3,
+      "net": 34,
+      "owed": 11,
+      "percent": 76
     },
     {
       "firm_name": "Scarfone",
