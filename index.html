@@ -371,7 +371,6 @@ function updateUI() {
     document.getElementById('heatmapGrid').innerHTML = heatmapHtml;
     
     // Build priority states list (critical or behind)
-    const pace = getPaceInfo();
     const priorityStates = sortedStates.filter(s => s.pct < 100 && (s.pct / pace.expectedPct) < 0.9).map(s => s.state);
     
     const states = [...new Set(data.map(d => d.state))].sort();
