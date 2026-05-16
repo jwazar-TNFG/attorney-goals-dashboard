@@ -446,11 +446,11 @@
       "firm_name": "Kelly McCallum",
       "state": "Massachusetts",
       "monthly_goal": 10,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 10,
-      "percent": 0
+      "net": 1,
+      "owed": 9,
+      "percent": 10
     },
     {
       "firm_name": "Buckeye Law",
