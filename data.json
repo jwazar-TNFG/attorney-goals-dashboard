@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T11:00:58",
+  "updated": "2026-05-17T13:01:00",
   "month": "May 2026",
   "data": [
     {
@@ -83,11 +83,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 14,
+      "gross": 15,
       "voided": 3,
-      "net": 11,
-      "owed": 19,
-      "percent": 37,
+      "net": 12,
+      "owed": 18,
+      "percent": 40,
       "paid": null
     },
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 112,
+      "gross": 113,
       "voided": 5,
-      "net": 107,
-      "owed": 186,
+      "net": 108,
+      "owed": 185,
       "percent": 37,
       "paid": true
     },
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 47,
+      "gross": 45,
       "voided": 4,
-      "net": 43,
-      "owed": 67,
-      "percent": 39,
+      "net": 41,
+      "owed": 69,
+      "percent": 37,
       "paid": null
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 40,
+      "gross": 41,
       "voided": 5,
-      "net": 35,
+      "net": 36,
       "owed": 0,
-      "percent": 100,
+      "percent": 103,
       "paid": null
     },
     {
