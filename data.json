@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T15:01:09",
+  "updated": "2026-05-17T17:01:09",
   "month": "May 2026",
   "data": [
     {
@@ -28,8 +28,8 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 22,
-      "voided": 3,
+      "gross": 23,
+      "voided": 4,
       "net": 19,
       "owed": 31,
       "percent": 38,
@@ -94,11 +94,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 34,
+      "gross": 35,
       "voided": 5,
-      "net": 29,
-      "owed": 1,
-      "percent": 97,
+      "net": 30,
+      "owed": 0,
+      "percent": 100,
       "paid": false
     },
     {
@@ -116,11 +116,11 @@
       "firm_name": "Lady Law (FL/Premium)",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 51,
+      "gross": 52,
       "voided": 15,
-      "net": 36,
+      "net": 37,
       "owed": 0,
-      "percent": 180,
+      "percent": 185,
       "paid": false
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 117,
+      "gross": 120,
       "voided": 5,
-      "net": 112,
-      "owed": 181,
-      "percent": 38,
+      "net": 115,
+      "owed": 178,
+      "percent": 39,
       "paid": true
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 46,
+      "gross": 47,
       "voided": 4,
-      "net": 42,
-      "owed": 68,
-      "percent": 38,
+      "net": 43,
+      "owed": 67,
+      "percent": 39,
       "paid": null
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 51,
+      "gross": 54,
       "voided": 6,
-      "net": 45,
-      "owed": 55,
-      "percent": 45,
+      "net": 48,
+      "owed": 52,
+      "percent": 48,
       "paid": null
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 38,
+      "gross": 40,
       "voided": 0,
-      "net": 38,
-      "owed": 22,
-      "percent": 63,
+      "net": 40,
+      "owed": 20,
+      "percent": 67,
       "paid": null
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 18,
+      "gross": 19,
       "voided": 1,
-      "net": 17,
-      "owed": 29,
-      "percent": 37,
+      "net": 18,
+      "owed": 28,
+      "percent": 39,
       "paid": null
     },
     {
@@ -435,11 +435,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 36,
+      "gross": 37,
       "voided": 1,
-      "net": 35,
-      "owed": 25,
-      "percent": 58,
+      "net": 36,
+      "owed": 24,
+      "percent": 60,
       "paid": null
     },
     {
@@ -523,22 +523,22 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 41,
+      "gross": 42,
       "voided": 5,
-      "net": 36,
+      "net": 37,
       "owed": 0,
-      "percent": 103,
+      "percent": 106,
       "paid": null
     },
     {
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 21,
+      "gross": 22,
       "voided": 3,
-      "net": 18,
+      "net": 19,
       "owed": 0,
-      "percent": 360,
+      "percent": 380,
       "paid": false
     },
     {
