@@ -96,7 +96,9 @@
     "robert dominguez (maryland)": "Founders Law",
     "scarfone - dc": "Scarfone",
     "kanner & pintaluga (georgia)": "Kanner & Pintaluga",
-    "kanner & pintaluga georgia": "Kanner & Pintaluga"
+    "kanner & pintaluga georgia": "Kanner & Pintaluga",
+    "kanner & pintaluga (illinois)": "Kanner & Pintaluga",
+    "kanner & pintaluga illinois": "Kanner & Pintaluga"
   },
   "state_overrides": {
     "_comment": "For entries where DB state differs from goal state",
