@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-17T21:01:06",
+  "updated": "2026-05-17T23:00:32",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 220,
+      "gross": 223,
       "voided": 17,
-      "net": 203,
-      "owed": 97,
-      "percent": 68,
+      "net": 206,
+      "owed": 94,
+      "percent": 69,
       "paid": false
     },
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 24,
+      "gross": 25,
       "voided": 4,
-      "net": 20,
-      "owed": 30,
-      "percent": 40,
+      "net": 21,
+      "owed": 29,
+      "percent": 42,
       "paid": null
     },
     {
@@ -249,10 +249,10 @@
       "state": "New York",
       "monthly_goal": 50,
       "gross": 41,
-      "voided": 6,
-      "net": 35,
-      "owed": 15,
-      "percent": 70,
+      "voided": 7,
+      "net": 34,
+      "owed": 16,
+      "percent": 68,
       "paid": false
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 54,
+      "gross": 59,
       "voided": 6,
-      "net": 48,
-      "owed": 52,
-      "percent": 48,
+      "net": 53,
+      "owed": 47,
+      "percent": 53,
       "paid": null
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 41,
+      "gross": 43,
       "voided": 0,
-      "net": 41,
-      "owed": 19,
-      "percent": 68,
+      "net": 43,
+      "owed": 17,
+      "percent": 72,
       "paid": null
     },
     {
@@ -446,8 +446,8 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 47,
-      "voided": 14,
+      "gross": 48,
+      "voided": 15,
       "net": 33,
       "owed": 2,
       "percent": 94,
