@@ -181,12 +181,12 @@
     {
       "firm_name": "YIA",
       "state": "Texas",
-      "monthly_goal": 20,
+      "monthly_goal": 40,
       "gross": 28,
       "voided": 1,
       "net": 27,
-      "owed": 0,
-      "percent": 135,
+      "owed": 13,
+      "percent": 68,
       "paid": null
     },
     {
