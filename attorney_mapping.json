@@ -10,8 +10,6 @@
     "shulman & hill lawfirm (wc)": "Shulman WC",
     "shulman & hill (mva)": "Shulman MVA",
     "shulman & hill (wc)": "Shulman WC",
-    "lady law group (ns)": "Lady Law (FL/Premium)",
-    "lady law group": "Lady Law (FL/Premium)",
     "scarfone - ga": "Scarfone Law",
     "scarfone - fl": "Scarfone Law",
     "scarfone (florida)": "Scarfone Law",
@@ -98,7 +96,8 @@
     "kanner & pintaluga (georgia)": "Kanner & Pintaluga",
     "kanner & pintaluga georgia": "Kanner & Pintaluga",
     "kanner & pintaluga (illinois)": "Kanner & Pintaluga",
-    "kanner & pintaluga illinois": "Kanner & Pintaluga"
+    "kanner & pintaluga illinois": "Kanner & Pintaluga",
+    "lady law (fl/premium)": "Lady Law (FL/Premium)"
   },
   "state_overrides": {
     "_comment": "For entries where DB state differs from goal state",
@@ -121,6 +120,7 @@
     "shulman & hill lawfirm (s&f)",
     "blakeley law",
     "vasili",
-    "hernandez-cazinares"
+    "hernandez-cazinares",
+    "Lady Law Group (NS)"
   ]
 }

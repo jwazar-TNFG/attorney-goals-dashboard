@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T17:01:18",
+  "updated": "2026-05-19T17:34:32",
   "month": "May 2026",
   "data": [
     {
@@ -95,10 +95,10 @@
       "state": "Florida",
       "monthly_goal": 30,
       "gross": 35,
-      "voided": 5,
-      "net": 30,
-      "owed": 0,
-      "percent": 100,
+      "voided": 6,
+      "net": 29,
+      "owed": 1,
+      "percent": 97,
       "paid": false
     },
     {
@@ -116,11 +116,11 @@
       "firm_name": "Lady Law (FL/Premium)",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 57,
-      "voided": 17,
-      "net": 40,
-      "owed": 0,
-      "percent": 200,
+      "gross": 11,
+      "voided": 1,
+      "net": 10,
+      "owed": 10,
+      "percent": 50,
       "paid": false
     },
     {
@@ -149,22 +149,22 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 137,
+      "gross": 138,
       "voided": 7,
-      "net": 130,
-      "owed": 163,
-      "percent": 44,
+      "net": 131,
+      "owed": 162,
+      "percent": 45,
       "paid": true
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 81,
+      "gross": 82,
       "voided": 21,
-      "net": 60,
-      "owed": 10,
-      "percent": 86,
+      "net": 61,
+      "owed": 9,
+      "percent": 87,
       "paid": true
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 60,
+      "gross": 61,
       "voided": 4,
-      "net": 56,
-      "owed": 54,
-      "percent": 51,
+      "net": 57,
+      "owed": 53,
+      "percent": 52,
       "paid": null
     },
     {
@@ -315,10 +315,10 @@
       "state": "Georgia",
       "monthly_goal": 100,
       "gross": 61,
-      "voided": 9,
-      "net": 52,
-      "owed": 48,
-      "percent": 52,
+      "voided": 11,
+      "net": 50,
+      "owed": 50,
+      "percent": 50,
       "paid": null
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 17,
+      "gross": 18,
       "voided": 3,
-      "net": 14,
-      "owed": 1,
-      "percent": 93,
+      "net": 15,
+      "owed": 0,
+      "percent": 100,
       "paid": null
     },
     {
@@ -424,11 +424,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 9,
+      "gross": 10,
       "voided": 1,
-      "net": 8,
-      "owed": 7,
-      "percent": 53,
+      "net": 9,
+      "owed": 6,
+      "percent": 60,
       "paid": null
     },
     {
@@ -447,10 +447,10 @@
       "state": "Tennessee",
       "monthly_goal": 35,
       "gross": 56,
-      "voided": 17,
-      "net": 39,
+      "voided": 20,
+      "net": 36,
       "owed": 0,
-      "percent": 111,
+      "percent": 103,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 85,
+      "gross": 87,
       "voided": 9,
-      "net": 76,
-      "owed": 24,
-      "percent": 76,
+      "net": 78,
+      "owed": 22,
+      "percent": 78,
       "paid": true
     },
     {
@@ -524,10 +524,10 @@
       "state": "California",
       "monthly_goal": 35,
       "gross": 51,
-      "voided": 6,
-      "net": 45,
+      "voided": 7,
+      "net": 44,
       "owed": 0,
-      "percent": 129,
+      "percent": 126,
       "paid": null
     },
     {
@@ -546,10 +546,10 @@
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
       "gross": 54,
-      "voided": 4,
-      "net": 50,
+      "voided": 5,
+      "net": 49,
       "owed": 0,
-      "percent": 111,
+      "percent": 109,
       "paid": null
     },
     {
@@ -567,11 +567,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 68,
+      "gross": 69,
       "voided": 12,
-      "net": 56,
-      "owed": 69,
-      "percent": 45,
+      "net": 57,
+      "owed": 68,
+      "percent": 46,
       "paid": false
     },
     {
