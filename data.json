@@ -1,17 +1,48 @@
 {
-  "updated": "2026-05-19T11:01:21",
+  "updated": "2026-05-19T12:03:35",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 246,
+      "gross": 247,
       "voided": 22,
-      "net": 224,
-      "owed": 76,
+      "net": 225,
+      "owed": 75,
       "percent": 75,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 280,
+          "voided": 42,
+          "net": 238
+        },
+        "Feb": {
+          "gross": 406,
+          "voided": 50,
+          "net": 356
+        },
+        "Mar": {
+          "gross": 483,
+          "voided": 61,
+          "net": 422
+        },
+        "Apr": {
+          "gross": 266,
+          "voided": 37,
+          "net": 229
+        },
+        "May": {
+          "gross": 247,
+          "voided": 22,
+          "net": 225
+        }
+      },
+      "ytd_gross": 1682,
+      "ytd_voided": 212,
+      "ytd_net": 1470,
+      "ytd_acceptance": 87.4
     },
     {
       "firm_name": "ASK GARY",
@@ -22,18 +53,80 @@
       "net": 10,
       "owed": 50,
       "percent": 17,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 135,
+          "voided": 9,
+          "net": 126
+        },
+        "Feb": {
+          "gross": 95,
+          "voided": 19,
+          "net": 76
+        },
+        "Mar": {
+          "gross": 82,
+          "voided": 14,
+          "net": 68
+        },
+        "Apr": {
+          "gross": 42,
+          "voided": 14,
+          "net": 28
+        },
+        "May": {
+          "gross": 14,
+          "voided": 4,
+          "net": 10
+        }
+      },
+      "ytd_gross": 368,
+      "ytd_voided": 60,
+      "ytd_net": 308,
+      "ytd_acceptance": 83.7
     },
     {
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 35,
+      "gross": 34,
       "voided": 6,
-      "net": 29,
-      "owed": 21,
-      "percent": 58,
-      "paid": null
+      "net": 28,
+      "owed": 22,
+      "percent": 56,
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 4,
+          "voided": 0,
+          "net": 4
+        },
+        "Feb": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        },
+        "Mar": {
+          "gross": 28,
+          "voided": 6,
+          "net": 22
+        },
+        "Apr": {
+          "gross": 69,
+          "voided": 9,
+          "net": 60
+        },
+        "May": {
+          "gross": 34,
+          "voided": 6,
+          "net": 28
+        }
+      },
+      "ytd_gross": 136,
+      "ytd_voided": 21,
+      "ytd_net": 115,
+      "ytd_acceptance": 84.6
     },
     {
       "firm_name": "SGF",
@@ -44,7 +137,38 @@
       "net": 63,
       "owed": 0,
       "percent": 158,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 50,
+          "voided": 5,
+          "net": 45
+        },
+        "Feb": {
+          "gross": 53,
+          "voided": 4,
+          "net": 49
+        },
+        "Mar": {
+          "gross": 78,
+          "voided": 7,
+          "net": 71
+        },
+        "Apr": {
+          "gross": 82,
+          "voided": 6,
+          "net": 76
+        },
+        "May": {
+          "gross": 63,
+          "voided": 0,
+          "net": 63
+        }
+      },
+      "ytd_gross": 326,
+      "ytd_voided": 22,
+      "ytd_net": 304,
+      "ytd_acceptance": 93.3
     },
     {
       "firm_name": "YIA",
@@ -55,7 +179,38 @@
       "net": 42,
       "owed": 0,
       "percent": 105,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 48,
+          "voided": 5,
+          "net": 43
+        },
+        "Feb": {
+          "gross": 26,
+          "voided": 1,
+          "net": 25
+        },
+        "Mar": {
+          "gross": 79,
+          "voided": 6,
+          "net": 73
+        },
+        "Apr": {
+          "gross": 58,
+          "voided": 7,
+          "net": 51
+        },
+        "May": {
+          "gross": 50,
+          "voided": 8,
+          "net": 42
+        }
+      },
+      "ytd_gross": 261,
+      "ytd_voided": 27,
+      "ytd_net": 234,
+      "ytd_acceptance": 89.7
     },
     {
       "firm_name": "Steve Kerman",
@@ -66,7 +221,38 @@
       "net": 0,
       "owed": 40,
       "percent": 0,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "May": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        }
+      },
+      "ytd_gross": 0,
+      "ytd_voided": 0,
+      "ytd_net": 0,
+      "ytd_acceptance": 0
     },
     {
       "firm_name": "Friedland (JAX)",
@@ -77,7 +263,38 @@
       "net": 6,
       "owed": 34,
       "percent": 15,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 27,
+          "voided": 3,
+          "net": 24
+        },
+        "Feb": {
+          "gross": 24,
+          "voided": 0,
+          "net": 24
+        },
+        "Mar": {
+          "gross": 24,
+          "voided": 5,
+          "net": 19
+        },
+        "Apr": {
+          "gross": 15,
+          "voided": 0,
+          "net": 15
+        },
+        "May": {
+          "gross": 6,
+          "voided": 0,
+          "net": 6
+        }
+      },
+      "ytd_gross": 96,
+      "ytd_voided": 8,
+      "ytd_net": 88,
+      "ytd_acceptance": 91.7
     },
     {
       "firm_name": "Friedland (ORL)",
@@ -88,7 +305,38 @@
       "net": 13,
       "owed": 17,
       "percent": 43,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 28,
+          "voided": 4,
+          "net": 24
+        },
+        "Feb": {
+          "gross": 24,
+          "voided": 1,
+          "net": 23
+        },
+        "Mar": {
+          "gross": 24,
+          "voided": 5,
+          "net": 19
+        },
+        "Apr": {
+          "gross": 31,
+          "voided": 3,
+          "net": 28
+        },
+        "May": {
+          "gross": 16,
+          "voided": 3,
+          "net": 13
+        }
+      },
+      "ytd_gross": 123,
+      "ytd_voided": 16,
+      "ytd_net": 107,
+      "ytd_acceptance": 87.0
     },
     {
       "firm_name": "OVADIA LAW",
@@ -99,7 +347,38 @@
       "net": 30,
       "owed": 0,
       "percent": 100,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 31,
+          "voided": 1,
+          "net": 30
+        },
+        "Feb": {
+          "gross": 35,
+          "voided": 5,
+          "net": 30
+        },
+        "Mar": {
+          "gross": 22,
+          "voided": 1,
+          "net": 21
+        },
+        "Apr": {
+          "gross": 22,
+          "voided": 5,
+          "net": 17
+        },
+        "May": {
+          "gross": 35,
+          "voided": 5,
+          "net": 30
+        }
+      },
+      "ytd_gross": 145,
+      "ytd_voided": 17,
+      "ytd_net": 128,
+      "ytd_acceptance": 88.3
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -110,7 +389,38 @@
       "net": 16,
       "owed": 8,
       "percent": 67,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 31,
+          "voided": 0,
+          "net": 31
+        },
+        "Feb": {
+          "gross": 31,
+          "voided": 4,
+          "net": 27
+        },
+        "Mar": {
+          "gross": 21,
+          "voided": 3,
+          "net": 18
+        },
+        "Apr": {
+          "gross": 23,
+          "voided": 9,
+          "net": 14
+        },
+        "May": {
+          "gross": 17,
+          "voided": 1,
+          "net": 16
+        }
+      },
+      "ytd_gross": 123,
+      "ytd_voided": 17,
+      "ytd_net": 106,
+      "ytd_acceptance": 86.2
     },
     {
       "firm_name": "Lady Law (FL/Premium)",
@@ -121,7 +431,38 @@
       "net": 39,
       "owed": 0,
       "percent": 195,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 38,
+          "voided": 9,
+          "net": 29
+        },
+        "Feb": {
+          "gross": 33,
+          "voided": 9,
+          "net": 24
+        },
+        "Mar": {
+          "gross": 38,
+          "voided": 8,
+          "net": 30
+        },
+        "Apr": {
+          "gross": 112,
+          "voided": 26,
+          "net": 86
+        },
+        "May": {
+          "gross": 56,
+          "voided": 17,
+          "net": 39
+        }
+      },
+      "ytd_gross": 277,
+      "ytd_voided": 69,
+      "ytd_net": 208,
+      "ytd_acceptance": 75.1
     },
     {
       "firm_name": "Arias & Abbass",
@@ -132,7 +473,38 @@
       "net": 10,
       "owed": 10,
       "percent": 50,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "May": {
+          "gross": 11,
+          "voided": 1,
+          "net": 10
+        }
+      },
+      "ytd_gross": 11,
+      "ytd_voided": 1,
+      "ytd_net": 10,
+      "ytd_acceptance": 90.9
     },
     {
       "firm_name": "Big Ben",
@@ -143,7 +515,38 @@
       "net": 16,
       "owed": 0,
       "percent": 160,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        },
+        "Apr": {
+          "gross": 12,
+          "voided": 1,
+          "net": 11
+        },
+        "May": {
+          "gross": 17,
+          "voided": 1,
+          "net": 16
+        }
+      },
+      "ytd_gross": 30,
+      "ytd_voided": 2,
+      "ytd_net": 28,
+      "ytd_acceptance": 93.3
     },
     {
       "firm_name": "Edward Law",
@@ -154,7 +557,38 @@
       "net": 128,
       "owed": 165,
       "percent": 44,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 221,
+          "voided": 13,
+          "net": 208
+        },
+        "Feb": {
+          "gross": 232,
+          "voided": 15,
+          "net": 217
+        },
+        "Mar": {
+          "gross": 242,
+          "voided": 16,
+          "net": 226
+        },
+        "Apr": {
+          "gross": 199,
+          "voided": 13,
+          "net": 186
+        },
+        "May": {
+          "gross": 135,
+          "voided": 7,
+          "net": 128
+        }
+      },
+      "ytd_gross": 1029,
+      "ytd_voided": 64,
+      "ytd_net": 965,
+      "ytd_acceptance": 93.8
     },
     {
       "firm_name": "Mike F",
@@ -165,7 +599,38 @@
       "net": 60,
       "owed": 10,
       "percent": 86,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 172,
+          "voided": 49,
+          "net": 123
+        },
+        "Feb": {
+          "gross": 149,
+          "voided": 26,
+          "net": 123
+        },
+        "Mar": {
+          "gross": 157,
+          "voided": 31,
+          "net": 126
+        },
+        "Apr": {
+          "gross": 157,
+          "voided": 38,
+          "net": 119
+        },
+        "May": {
+          "gross": 81,
+          "voided": 21,
+          "net": 60
+        }
+      },
+      "ytd_gross": 716,
+      "ytd_voided": 165,
+      "ytd_net": 551,
+      "ytd_acceptance": 77.0
     },
     {
       "firm_name": "The Founders Law",
@@ -176,7 +641,38 @@
       "net": 7,
       "owed": 23,
       "percent": 23,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 5,
+          "voided": 3,
+          "net": 2
+        },
+        "Feb": {
+          "gross": 15,
+          "voided": 0,
+          "net": 15
+        },
+        "Mar": {
+          "gross": 28,
+          "voided": 3,
+          "net": 25
+        },
+        "Apr": {
+          "gross": 26,
+          "voided": 4,
+          "net": 22
+        },
+        "May": {
+          "gross": 7,
+          "voided": 0,
+          "net": 7
+        }
+      },
+      "ytd_gross": 81,
+      "ytd_voided": 10,
+      "ytd_net": 71,
+      "ytd_acceptance": 87.7
     },
     {
       "firm_name": "YIA",
@@ -187,7 +683,38 @@
       "net": 27,
       "owed": 13,
       "percent": 68,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 16,
+          "voided": 3,
+          "net": 13
+        },
+        "Feb": {
+          "gross": 29,
+          "voided": 4,
+          "net": 25
+        },
+        "Mar": {
+          "gross": 25,
+          "voided": 3,
+          "net": 22
+        },
+        "Apr": {
+          "gross": 32,
+          "voided": 0,
+          "net": 32
+        },
+        "May": {
+          "gross": 28,
+          "voided": 1,
+          "net": 27
+        }
+      },
+      "ytd_gross": 130,
+      "ytd_voided": 11,
+      "ytd_net": 119,
+      "ytd_acceptance": 91.5
     },
     {
       "firm_name": "Newman Injury Law",
@@ -198,7 +725,38 @@
       "net": 3,
       "owed": 2,
       "percent": 60,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        },
+        "Feb": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        },
+        "Mar": {
+          "gross": 13,
+          "voided": 3,
+          "net": 10
+        },
+        "Apr": {
+          "gross": 8,
+          "voided": 0,
+          "net": 8
+        },
+        "May": {
+          "gross": 3,
+          "voided": 0,
+          "net": 3
+        }
+      },
+      "ytd_gross": 26,
+      "ytd_voided": 3,
+      "ytd_net": 23,
+      "ytd_acceptance": 88.5
     },
     {
       "firm_name": "VG LAW",
@@ -209,7 +767,38 @@
       "net": 18,
       "owed": 0,
       "percent": 360,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 5,
+          "voided": 0,
+          "net": 5
+        },
+        "Apr": {
+          "gross": 27,
+          "voided": 0,
+          "net": 27
+        },
+        "May": {
+          "gross": 18,
+          "voided": 0,
+          "net": 18
+        }
+      },
+      "ytd_gross": 50,
+      "ytd_voided": 0,
+      "ytd_net": 50,
+      "ytd_acceptance": 100.0
     },
     {
       "firm_name": "Jimmy DLE",
@@ -220,7 +809,38 @@
       "net": 1,
       "owed": 4,
       "percent": 20,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 4,
+          "voided": 0,
+          "net": 4
+        },
+        "Mar": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        },
+        "Apr": {
+          "gross": 3,
+          "voided": 0,
+          "net": 3
+        },
+        "May": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        }
+      },
+      "ytd_gross": 9,
+      "ytd_voided": 0,
+      "ytd_net": 9,
+      "ytd_acceptance": 100.0
     },
     {
       "firm_name": "Shulman MVA",
@@ -231,7 +851,38 @@
       "net": 54,
       "owed": 56,
       "percent": 49,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 91,
+          "voided": 14,
+          "net": 77
+        },
+        "Feb": {
+          "gross": 59,
+          "voided": 8,
+          "net": 51
+        },
+        "Mar": {
+          "gross": 91,
+          "voided": 14,
+          "net": 77
+        },
+        "Apr": {
+          "gross": 96,
+          "voided": 25,
+          "net": 71
+        },
+        "May": {
+          "gross": 58,
+          "voided": 4,
+          "net": 54
+        }
+      },
+      "ytd_gross": 395,
+      "ytd_voided": 65,
+      "ytd_net": 330,
+      "ytd_acceptance": 83.5
     },
     {
       "firm_name": "Friedland",
@@ -242,7 +893,38 @@
       "net": 35,
       "owed": 15,
       "percent": 70,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 85,
+          "voided": 18,
+          "net": 67
+        },
+        "Feb": {
+          "gross": 40,
+          "voided": 9,
+          "net": 31
+        },
+        "Mar": {
+          "gross": 40,
+          "voided": 11,
+          "net": 29
+        },
+        "Apr": {
+          "gross": 30,
+          "voided": 8,
+          "net": 22
+        },
+        "May": {
+          "gross": 36,
+          "voided": 1,
+          "net": 35
+        }
+      },
+      "ytd_gross": 231,
+      "ytd_voided": 47,
+      "ytd_net": 184,
+      "ytd_acceptance": 79.7
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -253,7 +935,38 @@
       "net": 35,
       "owed": 15,
       "percent": 70,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 56,
+          "voided": 15,
+          "net": 41
+        },
+        "Feb": {
+          "gross": 30,
+          "voided": 3,
+          "net": 27
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 48,
+          "voided": 6,
+          "net": 42
+        },
+        "May": {
+          "gross": 43,
+          "voided": 8,
+          "net": 35
+        }
+      },
+      "ytd_gross": 177,
+      "ytd_voided": 32,
+      "ytd_net": 145,
+      "ytd_acceptance": 81.9
     },
     {
       "firm_name": "Shulman WC",
@@ -264,7 +977,38 @@
       "net": 7,
       "owed": 15,
       "percent": 32,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 21,
+          "voided": 7,
+          "net": 14
+        },
+        "Feb": {
+          "gross": 17,
+          "voided": 3,
+          "net": 14
+        },
+        "Mar": {
+          "gross": 34,
+          "voided": 11,
+          "net": 23
+        },
+        "Apr": {
+          "gross": 22,
+          "voided": 6,
+          "net": 16
+        },
+        "May": {
+          "gross": 11,
+          "voided": 4,
+          "net": 7
+        }
+      },
+      "ytd_gross": 105,
+      "ytd_voided": 31,
+      "ytd_net": 74,
+      "ytd_acceptance": 70.5
     },
     {
       "firm_name": "HESS",
@@ -275,18 +1019,80 @@
       "net": 8,
       "owed": 0,
       "percent": 160,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 39,
+          "voided": 1,
+          "net": 38
+        },
+        "Feb": {
+          "gross": 41,
+          "voided": 11,
+          "net": 30
+        },
+        "Mar": {
+          "gross": 19,
+          "voided": 4,
+          "net": 15
+        },
+        "Apr": {
+          "gross": 31,
+          "voided": 10,
+          "net": 21
+        },
+        "May": {
+          "gross": 10,
+          "voided": 2,
+          "net": 8
+        }
+      },
+      "ytd_gross": 140,
+      "ytd_voided": 28,
+      "ytd_net": 112,
+      "ytd_acceptance": 80.0
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 96,
+      "gross": 97,
       "voided": 7,
-      "net": 89,
-      "owed": 1,
-      "percent": 99,
-      "paid": false
+      "net": 90,
+      "owed": 0,
+      "percent": 100,
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 113,
+          "voided": 25,
+          "net": 88
+        },
+        "Feb": {
+          "gross": 135,
+          "voided": 18,
+          "net": 117
+        },
+        "Mar": {
+          "gross": 185,
+          "voided": 31,
+          "net": 154
+        },
+        "Apr": {
+          "gross": 136,
+          "voided": 15,
+          "net": 121
+        },
+        "May": {
+          "gross": 97,
+          "voided": 7,
+          "net": 90
+        }
+      },
+      "ytd_gross": 666,
+      "ytd_voided": 96,
+      "ytd_net": 570,
+      "ytd_acceptance": 85.6
     },
     {
       "firm_name": "HESS",
@@ -297,7 +1103,38 @@
       "net": 8,
       "owed": 0,
       "percent": 160,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 30,
+          "voided": 9,
+          "net": 21
+        },
+        "Feb": {
+          "gross": 17,
+          "voided": 6,
+          "net": 11
+        },
+        "Mar": {
+          "gross": 23,
+          "voided": 7,
+          "net": 16
+        },
+        "Apr": {
+          "gross": 25,
+          "voided": 3,
+          "net": 22
+        },
+        "May": {
+          "gross": 11,
+          "voided": 3,
+          "net": 8
+        }
+      },
+      "ytd_gross": 106,
+      "ytd_voided": 28,
+      "ytd_net": 78,
+      "ytd_acceptance": 73.6
     },
     {
       "firm_name": "Bader Law",
@@ -308,7 +1145,38 @@
       "net": 91,
       "owed": 34,
       "percent": 73,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 124,
+          "voided": 9,
+          "net": 115
+        },
+        "Feb": {
+          "gross": 99,
+          "voided": 3,
+          "net": 96
+        },
+        "Mar": {
+          "gross": 134,
+          "voided": 13,
+          "net": 121
+        },
+        "Apr": {
+          "gross": 109,
+          "voided": 6,
+          "net": 103
+        },
+        "May": {
+          "gross": 97,
+          "voided": 6,
+          "net": 91
+        }
+      },
+      "ytd_gross": 563,
+      "ytd_voided": 37,
+      "ytd_net": 526,
+      "ytd_acceptance": 93.4
     },
     {
       "firm_name": "Scarfone Law",
@@ -319,7 +1187,38 @@
       "net": 53,
       "owed": 47,
       "percent": 53,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 10,
+          "voided": 2,
+          "net": 8
+        },
+        "Feb": {
+          "gross": 21,
+          "voided": 1,
+          "net": 20
+        },
+        "Mar": {
+          "gross": 82,
+          "voided": 9,
+          "net": 73
+        },
+        "Apr": {
+          "gross": 79,
+          "voided": 8,
+          "net": 71
+        },
+        "May": {
+          "gross": 62,
+          "voided": 9,
+          "net": 53
+        }
+      },
+      "ytd_gross": 254,
+      "ytd_voided": 29,
+      "ytd_net": 225,
+      "ytd_acceptance": 88.6
     },
     {
       "firm_name": "The Founders Law",
@@ -330,7 +1229,38 @@
       "net": 29,
       "owed": 21,
       "percent": 58,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        },
+        "Feb": {
+          "gross": 21,
+          "voided": 2,
+          "net": 19
+        },
+        "Mar": {
+          "gross": 14,
+          "voided": 2,
+          "net": 12
+        },
+        "Apr": {
+          "gross": 51,
+          "voided": 8,
+          "net": 43
+        },
+        "May": {
+          "gross": 29,
+          "voided": 0,
+          "net": 29
+        }
+      },
+      "ytd_gross": 116,
+      "ytd_voided": 12,
+      "ytd_net": 104,
+      "ytd_acceptance": 89.7
     },
     {
       "firm_name": "YIA",
@@ -341,7 +1271,38 @@
       "net": 13,
       "owed": 11,
       "percent": 54,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 20,
+          "voided": 3,
+          "net": 17
+        },
+        "Feb": {
+          "gross": 14,
+          "voided": 0,
+          "net": 14
+        },
+        "Mar": {
+          "gross": 45,
+          "voided": 6,
+          "net": 39
+        },
+        "Apr": {
+          "gross": 27,
+          "voided": 1,
+          "net": 26
+        },
+        "May": {
+          "gross": 16,
+          "voided": 3,
+          "net": 13
+        }
+      },
+      "ytd_gross": 122,
+      "ytd_voided": 13,
+      "ytd_net": 109,
+      "ytd_acceptance": 89.3
     },
     {
       "firm_name": "Jimmy DLE",
@@ -352,18 +1313,80 @@
       "net": 0,
       "owed": 20,
       "percent": 0,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 11,
+          "voided": 1,
+          "net": 10
+        },
+        "Feb": {
+          "gross": 7,
+          "voided": 2,
+          "net": 5
+        },
+        "Mar": {
+          "gross": 5,
+          "voided": 0,
+          "net": 5
+        },
+        "Apr": {
+          "gross": 7,
+          "voided": 0,
+          "net": 7
+        },
+        "May": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        }
+      },
+      "ytd_gross": 30,
+      "ytd_voided": 3,
+      "ytd_net": 27,
+      "ytd_acceptance": 90.0
     },
     {
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 17,
-      "voided": 3,
-      "net": 14,
-      "owed": 1,
-      "percent": 93,
-      "paid": null
+      "gross": 0,
+      "voided": 0,
+      "net": 0,
+      "owed": 15,
+      "percent": 0,
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "May": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        }
+      },
+      "ytd_gross": 0,
+      "ytd_voided": 0,
+      "ytd_net": 0,
+      "ytd_acceptance": 0
     },
     {
       "firm_name": "Friedland",
@@ -374,7 +1397,38 @@
       "net": 22,
       "owed": 48,
       "percent": 31,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 7,
+          "voided": 0,
+          "net": 7
+        },
+        "Apr": {
+          "gross": 47,
+          "voided": 4,
+          "net": 43
+        },
+        "May": {
+          "gross": 22,
+          "voided": 0,
+          "net": 22
+        }
+      },
+      "ytd_gross": 76,
+      "ytd_voided": 4,
+      "ytd_net": 72,
+      "ytd_acceptance": 94.7
     },
     {
       "firm_name": "The IL Hammer",
@@ -385,7 +1439,38 @@
       "net": 53,
       "owed": 7,
       "percent": 88,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "May": {
+          "gross": 55,
+          "voided": 2,
+          "net": 53
+        }
+      },
+      "ytd_gross": 55,
+      "ytd_voided": 2,
+      "ytd_net": 53,
+      "ytd_acceptance": 96.4
     },
     {
       "firm_name": "Big Ben",
@@ -396,18 +1481,80 @@
       "net": 13,
       "owed": 16,
       "percent": 45,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 27,
+          "voided": 0,
+          "net": 27
+        },
+        "May": {
+          "gross": 13,
+          "voided": 0,
+          "net": 13
+        }
+      },
+      "ytd_gross": 40,
+      "ytd_voided": 0,
+      "ytd_net": 40,
+      "ytd_acceptance": 100.0
     },
     {
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 22,
+      "gross": 23,
       "voided": 1,
-      "net": 21,
-      "owed": 25,
-      "percent": 46,
-      "paid": null
+      "net": 22,
+      "owed": 24,
+      "percent": 48,
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 12,
+          "voided": 1,
+          "net": 11
+        },
+        "Feb": {
+          "gross": 55,
+          "voided": 4,
+          "net": 51
+        },
+        "Mar": {
+          "gross": 65,
+          "voided": 17,
+          "net": 48
+        },
+        "Apr": {
+          "gross": 31,
+          "voided": 1,
+          "net": 30
+        },
+        "May": {
+          "gross": 23,
+          "voided": 1,
+          "net": 22
+        }
+      },
+      "ytd_gross": 186,
+      "ytd_voided": 24,
+      "ytd_net": 162,
+      "ytd_acceptance": 87.1
     },
     {
       "firm_name": "Big Ben",
@@ -418,7 +1565,38 @@
       "net": 10,
       "owed": 19,
       "percent": 34,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 29,
+          "voided": 1,
+          "net": 28
+        },
+        "May": {
+          "gross": 10,
+          "voided": 0,
+          "net": 10
+        }
+      },
+      "ytd_gross": 39,
+      "ytd_voided": 1,
+      "ytd_net": 38,
+      "ytd_acceptance": 97.4
     },
     {
       "firm_name": "YIA",
@@ -429,7 +1607,38 @@
       "net": 7,
       "owed": 8,
       "percent": 47,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 18,
+          "voided": 1,
+          "net": 17
+        },
+        "Feb": {
+          "gross": 42,
+          "voided": 6,
+          "net": 36
+        },
+        "Mar": {
+          "gross": 42,
+          "voided": 6,
+          "net": 36
+        },
+        "Apr": {
+          "gross": 18,
+          "voided": 0,
+          "net": 18
+        },
+        "May": {
+          "gross": 8,
+          "voided": 1,
+          "net": 7
+        }
+      },
+      "ytd_gross": 128,
+      "ytd_voided": 14,
+      "ytd_net": 114,
+      "ytd_acceptance": 89.1
     },
     {
       "firm_name": "YIA",
@@ -440,18 +1649,80 @@
       "net": 37,
       "owed": 23,
       "percent": 62,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 66,
+          "voided": 16,
+          "net": 50
+        },
+        "Feb": {
+          "gross": 51,
+          "voided": 5,
+          "net": 46
+        },
+        "Mar": {
+          "gross": 54,
+          "voided": 5,
+          "net": 49
+        },
+        "Apr": {
+          "gross": 69,
+          "voided": 4,
+          "net": 65
+        },
+        "May": {
+          "gross": 38,
+          "voided": 1,
+          "net": 37
+        }
+      },
+      "ytd_gross": 278,
+      "ytd_voided": 31,
+      "ytd_net": 247,
+      "ytd_acceptance": 88.8
     },
     {
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
       "gross": 54,
-      "voided": 16,
-      "net": 38,
+      "voided": 17,
+      "net": 37,
       "owed": 0,
-      "percent": 109,
-      "paid": false
+      "percent": 106,
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 68,
+          "voided": 28,
+          "net": 40
+        },
+        "Feb": {
+          "gross": 67,
+          "voided": 26,
+          "net": 41
+        },
+        "Mar": {
+          "gross": 56,
+          "voided": 9,
+          "net": 47
+        },
+        "Apr": {
+          "gross": 62,
+          "voided": 21,
+          "net": 41
+        },
+        "May": {
+          "gross": 54,
+          "voided": 17,
+          "net": 37
+        }
+      },
+      "ytd_gross": 307,
+      "ytd_voided": 101,
+      "ytd_net": 206,
+      "ytd_acceptance": 67.1
     },
     {
       "firm_name": "Schwed Law",
@@ -462,7 +1733,38 @@
       "net": 22,
       "owed": 0,
       "percent": 110,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 40,
+          "voided": 0,
+          "net": 40
+        },
+        "Feb": {
+          "gross": 31,
+          "voided": 0,
+          "net": 31
+        },
+        "Mar": {
+          "gross": 39,
+          "voided": 0,
+          "net": 39
+        },
+        "Apr": {
+          "gross": 35,
+          "voided": 0,
+          "net": 35
+        },
+        "May": {
+          "gross": 25,
+          "voided": 3,
+          "net": 22
+        }
+      },
+      "ytd_gross": 170,
+      "ytd_voided": 3,
+      "ytd_net": 167,
+      "ytd_acceptance": 98.2
     },
     {
       "firm_name": "Michael Kelly",
@@ -473,7 +1775,38 @@
       "net": 73,
       "owed": 27,
       "percent": 73,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 27,
+          "voided": 0,
+          "net": 27
+        },
+        "Feb": {
+          "gross": 41,
+          "voided": 1,
+          "net": 40
+        },
+        "Mar": {
+          "gross": 86,
+          "voided": 14,
+          "net": 72
+        },
+        "Apr": {
+          "gross": 153,
+          "voided": 14,
+          "net": 139
+        },
+        "May": {
+          "gross": 82,
+          "voided": 9,
+          "net": 73
+        }
+      },
+      "ytd_gross": 389,
+      "ytd_voided": 38,
+      "ytd_net": 351,
+      "ytd_acceptance": 90.2
     },
     {
       "firm_name": "Rubenstein (Boston)",
@@ -484,7 +1817,38 @@
       "net": 7,
       "owed": 23,
       "percent": 23,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 54,
+          "voided": 13,
+          "net": 41
+        },
+        "Feb": {
+          "gross": 34,
+          "voided": 1,
+          "net": 33
+        },
+        "Mar": {
+          "gross": 22,
+          "voided": 5,
+          "net": 17
+        },
+        "Apr": {
+          "gross": 7,
+          "voided": 3,
+          "net": 4
+        },
+        "May": {
+          "gross": 7,
+          "voided": 0,
+          "net": 7
+        }
+      },
+      "ytd_gross": 124,
+      "ytd_voided": 22,
+      "ytd_net": 102,
+      "ytd_acceptance": 82.3
     },
     {
       "firm_name": "Kelly McCallum",
@@ -495,7 +1859,38 @@
       "net": 3,
       "owed": 7,
       "percent": 30,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 21,
+          "voided": 2,
+          "net": 19
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 11,
+          "voided": 3,
+          "net": 8
+        },
+        "May": {
+          "gross": 3,
+          "voided": 0,
+          "net": 3
+        }
+      },
+      "ytd_gross": 35,
+      "ytd_voided": 5,
+      "ytd_net": 30,
+      "ytd_acceptance": 85.7
     },
     {
       "firm_name": "Buckeye Law",
@@ -506,7 +1901,38 @@
       "net": 28,
       "owed": 32,
       "percent": 47,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 65,
+          "voided": 0,
+          "net": 65
+        },
+        "Feb": {
+          "gross": 75,
+          "voided": 3,
+          "net": 72
+        },
+        "Mar": {
+          "gross": 71,
+          "voided": 8,
+          "net": 63
+        },
+        "Apr": {
+          "gross": 50,
+          "voided": 1,
+          "net": 49
+        },
+        "May": {
+          "gross": 29,
+          "voided": 1,
+          "net": 28
+        }
+      },
+      "ytd_gross": 290,
+      "ytd_voided": 13,
+      "ytd_net": 277,
+      "ytd_acceptance": 95.5
     },
     {
       "firm_name": "Schwed Law",
@@ -517,7 +1943,38 @@
       "net": 1,
       "owed": 4,
       "percent": 20,
-      "paid": true
+      "paid": true,
+      "monthly": {
+        "Jan": {
+          "gross": 6,
+          "voided": 0,
+          "net": 6
+        },
+        "Feb": {
+          "gross": 4,
+          "voided": 1,
+          "net": 3
+        },
+        "Mar": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        },
+        "Apr": {
+          "gross": 3,
+          "voided": 0,
+          "net": 3
+        },
+        "May": {
+          "gross": 1,
+          "voided": 0,
+          "net": 1
+        }
+      },
+      "ytd_gross": 15,
+      "ytd_voided": 1,
+      "ytd_net": 14,
+      "ytd_acceptance": 93.3
     },
     {
       "firm_name": "Founders Law",
@@ -528,18 +1985,80 @@
       "net": 44,
       "owed": 0,
       "percent": 126,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 7,
+          "voided": 1,
+          "net": 6
+        },
+        "Feb": {
+          "gross": 44,
+          "voided": 6,
+          "net": 38
+        },
+        "Mar": {
+          "gross": 49,
+          "voided": 12,
+          "net": 37
+        },
+        "Apr": {
+          "gross": 60,
+          "voided": 18,
+          "net": 42
+        },
+        "May": {
+          "gross": 50,
+          "voided": 6,
+          "net": 44
+        }
+      },
+      "ytd_gross": 210,
+      "ytd_voided": 43,
+      "ytd_net": 167,
+      "ytd_acceptance": 79.5
     },
     {
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 23,
+      "gross": 24,
       "voided": 3,
-      "net": 20,
+      "net": 21,
       "owed": 0,
-      "percent": 400,
-      "paid": false
+      "percent": 420,
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 10,
+          "voided": 2,
+          "net": 8
+        },
+        "Feb": {
+          "gross": 13,
+          "voided": 3,
+          "net": 10
+        },
+        "Mar": {
+          "gross": 30,
+          "voided": 8,
+          "net": 22
+        },
+        "Apr": {
+          "gross": 18,
+          "voided": 2,
+          "net": 16
+        },
+        "May": {
+          "gross": 24,
+          "voided": 3,
+          "net": 21
+        }
+      },
+      "ytd_gross": 95,
+      "ytd_voided": 18,
+      "ytd_net": 77,
+      "ytd_acceptance": 81.1
     },
     {
       "firm_name": "Founders Law",
@@ -550,18 +2069,80 @@
       "net": 47,
       "owed": 0,
       "percent": 104,
-      "paid": null
+      "paid": null,
+      "monthly": {
+        "Jan": {
+          "gross": 21,
+          "voided": 4,
+          "net": 17
+        },
+        "Feb": {
+          "gross": 56,
+          "voided": 9,
+          "net": 47
+        },
+        "Mar": {
+          "gross": 80,
+          "voided": 12,
+          "net": 68
+        },
+        "Apr": {
+          "gross": 95,
+          "voided": 15,
+          "net": 80
+        },
+        "May": {
+          "gross": 51,
+          "voided": 4,
+          "net": 47
+        }
+      },
+      "ytd_gross": 303,
+      "ytd_voided": 44,
+      "ytd_net": 259,
+      "ytd_acceptance": 85.5
     },
     {
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 1,
+      "gross": 0,
       "voided": 0,
-      "net": 1,
-      "owed": 4,
-      "percent": 20,
-      "paid": false
+      "net": 0,
+      "owed": 5,
+      "percent": 0,
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Feb": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Mar": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "Apr": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        },
+        "May": {
+          "gross": 0,
+          "voided": 0,
+          "net": 0
+        }
+      },
+      "ytd_gross": 0,
+      "ytd_voided": 0,
+      "ytd_net": 0,
+      "ytd_acceptance": 0
     },
     {
       "firm_name": "Kanner & Pintaluga",
@@ -572,7 +2153,38 @@
       "net": 47,
       "owed": 78,
       "percent": 38,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 171,
+          "voided": 22,
+          "net": 149
+        },
+        "Feb": {
+          "gross": 127,
+          "voided": 19,
+          "net": 108
+        },
+        "Mar": {
+          "gross": 60,
+          "voided": 11,
+          "net": 49
+        },
+        "Apr": {
+          "gross": 83,
+          "voided": 20,
+          "net": 63
+        },
+        "May": {
+          "gross": 59,
+          "voided": 12,
+          "net": 47
+        }
+      },
+      "ytd_gross": 500,
+      "ytd_voided": 84,
+      "ytd_net": 416,
+      "ytd_acceptance": 83.2
     },
     {
       "firm_name": "Kanner & Pintaluga",
@@ -583,7 +2195,45 @@
       "net": 70,
       "owed": 0,
       "percent": 140,
-      "paid": false
+      "paid": false,
+      "monthly": {
+        "Jan": {
+          "gross": 181,
+          "voided": 25,
+          "net": 156
+        },
+        "Feb": {
+          "gross": 168,
+          "voided": 23,
+          "net": 145
+        },
+        "Mar": {
+          "gross": 119,
+          "voided": 12,
+          "net": 107
+        },
+        "Apr": {
+          "gross": 146,
+          "voided": 13,
+          "net": 133
+        },
+        "May": {
+          "gross": 83,
+          "voided": 13,
+          "net": 70
+        }
+      },
+      "ytd_gross": 697,
+      "ytd_voided": 86,
+      "ytd_net": 611,
+      "ytd_acceptance": 87.7
     }
+  ],
+  "ytd_months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May"
   ]
 }

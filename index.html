@@ -34,6 +34,73 @@
         }
         .pace-indicator strong { color: #fbbf24; }
         
+        /* Tab Navigation */
+        .tab-nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .tab-btn {
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 8px;
+            color: #94a3b8;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .tab-btn:hover { background: rgba(255,255,255,0.1); }
+        .tab-btn.active { 
+            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+            color: #fff;
+            border-color: #7c3aed;
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        
+        /* YTD Section */
+        .ytd-section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .ytd-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .ytd-title {
+            font-size: 1.1rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .ytd-summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 600px) { .ytd-summary-grid { grid-template-columns: repeat(2, 1fr); } }
+        .ytd-stat {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+        .ytd-stat .value { font-size: 1.6rem; font-weight: bold; }
+        .ytd-stat .label { font-size: 0.75rem; color: #94a3b8; margin-top: 4px; }
+        .ytd-stat.gross .value { color: #60a5fa; }
+        .ytd-stat.net .value { color: #34d399; }
+        .ytd-stat.voided .value { color: #f87171; }
+        .ytd-stat.acceptance .value { color: #fbbf24; }
+        
         /* State Heatmap */
         .heatmap-section {
             background: rgba(255,255,255,0.05);
@@ -194,6 +261,17 @@
         th.sorted-desc::after { content: ' ↓'; }
         td { padding: 12px 8px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.85rem; }
         tr:hover { background: rgba(255,255,255,0.05); }
+        tr.expandable { cursor: pointer; }
+        tr.monthly-detail { background: rgba(0,0,0,0.2); }
+        tr.monthly-detail td { padding: 8px; font-size: 0.8rem; }
+        tr.monthly-detail.hidden { display: none; }
+        .expand-icon { 
+            display: inline-block; 
+            width: 20px; 
+            transition: transform 0.2s; 
+            color: #94a3b8;
+        }
+        .expand-icon.expanded { transform: rotate(90deg); }
         .firm-name { font-weight: 600; }
         .state-badge {
             display: inline-block;
@@ -216,11 +294,30 @@
         .mini-fill.med { background: #fbbf24; }
         .mini-fill.high { background: #34d399; }
         .loading { text-align: center; padding: 40px; color: #94a3b8; }
+        
+        /* Monthly breakdown table */
+        .monthly-table {
+            width: 100%;
+            font-size: 0.75rem;
+            margin: 5px 0;
+        }
+        .monthly-table th {
+            padding: 6px;
+            font-size: 0.7rem;
+            background: rgba(0,0,0,0.3);
+        }
+        .monthly-table td {
+            padding: 6px;
+            text-align: center;
+            border-bottom: none;
+        }
+        
         @media (max-width: 600px) {
             .header h1 { font-size: 1.2rem; }
             .summary-card .value { font-size: 1.4rem; }
             td, th { padding: 8px 4px; font-size: 0.75rem; }
             .heatmap-grid { grid-template-columns: repeat(2, 1fr); }
+            .tab-btn { padding: 8px 12px; font-size: 0.8rem; }
         }
     </style>
 </head>
@@ -232,58 +329,114 @@
         <div class="pace-indicator">Day <strong id="dayOfMonth">—</strong> of <strong id="daysInMonth">—</strong> — should be at <strong id="expectedPace">—</strong></div>
     </div>
     
-    <!-- State Heatmap -->
-    <div class="heatmap-section">
-        <div class="heatmap-title"><span>🗺️</span> State Pace Tracker</div>
-        <div class="heatmap-grid" id="heatmapGrid">
-            <div class="loading">Loading...</div>
+    <!-- Tab Navigation -->
+    <div class="tab-nav">
+        <button class="tab-btn active" data-tab="current">📊 Current Month</button>
+        <button class="tab-btn" data-tab="ytd">📈 YTD Summary</button>
+    </div>
+    
+    <!-- Current Month Tab -->
+    <div id="tab-current" class="tab-content active">
+        <!-- State Heatmap -->
+        <div class="heatmap-section">
+            <div class="heatmap-title"><span>🗺️</span> State Pace Tracker</div>
+            <div class="heatmap-grid" id="heatmapGrid">
+                <div class="loading">Loading...</div>
+            </div>
+            <div class="heatmap-legend">
+                <div class="legend-item"><div class="legend-dot critical"></div> Critical (&lt;70% of pace)</div>
+                <div class="legend-item"><div class="legend-dot behind"></div> Behind (70-90%)</div>
+                <div class="legend-item"><div class="legend-dot ontrack"></div> On Track (90-110%)</div>
+                <div class="legend-item"><div class="legend-dot ahead"></div> Ahead (&gt;110%)</div>
+            </div>
         </div>
-        <div class="heatmap-legend">
-            <div class="legend-item"><div class="legend-dot critical"></div> Critical (&lt;70% of pace)</div>
-            <div class="legend-item"><div class="legend-dot behind"></div> Behind (70-90%)</div>
-            <div class="legend-item"><div class="legend-dot ontrack"></div> On Track (90-110%)</div>
-            <div class="legend-item"><div class="legend-dot ahead"></div> Ahead (&gt;110%)</div>
+        
+        <div class="summary-grid">
+            <div class="summary-card goal"><div class="value" id="totalGoal">—</div><div class="label">Goal</div></div>
+            <div class="summary-card delivered"><div class="value" id="totalDelivered">—</div><div class="label">Delivered</div></div>
+            <div class="summary-card owed"><div class="value" id="totalOwed">—</div><div class="label">Owed</div></div>
+            <div class="summary-card percent"><div class="value" id="totalPercent">—</div><div class="label">Progress</div></div>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-label"><span>Overall</span><span id="progressLabel">—</span></div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width:0%"></div>
+                <div class="pace-marker" id="paceMarker" style="left:50%"></div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <select id="stateFilter"><option value="">All States</option></select>
+            <input type="text" id="searchInput" placeholder="Search firm...">
+        </div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th data-sort="firm_name">Firm</th>
+                        <th data-sort="state">State</th>
+                        <th data-sort="monthly_goal">Goal</th>
+                        <th data-sort="net">Net</th>
+                        <th data-sort="owed">Owed</th>
+                        <th data-sort="percent">%</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"><tr><td colspan="6" class="loading">Loading...</td></tr></tbody>
+            </table>
         </div>
     </div>
     
-    <div class="summary-grid">
-        <div class="summary-card goal"><div class="value" id="totalGoal">—</div><div class="label">Goal</div></div>
-        <div class="summary-card delivered"><div class="value" id="totalDelivered">—</div><div class="label">Delivered</div></div>
-        <div class="summary-card owed"><div class="value" id="totalOwed">—</div><div class="label">Owed</div></div>
-        <div class="summary-card percent"><div class="value" id="totalPercent">—</div><div class="label">Progress</div></div>
-    </div>
-    
-    <div class="progress-container">
-        <div class="progress-label"><span>Overall</span><span id="progressLabel">—</span></div>
-        <div class="progress-bar">
-            <div class="progress-fill" id="progressFill" style="width:0%"></div>
-            <div class="pace-marker" id="paceMarker" style="left:50%"></div>
+    <!-- YTD Tab -->
+    <div id="tab-ytd" class="tab-content">
+        <div class="ytd-section">
+            <div class="ytd-header">
+                <div class="ytd-title">📈 Year-to-Date Summary (2026)</div>
+            </div>
+            <div class="ytd-summary-grid">
+                <div class="ytd-stat gross"><div class="value" id="ytdGross">—</div><div class="label">Total Gross</div></div>
+                <div class="ytd-stat net"><div class="value" id="ytdNet">—</div><div class="label">Total Net</div></div>
+                <div class="ytd-stat voided"><div class="value" id="ytdVoided">—</div><div class="label">Total Voided</div></div>
+                <div class="ytd-stat acceptance"><div class="value" id="ytdAcceptance">—</div><div class="label">Acceptance Rate</div></div>
+            </div>
         </div>
-    </div>
-    
-    <div class="controls">
-        <select id="stateFilter"><option value="">All States</option></select>
-        <input type="text" id="searchInput" placeholder="Search firm...">
-    </div>
-    
-    <div class="table-container">
-        <table>
-            <thead>
-                <tr>
-                    <th data-sort="firm_name">Firm</th>
-                    <th data-sort="state">State</th>
-                    <th data-sort="monthly_goal">Goal</th>
-                    <th data-sort="net">Net</th>
-                    <th data-sort="owed">Owed</th>
-                    <th data-sort="percent">%</th>
-                </tr>
-            </thead>
-            <tbody id="tbody"><tr><td colspan="6" class="loading">Loading...</td></tr></tbody>
-        </table>
+        
+        <div class="controls">
+            <select id="ytdStateFilter"><option value="">All States</option></select>
+            <input type="text" id="ytdSearchInput" placeholder="Search firm...">
+        </div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th data-sort-ytd="firm_name">Firm</th>
+                        <th data-sort-ytd="state">State</th>
+                        <th data-sort-ytd="ytd_gross">YTD Gross</th>
+                        <th data-sort-ytd="ytd_net">YTD Net</th>
+                        <th data-sort-ytd="ytd_voided">Voided</th>
+                        <th data-sort-ytd="ytd_acceptance">Accept%</th>
+                    </tr>
+                </thead>
+                <tbody id="ytdTbody"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody>
+            </table>
+        </div>
     </div>
 
 <script>
-let data = [], sort = { col: 'owed', dir: 'desc' };
+let data = [], ytdMonths = [], sort = { col: 'owed', dir: 'desc' }, ytdSort = { col: 'ytd_net', dir: 'desc' };
+
+// Tab switching
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.onclick = () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    };
+});
 
 // Calculate pace info
 function getPaceInfo() {
@@ -309,9 +462,11 @@ async function loadData() {
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         const json = await resp.json();
         data = json.data;
+        ytdMonths = json.ytd_months || [];
         document.getElementById('monthDisplay').textContent = json.month;
         document.getElementById('lastUpdated').textContent = 'Data as of: ' + new Date(json.updated).toLocaleString();
         updateUI();
+        updateYTD();
     } catch (e) {
         document.getElementById('heatmapGrid').innerHTML = '<div style="color:#f87171">Error: ' + e.message + '</div>';
         document.getElementById('tbody').innerHTML = '<tr><td colspan="6" style="color:#f87171;text-align:center">Error: ' + e.message + '</td></tr>';
@@ -347,7 +502,6 @@ function updateUI() {
         stateStats[d.state].net += d.net;
     });
     
-    // Sort states by how far behind they are (worst first)
     const sortedStates = Object.entries(stateStats)
         .map(([state, s]) => ({
             state,
@@ -370,12 +524,11 @@ function updateUI() {
     }).join('');
     document.getElementById('heatmapGrid').innerHTML = heatmapHtml;
     
-    // Build priority FIRMS list (individual firms behind pace, excluding those at 100%+)
     const priorityFirms = data.filter(d => {
-        if (d.percent >= 100) return false; // Already hit goal
+        if (d.percent >= 100) return false;
         const firmPaceRatio = d.percent / pace.expectedPct;
-        return firmPaceRatio < 0.9; // Behind pace by 10%+
-    }).map(d => d.firm_name + '|' + d.state); // Unique key since same firm can be in multiple states
+        return firmPaceRatio < 0.9;
+    }).map(d => d.firm_name + '|' + d.state);
     
     const states = [...new Set(data.map(d => d.state))].sort();
     const sel = document.getElementById('stateFilter');
@@ -388,18 +541,36 @@ function updateUI() {
     sel.innerHTML = optionsHtml;
     sel.value = cur;
     
-    // Store priority firms globally for filtering
     window.priorityFirms = priorityFirms;
     window.expectedPct = pace.expectedPct;
     
     render();
 }
 
+function updateYTD() {
+    // Calculate YTD totals
+    const ytdGross = data.reduce((s, d) => s + (d.ytd_gross || 0), 0);
+    const ytdNet = data.reduce((s, d) => s + (d.ytd_net || 0), 0);
+    const ytdVoided = data.reduce((s, d) => s + (d.ytd_voided || 0), 0);
+    const ytdAccept = ytdGross > 0 ? (ytdNet / ytdGross * 100).toFixed(1) : 0;
+    
+    document.getElementById('ytdGross').textContent = ytdGross.toLocaleString();
+    document.getElementById('ytdNet').textContent = ytdNet.toLocaleString();
+    document.getElementById('ytdVoided').textContent = ytdVoided.toLocaleString();
+    document.getElementById('ytdAcceptance').textContent = ytdAccept + '%';
+    
+    // Populate YTD state filter
+    const states = [...new Set(data.map(d => d.state))].sort();
+    const sel = document.getElementById('ytdStateFilter');
+    sel.innerHTML = '<option value="">All States</option>' + states.map(s => '<option value="' + s + '">' + s + '</option>').join('');
+    
+    renderYTD();
+}
+
 function render() {
     const sf = document.getElementById('stateFilter').value;
     const q = document.getElementById('searchInput').value.toLowerCase();
     let filtered = data.filter(d => {
-        // Handle priorities filter - now filters by INDIVIDUAL FIRM performance
         let match = !sf;
         if (sf === '__priorities__') {
             const firmKey = d.firm_name + '|' + d.state;
@@ -416,7 +587,7 @@ function render() {
         return sort.dir === 'asc' ? (av > bv ? 1 : -1) : (av < bv ? 1 : -1);
     });
     
-    document.querySelectorAll('th').forEach(th => {
+    document.querySelectorAll('th[data-sort]').forEach(th => {
         th.classList.remove('sorted-asc', 'sorted-desc');
         if (th.dataset.sort === sort.col) th.classList.add('sorted-' + sort.dir);
     });
@@ -437,8 +608,93 @@ function render() {
     }).join('');
 }
 
+function renderYTD() {
+    const sf = document.getElementById('ytdStateFilter').value;
+    const q = document.getElementById('ytdSearchInput').value.toLowerCase();
+    
+    let filtered = data.filter(d => {
+        const stateMatch = !sf || d.state === sf;
+        const searchMatch = !q || d.firm_name.toLowerCase().includes(q);
+        return stateMatch && searchMatch && (d.ytd_gross > 0);
+    });
+    
+    filtered.sort((a, b) => {
+        let av = a[ytdSort.col] || 0, bv = b[ytdSort.col] || 0;
+        if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+        return ytdSort.dir === 'asc' ? (av > bv ? 1 : -1) : (av < bv ? 1 : -1);
+    });
+    
+    document.querySelectorAll('th[data-sort-ytd]').forEach(th => {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+        if (th.dataset.sortYtd === ytdSort.col) th.classList.add('sorted-' + ytdSort.dir);
+    });
+    
+    const tbody = document.getElementById('ytdTbody');
+    if (!filtered.length) { tbody.innerHTML = '<tr><td colspan="7" class="loading">No results</td></tr>'; return; }
+    
+    let html = '';
+    filtered.forEach((d, idx) => {
+        const acceptClass = (d.ytd_acceptance || 0) >= 90 ? 'net' : (d.ytd_acceptance || 0) >= 75 ? 'owed' : 'void';
+        
+        // Main row
+        html += `<tr class="expandable" data-idx="${idx}">
+            <td><span class="expand-icon" id="icon-${idx}">▶</span></td>
+            <td class="firm-name">${d.firm_name}</td>
+            <td><span class="state-badge">${d.state}</span></td>
+            <td class="num goal">${(d.ytd_gross || 0).toLocaleString()}</td>
+            <td class="num net">${(d.ytd_net || 0).toLocaleString()}</td>
+            <td class="num void">${(d.ytd_voided || 0).toLocaleString()}</td>
+            <td class="num ${acceptClass}">${(d.ytd_acceptance || 0)}%</td>
+        </tr>`;
+        
+        // Monthly detail row (hidden by default)
+        if (d.monthly && ytdMonths.length > 0) {
+            html += `<tr class="monthly-detail hidden" id="detail-${idx}">
+                <td colspan="7">
+                    <table class="monthly-table">
+                        <tr>
+                            <th>Month</th>
+                            ${ytdMonths.map(m => '<th>' + m + '</th>').join('')}
+                        </tr>
+                        <tr>
+                            <td><strong>Gross</strong></td>
+                            ${ytdMonths.map(m => '<td>' + ((d.monthly[m] && d.monthly[m].gross) || 0) + '</td>').join('')}
+                        </tr>
+                        <tr>
+                            <td><strong>Net</strong></td>
+                            ${ytdMonths.map(m => '<td class="num net">' + ((d.monthly[m] && d.monthly[m].net) || 0) + '</td>').join('')}
+                        </tr>
+                        <tr>
+                            <td><strong>Voided</strong></td>
+                            ${ytdMonths.map(m => '<td class="num void">' + ((d.monthly[m] && d.monthly[m].voided) || 0) + '</td>').join('')}
+                        </tr>
+                    </table>
+                </td>
+            </tr>`;
+        }
+    });
+    
+    tbody.innerHTML = html;
+    
+    // Add click handlers for expandable rows
+    document.querySelectorAll('tr.expandable').forEach(row => {
+        row.onclick = () => {
+            const idx = row.dataset.idx;
+            const detail = document.getElementById('detail-' + idx);
+            const icon = document.getElementById('icon-' + idx);
+            if (detail) {
+                detail.classList.toggle('hidden');
+                icon.classList.toggle('expanded');
+            }
+        };
+    });
+}
+
 document.getElementById('stateFilter').onchange = render;
 document.getElementById('searchInput').oninput = render;
+document.getElementById('ytdStateFilter').onchange = renderYTD;
+document.getElementById('ytdSearchInput').oninput = renderYTD;
+
 document.querySelectorAll('th[data-sort]').forEach(th => {
     th.onclick = () => {
         if (sort.col === th.dataset.sort) sort.dir = sort.dir === 'asc' ? 'desc' : 'asc';
@@ -447,8 +703,16 @@ document.querySelectorAll('th[data-sort]').forEach(th => {
     };
 });
 
+document.querySelectorAll('th[data-sort-ytd]').forEach(th => {
+    th.onclick = () => {
+        if (ytdSort.col === th.dataset.sortYtd) ytdSort.dir = ytdSort.dir === 'asc' ? 'desc' : 'asc';
+        else { ytdSort.col = th.dataset.sortYtd; ytdSort.dir = 'desc'; }
+        renderYTD();
+    };
+});
+
 loadData();
-setInterval(loadData, 300000); // Refresh every 5 min
+setInterval(loadData, 300000);
 </script>
 </body>
 </html>
