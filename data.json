@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T21:01:04",
+  "updated": "2026-05-18T23:00:17",
   "month": "May 2026",
   "data": [
     {
@@ -18,21 +18,21 @@
       "state": "Florida",
       "monthly_goal": 60,
       "gross": 13,
-      "voided": 2,
-      "net": 11,
-      "owed": 49,
-      "percent": 18,
+      "voided": 3,
+      "net": 10,
+      "owed": 50,
+      "percent": 17,
       "paid": false
     },
     {
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 33,
+      "gross": 35,
       "voided": 6,
-      "net": 27,
-      "owed": 23,
-      "percent": 54,
+      "net": 29,
+      "owed": 21,
+      "percent": 58,
       "paid": null
     },
     {
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 80,
+      "gross": 81,
       "voided": 21,
-      "net": 59,
-      "owed": 11,
-      "percent": 84,
+      "net": 60,
+      "owed": 10,
+      "percent": 86,
       "paid": true
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 60,
+      "gross": 61,
       "voided": 9,
-      "net": 51,
-      "owed": 49,
-      "percent": 51,
+      "net": 52,
+      "owed": 48,
+      "percent": 52,
       "paid": null
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 16,
+      "gross": 17,
       "voided": 3,
-      "net": 13,
-      "owed": 2,
-      "percent": 87,
+      "net": 14,
+      "owed": 1,
+      "percent": 93,
       "paid": null
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 19,
+      "gross": 22,
       "voided": 1,
-      "net": 18,
-      "owed": 28,
-      "percent": 39,
+      "net": 21,
+      "owed": 25,
+      "percent": 46,
       "paid": null
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 53,
+      "gross": 54,
       "voided": 16,
-      "net": 37,
+      "net": 38,
       "owed": 0,
-      "percent": 106,
+      "percent": 109,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 81,
+      "gross": 82,
       "voided": 9,
-      "net": 72,
-      "owed": 28,
-      "percent": 72,
+      "net": 73,
+      "owed": 27,
+      "percent": 73,
       "paid": true
     },
     {
@@ -545,11 +545,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 50,
+      "gross": 51,
       "voided": 4,
-      "net": 46,
+      "net": 47,
       "owed": 0,
-      "percent": 102,
+      "percent": 104,
       "paid": null
     },
     {
