@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T09:01:22",
+  "updated": "2026-05-19T11:01:21",
   "month": "May 2026",
   "data": [
     {
@@ -17,8 +17,8 @@
       "firm_name": "ASK GARY",
       "state": "Florida",
       "monthly_goal": 60,
-      "gross": 13,
-      "voided": 3,
+      "gross": 14,
+      "voided": 4,
       "net": 10,
       "owed": 50,
       "percent": 17,
@@ -117,10 +117,10 @@
       "state": "Florida",
       "monthly_goal": 20,
       "gross": 56,
-      "voided": 19,
-      "net": 37,
+      "voided": 17,
+      "net": 39,
       "owed": 0,
-      "percent": 185,
+      "percent": 195,
       "paid": false
     },
     {
@@ -270,11 +270,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 9,
+      "gross": 10,
       "voided": 2,
-      "net": 7,
+      "net": 8,
       "owed": 0,
-      "percent": 140,
+      "percent": 160,
       "paid": false
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 61,
+      "gross": 62,
       "voided": 9,
-      "net": 52,
-      "owed": 48,
-      "percent": 52,
+      "net": 53,
+      "owed": 47,
+      "percent": 53,
       "paid": null
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 51,
-      "voided": 1,
-      "net": 50,
-      "owed": 10,
-      "percent": 83,
+      "gross": 55,
+      "voided": 2,
+      "net": 53,
+      "owed": 7,
+      "percent": 88,
       "paid": null
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 45,
+      "gross": 50,
       "voided": 6,
-      "net": 39,
+      "net": 44,
       "owed": 0,
-      "percent": 111,
+      "percent": 126,
       "paid": null
     },
     {
@@ -579,10 +579,10 @@
       "state": "Illinois",
       "monthly_goal": 50,
       "gross": 83,
-      "voided": 11,
-      "net": 72,
+      "voided": 13,
+      "net": 70,
       "owed": 0,
-      "percent": 144,
+      "percent": 140,
       "paid": false
     }
   ]
