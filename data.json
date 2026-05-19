@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T23:00:17",
+  "updated": "2026-05-19T07:00:04",
   "month": "May 2026",
   "data": [
     {
@@ -325,11 +325,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 28,
+      "gross": 29,
       "voided": 0,
-      "net": 28,
-      "owed": 22,
-      "percent": 56,
+      "net": 29,
+      "owed": 21,
+      "percent": 58,
       "paid": null
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 44,
+      "gross": 45,
       "voided": 6,
-      "net": 38,
+      "net": 39,
       "owed": 0,
-      "percent": 109,
+      "percent": 111,
       "paid": null
     },
     {
