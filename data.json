@@ -60,11 +60,11 @@
     {
       "firm_name": "Steve Kerman",
       "state": "Florida",
-      "monthly_goal": 40,
+      "monthly_goal": 17,
       "gross": 0,
       "voided": 0,
       "net": 0,
-      "owed": 40,
+      "owed": 17,
       "percent": 0,
       "paid": null
     },
