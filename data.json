@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21T13:01:17",
+  "updated": "2026-05-21T14:33:08",
   "month": "May 2026",
   "data": [
     {
@@ -528,6 +528,17 @@
       "net": 48,
       "owed": 0,
       "percent": 137,
+      "paid": null
+    },
+    {
+      "firm_name": "Regal Law",
+      "state": "California",
+      "monthly_goal": 5,
+      "gross": 0,
+      "voided": 0,
+      "net": 0,
+      "owed": 5,
+      "percent": 0,
       "paid": null
     },
     {
