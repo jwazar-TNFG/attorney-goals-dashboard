@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21T07:00:06",
+  "updated": "2026-05-21T09:01:19",
   "month": "May 2026",
   "data": [
     {
@@ -579,10 +579,10 @@
       "state": "Illinois",
       "monthly_goal": 50,
       "gross": 97,
-      "voided": 14,
-      "net": 83,
+      "voided": 15,
+      "net": 82,
       "owed": 0,
-      "percent": 166,
+      "percent": 164,
       "paid": false
     }
   ]
