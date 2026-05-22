@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21T23:00:30",
+  "updated": "2026-05-22T07:00:06",
   "month": "May 2026",
   "data": [
     {
@@ -7,9 +7,9 @@
       "state": "Florida",
       "monthly_goal": 300,
       "gross": 274,
-      "voided": 27,
-      "net": 247,
-      "owed": 53,
+      "voided": 28,
+      "net": 246,
+      "owed": 54,
       "percent": 82,
       "paid": false
     },
@@ -369,11 +369,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 44,
-      "percent": 37,
+      "net": 27,
+      "owed": 43,
+      "percent": 39,
       "paid": false
     },
     {
@@ -557,21 +557,21 @@
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
       "gross": 65,
-      "voided": 7,
-      "net": 58,
+      "voided": 8,
+      "net": 57,
       "owed": 0,
-      "percent": 129,
+      "percent": 127,
       "paid": null
     },
     {
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60,
+      "net": 4,
+      "owed": 1,
+      "percent": 80,
       "paid": false
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 106,
+      "gross": 109,
       "voided": 15,
-      "net": 91,
+      "net": 94,
       "owed": 0,
-      "percent": 182,
+      "percent": 188,
       "paid": false
     }
   ]
