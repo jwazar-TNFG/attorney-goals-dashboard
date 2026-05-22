@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T07:00:06",
+  "updated": "2026-05-22T09:02:55",
   "month": "May 2026",
   "data": [
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 62,
+      "gross": 63,
       "voided": 23,
-      "net": 39,
+      "net": 40,
       "owed": 0,
-      "percent": 111,
+      "percent": 114,
       "paid": false
     },
     {
