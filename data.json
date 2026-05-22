@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-22T09:02:55",
+  "updated": "2026-05-22T11:01:03",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 274,
+      "gross": 276,
       "voided": 28,
-      "net": 246,
-      "owed": 54,
-      "percent": 82,
+      "net": 248,
+      "owed": 52,
+      "percent": 83,
       "paid": false
     },
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 69,
+      "gross": 70,
       "voided": 1,
-      "net": 68,
+      "net": 69,
       "owed": 0,
-      "percent": 170,
+      "percent": 172,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 152,
+      "gross": 153,
       "voided": 10,
-      "net": 142,
-      "owed": 151,
-      "percent": 48,
+      "net": 143,
+      "owed": 150,
+      "percent": 49,
       "paid": true
     },
     {
@@ -204,11 +204,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 22,
+      "gross": 24,
       "voided": 0,
-      "net": 22,
+      "net": 24,
       "owed": 0,
-      "percent": 440,
+      "percent": 480,
       "paid": false
     },
     {
@@ -348,21 +348,21 @@
       "state": "Georgia",
       "monthly_goal": 20,
       "gross": 2,
-      "voided": 0,
-      "net": 2,
-      "owed": 18,
-      "percent": 10,
+      "voided": 2,
+      "net": 0,
+      "owed": 20,
+      "percent": 0,
       "paid": null
     },
     {
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 20,
+      "gross": 21,
       "voided": 4,
-      "net": 16,
+      "net": 17,
       "owed": 0,
-      "percent": 107,
+      "percent": 113,
       "paid": null
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 63,
+      "gross": 65,
       "voided": 23,
-      "net": 40,
+      "net": 42,
       "owed": 0,
-      "percent": 114,
+      "percent": 120,
       "paid": false
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 58,
+      "gross": 59,
       "voided": 9,
-      "net": 49,
+      "net": 50,
       "owed": 0,
-      "percent": 140,
+      "percent": 143,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 117,
+      "gross": 122,
       "voided": 22,
-      "net": 95,
-      "owed": 30,
-      "percent": 76,
+      "net": 100,
+      "owed": 25,
+      "percent": 80,
       "paid": false
     },
     {
