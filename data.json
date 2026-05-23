@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T11:01:00",
+  "updated": "2026-05-23T13:01:40",
   "month": "May 2026",
   "data": [
     {
@@ -28,22 +28,22 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 56,
+      "gross": 57,
       "voided": 13,
-      "net": 43,
-      "owed": 7,
-      "percent": 86,
+      "net": 44,
+      "owed": 6,
+      "percent": 88,
       "paid": null
     },
     {
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 73,
+      "gross": 75,
       "voided": 2,
-      "net": 71,
+      "net": 73,
       "owed": 0,
-      "percent": 178,
+      "percent": 182,
       "paid": null
     },
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 158,
+      "gross": 160,
       "voided": 10,
-      "net": 148,
-      "owed": 145,
+      "net": 150,
+      "owed": 143,
       "percent": 51,
       "paid": true
     },
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 101,
+      "gross": 102,
       "voided": 6,
-      "net": 95,
-      "owed": 30,
-      "percent": 76,
+      "net": 96,
+      "owed": 29,
+      "percent": 77,
       "paid": true
     },
     {
@@ -369,22 +369,22 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 30,
+      "gross": 31,
       "voided": 0,
-      "net": 30,
-      "owed": 40,
-      "percent": 43,
+      "net": 31,
+      "owed": 39,
+      "percent": 44,
       "paid": false
     },
     {
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 72,
+      "gross": 73,
       "voided": 4,
-      "net": 68,
+      "net": 69,
       "owed": 0,
-      "percent": 113,
+      "percent": 115,
       "paid": null
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 31,
+      "gross": 32,
       "voided": 1,
-      "net": 30,
-      "owed": 16,
-      "percent": 65,
+      "net": 31,
+      "owed": 15,
+      "percent": 67,
       "paid": null
     },
     {
@@ -501,11 +501,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 36,
+      "gross": 37,
       "voided": 2,
-      "net": 34,
-      "owed": 26,
-      "percent": 57,
+      "net": 35,
+      "owed": 25,
+      "percent": 58,
       "paid": true
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 129,
+      "gross": 133,
       "voided": 29,
-      "net": 100,
-      "owed": 25,
-      "percent": 80,
+      "net": 104,
+      "owed": 21,
+      "percent": 83,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 116,
+      "gross": 117,
       "voided": 17,
-      "net": 99,
+      "net": 100,
       "owed": 0,
-      "percent": 198,
+      "percent": 200,
       "paid": false
     }
   ]
