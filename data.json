@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T23:00:32",
+  "updated": "2026-05-23T07:00:06",
   "month": "May 2026",
   "data": [
     {
@@ -29,10 +29,10 @@
       "state": "Florida",
       "monthly_goal": 50,
       "gross": 56,
-      "voided": 12,
-      "net": 44,
-      "owed": 6,
-      "percent": 88,
+      "voided": 13,
+      "net": 43,
+      "owed": 7,
+      "percent": 86,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 133,
+      "gross": 134,
       "voided": 10,
-      "net": 123,
+      "net": 124,
       "owed": 0,
-      "percent": 137,
+      "percent": 138,
       "paid": false
     },
     {
