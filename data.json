@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T09:01:39",
+  "updated": "2026-05-23T11:01:00",
   "month": "May 2026",
   "data": [
     {
@@ -436,21 +436,21 @@
       "state": "North Carolina",
       "monthly_goal": 60,
       "gross": 65,
-      "voided": 4,
-      "net": 61,
-      "owed": 0,
-      "percent": 102,
+      "voided": 7,
+      "net": 58,
+      "owed": 2,
+      "percent": 97,
       "paid": null
     },
     {
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 66,
+      "gross": 67,
       "voided": 23,
-      "net": 43,
+      "net": 44,
       "owed": 0,
-      "percent": 123,
+      "percent": 126,
       "paid": false
     },
     {
@@ -502,10 +502,10 @@
       "state": "Ohio",
       "monthly_goal": 60,
       "gross": 36,
-      "voided": 1,
-      "net": 35,
-      "owed": 25,
-      "percent": 58,
+      "voided": 2,
+      "net": 34,
+      "owed": 26,
+      "percent": 57,
       "paid": true
     },
     {
@@ -579,10 +579,10 @@
       "state": "Georgia",
       "monthly_goal": 125,
       "gross": 129,
-      "voided": 28,
-      "net": 101,
-      "owed": 24,
-      "percent": 81,
+      "voided": 29,
+      "net": 100,
+      "owed": 25,
+      "percent": 80,
       "paid": false
     },
     {
