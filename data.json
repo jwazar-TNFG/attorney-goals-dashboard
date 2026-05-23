@@ -1,15 +1,15 @@
 {
-  "updated": "2026-05-22T21:01:04",
+  "updated": "2026-05-22T23:00:32",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 291,
+      "gross": 292,
       "voided": 28,
-      "net": 263,
-      "owed": 37,
+      "net": 264,
+      "owed": 36,
       "percent": 88,
       "paid": false
     },
@@ -28,22 +28,22 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 55,
+      "gross": 56,
       "voided": 12,
-      "net": 43,
-      "owed": 7,
-      "percent": 86,
+      "net": 44,
+      "owed": 6,
+      "percent": 88,
       "paid": null
     },
     {
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 72,
+      "gross": 73,
       "voided": 2,
-      "net": 70,
+      "net": 71,
       "owed": 0,
-      "percent": 175,
+      "percent": 178,
       "paid": null
     },
     {
@@ -83,11 +83,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 23,
+      "gross": 24,
       "voided": 3,
-      "net": 20,
-      "owed": 10,
-      "percent": 67,
+      "net": 21,
+      "owed": 9,
+      "percent": 70,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 157,
+      "gross": 158,
       "voided": 10,
-      "net": 147,
-      "owed": 146,
-      "percent": 50,
+      "net": 148,
+      "owed": 145,
+      "percent": 51,
       "paid": true
     },
     {
@@ -227,10 +227,10 @@
       "state": "New York",
       "monthly_goal": 110,
       "gross": 87,
-      "voided": 7,
-      "net": 80,
-      "owed": 30,
-      "percent": 73,
+      "voided": 8,
+      "net": 79,
+      "owed": 31,
+      "percent": 72,
       "paid": null
     },
     {
@@ -315,10 +315,10 @@
       "state": "Georgia",
       "monthly_goal": 100,
       "gross": 60,
-      "voided": 11,
-      "net": 49,
-      "owed": 51,
-      "percent": 49,
+      "voided": 10,
+      "net": 50,
+      "owed": 50,
+      "percent": 50,
       "paid": null
     },
     {
@@ -369,11 +369,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 29,
+      "gross": 30,
       "voided": 0,
-      "net": 29,
-      "owed": 41,
-      "percent": 41,
+      "net": 30,
+      "owed": 40,
+      "percent": 43,
       "paid": false
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 65,
+      "gross": 66,
       "voided": 23,
-      "net": 42,
+      "net": 43,
       "owed": 0,
-      "percent": 120,
+      "percent": 123,
       "paid": false
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 115,
+      "gross": 116,
       "voided": 17,
-      "net": 98,
+      "net": 99,
       "owed": 0,
-      "percent": 196,
+      "percent": 198,
       "paid": false
     }
   ]
