@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-24T13:01:09",
+  "updated": "2026-05-24T15:00:57",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 292,
+      "gross": 295,
       "voided": 29,
-      "net": 263,
-      "owed": 37,
-      "percent": 88,
+      "net": 266,
+      "owed": 34,
+      "percent": 89,
       "paid": false
     },
     {
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 50,
+      "gross": 52,
       "voided": 8,
-      "net": 42,
+      "net": 44,
       "owed": 0,
-      "percent": 105,
+      "percent": 110,
       "paid": null
     },
     {
@@ -95,10 +95,10 @@
       "state": "Florida",
       "monthly_goal": 30,
       "gross": 38,
-      "voided": 7,
-      "net": 31,
+      "voided": 6,
+      "net": 32,
       "owed": 0,
-      "percent": 103,
+      "percent": 107,
       "paid": false
     },
     {
@@ -160,22 +160,22 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 101,
+      "gross": 102,
       "voided": 22,
-      "net": 79,
+      "net": 80,
       "owed": 0,
-      "percent": 113,
+      "percent": 114,
       "paid": true
     },
     {
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 15,
+      "gross": 16,
       "voided": 1,
-      "net": 14,
-      "owed": 16,
-      "percent": 47,
+      "net": 15,
+      "owed": 15,
+      "percent": 50,
       "paid": null
     },
     {
@@ -248,11 +248,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 46,
+      "gross": 47,
       "voided": 11,
-      "net": 35,
-      "owed": 15,
-      "percent": 70,
+      "net": 36,
+      "owed": 14,
+      "percent": 72,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 137,
+      "gross": 140,
       "voided": 12,
-      "net": 125,
+      "net": 128,
       "owed": 0,
-      "percent": 139,
+      "percent": 142,
       "paid": false
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 75,
+      "gross": 76,
       "voided": 4,
-      "net": 71,
+      "net": 72,
       "owed": 0,
-      "percent": 118,
+      "percent": 120,
       "paid": null
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 68,
+      "gross": 70,
       "voided": 23,
-      "net": 45,
+      "net": 47,
       "owed": 0,
-      "percent": 129,
+      "percent": 134,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 105,
+      "gross": 106,
       "voided": 10,
-      "net": 95,
-      "owed": 5,
-      "percent": 95,
+      "net": 96,
+      "owed": 4,
+      "percent": 96,
       "paid": true
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 140,
+      "gross": 141,
       "voided": 31,
-      "net": 109,
-      "owed": 16,
-      "percent": 87,
+      "net": 110,
+      "owed": 15,
+      "percent": 88,
       "paid": false
     },
     {
