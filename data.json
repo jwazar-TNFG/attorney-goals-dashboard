@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T09:01:30",
+  "updated": "2026-05-24T11:01:03",
   "month": "May 2026",
   "data": [
     {
@@ -7,9 +7,9 @@
       "state": "Florida",
       "monthly_goal": 300,
       "gross": 292,
-      "voided": 28,
-      "net": 264,
-      "owed": 36,
+      "voided": 29,
+      "net": 263,
+      "owed": 37,
       "percent": 88,
       "paid": false
     },
@@ -29,21 +29,21 @@
       "state": "Florida",
       "monthly_goal": 50,
       "gross": 57,
-      "voided": 14,
-      "net": 43,
-      "owed": 7,
-      "percent": 86,
+      "voided": 15,
+      "net": 42,
+      "owed": 8,
+      "percent": 84,
       "paid": null
     },
     {
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 76,
+      "gross": 77,
       "voided": 2,
-      "net": 74,
+      "net": 75,
       "owed": 0,
-      "percent": 185,
+      "percent": 188,
       "paid": null
     },
     {
@@ -84,10 +84,10 @@
       "state": "Florida",
       "monthly_goal": 30,
       "gross": 24,
-      "voided": 3,
-      "net": 21,
-      "owed": 9,
-      "percent": 70,
+      "voided": 4,
+      "net": 20,
+      "owed": 10,
+      "percent": 67,
       "paid": null
     },
     {
@@ -259,11 +259,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 17,
+      "gross": 16,
       "voided": 5,
-      "net": 12,
-      "owed": 10,
-      "percent": 55,
+      "net": 11,
+      "owed": 11,
+      "percent": 50,
       "paid": null
     },
     {
@@ -282,10 +282,10 @@
       "state": "New Jersey",
       "monthly_goal": 90,
       "gross": 137,
-      "voided": 10,
-      "net": 127,
+      "voided": 12,
+      "net": 125,
       "owed": 0,
-      "percent": 141,
+      "percent": 139,
       "paid": false
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 33,
+      "gross": 35,
       "voided": 1,
-      "net": 32,
-      "owed": 14,
-      "percent": 70,
+      "net": 34,
+      "owed": 12,
+      "percent": 74,
       "paid": null
     },
     {
@@ -579,10 +579,10 @@
       "state": "Georgia",
       "monthly_goal": 125,
       "gross": 140,
-      "voided": 30,
-      "net": 110,
-      "owed": 15,
-      "percent": 88,
+      "voided": 32,
+      "net": 108,
+      "owed": 17,
+      "percent": 86,
       "paid": false
     },
     {
@@ -590,10 +590,10 @@
       "state": "Illinois",
       "monthly_goal": 50,
       "gross": 118,
-      "voided": 17,
-      "net": 101,
+      "voided": 23,
+      "net": 95,
       "owed": 0,
-      "percent": 202,
+      "percent": 190,
       "paid": false
     }
   ]
