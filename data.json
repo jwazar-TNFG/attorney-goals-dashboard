@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T19:01:00",
+  "updated": "2026-05-23T21:01:00",
   "month": "May 2026",
   "data": [
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 75,
+      "gross": 76,
       "voided": 2,
-      "net": 73,
+      "net": 74,
       "owed": 0,
-      "percent": 182,
+      "percent": 185,
       "paid": null
     },
     {
@@ -215,11 +215,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 5,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60,
+      "net": 5,
+      "owed": 0,
+      "percent": 100,
       "paid": null
     },
     {
@@ -369,22 +369,22 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 33,
+      "gross": 34,
       "voided": 0,
-      "net": 33,
-      "owed": 37,
-      "percent": 47,
+      "net": 34,
+      "owed": 36,
+      "percent": 49,
       "paid": false
     },
     {
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 74,
+      "gross": 75,
       "voided": 4,
-      "net": 70,
+      "net": 71,
       "owed": 0,
-      "percent": 117,
+      "percent": 118,
       "paid": null
     },
     {
@@ -579,10 +579,10 @@
       "state": "Georgia",
       "monthly_goal": 125,
       "gross": 140,
-      "voided": 29,
-      "net": 111,
-      "owed": 14,
-      "percent": 89,
+      "voided": 30,
+      "net": 110,
+      "owed": 15,
+      "percent": 88,
       "paid": false
     },
     {
