@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T11:00:59",
+  "updated": "2026-05-25T13:01:10",
   "month": "May 2026",
   "data": [
     {
@@ -7,9 +7,9 @@
       "state": "Florida",
       "monthly_goal": 300,
       "gross": 303,
-      "voided": 29,
-      "net": 274,
-      "owed": 26,
+      "voided": 30,
+      "net": 273,
+      "owed": 27,
       "percent": 91,
       "paid": false
     },
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 58,
+      "gross": 59,
       "voided": 15,
-      "net": 43,
-      "owed": 7,
-      "percent": 86,
+      "net": 44,
+      "owed": 6,
+      "percent": 88,
       "paid": null
     },
     {
@@ -116,11 +116,11 @@
       "firm_name": "Lady Law (FL/Premium)",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 20,
+      "gross": 22,
       "voided": 1,
-      "net": 19,
-      "owed": 1,
-      "percent": 95,
+      "net": 21,
+      "owed": 0,
+      "percent": 105,
       "paid": false
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 88,
+      "gross": 92,
       "voided": 10,
-      "net": 78,
-      "owed": 32,
-      "percent": 71,
+      "net": 82,
+      "owed": 28,
+      "percent": 75,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 141,
+      "gross": 142,
       "voided": 12,
-      "net": 129,
+      "net": 130,
       "owed": 0,
-      "percent": 143,
+      "percent": 144,
       "paid": false
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 144,
+      "gross": 147,
       "voided": 31,
-      "net": 113,
-      "owed": 12,
-      "percent": 90,
+      "net": 116,
+      "owed": 9,
+      "percent": 93,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 125,
+      "gross": 126,
       "voided": 23,
-      "net": 102,
+      "net": 103,
       "owed": 0,
-      "percent": 204,
+      "percent": 206,
       "paid": false
     }
   ]
