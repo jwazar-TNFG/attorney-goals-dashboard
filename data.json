@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T23:00:37",
+  "updated": "2026-05-25T07:00:06",
   "month": "May 2026",
   "data": [
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 106,
+      "gross": 111,
       "voided": 10,
-      "net": 96,
-      "owed": 4,
-      "percent": 96,
+      "net": 101,
+      "owed": 0,
+      "percent": 101,
       "paid": true
     },
     {
