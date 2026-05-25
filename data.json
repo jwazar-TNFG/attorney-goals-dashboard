@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T15:24:03",
+  "updated": "2026-05-25T17:01:30",
   "month": "May 2026",
   "data": [
     {
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 105,
+      "gross": 106,
       "voided": 22,
-      "net": 83,
+      "net": 84,
       "owed": 0,
-      "percent": 119,
+      "percent": 120,
       "paid": true
     },
     {
@@ -435,11 +435,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 67,
+      "gross": 68,
       "voided": 7,
-      "net": 60,
+      "net": 61,
       "owed": 0,
-      "percent": 100,
+      "percent": 102,
       "paid": null
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 62,
+      "gross": 63,
       "voided": 10,
-      "net": 52,
+      "net": 53,
       "owed": 0,
-      "percent": 149,
+      "percent": 151,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 149,
+      "gross": 150,
       "voided": 33,
-      "net": 116,
-      "owed": 9,
-      "percent": 93,
+      "net": 117,
+      "owed": 8,
+      "percent": 94,
       "paid": false
     },
     {
