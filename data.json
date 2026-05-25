@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T13:01:10",
+  "updated": "2026-05-25T15:24:03",
   "month": "May 2026",
   "data": [
     {
@@ -7,9 +7,9 @@
       "state": "Florida",
       "monthly_goal": 300,
       "gross": 303,
-      "voided": 30,
-      "net": 273,
-      "owed": 27,
+      "voided": 31,
+      "net": 272,
+      "owed": 28,
       "percent": 91,
       "paid": false
     },
@@ -40,10 +40,10 @@
       "state": "Florida",
       "monthly_goal": 40,
       "gross": 78,
-      "voided": 2,
-      "net": 76,
+      "voided": 1,
+      "net": 77,
       "owed": 0,
-      "percent": 190,
+      "percent": 192,
       "paid": null
     },
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 170,
+      "gross": 172,
       "voided": 10,
-      "net": 160,
-      "owed": 133,
+      "net": 162,
+      "owed": 131,
       "percent": 55,
       "paid": true
     },
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 103,
+      "gross": 105,
       "voided": 22,
-      "net": 81,
+      "net": 83,
       "owed": 0,
-      "percent": 116,
+      "percent": 119,
       "paid": true
     },
     {
@@ -172,10 +172,10 @@
       "state": "Texas",
       "monthly_goal": 30,
       "gross": 18,
-      "voided": 1,
-      "net": 17,
-      "owed": 13,
-      "percent": 57,
+      "voided": 2,
+      "net": 16,
+      "owed": 14,
+      "percent": 53,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 142,
+      "gross": 143,
       "voided": 12,
-      "net": 130,
+      "net": 131,
       "owed": 0,
-      "percent": 144,
+      "percent": 146,
       "paid": false
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 36,
+      "gross": 38,
       "voided": 1,
-      "net": 35,
-      "owed": 11,
-      "percent": 76,
+      "net": 37,
+      "owed": 9,
+      "percent": 80,
       "paid": null
     },
     {
@@ -479,11 +479,11 @@
       "firm_name": "Rubenstein (Boston)",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 12,
+      "gross": 13,
       "voided": 0,
-      "net": 12,
-      "owed": 18,
-      "percent": 40,
+      "net": 13,
+      "owed": 17,
+      "percent": 43,
       "paid": false
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 78,
+      "gross": 80,
       "voided": 8,
-      "net": 70,
+      "net": 72,
       "owed": 0,
-      "percent": 156,
+      "percent": 160,
       "paid": null
     },
     {
@@ -578,8 +578,8 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 147,
-      "voided": 31,
+      "gross": 149,
+      "voided": 33,
       "net": 116,
       "owed": 9,
       "percent": 93,
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 126,
-      "voided": 23,
-      "net": 103,
+      "gross": 128,
+      "voided": 24,
+      "net": 104,
       "owed": 0,
-      "percent": 206,
+      "percent": 208,
       "paid": false
     }
   ]
