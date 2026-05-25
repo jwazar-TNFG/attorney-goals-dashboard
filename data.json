@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-25T09:01:15",
+  "updated": "2026-05-25T11:00:59",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 298,
+      "gross": 303,
       "voided": 29,
-      "net": 269,
-      "owed": 31,
-      "percent": 90,
+      "net": 274,
+      "owed": 26,
+      "percent": 91,
       "paid": false
     },
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 77,
+      "gross": 78,
       "voided": 2,
-      "net": 75,
+      "net": 76,
       "owed": 0,
-      "percent": 188,
+      "percent": 190,
       "paid": null
     },
     {
@@ -116,11 +116,11 @@
       "firm_name": "Lady Law (FL/Premium)",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 18,
+      "gross": 20,
       "voided": 1,
-      "net": 17,
-      "owed": 3,
-      "percent": 85,
+      "net": 19,
+      "owed": 1,
+      "percent": 95,
       "paid": false
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 167,
+      "gross": 170,
       "voided": 10,
-      "net": 157,
-      "owed": 136,
-      "percent": 54,
+      "net": 160,
+      "owed": 133,
+      "percent": 55,
       "paid": true
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 87,
+      "gross": 88,
       "voided": 10,
-      "net": 77,
-      "owed": 33,
-      "percent": 70,
+      "net": 78,
+      "owed": 32,
+      "percent": 71,
       "paid": null
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 122,
+      "gross": 125,
       "voided": 23,
-      "net": 99,
+      "net": 102,
       "owed": 0,
-      "percent": 198,
+      "percent": 204,
       "paid": false
     }
   ]
