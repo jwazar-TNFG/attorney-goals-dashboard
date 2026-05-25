@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T19:01:03",
+  "updated": "2026-05-24T21:01:14",
   "month": "May 2026",
   "data": [
     {
@@ -83,11 +83,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 24,
+      "gross": 25,
       "voided": 4,
-      "net": 20,
-      "owed": 10,
-      "percent": 67,
+      "net": 21,
+      "owed": 9,
+      "percent": 70,
       "paid": null
     },
     {
@@ -171,11 +171,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 16,
+      "gross": 18,
       "voided": 1,
-      "net": 15,
-      "owed": 15,
-      "percent": 50,
+      "net": 17,
+      "owed": 13,
+      "percent": 57,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 142,
+      "gross": 143,
       "voided": 31,
-      "net": 111,
-      "owed": 14,
-      "percent": 89,
+      "net": 112,
+      "owed": 13,
+      "percent": 90,
       "paid": false
     },
     {
