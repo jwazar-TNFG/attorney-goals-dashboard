@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T11:02:37",
+  "updated": "2026-05-26T13:02:11",
   "month": "May 2026",
   "data": [
     {
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 54,
+      "gross": 55,
       "voided": 8,
-      "net": 46,
+      "net": 47,
       "owed": 0,
-      "percent": 115,
+      "percent": 118,
       "paid": null
     },
     {
@@ -138,33 +138,33 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 20,
+      "gross": 21,
       "voided": 1,
-      "net": 19,
+      "net": 20,
       "owed": 0,
-      "percent": 190,
+      "percent": 200,
       "paid": true
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 172,
+      "gross": 179,
       "voided": 10,
-      "net": 162,
-      "owed": 131,
-      "percent": 55,
+      "net": 169,
+      "owed": 124,
+      "percent": 58,
       "paid": true
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 108,
+      "gross": 109,
       "voided": 22,
-      "net": 86,
+      "net": 87,
       "owed": 0,
-      "percent": 123,
+      "percent": 124,
       "paid": true
     },
     {
@@ -172,10 +172,10 @@
       "state": "Texas",
       "monthly_goal": 30,
       "gross": 29,
-      "voided": 5,
-      "net": 24,
-      "owed": 6,
-      "percent": 80,
+      "voided": 4,
+      "net": 25,
+      "owed": 5,
+      "percent": 83,
       "paid": null
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 97,
-      "voided": 10,
-      "net": 87,
-      "owed": 23,
-      "percent": 79,
+      "gross": 99,
+      "voided": 8,
+      "net": 91,
+      "owed": 19,
+      "percent": 83,
       "paid": null
     },
     {
@@ -248,11 +248,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 48,
+      "gross": 49,
       "voided": 11,
-      "net": 37,
-      "owed": 13,
-      "percent": 74,
+      "net": 38,
+      "owed": 12,
+      "percent": 76,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 143,
+      "gross": 145,
       "voided": 13,
-      "net": 130,
+      "net": 132,
       "owed": 0,
-      "percent": 144,
+      "percent": 147,
       "paid": false
     },
     {
@@ -303,10 +303,10 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 103,
+      "gross": 104,
       "voided": 6,
-      "net": 97,
-      "owed": 28,
+      "net": 98,
+      "owed": 27,
       "percent": 78,
       "paid": true
     },
@@ -447,10 +447,10 @@
       "state": "Tennessee",
       "monthly_goal": 35,
       "gross": 71,
-      "voided": 24,
-      "net": 47,
+      "voided": 23,
+      "net": 48,
       "owed": 0,
-      "percent": 134,
+      "percent": 137,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 114,
+      "gross": 115,
       "voided": 10,
-      "net": 104,
+      "net": 105,
       "owed": 0,
-      "percent": 104,
+      "percent": 105,
       "paid": true
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 82,
+      "gross": 84,
       "voided": 8,
-      "net": 74,
+      "net": 76,
       "owed": 0,
-      "percent": 164,
+      "percent": 169,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 154,
+      "gross": 157,
       "voided": 33,
-      "net": 121,
-      "owed": 4,
-      "percent": 97,
+      "net": 124,
+      "owed": 1,
+      "percent": 99,
       "paid": false
     },
     {
