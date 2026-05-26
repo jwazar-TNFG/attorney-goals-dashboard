@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-25T19:02:10",
+  "updated": "2026-05-25T21:01:58",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 303,
+      "gross": 308,
       "voided": 31,
-      "net": 272,
-      "owed": 28,
-      "percent": 91,
+      "net": 277,
+      "owed": 23,
+      "percent": 92,
       "paid": false
     },
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 59,
+      "gross": 61,
       "voided": 15,
-      "net": 44,
-      "owed": 6,
-      "percent": 88,
+      "net": 46,
+      "owed": 4,
+      "percent": 92,
       "paid": null
     },
     {
@@ -457,11 +457,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 33,
+      "gross": 34,
       "voided": 4,
-      "net": 29,
+      "net": 30,
       "owed": 0,
-      "percent": 145,
+      "percent": 150,
       "paid": true
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 63,
+      "gross": 64,
       "voided": 10,
-      "net": 53,
+      "net": 54,
       "owed": 0,
-      "percent": 151,
+      "percent": 154,
       "paid": null
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 150,
+      "gross": 152,
       "voided": 33,
-      "net": 117,
-      "owed": 8,
-      "percent": 94,
+      "net": 119,
+      "owed": 6,
+      "percent": 95,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 132,
+      "gross": 133,
       "voided": 24,
-      "net": 108,
+      "net": 109,
       "owed": 0,
-      "percent": 216,
+      "percent": 218,
       "paid": false
     }
   ]
