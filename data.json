@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-25T23:00:13",
+  "updated": "2026-05-26T07:00:13",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 308,
+      "gross": 313,
       "voided": 32,
-      "net": 276,
-      "owed": 24,
-      "percent": 92,
+      "net": 281,
+      "owed": 19,
+      "percent": 94,
       "paid": false
     },
     {
