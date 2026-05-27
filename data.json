@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T09:02:03",
+  "updated": "2026-05-27T11:02:54",
   "month": "May 2026",
   "data": [
     {
@@ -193,11 +193,11 @@
       "firm_name": "Newman Injury Law",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60,
+      "net": 4,
+      "owed": 1,
+      "percent": 80,
       "paid": false
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 70,
+      "gross": 71,
       "voided": 10,
-      "net": 60,
+      "net": 61,
       "owed": 0,
-      "percent": 171,
+      "percent": 174,
       "paid": null
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 84,
+      "gross": 86,
       "voided": 8,
-      "net": 76,
+      "net": 78,
       "owed": 0,
-      "percent": 169,
+      "percent": 173,
       "paid": null
     },
     {
