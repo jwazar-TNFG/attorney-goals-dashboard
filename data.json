@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-27T15:00:13",
+  "updated": "2026-05-27T17:00:16",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 328,
+      "gross": 333,
       "voided": 37,
-      "net": 291,
-      "owed": 9,
-      "percent": 97,
+      "net": 296,
+      "owed": 4,
+      "percent": 99,
       "paid": false
     },
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 65,
+      "gross": 67,
       "voided": 15,
-      "net": 50,
+      "net": 52,
       "owed": 0,
-      "percent": 100,
+      "percent": 104,
       "paid": null
     },
     {
@@ -94,11 +94,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 39,
+      "gross": 42,
       "voided": 7,
-      "net": 32,
+      "net": 35,
       "owed": 0,
-      "percent": 107,
+      "percent": 117,
       "paid": false
     },
     {
@@ -182,11 +182,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 40,
-      "gross": 41,
+      "gross": 44,
       "voided": 2,
-      "net": 39,
-      "owed": 1,
-      "percent": 98,
+      "net": 42,
+      "owed": 0,
+      "percent": 105,
       "paid": null
     },
     {
@@ -381,10 +381,10 @@
       "state": "Illinois",
       "monthly_goal": 60,
       "gross": 79,
-      "voided": 4,
-      "net": 75,
+      "voided": 5,
+      "net": 74,
       "owed": 0,
-      "percent": 125,
+      "percent": 123,
       "paid": null
     },
     {
@@ -424,11 +424,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 14,
+      "gross": 15,
       "voided": 1,
-      "net": 13,
-      "owed": 2,
-      "percent": 87,
+      "net": 14,
+      "owed": 1,
+      "percent": 93,
       "paid": null
     },
     {
@@ -567,33 +567,33 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 1,
-      "percent": 80,
+      "net": 5,
+      "owed": 0,
+      "percent": 100,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 177,
+      "gross": 178,
       "voided": 32,
-      "net": 145,
+      "net": 146,
       "owed": 0,
-      "percent": 116,
+      "percent": 117,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 144,
+      "gross": 147,
       "voided": 29,
-      "net": 115,
+      "net": 118,
       "owed": 0,
-      "percent": 230,
+      "percent": 236,
       "paid": false
     }
   ]
