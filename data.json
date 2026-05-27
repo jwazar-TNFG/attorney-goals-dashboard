@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T07:00:13",
+  "updated": "2026-05-27T09:02:03",
   "month": "May 2026",
   "data": [
     {
@@ -182,11 +182,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 40,
-      "gross": 38,
+      "gross": 41,
       "voided": 2,
-      "net": 36,
-      "owed": 4,
-      "percent": 90,
+      "net": 39,
+      "owed": 1,
+      "percent": 98,
       "paid": null
     },
     {
@@ -336,11 +336,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 16,
+      "gross": 18,
       "voided": 3,
-      "net": 13,
-      "owed": 11,
-      "percent": 54,
+      "net": 15,
+      "owed": 9,
+      "percent": 62,
       "paid": null
     },
     {
@@ -424,11 +424,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 12,
+      "gross": 14,
       "voided": 1,
-      "net": 11,
-      "owed": 4,
-      "percent": 73,
+      "net": 13,
+      "owed": 2,
+      "percent": 87,
       "paid": null
     },
     {
