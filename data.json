@@ -1,15 +1,15 @@
 {
-  "updated": "2026-05-26T21:02:41",
+  "updated": "2026-05-26T23:00:13",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 324,
+      "gross": 325,
       "voided": 37,
-      "net": 287,
-      "owed": 13,
+      "net": 288,
+      "owed": 12,
       "percent": 96,
       "paid": false
     },
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 55,
+      "gross": 58,
       "voided": 8,
-      "net": 47,
+      "net": 50,
       "owed": 0,
-      "percent": 118,
+      "percent": 125,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 183,
+      "gross": 186,
       "voided": 10,
-      "net": 173,
-      "owed": 120,
-      "percent": 59,
+      "net": 176,
+      "owed": 117,
+      "percent": 60,
       "paid": true
     },
     {
@@ -182,11 +182,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 40,
-      "gross": 37,
+      "gross": 38,
       "voided": 2,
-      "net": 35,
-      "owed": 5,
-      "percent": 88,
+      "net": 36,
+      "owed": 4,
+      "percent": 90,
       "paid": null
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 22,
+      "gross": 23,
       "voided": 4,
-      "net": 18,
+      "net": 19,
       "owed": 0,
-      "percent": 120,
+      "percent": 127,
       "paid": null
     },
     {
