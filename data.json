@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T11:00:14",
+  "updated": "2026-05-28T13:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 112,
+      "gross": 113,
       "voided": 22,
-      "net": 90,
+      "net": 91,
       "owed": 0,
-      "percent": 129,
+      "percent": 130,
       "paid": true
     },
     {
@@ -182,11 +182,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 40,
-      "gross": 44,
+      "gross": 43,
       "voided": 2,
-      "net": 42,
+      "net": 41,
       "owed": 0,
-      "percent": 105,
+      "percent": 102,
       "paid": null
     },
     {
@@ -447,10 +447,10 @@
       "state": "Tennessee",
       "monthly_goal": 35,
       "gross": 76,
-      "voided": 25,
-      "net": 51,
+      "voided": 26,
+      "net": 50,
       "owed": 0,
-      "percent": 146,
+      "percent": 143,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 126,
+      "gross": 127,
       "voided": 11,
-      "net": 115,
+      "net": 116,
       "owed": 0,
-      "percent": 115,
+      "percent": 116,
       "paid": true
     },
     {
