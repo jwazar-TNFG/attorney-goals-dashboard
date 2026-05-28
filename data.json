@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-28T09:00:14",
+  "updated": "2026-05-28T11:00:14",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 341,
+      "gross": 344,
       "voided": 40,
-      "net": 301,
+      "net": 304,
       "owed": 0,
-      "percent": 100,
+      "percent": 101,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 142,
+      "gross": 145,
       "voided": 11,
-      "net": 131,
+      "net": 134,
       "owed": 0,
-      "percent": 146,
+      "percent": 149,
       "paid": false
     },
     {
@@ -469,10 +469,10 @@
       "state": "Massachusetts",
       "monthly_goal": 100,
       "gross": 126,
-      "voided": 10,
-      "net": 116,
+      "voided": 11,
+      "net": 115,
       "owed": 0,
-      "percent": 116,
+      "percent": 115,
       "paid": true
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 183,
+      "gross": 185,
       "voided": 33,
-      "net": 150,
+      "net": 152,
       "owed": 0,
-      "percent": 120,
+      "percent": 122,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 147,
+      "gross": 149,
       "voided": 28,
-      "net": 119,
+      "net": 121,
       "owed": 0,
-      "percent": 238,
+      "percent": 242,
       "paid": false
     }
   ]
