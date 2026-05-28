@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T07:00:14",
+  "updated": "2026-05-28T09:00:14",
   "month": "May 2026",
   "data": [
     {
@@ -7,10 +7,10 @@
       "state": "Florida",
       "monthly_goal": 300,
       "gross": 341,
-      "voided": 39,
-      "net": 302,
+      "voided": 40,
+      "net": 301,
       "owed": 0,
-      "percent": 101,
+      "percent": 100,
       "paid": false
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 24,
+      "gross": 25,
       "voided": 5,
-      "net": 19,
+      "net": 20,
       "owed": 0,
-      "percent": 127,
+      "percent": 133,
       "paid": null
     },
     {
@@ -579,10 +579,10 @@
       "state": "Georgia",
       "monthly_goal": 125,
       "gross": 183,
-      "voided": 32,
-      "net": 151,
+      "voided": 33,
+      "net": 150,
       "owed": 0,
-      "percent": 121,
+      "percent": 120,
       "paid": false
     },
     {
@@ -590,10 +590,10 @@
       "state": "Illinois",
       "monthly_goal": 50,
       "gross": 147,
-      "voided": 27,
-      "net": 120,
+      "voided": 28,
+      "net": 119,
       "owed": 0,
-      "percent": 240,
+      "percent": 238,
       "paid": false
     }
   ]
