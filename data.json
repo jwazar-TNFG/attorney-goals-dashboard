@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-27T21:00:14",
+  "updated": "2026-05-27T23:00:14",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 338,
-      "voided": 38,
-      "net": 300,
+      "gross": 342,
+      "voided": 39,
+      "net": 303,
       "owed": 0,
-      "percent": 100,
+      "percent": 101,
       "paid": false
     },
     {
@@ -39,22 +39,22 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 80,
+      "gross": 82,
       "voided": 1,
-      "net": 79,
+      "net": 81,
       "owed": 0,
-      "percent": 198,
+      "percent": 202,
       "paid": null
     },
     {
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 63,
+      "gross": 64,
       "voided": 8,
-      "net": 55,
+      "net": 56,
       "owed": 0,
-      "percent": 138,
+      "percent": 140,
       "paid": null
     },
     {
@@ -138,11 +138,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 23,
+      "gross": 24,
       "voided": 1,
-      "net": 22,
+      "net": 23,
       "owed": 0,
-      "percent": 220,
+      "percent": 230,
       "paid": true
     },
     {
@@ -259,11 +259,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 19,
+      "gross": 20,
       "voided": 5,
-      "net": 14,
-      "owed": 8,
-      "percent": 64,
+      "net": 15,
+      "owed": 7,
+      "percent": 68,
       "paid": null
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 75,
+      "gross": 77,
       "voided": 10,
-      "net": 65,
+      "net": 67,
       "owed": 0,
-      "percent": 186,
+      "percent": 191,
       "paid": null
     },
     {
