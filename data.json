@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T07:00:13",
+  "updated": "2026-05-29T09:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -204,11 +204,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 32,
+      "gross": 34,
       "voided": 1,
-      "net": 31,
+      "net": 33,
       "owed": 0,
-      "percent": 620,
+      "percent": 660,
       "paid": false
     },
     {
@@ -249,10 +249,10 @@
       "state": "New York",
       "monthly_goal": 50,
       "gross": 59,
-      "voided": 12,
-      "net": 47,
-      "owed": 3,
-      "percent": 94,
+      "voided": 14,
+      "net": 45,
+      "owed": 5,
+      "percent": 90,
       "paid": false
     },
     {
@@ -282,10 +282,10 @@
       "state": "New Jersey",
       "monthly_goal": 90,
       "gross": 152,
-      "voided": 11,
-      "net": 141,
+      "voided": 12,
+      "net": 140,
       "owed": 0,
-      "percent": 157,
+      "percent": 156,
       "paid": false
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 80,
+      "gross": 81,
       "voided": 11,
-      "net": 69,
+      "net": 70,
       "owed": 0,
-      "percent": 197,
+      "percent": 200,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 197,
+      "gross": 198,
       "voided": 33,
-      "net": 164,
+      "net": 165,
       "owed": 0,
-      "percent": 131,
+      "percent": 132,
       "paid": false
     },
     {
