@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T23:00:13",
+  "updated": "2026-05-29T07:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 106,
+      "gross": 107,
       "voided": 6,
-      "net": 100,
-      "owed": 25,
-      "percent": 80,
+      "net": 101,
+      "owed": 24,
+      "percent": 81,
       "paid": true
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 78,
+      "gross": 79,
       "voided": 26,
-      "net": 52,
+      "net": 53,
       "owed": 0,
-      "percent": 149,
+      "percent": 151,
       "paid": false
     },
     {
@@ -469,10 +469,10 @@
       "state": "Massachusetts",
       "monthly_goal": 100,
       "gross": 131,
-      "voided": 14,
-      "net": 117,
+      "voided": 15,
+      "net": 116,
       "owed": 0,
-      "percent": 117,
+      "percent": 116,
       "paid": true
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 79,
+      "gross": 80,
       "voided": 11,
-      "net": 68,
+      "net": 69,
       "owed": 0,
-      "percent": 194,
+      "percent": 197,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 198,
+      "gross": 197,
       "voided": 33,
-      "net": 165,
+      "net": 164,
       "owed": 0,
-      "percent": 132,
+      "percent": 131,
       "paid": false
     },
     {
