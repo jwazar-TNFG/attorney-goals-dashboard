@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T09:00:13",
+  "updated": "2026-05-29T11:00:12",
   "month": "May 2026",
   "data": [
     {
@@ -94,11 +94,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 42,
+      "gross": 43,
       "voided": 7,
-      "net": 35,
+      "net": 36,
       "owed": 0,
-      "percent": 117,
+      "percent": 120,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 152,
+      "gross": 153,
       "voided": 12,
-      "net": 140,
+      "net": 141,
       "owed": 0,
-      "percent": 156,
+      "percent": 157,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 131,
+      "gross": 133,
       "voided": 15,
-      "net": 116,
+      "net": 118,
       "owed": 0,
-      "percent": 116,
+      "percent": 118,
       "paid": true
     },
     {
@@ -512,11 +512,11 @@
       "firm_name": "Schwed Law",
       "state": "Arkansas",
       "monthly_goal": 5,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 3,
-      "percent": 40,
+      "net": 3,
+      "owed": 2,
+      "percent": 60,
       "paid": true
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 151,
+      "gross": 153,
       "voided": 28,
-      "net": 123,
+      "net": 125,
       "owed": 0,
-      "percent": 246,
+      "percent": 250,
       "paid": false
     }
   ]
