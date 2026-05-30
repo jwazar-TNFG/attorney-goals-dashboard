@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-30T11:00:13",
+  "updated": "2026-05-30T13:00:13",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 400,
+      "gross": 403,
       "voided": 46,
-      "net": 354,
+      "net": 357,
       "owed": 0,
-      "percent": 118,
+      "percent": 119,
       "paid": false
     },
     {
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 67,
+      "gross": 69,
       "voided": 8,
-      "net": 59,
+      "net": 61,
       "owed": 0,
-      "percent": 148,
+      "percent": 152,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 205,
+      "gross": 208,
       "voided": 11,
-      "net": 194,
-      "owed": 99,
-      "percent": 66,
+      "net": 197,
+      "owed": 96,
+      "percent": 67,
       "paid": true
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 155,
+      "gross": 159,
       "voided": 12,
-      "net": 143,
+      "net": 147,
       "owed": 0,
-      "percent": 159,
+      "percent": 163,
       "paid": false
     },
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 113,
+      "gross": 116,
       "voided": 6,
-      "net": 107,
-      "owed": 18,
-      "percent": 86,
+      "net": 110,
+      "owed": 15,
+      "percent": 88,
       "paid": true
     },
     {
@@ -336,11 +336,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 18,
+      "gross": 19,
       "voided": 3,
-      "net": 15,
-      "owed": 9,
-      "percent": 62,
+      "net": 16,
+      "owed": 8,
+      "percent": 67,
       "paid": null
     },
     {
@@ -358,22 +358,22 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 27,
+      "gross": 28,
       "voided": 5,
-      "net": 22,
+      "net": 23,
       "owed": 0,
-      "percent": 147,
+      "percent": 153,
       "paid": null
     },
     {
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 45,
+      "gross": 46,
       "voided": 0,
-      "net": 45,
-      "owed": 25,
-      "percent": 64,
+      "net": 46,
+      "owed": 24,
+      "percent": 66,
       "paid": false
     },
     {
@@ -435,11 +435,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 75,
+      "gross": 76,
       "voided": 7,
-      "net": 68,
+      "net": 69,
       "owed": 0,
-      "percent": 113,
+      "percent": 115,
       "paid": null
     },
     {
@@ -557,10 +557,10 @@
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
       "gross": 95,
-      "voided": 9,
-      "net": 86,
+      "voided": 10,
+      "net": 85,
       "owed": 0,
-      "percent": 191,
+      "percent": 189,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 212,
+      "gross": 214,
       "voided": 35,
-      "net": 177,
+      "net": 179,
       "owed": 0,
-      "percent": 142,
+      "percent": 143,
       "paid": false
     },
     {
