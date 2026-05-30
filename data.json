@@ -1,14 +1,14 @@
 {
-  "updated": "2026-05-30T17:00:13",
+  "updated": "2026-05-30T19:00:15",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 403,
+      "gross": 404,
       "voided": 46,
-      "net": 357,
+      "net": 358,
       "owed": 0,
       "percent": 119,
       "paid": false
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 160,
+      "gross": 162,
       "voided": 12,
-      "net": 148,
+      "net": 150,
       "owed": 0,
-      "percent": 164,
+      "percent": 167,
       "paid": false
     },
     {
@@ -369,11 +369,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 46,
+      "gross": 48,
       "voided": 0,
-      "net": 46,
-      "owed": 24,
-      "percent": 66,
+      "net": 48,
+      "owed": 22,
+      "percent": 69,
       "paid": false
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 40,
+      "gross": 41,
       "voided": 1,
-      "net": 39,
-      "owed": 7,
-      "percent": 85,
+      "net": 40,
+      "owed": 6,
+      "percent": 87,
       "paid": null
     },
     {
@@ -424,11 +424,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 16,
+      "gross": 17,
       "voided": 1,
-      "net": 15,
+      "net": 16,
       "owed": 0,
-      "percent": 100,
+      "percent": 107,
       "paid": null
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 141,
+      "gross": 142,
       "voided": 17,
-      "net": 124,
+      "net": 125,
       "owed": 0,
-      "percent": 124,
+      "percent": 125,
       "paid": true
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 156,
+      "gross": 159,
       "voided": 28,
-      "net": 128,
+      "net": 131,
       "owed": 0,
-      "percent": 256,
+      "percent": 262,
       "paid": false
     }
   ]
