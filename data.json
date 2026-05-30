@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T21:00:12",
+  "updated": "2026-05-29T23:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -40,10 +40,10 @@
       "state": "Florida",
       "monthly_goal": 40,
       "gross": 205,
-      "voided": 12,
-      "net": 193,
+      "voided": 13,
+      "net": 192,
       "owed": 0,
-      "percent": 482,
+      "percent": 480,
       "paid": null
     },
     {
@@ -138,21 +138,21 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 38,
+      "gross": 40,
       "voided": 1,
-      "net": 37,
+      "net": 39,
       "owed": 0,
-      "percent": 370,
+      "percent": 390,
       "paid": true
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 204,
+      "gross": 205,
       "voided": 11,
-      "net": 193,
-      "owed": 100,
+      "net": 194,
+      "owed": 99,
       "percent": 66,
       "paid": true
     },
@@ -248,11 +248,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 61,
+      "gross": 63,
       "voided": 15,
-      "net": 46,
-      "owed": 4,
-      "percent": 92,
+      "net": 48,
+      "owed": 2,
+      "percent": 96,
       "paid": false
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 26,
+      "gross": 27,
       "voided": 5,
-      "net": 21,
+      "net": 22,
       "owed": 0,
-      "percent": 140,
+      "percent": 147,
       "paid": null
     },
     {
@@ -446,22 +446,22 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 81,
+      "gross": 83,
       "voided": 26,
-      "net": 55,
+      "net": 57,
       "owed": 0,
-      "percent": 157,
+      "percent": 163,
       "paid": false
     },
     {
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 42,
+      "gross": 43,
       "voided": 5,
-      "net": 37,
+      "net": 38,
       "owed": 0,
-      "percent": 185,
+      "percent": 190,
       "paid": true
     },
     {
@@ -545,11 +545,11 @@
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 27,
+      "gross": 28,
       "voided": 3,
-      "net": 24,
+      "net": 25,
       "owed": 0,
-      "percent": 480,
+      "percent": 500,
       "paid": false
     },
     {
@@ -579,8 +579,8 @@
       "state": "Georgia",
       "monthly_goal": 125,
       "gross": 212,
-      "voided": 34,
-      "net": 178,
+      "voided": 35,
+      "net": 177,
       "owed": 0,
       "percent": 142,
       "paid": false
