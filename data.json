@@ -1,16 +1,16 @@
 {
-  "updated": "2026-05-29T19:00:13",
+  "updated": "2026-05-29T21:00:12",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 394,
-      "voided": 45,
-      "net": 349,
+      "gross": 398,
+      "voided": 44,
+      "net": 354,
       "owed": 0,
-      "percent": 116,
+      "percent": 118,
       "paid": false
     },
     {
@@ -40,10 +40,10 @@
       "state": "Florida",
       "monthly_goal": 40,
       "gross": 205,
-      "voided": 11,
-      "net": 194,
+      "voided": 12,
+      "net": 193,
       "owed": 0,
-      "percent": 485,
+      "percent": 482,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 202,
+      "gross": 204,
       "voided": 11,
-      "net": 191,
-      "owed": 102,
-      "percent": 65,
+      "net": 193,
+      "owed": 100,
+      "percent": 66,
       "paid": true
     },
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 112,
+      "gross": 113,
       "voided": 6,
-      "net": 106,
-      "owed": 19,
-      "percent": 85,
+      "net": 107,
+      "owed": 18,
+      "percent": 86,
       "paid": true
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 25,
+      "gross": 26,
       "voided": 5,
-      "net": 20,
+      "net": 21,
       "owed": 0,
-      "percent": 133,
+      "percent": 140,
       "paid": null
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 137,
+      "gross": 140,
       "voided": 17,
-      "net": 120,
+      "net": 123,
       "owed": 0,
-      "percent": 120,
+      "percent": 123,
       "paid": true
     },
     {
@@ -501,11 +501,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 49,
+      "gross": 53,
       "voided": 3,
-      "net": 46,
-      "owed": 14,
-      "percent": 77,
+      "net": 50,
+      "owed": 10,
+      "percent": 83,
       "paid": true
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 82,
+      "gross": 83,
       "voided": 11,
-      "net": 71,
+      "net": 72,
       "owed": 0,
-      "percent": 203,
+      "percent": 206,
       "paid": null
     },
     {
