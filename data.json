@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T13:00:13",
+  "updated": "2026-05-30T15:00:11",
   "month": "May 2026",
   "data": [
     {
@@ -39,22 +39,22 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 212,
+      "gross": 215,
       "voided": 14,
-      "net": 198,
+      "net": 201,
       "owed": 0,
-      "percent": 495,
+      "percent": 503,
       "paid": null
     },
     {
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 69,
+      "gross": 70,
       "voided": 8,
-      "net": 61,
+      "net": 62,
       "owed": 0,
-      "percent": 152,
+      "percent": 155,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 208,
-      "voided": 11,
-      "net": 197,
-      "owed": 96,
-      "percent": 67,
+      "gross": 212,
+      "voided": 12,
+      "net": 200,
+      "owed": 93,
+      "percent": 68,
       "paid": true
     },
     {
@@ -457,11 +457,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 43,
+      "gross": 45,
       "voided": 5,
-      "net": 38,
+      "net": 40,
       "owed": 0,
-      "percent": 190,
+      "percent": 200,
       "paid": true
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 83,
+      "gross": 85,
       "voided": 11,
-      "net": 72,
+      "net": 74,
       "owed": 0,
-      "percent": 206,
+      "percent": 211,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 214,
+      "gross": 219,
       "voided": 35,
-      "net": 179,
+      "net": 184,
       "owed": 0,
-      "percent": 143,
+      "percent": 147,
       "paid": false
     },
     {
