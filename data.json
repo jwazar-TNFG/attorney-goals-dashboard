@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T15:00:11",
+  "updated": "2026-05-30T17:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 215,
+      "gross": 216,
       "voided": 14,
-      "net": 201,
+      "net": 202,
       "owed": 0,
-      "percent": 503,
+      "percent": 505,
       "paid": null
     },
     {
@@ -83,11 +83,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 32,
+      "gross": 33,
       "voided": 5,
-      "net": 27,
-      "owed": 3,
-      "percent": 90,
+      "net": 28,
+      "owed": 2,
+      "percent": 93,
       "paid": null
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 212,
+      "gross": 213,
       "voided": 12,
-      "net": 200,
-      "owed": 93,
-      "percent": 68,
+      "net": 201,
+      "owed": 92,
+      "percent": 69,
       "paid": true
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 159,
+      "gross": 160,
       "voided": 12,
-      "net": 147,
+      "net": 148,
       "owed": 0,
-      "percent": 163,
+      "percent": 164,
       "paid": false
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 83,
+      "gross": 84,
       "voided": 26,
-      "net": 57,
+      "net": 58,
       "owed": 0,
-      "percent": 163,
+      "percent": 166,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 140,
+      "gross": 141,
       "voided": 17,
-      "net": 123,
+      "net": 124,
       "owed": 0,
-      "percent": 123,
+      "percent": 124,
       "paid": true
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 85,
+      "gross": 87,
       "voided": 11,
-      "net": 74,
+      "net": 76,
       "owed": 0,
-      "percent": 211,
+      "percent": 217,
       "paid": null
     },
     {
@@ -579,10 +579,10 @@
       "state": "Georgia",
       "monthly_goal": 125,
       "gross": 219,
-      "voided": 35,
-      "net": 184,
+      "voided": 37,
+      "net": 182,
       "owed": 0,
-      "percent": 147,
+      "percent": 146,
       "paid": false
     },
     {
