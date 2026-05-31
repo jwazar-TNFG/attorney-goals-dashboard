@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T19:00:15",
+  "updated": "2026-05-30T21:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -83,11 +83,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 33,
+      "gross": 34,
       "voided": 5,
-      "net": 28,
-      "owed": 2,
-      "percent": 93,
+      "net": 29,
+      "owed": 1,
+      "percent": 97,
       "paid": null
     },
     {
@@ -578,9 +578,9 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 219,
+      "gross": 220,
       "voided": 37,
-      "net": 182,
+      "net": 183,
       "owed": 0,
       "percent": 146,
       "paid": false
