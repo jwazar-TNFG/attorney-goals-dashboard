@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31T09:00:16",
+  "updated": "2026-05-31T11:00:15",
   "month": "May 2026",
   "data": [
     {
@@ -579,10 +579,10 @@
       "state": "Georgia",
       "monthly_goal": 125,
       "gross": 222,
-      "voided": 37,
-      "net": 185,
+      "voided": 38,
+      "net": 184,
       "owed": 0,
-      "percent": 148,
+      "percent": 147,
       "paid": false
     },
     {
