@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T23:00:13",
+  "updated": "2026-05-31T07:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 163,
+      "gross": 164,
       "voided": 12,
-      "net": 151,
+      "net": 152,
       "owed": 0,
-      "percent": 168,
+      "percent": 169,
       "paid": false
     },
     {
@@ -424,11 +424,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 17,
+      "gross": 20,
       "voided": 1,
-      "net": 16,
+      "net": 19,
       "owed": 0,
-      "percent": 107,
+      "percent": 127,
       "paid": null
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 96,
+      "gross": 97,
       "voided": 10,
-      "net": 86,
+      "net": 87,
       "owed": 0,
-      "percent": 191,
+      "percent": 193,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 220,
+      "gross": 222,
       "voided": 37,
-      "net": 183,
+      "net": 185,
       "owed": 0,
-      "percent": 146,
+      "percent": 148,
       "paid": false
     },
     {
