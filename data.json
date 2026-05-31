@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31T17:01:57",
+  "updated": "2026-05-31T19:02:03",
   "month": "May 2026",
   "data": [
     {
@@ -7,8 +7,8 @@
       "state": "Florida",
       "monthly_goal": 300,
       "gross": 407,
-      "voided": 46,
-      "net": 361,
+      "voided": 47,
+      "net": 360,
       "owed": 0,
       "percent": 120,
       "paid": false
@@ -171,11 +171,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 32,
+      "gross": 33,
       "voided": 7,
-      "net": 25,
-      "owed": 5,
-      "percent": 83,
+      "net": 26,
+      "owed": 4,
+      "percent": 87,
       "paid": null
     },
     {
@@ -204,11 +204,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 35,
-      "voided": 1,
-      "net": 34,
+      "gross": 36,
+      "voided": 4,
+      "net": 32,
       "owed": 0,
-      "percent": 680,
+      "percent": 640,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 170,
+      "gross": 173,
       "voided": 12,
-      "net": 158,
+      "net": 161,
       "owed": 0,
-      "percent": 176,
+      "percent": 179,
       "paid": false
     },
     {
@@ -359,10 +359,10 @@
       "state": "Georgia",
       "monthly_goal": 15,
       "gross": 28,
-      "voided": 5,
-      "net": 23,
+      "voided": 6,
+      "net": 22,
       "owed": 0,
-      "percent": 153,
+      "percent": 147,
       "paid": null
     },
     {
@@ -425,21 +425,21 @@
       "state": "Colorado",
       "monthly_goal": 15,
       "gross": 20,
-      "voided": 1,
-      "net": 19,
+      "voided": 2,
+      "net": 18,
       "owed": 0,
-      "percent": 127,
+      "percent": 120,
       "paid": null
     },
     {
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 76,
+      "gross": 77,
       "voided": 7,
-      "net": 69,
+      "net": 70,
       "owed": 0,
-      "percent": 115,
+      "percent": 117,
       "paid": null
     },
     {
@@ -479,11 +479,11 @@
       "firm_name": "Rubenstein (Boston)",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 16,
+      "gross": 15,
       "voided": 0,
-      "net": 16,
-      "owed": 14,
-      "percent": 53,
+      "net": 15,
+      "owed": 15,
+      "percent": 50,
       "paid": false
     },
     {
@@ -546,10 +546,10 @@
       "state": "Utah",
       "monthly_goal": 5,
       "gross": 29,
-      "voided": 3,
-      "net": 26,
+      "voided": 4,
+      "net": 25,
       "owed": 0,
-      "percent": 520,
+      "percent": 500,
       "paid": false
     },
     {
@@ -590,10 +590,10 @@
       "state": "Illinois",
       "monthly_goal": 50,
       "gross": 160,
-      "voided": 28,
-      "net": 132,
+      "voided": 30,
+      "net": 130,
       "owed": 0,
-      "percent": 264,
+      "percent": 260,
       "paid": false
     }
   ]
