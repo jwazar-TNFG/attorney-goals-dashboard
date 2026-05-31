@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T21:00:13",
+  "updated": "2026-05-30T23:00:13",
   "month": "May 2026",
   "data": [
     {
@@ -116,11 +116,11 @@
       "firm_name": "Lady Law (FL/Premium)",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 24,
+      "gross": 25,
       "voided": 1,
-      "net": 23,
+      "net": 24,
       "owed": 0,
-      "percent": 115,
+      "percent": 120,
       "paid": false
     },
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 213,
+      "gross": 214,
       "voided": 12,
-      "net": 201,
-      "owed": 92,
+      "net": 202,
+      "owed": 91,
       "percent": 69,
       "paid": true
     },
@@ -248,11 +248,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 63,
+      "gross": 67,
       "voided": 15,
-      "net": 48,
-      "owed": 2,
-      "percent": 96,
+      "net": 52,
+      "owed": 0,
+      "percent": 104,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 162,
+      "gross": 163,
       "voided": 12,
-      "net": 150,
+      "net": 151,
       "owed": 0,
-      "percent": 167,
+      "percent": 168,
       "paid": false
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 95,
+      "gross": 96,
       "voided": 10,
-      "net": 85,
+      "net": 86,
       "owed": 0,
-      "percent": 189,
+      "percent": 191,
       "paid": null
     },
     {
