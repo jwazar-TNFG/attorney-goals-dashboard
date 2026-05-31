@@ -1,14 +1,14 @@
 {
-  "updated": "2026-05-31T13:00:14",
+  "updated": "2026-05-31T15:00:55",
   "month": "May 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 405,
+      "gross": 406,
       "voided": 46,
-      "net": 359,
+      "net": 360,
       "owed": 0,
       "percent": 120,
       "paid": false
@@ -29,10 +29,10 @@
       "state": "Florida",
       "monthly_goal": 50,
       "gross": 147,
-      "voided": 26,
-      "net": 121,
+      "voided": 27,
+      "net": 120,
       "owed": 0,
-      "percent": 242,
+      "percent": 240,
       "paid": null
     },
     {
@@ -249,10 +249,10 @@
       "state": "New York",
       "monthly_goal": 50,
       "gross": 67,
-      "voided": 15,
-      "net": 52,
+      "voided": 16,
+      "net": 51,
       "owed": 0,
-      "percent": 104,
+      "percent": 102,
       "paid": false
     },
     {
@@ -293,10 +293,10 @@
       "state": "New Jersey",
       "monthly_goal": 5,
       "gross": 17,
-      "voided": 6,
-      "net": 11,
+      "voided": 7,
+      "net": 10,
       "owed": 0,
-      "percent": 220,
+      "percent": 200,
       "paid": false
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 83,
+      "gross": 84,
       "voided": 5,
-      "net": 78,
+      "net": 79,
       "owed": 0,
-      "percent": 130,
+      "percent": 132,
       "paid": null
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 144,
+      "gross": 145,
       "voided": 17,
-      "net": 127,
+      "net": 128,
       "owed": 0,
-      "percent": 127,
+      "percent": 128,
       "paid": true
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 223,
+      "gross": 224,
       "voided": 38,
-      "net": 185,
+      "net": 186,
       "owed": 0,
-      "percent": 148,
+      "percent": 149,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 159,
+      "gross": 160,
       "voided": 28,
-      "net": 131,
+      "net": 132,
       "owed": 0,
-      "percent": 262,
+      "percent": 264,
       "paid": false
     }
   ]
