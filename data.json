@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-01T17:02:05",
+  "updated": "2026-06-01T19:01:52",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 8,
+      "gross": 11,
       "voided": 0,
-      "net": 8,
-      "owed": 292,
-      "percent": 3,
+      "net": 11,
+      "owed": 289,
+      "percent": 4,
       "paid": false
     },
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 40,
-      "percent": 0,
+      "net": 1,
+      "owed": 39,
+      "percent": 2,
       "paid": null
     },
     {
@@ -149,22 +149,22 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 289,
-      "percent": 1,
+      "net": 5,
+      "owed": 288,
+      "percent": 2,
       "paid": true
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 67,
-      "percent": 4,
+      "net": 4,
+      "owed": 66,
+      "percent": 6,
       "paid": true
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 106,
-      "percent": 4,
+      "net": 5,
+      "owed": 105,
+      "percent": 5,
       "paid": null
     },
     {
@@ -248,11 +248,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 50,
-      "percent": 0,
+      "net": 1,
+      "owed": 49,
+      "percent": 2,
       "paid": false
     },
     {
@@ -479,11 +479,11 @@
       "firm_name": "Rubenstein (Boston)",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 30,
-      "percent": 0,
+      "net": 1,
+      "owed": 29,
+      "percent": 3,
       "paid": false
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 12,
+      "gross": 16,
       "voided": 0,
-      "net": 12,
-      "owed": 113,
-      "percent": 10,
+      "net": 16,
+      "owed": 109,
+      "percent": 13,
       "paid": false
     },
     {
