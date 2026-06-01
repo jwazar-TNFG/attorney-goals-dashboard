@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T13:02:03",
+  "updated": "2026-06-01T15:02:25",
   "month": "June 2026",
   "data": [
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 290,
+      "net": 4,
+      "owed": 289,
       "percent": 1,
       "paid": true
     },
@@ -204,11 +204,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 4,
-      "percent": 20,
+      "net": 2,
+      "owed": 3,
+      "percent": 40,
       "paid": false
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 107,
-      "percent": 3,
+      "net": 4,
+      "owed": 106,
+      "percent": 4,
       "paid": null
     },
     {
@@ -413,11 +413,11 @@
       "firm_name": "Big Ben",
       "state": "Colorado",
       "monthly_goal": 29,
-      "gross": 0,
+      "gross": 2,
       "voided": 0,
-      "net": 0,
-      "owed": 29,
-      "percent": 0,
+      "net": 2,
+      "owed": 27,
+      "percent": 7,
       "paid": true
     },
     {
@@ -457,11 +457,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 17,
-      "percent": 15,
+      "net": 4,
+      "owed": 16,
+      "percent": 20,
       "paid": true
     },
     {
@@ -501,11 +501,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 1,
+      "gross": 3,
       "voided": 0,
-      "net": 1,
-      "owed": 59,
-      "percent": 2,
+      "net": 3,
+      "owed": 57,
+      "percent": 5,
       "paid": true
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 3,
+      "gross": 6,
       "voided": 0,
-      "net": 3,
-      "owed": 122,
-      "percent": 2,
+      "net": 6,
+      "owed": 119,
+      "percent": 5,
       "paid": false
     },
     {
