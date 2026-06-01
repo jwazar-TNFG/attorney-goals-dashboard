@@ -51,15 +51,16 @@ def load_mapping():
     return {'mappings': {}, 'ignored': []}
 
 def get_lockdown_counts(sb, start_date: str, end_date: str) -> dict:
-    """Get lockdown counts by attorney from leads table."""
+    """Get signed counts by attorney from leads table (dateSigned + TNFG only)."""
     counts = {}
     offset = 0
     batch_size = 1000
     
     while True:
         result = sb.table('leads').select('attorney, accidentState') \
-            .gte('dateLockedDown', start_date) \
-            .lt('dateLockedDown', end_date) \
+            .gte('dateSigned', start_date) \
+            .lt('dateSigned', end_date) \
+            .eq('sourceType', 'TNFG') \
             .not_.is_('attorney', 'null') \
             .order('idLead') \
             .range(offset, offset + batch_size - 1) \
@@ -78,15 +79,16 @@ def get_lockdown_counts(sb, start_date: str, end_date: str) -> dict:
     return counts
 
 def get_voided_counts(sb, start_date: str, end_date: str) -> dict:
-    """Get voided/dropped counts by attorney."""
+    """Get voided/dropped counts by attorney (dateSigned + TNFG only)."""
     counts = {}
     offset = 0
     batch_size = 1000
     
     while True:
         result = sb.table('leads').select('attorney, accidentState') \
-            .gte('dateLockedDown', start_date) \
-            .lt('dateLockedDown', end_date) \
+            .gte('dateSigned', start_date) \
+            .lt('dateSigned', end_date) \
+            .eq('sourceType', 'TNFG') \
             .not_.is_('attorney', 'null') \
             .not_.is_('dateDropped', 'null') \
             .order('idLead') \
