@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T23:00:11",
+  "updated": "2026-06-03T07:00:11",
   "month": "June 2026",
   "data": [
     {
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 4,
+      "gross": 6,
       "voided": 0,
-      "net": 4,
-      "owed": 36,
-      "percent": 10,
+      "net": 6,
+      "owed": 34,
+      "percent": 15,
       "paid": null
     },
     {
@@ -391,11 +391,11 @@
       "firm_name": "Big Ben",
       "state": "Illinois",
       "monthly_goal": 29,
-      "gross": 2,
+      "gross": 4,
       "voided": 0,
-      "net": 2,
-      "owed": 27,
-      "percent": 7,
+      "net": 4,
+      "owed": 25,
+      "percent": 14,
       "paid": true
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 43,
+      "gross": 44,
       "voided": 0,
-      "net": 43,
-      "owed": 82,
-      "percent": 34,
+      "net": 44,
+      "owed": 81,
+      "percent": 35,
       "paid": false
     },
     {
