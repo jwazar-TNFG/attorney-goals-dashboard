@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T21:02:02",
+  "updated": "2026-06-02T23:00:11",
   "month": "June 2026",
   "data": [
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 48,
-      "percent": 4,
+      "net": 3,
+      "owed": 47,
+      "percent": 6,
       "paid": null
     },
     {
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 37,
-      "percent": 8,
+      "net": 4,
+      "owed": 36,
+      "percent": 10,
       "paid": null
     },
     {
@@ -105,11 +105,11 @@
       "firm_name": "Friedland (TPA)",
       "state": "Florida",
       "monthly_goal": 24,
-      "gross": 0,
+      "gross": 2,
       "voided": 0,
-      "net": 0,
-      "owed": 24,
-      "percent": 0,
+      "net": 2,
+      "owed": 22,
+      "percent": 8,
       "paid": null
     },
     {
@@ -138,22 +138,22 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 9,
-      "percent": 10,
+      "net": 2,
+      "owed": 8,
+      "percent": 20,
       "paid": true
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 15,
+      "gross": 19,
       "voided": 0,
-      "net": 15,
-      "owed": 278,
-      "percent": 5,
+      "net": 19,
+      "owed": 274,
+      "percent": 6,
       "paid": true
     },
     {
@@ -578,10 +578,10 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 42,
+      "gross": 43,
       "voided": 0,
-      "net": 42,
-      "owed": 83,
+      "net": 43,
+      "owed": 82,
       "percent": 34,
       "paid": false
     },
