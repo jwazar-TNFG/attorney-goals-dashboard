@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T09:02:01",
+  "updated": "2026-06-04T11:04:01",
   "month": "June 2026",
   "data": [
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 4,
+      "gross": 8,
       "voided": 0,
-      "net": 4,
-      "owed": 36,
-      "percent": 10,
+      "net": 8,
+      "owed": 32,
+      "percent": 20,
       "paid": null
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 93,
-      "percent": 7,
+      "net": 8,
+      "owed": 92,
+      "percent": 8,
       "paid": true
     },
     {
@@ -501,11 +501,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
-      "owed": 42,
-      "percent": 30,
+      "net": 19,
+      "owed": 41,
+      "percent": 32,
       "paid": true
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 67,
+      "gross": 75,
       "voided": 0,
-      "net": 67,
-      "owed": 58,
-      "percent": 54,
+      "net": 75,
+      "owed": 50,
+      "percent": 60,
       "paid": false
     },
     {
