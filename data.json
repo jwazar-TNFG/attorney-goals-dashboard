@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-04T15:01:53",
+  "updated": "2026-06-04T17:01:50",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 47,
+      "gross": 48,
       "voided": 0,
-      "net": 47,
-      "owed": 253,
+      "net": 48,
+      "owed": 252,
       "percent": 16,
       "paid": false
     },
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 54,
-      "percent": 23,
+      "net": 17,
+      "owed": 53,
+      "percent": 24,
       "paid": true
     },
     {
@@ -204,11 +204,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 6,
+      "gross": 8,
       "voided": 0,
-      "net": 6,
+      "net": 8,
       "owed": 0,
-      "percent": 120,
+      "percent": 160,
       "paid": false
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 13,
-      "percent": 13,
+      "net": 3,
+      "owed": 12,
+      "percent": 20,
       "paid": null
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 55,
-      "percent": 8,
+      "net": 6,
+      "owed": 54,
+      "percent": 10,
       "paid": null
     },
     {
@@ -479,11 +479,11 @@
       "firm_name": "Rubenstein (Boston)",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 29,
-      "percent": 3,
+      "net": 2,
+      "owed": 28,
+      "percent": 7,
       "paid": false
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 29,
-      "percent": 17,
+      "net": 7,
+      "owed": 28,
+      "percent": 20,
       "paid": null
     },
     {
