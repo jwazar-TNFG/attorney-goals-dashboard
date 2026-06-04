@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-04T13:02:57",
+  "updated": "2026-06-04T15:01:53",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 44,
+      "gross": 47,
       "voided": 0,
-      "net": 44,
-      "owed": 256,
-      "percent": 15,
+      "net": 47,
+      "owed": 253,
+      "percent": 16,
       "paid": false
     },
     {
@@ -138,11 +138,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 7,
-      "percent": 30,
+      "net": 4,
+      "owed": 6,
+      "percent": 40,
       "paid": true
     },
     {
@@ -204,11 +204,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
+      "net": 6,
       "owed": 0,
-      "percent": 100,
+      "percent": 120,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 18,
+      "gross": 17,
       "voided": 0,
-      "net": 18,
-      "owed": 72,
-      "percent": 20,
+      "net": 17,
+      "owed": 73,
+      "percent": 19,
       "paid": false
     },
     {
@@ -391,11 +391,11 @@
       "firm_name": "Big Ben",
       "state": "Illinois",
       "monthly_goal": 29,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 23,
-      "percent": 21,
+      "net": 7,
+      "owed": 22,
+      "percent": 24,
       "paid": true
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 92,
-      "percent": 8,
+      "net": 9,
+      "owed": 91,
+      "percent": 9,
       "paid": true
     },
     {
@@ -545,11 +545,11 @@
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 3,
-      "percent": 40,
+      "net": 3,
+      "owed": 2,
+      "percent": 60,
       "paid": false
     },
     {
