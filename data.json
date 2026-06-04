@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T23:00:15",
+  "updated": "2026-06-04T07:00:11",
   "month": "June 2026",
   "data": [
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 8,
+      "gross": 10,
       "voided": 0,
-      "net": 8,
-      "owed": 117,
-      "percent": 6,
+      "net": 10,
+      "owed": 115,
+      "percent": 8,
       "paid": true
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 94,
-      "percent": 6,
+      "net": 7,
+      "owed": 93,
+      "percent": 7,
       "paid": true
     },
     {
