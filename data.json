@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T11:01:39",
+  "updated": "2026-06-05T13:02:18",
   "month": "June 2026",
   "data": [
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 30,
-      "percent": 25,
+      "net": 11,
+      "owed": 29,
+      "percent": 28,
       "paid": null
     },
     {
@@ -105,11 +105,11 @@
       "firm_name": "Friedland (TPA)",
       "state": "Florida",
       "monthly_goal": 24,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 21,
-      "percent": 12,
+      "net": 4,
+      "owed": 20,
+      "percent": 17,
       "paid": null
     },
     {
@@ -182,11 +182,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 40,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 37,
-      "percent": 8,
+      "net": 4,
+      "owed": 36,
+      "percent": 10,
       "paid": null
     },
     {
@@ -336,11 +336,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 3,
+      "gross": 6,
       "voided": 0,
-      "net": 3,
-      "owed": 21,
-      "percent": 12,
+      "net": 6,
+      "owed": 18,
+      "percent": 25,
       "paid": null
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 6,
+      "gross": 8,
       "voided": 0,
-      "net": 6,
-      "owed": 54,
-      "percent": 10,
+      "net": 8,
+      "owed": 52,
+      "percent": 13,
       "paid": null
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 30,
-      "percent": 14,
+      "net": 6,
+      "owed": 29,
+      "percent": 17,
       "paid": false
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 99,
+      "gross": 101,
       "voided": 0,
-      "net": 99,
-      "owed": 26,
-      "percent": 79,
+      "net": 101,
+      "owed": 24,
+      "percent": 81,
       "paid": false
     },
     {
