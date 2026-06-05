@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-05T15:02:28",
+  "updated": "2026-06-05T17:03:12",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 63,
+      "gross": 69,
       "voided": 0,
-      "net": 63,
-      "owed": 237,
-      "percent": 21,
+      "net": 69,
+      "owed": 231,
+      "percent": 23,
       "paid": false
     },
     {
@@ -94,11 +94,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 26,
-      "percent": 13,
+      "net": 5,
+      "owed": 25,
+      "percent": 17,
       "paid": false
     },
     {
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 23,
+      "gross": 25,
       "voided": 0,
-      "net": 23,
-      "owed": 47,
-      "percent": 33,
+      "net": 25,
+      "owed": 45,
+      "percent": 36,
       "paid": true
     },
     {
@@ -182,11 +182,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 40,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 35,
-      "percent": 12,
+      "net": 6,
+      "owed": 34,
+      "percent": 15,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 21,
+      "gross": 22,
       "voided": 0,
-      "net": 21,
-      "owed": 69,
-      "percent": 23,
+      "net": 22,
+      "owed": 68,
+      "percent": 24,
       "paid": false
     },
     {
@@ -479,11 +479,11 @@
       "firm_name": "Rubenstein (Boston)",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 25,
-      "percent": 17,
+      "net": 6,
+      "owed": 24,
+      "percent": 20,
       "paid": false
     },
     {
@@ -534,11 +534,11 @@
       "firm_name": "Regal Law",
       "state": "California",
       "monthly_goal": 5,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 4,
-      "percent": 20,
+      "net": 2,
+      "owed": 3,
+      "percent": 40,
       "paid": null
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 105,
+      "gross": 108,
       "voided": 0,
-      "net": 105,
-      "owed": 20,
-      "percent": 84,
+      "net": 108,
+      "owed": 17,
+      "percent": 86,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
-      "owed": 32,
-      "percent": 36,
+      "net": 19,
+      "owed": 31,
+      "percent": 38,
       "paid": false
     }
   ]
