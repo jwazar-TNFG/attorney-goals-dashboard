@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T07:00:12",
+  "updated": "2026-06-05T09:02:28",
   "month": "June 2026",
   "data": [
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 11,
-      "percent": 27,
+      "net": 5,
+      "owed": 10,
+      "percent": 33,
       "paid": null
     },
     {
