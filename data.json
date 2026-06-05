@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-05T13:02:18",
+  "updated": "2026-06-05T15:02:28",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 59,
+      "gross": 63,
       "voided": 0,
-      "net": 59,
-      "owed": 241,
-      "percent": 20,
+      "net": 63,
+      "owed": 237,
+      "percent": 21,
       "paid": false
     },
     {
@@ -138,11 +138,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 7,
+      "gross": 6,
       "voided": 0,
-      "net": 7,
-      "owed": 3,
-      "percent": 70,
+      "net": 6,
+      "owed": 4,
+      "percent": 60,
       "paid": true
     },
     {
@@ -182,11 +182,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 40,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 36,
-      "percent": 10,
+      "net": 5,
+      "owed": 35,
+      "percent": 12,
       "paid": null
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 96,
-      "percent": 13,
+      "net": 15,
+      "owed": 95,
+      "percent": 14,
       "paid": null
     },
     {
@@ -259,11 +259,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 20,
-      "percent": 9,
+      "net": 3,
+      "owed": 19,
+      "percent": 14,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 20,
+      "gross": 21,
       "voided": 0,
-      "net": 20,
-      "owed": 70,
-      "percent": 22,
+      "net": 21,
+      "owed": 69,
+      "percent": 23,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 90,
-      "percent": 10,
+      "net": 11,
+      "owed": 89,
+      "percent": 11,
       "paid": true
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 101,
+      "gross": 105,
       "voided": 0,
-      "net": 101,
-      "owed": 24,
-      "percent": 81,
+      "net": 105,
+      "owed": 20,
+      "percent": 84,
       "paid": false
     },
     {
