@@ -51,59 +51,43 @@ def load_mapping():
     return {'mappings': {}, 'ignored': []}
 
 def get_lockdown_counts(sb, start_date: str, end_date: str) -> dict:
-    """Get signed counts by attorney from leads table (dateSigned + TNFG only)."""
-    counts = {}
-    offset = 0
-    batch_size = 1000
+    """Get signed counts by attorney from leads table (dateSigned + TNFG only). Uses SQL aggregation."""
+    result = execute_sql(f'''
+        SELECT attorney, "accidentState", COUNT(*) as cnt
+        FROM leads
+        WHERE "dateSigned" >= '{start_date}'
+          AND "dateSigned" < '{end_date}'
+          AND "sourceType" = 'TNFG'
+          AND attorney IS NOT NULL
+        GROUP BY attorney, "accidentState"
+    ''', fetch=True)
     
-    while True:
-        result = sb.table('leads').select('attorney, accidentState') \
-            .gte('dateSigned', start_date) \
-            .lt('dateSigned', end_date) \
-            .eq('sourceType', 'TNFG') \
-            .not_.is_('attorney', 'null') \
-            .order('idLead') \
-            .range(offset, offset + batch_size - 1) \
-            .execute()
-        
-        for row in result.data:
-            attorney = row['attorney']
-            state = row.get('accidentState', 'Unknown')
-            key = (attorney, state)
-            counts[key] = counts.get(key, 0) + 1
-        
-        if len(result.data) < batch_size:
-            break
-        offset += batch_size
+    counts = {}
+    for row in result:
+        attorney = row[0]
+        state = row[1] or 'Unknown'
+        counts[(attorney, state)] = row[2]
     
     return counts
 
 def get_voided_counts(sb, start_date: str, end_date: str) -> dict:
-    """Get voided/dropped counts by attorney (dateSigned + TNFG only)."""
-    counts = {}
-    offset = 0
-    batch_size = 1000
+    """Get voided/dropped counts by attorney (dateSigned + TNFG only). Uses SQL aggregation."""
+    result = execute_sql(f'''
+        SELECT attorney, "accidentState", COUNT(*) as cnt
+        FROM leads
+        WHERE "dateSigned" >= '{start_date}'
+          AND "dateSigned" < '{end_date}'
+          AND "sourceType" = 'TNFG'
+          AND attorney IS NOT NULL
+          AND "dateDropped" IS NOT NULL
+        GROUP BY attorney, "accidentState"
+    ''', fetch=True)
     
-    while True:
-        result = sb.table('leads').select('attorney, accidentState') \
-            .gte('dateSigned', start_date) \
-            .lt('dateSigned', end_date) \
-            .eq('sourceType', 'TNFG') \
-            .not_.is_('attorney', 'null') \
-            .not_.is_('dateDropped', 'null') \
-            .order('idLead') \
-            .range(offset, offset + batch_size - 1) \
-            .execute()
-        
-        for row in result.data:
-            attorney = row['attorney']
-            state = row.get('accidentState', 'Unknown')
-            key = (attorney, state)
-            counts[key] = counts.get(key, 0) + 1
-        
-        if len(result.data) < batch_size:
-            break
-        offset += batch_size
+    counts = {}
+    for row in result:
+        attorney = row[0]
+        state = row[1] or 'Unknown'
+        counts[(attorney, state)] = row[2]
     
     return counts
 

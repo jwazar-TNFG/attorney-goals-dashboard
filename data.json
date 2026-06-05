@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-04T21:02:07",
+  "updated": "2026-06-04T23:00:46",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 57,
+      "gross": 58,
       "voided": 0,
-      "net": 57,
-      "owed": 243,
+      "net": 58,
+      "owed": 242,
       "percent": 19,
       "paid": false
     },
@@ -83,11 +83,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 26,
-      "percent": 13,
+      "net": 5,
+      "owed": 25,
+      "percent": 17,
       "paid": null
     },
     {
@@ -138,11 +138,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 5,
-      "percent": 50,
+      "net": 6,
+      "owed": 4,
+      "percent": 60,
       "paid": true
     },
     {
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 22,
+      "gross": 23,
       "voided": 0,
-      "net": 22,
-      "owed": 48,
-      "percent": 31,
+      "net": 23,
+      "owed": 47,
+      "percent": 33,
       "paid": true
     },
     {
@@ -270,11 +270,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
+      "net": 6,
       "owed": 0,
-      "percent": 100,
+      "percent": 120,
       "paid": false
     },
     {
@@ -567,22 +567,22 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 1,
+      "gross": 3,
       "voided": 0,
-      "net": 1,
-      "owed": 4,
-      "percent": 20,
+      "net": 3,
+      "owed": 2,
+      "percent": 60,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 97,
+      "gross": 99,
       "voided": 0,
-      "net": 97,
-      "owed": 28,
-      "percent": 78,
+      "net": 99,
+      "owed": 26,
+      "percent": 79,
       "paid": false
     },
     {
