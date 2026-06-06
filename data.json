@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T23:00:14",
+  "updated": "2026-06-06T07:00:20",
   "month": "June 2026",
   "data": [
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 109,
-      "percent": 13,
+      "net": 17,
+      "owed": 108,
+      "percent": 14,
       "paid": true
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 22,
+      "gross": 23,
       "voided": 0,
-      "net": 22,
-      "owed": 28,
-      "percent": 44,
+      "net": 23,
+      "owed": 27,
+      "percent": 46,
       "paid": false
     }
   ]
