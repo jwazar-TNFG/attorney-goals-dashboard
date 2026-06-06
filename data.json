@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T11:01:47",
+  "updated": "2026-06-06T13:01:25",
   "month": "June 2026",
   "data": [
     {
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 32,
-      "percent": 20,
+      "net": 9,
+      "owed": 31,
+      "percent": 22,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 23,
+      "gross": 25,
       "voided": 0,
-      "net": 23,
-      "owed": 67,
-      "percent": 26,
+      "net": 25,
+      "owed": 65,
+      "percent": 28,
       "paid": false
     },
     {
@@ -303,10 +303,10 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 108,
+      "net": 18,
+      "owed": 107,
       "percent": 14,
       "paid": true
     },
@@ -567,22 +567,22 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60,
+      "net": 4,
+      "owed": 1,
+      "percent": 80,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 124,
+      "gross": 125,
       "voided": 0,
-      "net": 124,
-      "owed": 1,
-      "percent": 99,
+      "net": 125,
+      "owed": 0,
+      "percent": 100,
       "paid": false
     },
     {
