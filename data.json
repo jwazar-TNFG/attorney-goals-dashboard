@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T19:05:31",
+  "updated": "2026-06-05T21:01:31",
   "month": "June 2026",
   "data": [
     {
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 44,
-      "percent": 37,
+      "net": 27,
+      "owed": 43,
+      "percent": 39,
       "paid": true
     },
     {
@@ -259,11 +259,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 19,
-      "percent": 14,
+      "net": 4,
+      "owed": 18,
+      "percent": 18,
       "paid": null
     },
     {
@@ -479,11 +479,11 @@
       "firm_name": "Rubenstein (Boston)",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 24,
-      "percent": 20,
+      "net": 7,
+      "owed": 23,
+      "percent": 23,
       "paid": false
     },
     {
@@ -523,22 +523,22 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 21,
-      "percent": 40,
+      "net": 15,
+      "owed": 20,
+      "percent": 43,
       "paid": null
     },
     {
       "firm_name": "Regal Law",
       "state": "California",
       "monthly_goal": 5,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 3,
-      "percent": 40,
+      "net": 3,
+      "owed": 2,
+      "percent": 60,
       "paid": null
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 111,
+      "gross": 116,
       "voided": 0,
-      "net": 111,
-      "owed": 14,
-      "percent": 89,
+      "net": 116,
+      "owed": 9,
+      "percent": 93,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 20,
+      "gross": 22,
       "voided": 0,
-      "net": 20,
-      "owed": 30,
-      "percent": 40,
+      "net": 22,
+      "owed": 28,
+      "percent": 44,
       "paid": false
     }
   ]
