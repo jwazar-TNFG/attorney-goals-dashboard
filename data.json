@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T13:01:25",
+  "updated": "2026-06-06T15:01:28",
   "month": "June 2026",
   "data": [
     {
@@ -237,11 +237,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 48,
-      "percent": 4,
+      "net": 3,
+      "owed": 47,
+      "percent": 6,
       "paid": false
     },
     {
@@ -347,22 +347,22 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 18,
-      "percent": 10,
+      "net": 3,
+      "owed": 17,
+      "percent": 15,
       "paid": null
     },
     {
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 5,
+      "gross": 7,
       "voided": 0,
-      "net": 5,
-      "owed": 10,
-      "percent": 33,
+      "net": 7,
+      "owed": 8,
+      "percent": 47,
       "paid": null
     },
     {
@@ -424,11 +424,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 10,
-      "percent": 33,
+      "net": 6,
+      "owed": 9,
+      "percent": 40,
       "paid": null
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 125,
+      "gross": 128,
       "voided": 0,
-      "net": 125,
+      "net": 128,
       "owed": 0,
-      "percent": 100,
+      "percent": 102,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 26,
-      "percent": 48,
+      "net": 25,
+      "owed": 25,
+      "percent": 50,
       "paid": false
     }
   ]
