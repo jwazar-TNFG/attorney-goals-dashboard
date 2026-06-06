@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-06T09:01:43",
+  "updated": "2026-06-06T11:01:47",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 75,
+      "gross": 76,
       "voided": 0,
-      "net": 75,
-      "owed": 225,
+      "net": 76,
+      "owed": 224,
       "percent": 25,
       "paid": false
     },
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 29,
-      "percent": 17,
+      "net": 7,
+      "owed": 28,
+      "percent": 20,
       "paid": false
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 122,
+      "gross": 124,
       "voided": 0,
-      "net": 122,
-      "owed": 3,
-      "percent": 98,
+      "net": 124,
+      "owed": 1,
+      "percent": 99,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
-      "owed": 27,
-      "percent": 46,
+      "net": 24,
+      "owed": 26,
+      "percent": 48,
       "paid": false
     }
   ]
