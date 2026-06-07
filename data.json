@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T09:01:47",
+  "updated": "2026-06-07T11:01:39",
   "month": "June 2026",
   "data": [
     {
@@ -138,11 +138,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 8,
+      "gross": 10,
       "voided": 0,
-      "net": 8,
-      "owed": 2,
-      "percent": 80,
+      "net": 10,
+      "owed": 0,
+      "percent": 100,
       "paid": true
     },
     {
