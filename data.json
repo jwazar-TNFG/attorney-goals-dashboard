@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T13:01:50",
+  "updated": "2026-06-07T15:01:44",
   "month": "June 2026",
   "data": [
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 46,
-      "percent": 8,
+      "net": 5,
+      "owed": 45,
+      "percent": 10,
       "paid": null
     },
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 32,
+      "gross": 33,
       "voided": 0,
-      "net": 32,
-      "owed": 261,
+      "net": 33,
+      "owed": 260,
       "percent": 11,
       "paid": true
     },
@@ -171,11 +171,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 28,
-      "percent": 7,
+      "net": 3,
+      "owed": 27,
+      "percent": 10,
       "paid": null
     },
     {
@@ -424,11 +424,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 9,
-      "percent": 40,
+      "net": 7,
+      "owed": 8,
+      "percent": 47,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 136,
+      "gross": 139,
       "voided": 0,
-      "net": 136,
+      "net": 139,
       "owed": 0,
-      "percent": 109,
+      "percent": 111,
       "paid": false
     },
     {
