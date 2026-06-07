@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T23:00:12",
+  "updated": "2026-06-07T07:00:12",
   "month": "June 2026",
   "data": [
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 31,
+      "gross": 32,
       "voided": 0,
-      "net": 31,
-      "owed": 262,
+      "net": 32,
+      "owed": 261,
       "percent": 11,
       "paid": true
     },
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 135,
+      "gross": 136,
       "voided": 0,
-      "net": 135,
+      "net": 136,
       "owed": 0,
-      "percent": 108,
+      "percent": 109,
       "paid": false
     },
     {
