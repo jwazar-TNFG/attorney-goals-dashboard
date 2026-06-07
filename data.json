@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-07T17:01:39",
+  "updated": "2026-06-07T19:02:58",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 79,
+      "gross": 80,
       "voided": 0,
-      "net": 79,
-      "owed": 221,
-      "percent": 26,
+      "net": 80,
+      "owed": 220,
+      "percent": 27,
       "paid": false
     },
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 45,
-      "percent": 10,
+      "net": 6,
+      "owed": 44,
+      "percent": 12,
       "paid": null
     },
     {
@@ -138,11 +138,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 10,
+      "gross": 12,
       "voided": 0,
-      "net": 10,
+      "net": 12,
       "owed": 0,
-      "percent": 100,
+      "percent": 120,
       "paid": true
     },
     {
@@ -248,11 +248,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 13,
+      "gross": 17,
       "voided": 0,
-      "net": 13,
-      "owed": 37,
-      "percent": 26,
+      "net": 17,
+      "owed": 33,
+      "percent": 34,
       "paid": false
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 35,
+      "gross": 41,
       "voided": 0,
-      "net": 35,
-      "owed": 55,
-      "percent": 39,
+      "net": 41,
+      "owed": 49,
+      "percent": 46,
       "paid": false
     },
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 101,
-      "percent": 19,
+      "net": 25,
+      "owed": 100,
+      "percent": 20,
       "paid": true
     },
     {
@@ -446,11 +446,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 26,
-      "percent": 26,
+      "net": 10,
+      "owed": 25,
+      "percent": 29,
       "paid": false
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 18,
-      "percent": 49,
+      "net": 18,
+      "owed": 17,
+      "percent": 51,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 143,
+      "gross": 149,
       "voided": 0,
-      "net": 143,
+      "net": 149,
       "owed": 0,
-      "percent": 114,
+      "percent": 119,
       "paid": false
     },
     {
