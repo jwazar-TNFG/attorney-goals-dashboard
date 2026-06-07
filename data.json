@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T21:01:33",
+  "updated": "2026-06-06T23:00:12",
   "month": "June 2026",
   "data": [
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 131,
+      "gross": 135,
       "voided": 0,
-      "net": 131,
+      "net": 135,
       "owed": 0,
-      "percent": 105,
+      "percent": 108,
       "paid": false
     },
     {
