@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T21:01:45",
+  "updated": "2026-06-07T23:00:13",
   "month": "June 2026",
   "data": [
     {
@@ -149,22 +149,22 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 33,
+      "gross": 34,
       "voided": 0,
-      "net": 33,
-      "owed": 260,
-      "percent": 11,
+      "net": 34,
+      "owed": 259,
+      "percent": 12,
       "paid": true
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 35,
+      "gross": 36,
       "voided": 0,
-      "net": 35,
-      "owed": 35,
-      "percent": 50,
+      "net": 36,
+      "owed": 34,
+      "percent": 51,
       "paid": true
     },
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 25,
+      "gross": 29,
       "voided": 0,
-      "net": 25,
-      "owed": 100,
-      "percent": 20,
+      "net": 29,
+      "owed": 96,
+      "percent": 23,
       "paid": true
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 152,
+      "gross": 160,
       "voided": 0,
-      "net": 152,
+      "net": 160,
       "owed": 0,
-      "percent": 122,
+      "percent": 128,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 29,
+      "gross": 35,
       "voided": 0,
-      "net": 29,
-      "owed": 21,
-      "percent": 58,
+      "net": 35,
+      "owed": 15,
+      "percent": 70,
       "paid": false
     }
   ]
