@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T09:02:20",
+  "updated": "2026-06-08T11:03:21",
   "month": "June 2026",
   "data": [
     {
@@ -303,11 +303,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 29,
+      "gross": 30,
       "voided": 0,
-      "net": 29,
-      "owed": 96,
-      "percent": 23,
+      "net": 30,
+      "owed": 95,
+      "percent": 24,
       "paid": true
     },
     {
