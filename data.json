@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-09T17:02:35",
+  "updated": "2026-06-09T19:01:51",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 110,
+      "gross": 114,
       "voided": 0,
-      "net": 110,
-      "owed": 190,
-      "percent": 37,
+      "net": 114,
+      "owed": 186,
+      "percent": 38,
       "paid": false
     },
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 17,
+      "gross": 19,
       "voided": 0,
-      "net": 17,
-      "owed": 23,
-      "percent": 42,
+      "net": 19,
+      "owed": 21,
+      "percent": 48,
       "paid": null
     },
     {
@@ -248,11 +248,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 21,
+      "gross": 22,
       "voided": 0,
-      "net": 21,
-      "owed": 29,
-      "percent": 42,
+      "net": 22,
+      "owed": 28,
+      "percent": 44,
       "paid": false
     },
     {
@@ -369,11 +369,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 61,
-      "percent": 13,
+      "net": 10,
+      "owed": 60,
+      "percent": 14,
       "paid": false
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI",
       "monthly_goal": 45,
-      "gross": 12,
+      "gross": 14,
       "voided": 0,
-      "net": 12,
-      "owed": 33,
-      "percent": 27,
+      "net": 14,
+      "owed": 31,
+      "percent": 31,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 187,
+      "gross": 191,
       "voided": 0,
-      "net": 187,
+      "net": 191,
       "owed": 0,
-      "percent": 150,
+      "percent": 153,
       "paid": false
     },
     {
