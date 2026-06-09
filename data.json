@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-09T15:02:43",
+  "updated": "2026-06-09T17:02:35",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 109,
+      "gross": 110,
       "voided": 0,
-      "net": 109,
-      "owed": 191,
-      "percent": 36,
+      "net": 110,
+      "owed": 190,
+      "percent": 37,
       "paid": false
     },
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 37,
+      "gross": 38,
       "voided": 0,
-      "net": 37,
-      "owed": 256,
+      "net": 38,
+      "owed": 255,
       "percent": 13,
       "paid": true
     },
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 25,
+      "gross": 26,
       "voided": 0,
-      "net": 25,
-      "owed": 85,
-      "percent": 23,
+      "net": 26,
+      "owed": 84,
+      "percent": 24,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 52,
+      "gross": 53,
       "voided": 0,
-      "net": 52,
-      "owed": 38,
-      "percent": 58,
+      "net": 53,
+      "owed": 37,
+      "percent": 59,
       "paid": false
     },
     {
@@ -369,11 +369,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 62,
-      "percent": 11,
+      "net": 9,
+      "owed": 61,
+      "percent": 13,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
-      "owed": 77,
-      "percent": 23,
+      "net": 24,
+      "owed": 76,
+      "percent": 24,
       "paid": true
     },
     {
@@ -512,11 +512,11 @@
       "firm_name": "Schwed Law",
       "state": "Arkansas",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 2,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0,
+      "net": 2,
+      "owed": 3,
+      "percent": 40,
       "paid": true
     },
     {
@@ -545,11 +545,11 @@
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
+      "net": 7,
       "owed": 0,
-      "percent": 120,
+      "percent": 140,
       "paid": false
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 46,
+      "gross": 47,
       "voided": 0,
-      "net": 46,
-      "owed": 4,
-      "percent": 92,
+      "net": 47,
+      "owed": 3,
+      "percent": 94,
       "paid": false
     }
   ]
