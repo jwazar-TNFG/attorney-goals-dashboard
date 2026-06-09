@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-08T21:03:30",
+  "updated": "2026-06-08T23:00:29",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 93,
+      "gross": 97,
       "voided": 0,
-      "net": 93,
-      "owed": 207,
-      "percent": 31,
+      "net": 97,
+      "owed": 203,
+      "percent": 32,
       "paid": false
     },
     {
@@ -160,11 +160,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 43,
+      "gross": 44,
       "voided": 0,
-      "net": 43,
-      "owed": 27,
-      "percent": 61,
+      "net": 44,
+      "owed": 26,
+      "percent": 63,
       "paid": true
     },
     {
@@ -237,11 +237,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 8,
+      "gross": 10,
       "voided": 0,
-      "net": 8,
-      "owed": 42,
-      "percent": 16,
+      "net": 10,
+      "owed": 40,
+      "percent": 20,
       "paid": false
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 174,
+      "gross": 177,
       "voided": 0,
-      "net": 174,
+      "net": 177,
       "owed": 0,
-      "percent": 139,
+      "percent": 142,
       "paid": false
     },
     {
