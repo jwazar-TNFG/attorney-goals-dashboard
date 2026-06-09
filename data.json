@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-09T11:11:01",
+  "updated": "2026-06-09T13:02:59",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 97,
+      "gross": 104,
       "voided": 0,
-      "net": 97,
-      "owed": 203,
-      "percent": 32,
+      "net": 104,
+      "owed": 196,
+      "percent": 35,
       "paid": false
     },
     {
@@ -94,11 +94,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 6,
+      "gross": 9,
       "voided": 0,
-      "net": 6,
-      "owed": 24,
-      "percent": 20,
+      "net": 9,
+      "owed": 21,
+      "percent": 30,
       "paid": false
     },
     {
@@ -215,11 +215,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0,
+      "net": 1,
+      "owed": 4,
+      "percent": 20,
       "paid": null
     },
     {
@@ -369,11 +369,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 5,
+      "gross": 7,
       "voided": 0,
-      "net": 5,
-      "owed": 65,
-      "percent": 7,
+      "net": 7,
+      "owed": 63,
+      "percent": 10,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 20,
+      "gross": 22,
       "voided": 0,
-      "net": 20,
-      "owed": 80,
-      "percent": 20,
+      "net": 22,
+      "owed": 78,
+      "percent": 22,
       "paid": true
     },
     {
@@ -589,11 +589,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 45,
+      "gross": 46,
       "voided": 0,
-      "net": 45,
-      "owed": 5,
-      "percent": 90,
+      "net": 46,
+      "owed": 4,
+      "percent": 92,
       "paid": false
     }
   ]
