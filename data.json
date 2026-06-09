@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-08T19:03:38",
+  "updated": "2026-06-08T21:03:30",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 92,
+      "gross": 93,
       "voided": 0,
-      "net": 92,
-      "owed": 208,
+      "net": 93,
+      "owed": 207,
       "percent": 31,
       "paid": false
     },
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 34,
+      "gross": 35,
       "voided": 0,
-      "net": 34,
-      "owed": 259,
+      "net": 35,
+      "owed": 258,
       "percent": 12,
       "paid": true
     },
@@ -435,11 +435,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 55,
-      "percent": 8,
+      "net": 6,
+      "owed": 54,
+      "percent": 10,
       "paid": null
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 171,
+      "gross": 174,
       "voided": 0,
-      "net": 171,
+      "net": 174,
       "owed": 0,
-      "percent": 137,
+      "percent": 139,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 40,
+      "gross": 41,
       "voided": 0,
-      "net": 40,
-      "owed": 10,
-      "percent": 80,
+      "net": 41,
+      "owed": 9,
+      "percent": 82,
       "paid": false
     }
   ]
