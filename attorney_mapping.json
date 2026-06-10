@@ -141,8 +141,11 @@
     "regal law firm, p.c. (california)": "Regal Law",
     "ask gary": "ASK GARY",
     "newman injury law (florida)": "Newman Injury Law",
-    "price benowitz llp (virginia)": "Scarfone",
-    "price benowitz llp (maryland)": "Scarfone"
+    "price benowitz llp (virginia)": "Price Benowitz",
+    "price benowitz llp (maryland)": "Price Benowitz",
+    "price benowitz (virginia)": "Price Benowitz",
+    "price benowitz (maryland)": "Price Benowitz",
+    "price benowitz": "Price Benowitz"
   },
   "state_overrides": {
     "_comment": "For entries where DB state differs from goal state",
