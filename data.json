@@ -554,7 +554,7 @@
     },
     {
       "firm_name": "Founders Law",
-      "state": "MI/MA/WA/VI",
+      "state": "MI/MA/WA/VI/DC",
       "monthly_goal": 45,
       "gross": 17,
       "voided": 0,
@@ -565,7 +565,7 @@
     },
     {
       "firm_name": "Scarfone",
-      "state": "MI/MA/WA/VI",
+      "state": "MI/MA/WA/VI/DC",
       "monthly_goal": 5,
       "gross": 4,
       "voided": 0,
@@ -598,7 +598,7 @@
     },
     {
       "firm_name": "Price Benowitz",
-      "state": "MI/MA/WA/VI",
+      "state": "MI/MA/WA/VI/DC",
       "monthly_goal": 30,
       "gross": 2,
       "voided": 0,
