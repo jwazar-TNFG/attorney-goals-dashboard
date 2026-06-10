@@ -116,6 +116,7 @@ def map_attorney(db_name: str, db_state: str, mapping: dict, goals: list) -> tup
         'washington': 'MI/MA/WA/VI',
         'virginia': 'MI/MA/WA/VI',
         'maryland': 'MI/MA/WA/VI',
+        'district of columbia': 'MI/MA/WA/VI',
     }
     
     # Special state overrides (when DB state is wrong)
