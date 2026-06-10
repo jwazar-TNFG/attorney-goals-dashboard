@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-09T19:01:51",
+  "updated": "2026-06-09T21:02:48",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 114,
+      "gross": 122,
       "voided": 0,
-      "net": 114,
-      "owed": 186,
-      "percent": 38,
+      "net": 122,
+      "owed": 178,
+      "percent": 41,
       "paid": false
     },
     {
@@ -39,22 +39,22 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 21,
-      "percent": 48,
+      "net": 20,
+      "owed": 20,
+      "percent": 50,
       "paid": null
     },
     {
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 23,
-      "percent": 42,
+      "net": 18,
+      "owed": 22,
+      "percent": 45,
       "paid": null
     },
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 26,
+      "gross": 28,
       "voided": 0,
-      "net": 26,
-      "owed": 84,
-      "percent": 24,
+      "net": 28,
+      "owed": 82,
+      "percent": 25,
       "paid": null
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 53,
+      "gross": 54,
       "voided": 0,
-      "net": 53,
-      "owed": 37,
-      "percent": 59,
+      "net": 54,
+      "owed": 36,
+      "percent": 60,
       "paid": false
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 76,
-      "percent": 24,
+      "net": 25,
+      "owed": 75,
+      "percent": 25,
       "paid": true
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 191,
+      "gross": 195,
       "voided": 0,
-      "net": 191,
+      "net": 195,
       "owed": 0,
-      "percent": 153,
+      "percent": 156,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 47,
+      "gross": 49,
       "voided": 0,
-      "net": 47,
-      "owed": 3,
-      "percent": 94,
+      "net": 49,
+      "owed": 1,
+      "percent": 98,
       "paid": false
     }
   ]
