@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-10T13:02:12",
+  "updated": "2026-06-10T15:02:07",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 126,
+      "gross": 128,
       "voided": 0,
-      "net": 126,
-      "owed": 174,
-      "percent": 42,
+      "net": 128,
+      "owed": 172,
+      "percent": 43,
       "paid": false
     },
     {
@@ -39,11 +39,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 16,
-      "percent": 60,
+      "net": 25,
+      "owed": 15,
+      "percent": 62,
       "paid": null
     },
     {
@@ -237,11 +237,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 40,
-      "percent": 20,
+      "net": 11,
+      "owed": 39,
+      "percent": 22,
       "paid": false
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 99,
-      "percent": 1,
+      "net": 2,
+      "owed": 98,
+      "percent": 2,
       "paid": null
     },
     {
@@ -435,11 +435,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 53,
-      "percent": 12,
+      "net": 8,
+      "owed": 52,
+      "percent": 13,
       "paid": null
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 26,
+      "gross": 32,
       "voided": 0,
-      "net": 26,
-      "owed": 74,
-      "percent": 26,
+      "net": 32,
+      "owed": 68,
+      "percent": 32,
       "paid": true
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI/DC",
       "monthly_goal": 45,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 28,
-      "percent": 38,
+      "net": 18,
+      "owed": 27,
+      "percent": 40,
       "paid": null
     },
     {
@@ -578,22 +578,22 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 211,
+      "gross": 214,
       "voided": 0,
-      "net": 211,
+      "net": 214,
       "owed": 0,
-      "percent": 169,
+      "percent": 171,
       "paid": false
     },
     {
       "firm_name": "Kanner & Pintaluga",
       "state": "Illinois",
       "monthly_goal": 50,
-      "gross": 51,
+      "gross": 55,
       "voided": 0,
-      "net": 51,
+      "net": 55,
       "owed": 0,
-      "percent": 102,
+      "percent": 110,
       "paid": false
     },
     {
