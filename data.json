@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-10T23:00:21",
+  "updated": "2026-06-11T09:02:38",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 137,
+      "gross": 136,
       "voided": 0,
-      "net": 137,
-      "owed": 163,
-      "percent": 46,
+      "net": 136,
+      "owed": 164,
+      "percent": 45,
       "paid": false
     },
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 33,
-      "percent": 34,
+      "net": 18,
+      "owed": 32,
+      "percent": 36,
       "paid": null
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 94,
-      "percent": 6,
+      "net": 7,
+      "owed": 93,
+      "percent": 7,
       "paid": null
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 6,
+      "gross": 8,
       "voided": 0,
-      "net": 6,
-      "owed": 40,
-      "percent": 13,
+      "net": 8,
+      "owed": 38,
+      "percent": 17,
       "paid": null
     },
     {
@@ -501,11 +501,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 36,
-      "percent": 40,
+      "net": 25,
+      "owed": 35,
+      "percent": 42,
       "paid": true
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 218,
+      "gross": 224,
       "voided": 0,
-      "net": 218,
+      "net": 224,
       "owed": 0,
-      "percent": 174,
+      "percent": 179,
       "paid": false
     },
     {
