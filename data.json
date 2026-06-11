@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-11T17:05:39",
+  "updated": "2026-06-11T19:03:14",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 139,
+      "gross": 142,
       "voided": 0,
-      "net": 139,
-      "owed": 161,
-      "percent": 46,
+      "net": 142,
+      "owed": 158,
+      "percent": 47,
       "paid": false
     },
     {
@@ -149,11 +149,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 51,
+      "gross": 61,
       "voided": 0,
-      "net": 51,
-      "owed": 242,
-      "percent": 17,
+      "net": 61,
+      "owed": 232,
+      "percent": 21,
       "paid": true
     },
     {
@@ -281,11 +281,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 62,
+      "gross": 63,
       "voided": 0,
-      "net": 62,
-      "owed": 28,
-      "percent": 69,
+      "net": 63,
+      "owed": 27,
+      "percent": 70,
       "paid": false
     },
     {
@@ -314,11 +314,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 93,
-      "percent": 7,
+      "net": 8,
+      "owed": 92,
+      "percent": 8,
       "paid": null
     },
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 41,
-      "percent": 32,
+      "net": 20,
+      "owed": 40,
+      "percent": 33,
       "paid": null
     },
     {
@@ -435,11 +435,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 13,
+      "gross": 15,
       "voided": 0,
-      "net": 13,
-      "owed": 47,
-      "percent": 22,
+      "net": 15,
+      "owed": 45,
+      "percent": 25,
       "paid": null
     },
     {
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 44,
+      "gross": 46,
       "voided": 0,
-      "net": 44,
-      "owed": 56,
-      "percent": 44,
+      "net": 46,
+      "owed": 54,
+      "percent": 46,
       "paid": true
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 229,
+      "gross": 234,
       "voided": 0,
-      "net": 229,
+      "net": 234,
       "owed": 0,
-      "percent": 183,
+      "percent": 187,
       "paid": false
     },
     {
