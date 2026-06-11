@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T09:02:38",
+  "updated": "2026-06-11T11:03:00",
   "month": "June 2026",
   "data": [
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
-      "owed": 32,
-      "percent": 36,
+      "net": 19,
+      "owed": 31,
+      "percent": 38,
       "paid": null
     },
     {
@@ -149,10 +149,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 50,
+      "gross": 51,
       "voided": 0,
-      "net": 50,
-      "owed": 243,
+      "net": 51,
+      "owed": 242,
       "percent": 17,
       "paid": true
     },
@@ -468,11 +468,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 37,
+      "gross": 38,
       "voided": 0,
-      "net": 37,
-      "owed": 63,
-      "percent": 37,
+      "net": 38,
+      "owed": 62,
+      "percent": 38,
       "paid": true
     },
     {
@@ -501,11 +501,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 25,
+      "gross": 27,
       "voided": 0,
-      "net": 25,
-      "owed": 35,
-      "percent": 42,
+      "net": 27,
+      "owed": 33,
+      "percent": 45,
       "paid": true
     },
     {
