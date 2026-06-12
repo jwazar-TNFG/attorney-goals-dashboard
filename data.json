@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T23:00:28",
+  "updated": "2026-06-12T07:00:32",
   "month": "June 2026",
   "data": [
     {
@@ -380,11 +380,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 20,
+      "gross": 21,
       "voided": 0,
-      "net": 20,
-      "owed": 40,
-      "percent": 33,
+      "net": 21,
+      "owed": 39,
+      "percent": 35,
       "paid": null
     },
     {
@@ -534,11 +534,11 @@
       "firm_name": "Regal Law",
       "state": "California",
       "monthly_goal": 5,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
+      "net": 6,
       "owed": 0,
-      "percent": 100,
+      "percent": 120,
       "paid": null
     },
     {
