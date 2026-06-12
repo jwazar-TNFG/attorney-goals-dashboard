@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T19:03:14",
+  "updated": "2026-06-11T21:02:17",
   "month": "June 2026",
   "data": [
     {
@@ -28,11 +28,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 21,
+      "gross": 23,
       "voided": 0,
-      "net": 21,
-      "owed": 29,
-      "percent": 42,
+      "net": 23,
+      "owed": 27,
+      "percent": 46,
       "paid": null
     },
     {
@@ -50,11 +50,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 21,
+      "gross": 23,
       "voided": 0,
-      "net": 21,
-      "owed": 19,
-      "percent": 52,
+      "net": 23,
+      "owed": 17,
+      "percent": 57,
       "paid": null
     },
     {
@@ -83,11 +83,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 22,
-      "percent": 27,
+      "net": 9,
+      "owed": 21,
+      "percent": 30,
       "paid": null
     },
     {
@@ -336,11 +336,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 8,
+      "gross": 12,
       "voided": 0,
-      "net": 8,
-      "owed": 16,
-      "percent": 33,
+      "net": 12,
+      "owed": 12,
+      "percent": 50,
       "paid": null
     },
     {
@@ -358,11 +358,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 7,
-      "percent": 53,
+      "net": 9,
+      "owed": 6,
+      "percent": 60,
       "paid": null
     },
     {
@@ -402,11 +402,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 10,
+      "gross": 14,
       "voided": 0,
-      "net": 10,
-      "owed": 36,
-      "percent": 22,
+      "net": 14,
+      "owed": 32,
+      "percent": 30,
       "paid": null
     },
     {
@@ -523,11 +523,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 9,
-      "percent": 74,
+      "net": 27,
+      "owed": 8,
+      "percent": 77,
       "paid": null
     },
     {
@@ -556,11 +556,11 @@
       "firm_name": "Founders Law",
       "state": "MI/MA/WA/VI/DC",
       "monthly_goal": 45,
-      "gross": 22,
+      "gross": 23,
       "voided": 0,
-      "net": 22,
-      "owed": 23,
-      "percent": 49,
+      "net": 23,
+      "owed": 22,
+      "percent": 51,
       "paid": null
     },
     {
@@ -578,11 +578,11 @@
       "firm_name": "Kanner & Pintaluga",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 234,
+      "gross": 236,
       "voided": 0,
-      "net": 234,
+      "net": 236,
       "owed": 0,
-      "percent": 187,
+      "percent": 189,
       "paid": false
     },
     {
@@ -600,11 +600,11 @@
       "firm_name": "Price Benowitz",
       "state": "MI/MA/WA/VI/DC",
       "monthly_goal": 30,
-      "gross": 5,
+      "gross": 7,
       "voided": 0,
-      "net": 5,
-      "owed": 25,
-      "percent": 17,
+      "net": 7,
+      "owed": 23,
+      "percent": 23,
       "paid": null
     }
   ]
