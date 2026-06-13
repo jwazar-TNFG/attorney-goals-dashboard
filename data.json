@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T09:01:44",
+  "updated": "2026-06-13T11:01:47",
   "month": "June 2026",
   "data": [
     {
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 74,
+      "gross": 75,
       "voided": 0,
-      "net": 74,
-      "owed": 16,
-      "percent": 82
+      "net": 75,
+      "owed": 15,
+      "percent": 83
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 84,
-      "percent": 16
+      "net": 17,
+      "owed": 83,
+      "percent": 17
     },
     {
       "firm_name": "The Founders Law",
