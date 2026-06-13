@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T21:02:25",
+  "updated": "2026-06-12T23:00:22",
   "month": "June 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 70,
+      "gross": 71,
       "voided": 0,
-      "net": 70,
-      "owed": 223,
+      "net": 71,
+      "owed": 222,
       "percent": 24
     },
     {
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 16,
+      "gross": 19,
       "voided": 0,
-      "net": 16,
-      "owed": 34,
-      "percent": 32
+      "net": 19,
+      "owed": 31,
+      "percent": 38
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 73,
+      "gross": 74,
       "voided": 0,
-      "net": 73,
-      "owed": 17,
-      "percent": 81
+      "net": 74,
+      "owed": 16,
+      "percent": 82
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 86,
-      "percent": 14
+      "net": 15,
+      "owed": 85,
+      "percent": 15
     },
     {
       "firm_name": "The Founders Law",
@@ -346,11 +346,11 @@
       "firm_name": "Big Ben",
       "state": "Illinois",
       "monthly_goal": 29,
-      "gross": 10,
+      "gross": 12,
       "voided": 0,
-      "net": 10,
-      "owed": 19,
-      "percent": 34
+      "net": 12,
+      "owed": 17,
+      "percent": 41
     },
     {
       "firm_name": "The Founders Law",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 50,
+      "gross": 53,
       "voided": 0,
-      "net": 50,
-      "owed": 50,
-      "percent": 50
+      "net": 53,
+      "owed": 47,
+      "percent": 53
     },
     {
       "firm_name": "Robert Rubenstein",
