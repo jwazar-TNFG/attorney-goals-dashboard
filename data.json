@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-14T15:02:06",
+  "updated": "2026-06-14T17:01:43",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 155,
+      "gross": 156,
       "voided": 0,
-      "net": 155,
-      "owed": 145,
+      "net": 156,
+      "owed": 144,
       "percent": 52
     },
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 37,
+      "gross": 40,
       "voided": 0,
-      "net": 37,
-      "owed": 13,
-      "percent": 74
+      "net": 40,
+      "owed": 10,
+      "percent": 80
     },
     {
       "firm_name": "SGF",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 14,
-      "percent": 65
+      "net": 27,
+      "owed": 13,
+      "percent": 68
     },
     {
       "firm_name": "Steve Kerman",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 48,
+      "gross": 49,
       "voided": 0,
-      "net": 48,
-      "owed": 62,
-      "percent": 44
+      "net": 49,
+      "owed": 61,
+      "percent": 45
     },
     {
       "firm_name": "Friedland",
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 25,
+      "gross": 28,
       "voided": 0,
-      "net": 25,
-      "owed": 25,
-      "percent": 50
+      "net": 28,
+      "owed": 22,
+      "percent": 56
     },
     {
       "firm_name": "Shulman WC",
