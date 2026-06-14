@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T21:01:52",
+  "updated": "2026-06-13T23:00:33",
   "month": "June 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 24,
+      "gross": 26,
       "voided": 0,
-      "net": 24,
-      "owed": 16,
-      "percent": 60
+      "net": 26,
+      "owed": 14,
+      "percent": 65
     },
     {
       "firm_name": "Steve Kerman",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 78,
+      "gross": 81,
       "voided": 0,
-      "net": 78,
-      "owed": 215,
-      "percent": 27
+      "net": 81,
+      "owed": 212,
+      "percent": 28
     },
     {
       "firm_name": "Mike F",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 25,
+      "gross": 27,
       "voided": 0,
-      "net": 25,
-      "owed": 35,
-      "percent": 42
+      "net": 27,
+      "owed": 33,
+      "percent": 45
     },
     {
       "firm_name": "Big Ben",
@@ -376,21 +376,21 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 23,
+      "gross": 26,
       "voided": 0,
-      "net": 23,
-      "owed": 37,
-      "percent": 38
+      "net": 26,
+      "owed": 34,
+      "percent": 43
     },
     {
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 16,
-      "percent": 54
+      "net": 20,
+      "owed": 15,
+      "percent": 57
     },
     {
       "firm_name": "Schwed Law",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 64,
+      "gross": 65,
       "voided": 0,
-      "net": 64,
+      "net": 65,
       "owed": 0,
-      "percent": 183
+      "percent": 186
     },
     {
       "firm_name": "Scarfone",
