@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T19:01:52",
+  "updated": "2026-06-14T21:02:02",
   "month": "June 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 40,
+      "gross": 42,
       "voided": 0,
-      "net": 40,
-      "owed": 10,
-      "percent": 80
+      "net": 42,
+      "owed": 8,
+      "percent": 84
     },
     {
       "firm_name": "SGF",
@@ -226,11 +226,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 17,
-      "percent": 23
+      "net": 6,
+      "owed": 16,
+      "percent": 27
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 22,
+      "gross": 24,
       "voided": 0,
-      "net": 22,
-      "owed": 78,
-      "percent": 22
+      "net": 24,
+      "owed": 76,
+      "percent": 24
     },
     {
       "firm_name": "The Founders Law",
@@ -296,11 +296,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 13,
+      "gross": 16,
       "voided": 0,
-      "net": 13,
-      "owed": 11,
-      "percent": 54
+      "net": 16,
+      "owed": 8,
+      "percent": 67
     },
     {
       "firm_name": "Jimmy DLE",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 64,
+      "gross": 65,
       "voided": 0,
-      "net": 64,
-      "owed": 36,
-      "percent": 64
+      "net": 65,
+      "owed": 35,
+      "percent": 65
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 67,
+      "gross": 68,
       "voided": 0,
-      "net": 67,
+      "net": 68,
       "owed": 0,
-      "percent": 191
+      "percent": 194
     },
     {
       "firm_name": "Scarfone",
