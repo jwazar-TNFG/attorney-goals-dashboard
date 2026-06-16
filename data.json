@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-16T15:02:32",
+  "updated": "2026-06-16T17:02:23",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 182,
+      "gross": 188,
       "voided": 0,
-      "net": 182,
-      "owed": 118,
-      "percent": 61
+      "net": 188,
+      "owed": 112,
+      "percent": 63
     },
     {
       "firm_name": "ASK GARY",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 103,
+      "gross": 104,
       "voided": 0,
-      "net": 103,
-      "owed": 190,
+      "net": 104,
+      "owed": 189,
       "percent": 35
     },
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 39,
+      "gross": 43,
       "voided": 0,
-      "net": 39,
-      "owed": 11,
-      "percent": 78
+      "net": 43,
+      "owed": 7,
+      "percent": 86
     },
     {
       "firm_name": "Shulman WC",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 36,
+      "gross": 37,
       "voided": 0,
-      "net": 36,
-      "owed": 64,
-      "percent": 36
+      "net": 37,
+      "owed": 63,
+      "percent": 37
     },
     {
       "firm_name": "The Founders Law",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 36,
+      "gross": 39,
       "voided": 0,
-      "net": 36,
-      "owed": 24,
-      "percent": 60
+      "net": 39,
+      "owed": 21,
+      "percent": 65
     },
     {
       "firm_name": "Big Ben",
@@ -356,21 +356,21 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
-      "owed": 23,
-      "percent": 50
+      "net": 24,
+      "owed": 22,
+      "percent": 52
     },
     {
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 14,
+      "gross": 16,
       "voided": 0,
-      "net": 14,
-      "owed": 1,
-      "percent": 93
+      "net": 16,
+      "owed": 0,
+      "percent": 107
     },
     {
       "firm_name": "YIA",
