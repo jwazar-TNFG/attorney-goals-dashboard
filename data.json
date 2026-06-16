@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-16T09:05:18",
+  "updated": "2026-06-16T11:03:13",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 176,
+      "gross": 177,
       "voided": 0,
-      "net": 176,
-      "owed": 124,
+      "net": 177,
+      "owed": 123,
       "percent": 59
     },
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 35,
+      "gross": 37,
       "voided": 0,
-      "net": 35,
-      "owed": 15,
-      "percent": 70
+      "net": 37,
+      "owed": 13,
+      "percent": 74
     },
     {
       "firm_name": "Shulman WC",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 93,
+      "gross": 94,
       "voided": 0,
-      "net": 93,
+      "net": 94,
       "owed": 0,
-      "percent": 103
+      "percent": 104
     },
     {
       "firm_name": "HESS",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 29,
+      "gross": 33,
       "voided": 0,
-      "net": 29,
-      "owed": 31,
-      "percent": 48
+      "net": 33,
+      "owed": 27,
+      "percent": 55
     },
     {
       "firm_name": "Big Ben",
