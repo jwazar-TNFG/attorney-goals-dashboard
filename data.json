@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T11:02:16",
+  "updated": "2026-06-17T13:03:04",
   "month": "June 2026",
   "data": [
     {
@@ -176,11 +176,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
+      "net": 10,
       "owed": 0,
-      "percent": 180
+      "percent": 200
     },
     {
       "firm_name": "Jimmy DLE",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 64,
+      "gross": 68,
       "voided": 0,
-      "net": 64,
-      "owed": 46,
-      "percent": 58
+      "net": 68,
+      "owed": 42,
+      "percent": 62
     },
     {
       "firm_name": "Friedland",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 39,
+      "gross": 42,
       "voided": 0,
-      "net": 39,
-      "owed": 61,
-      "percent": 39
+      "net": 42,
+      "owed": 58,
+      "percent": 42
     },
     {
       "firm_name": "The Founders Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 20,
+      "gross": 22,
       "voided": 0,
-      "net": 20,
-      "owed": 50,
-      "percent": 29
+      "net": 22,
+      "owed": 48,
+      "percent": 31
     },
     {
       "firm_name": "The IL Hammer",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 85,
+      "gross": 87,
       "voided": 0,
-      "net": 85,
-      "owed": 15,
-      "percent": 85
+      "net": 87,
+      "owed": 13,
+      "percent": 87
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 49,
+      "gross": 50,
       "voided": 0,
-      "net": 49,
-      "owed": 11,
-      "percent": 82
+      "net": 50,
+      "owed": 10,
+      "percent": 83
     },
     {
       "firm_name": "Schwed Law",
