@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-17T09:01:52",
+  "updated": "2026-06-17T11:02:16",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 196,
+      "gross": 197,
       "voided": 0,
-      "net": 196,
-      "owed": 104,
-      "percent": 65
+      "net": 197,
+      "owed": 103,
+      "percent": 66
     },
     {
       "firm_name": "ASK GARY",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 37,
+      "gross": 39,
       "voided": 0,
-      "net": 37,
-      "owed": 3,
-      "percent": 92
+      "net": 39,
+      "owed": 1,
+      "percent": 98
     },
     {
       "firm_name": "Steve Kerman",
@@ -196,21 +196,21 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 61,
+      "gross": 64,
       "voided": 0,
-      "net": 61,
-      "owed": 49,
-      "percent": 55
+      "net": 64,
+      "owed": 46,
+      "percent": 58
     },
     {
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 20,
+      "gross": 21,
       "voided": 0,
-      "net": 20,
-      "owed": 30,
-      "percent": 40
+      "net": 21,
+      "owed": 29,
+      "percent": 42
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -296,11 +296,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
-      "owed": 6,
-      "percent": 75
+      "net": 19,
+      "owed": 5,
+      "percent": 79
     },
     {
       "firm_name": "Jimmy DLE",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 22,
-      "percent": 52
+      "net": 25,
+      "owed": 21,
+      "percent": 54
     },
     {
       "firm_name": "YIA",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 84,
+      "gross": 85,
       "voided": 0,
-      "net": 84,
-      "owed": 16,
-      "percent": 84
+      "net": 85,
+      "owed": 15,
+      "percent": 85
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 78,
+      "gross": 82,
       "voided": 0,
-      "net": 78,
+      "net": 82,
       "owed": 0,
-      "percent": 223
+      "percent": 234
     },
     {
       "firm_name": "Scarfone",
