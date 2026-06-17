@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T07:00:25",
+  "updated": "2026-06-17T09:01:52",
   "month": "June 2026",
   "data": [
     {
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 38,
+      "gross": 39,
       "voided": 0,
-      "net": 38,
-      "owed": 62,
-      "percent": 38
+      "net": 39,
+      "owed": 61,
+      "percent": 39
     },
     {
       "firm_name": "The Founders Law",
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 14,
-      "percent": 30
+      "net": 7,
+      "owed": 13,
+      "percent": 35
     },
     {
       "firm_name": "Hines Law (WC)",
