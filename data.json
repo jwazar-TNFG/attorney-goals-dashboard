@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T19:03:48",
+  "updated": "2026-06-17T21:02:47",
   "month": "June 2026",
   "data": [
     {
@@ -66,21 +66,21 @@
       "firm_name": "Friedland (JAX)",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 31,
-      "percent": 22
+      "net": 10,
+      "owed": 30,
+      "percent": 25
     },
     {
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 14,
-      "percent": 53
+      "net": 17,
+      "owed": 13,
+      "percent": 57
     },
     {
       "firm_name": "OVADIA LAW",
@@ -276,21 +276,21 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 46,
+      "gross": 48,
       "voided": 0,
-      "net": 46,
-      "owed": 54,
-      "percent": 46
+      "net": 48,
+      "owed": 52,
+      "percent": 48
     },
     {
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 48,
-      "percent": 4
+      "net": 3,
+      "owed": 47,
+      "percent": 6
     },
     {
       "firm_name": "YIA",
@@ -456,21 +456,21 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 86,
+      "gross": 87,
       "voided": 0,
-      "net": 86,
+      "net": 87,
       "owed": 0,
-      "percent": 246
+      "percent": 249
     },
     {
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
+      "net": 7,
       "owed": 0,
-      "percent": 120
+      "percent": 140
     },
     {
       "firm_name": "Founders Law",
