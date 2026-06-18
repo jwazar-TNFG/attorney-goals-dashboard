@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T09:02:12",
+  "updated": "2026-06-18T11:03:26",
   "month": "June 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 39,
+      "gross": 41,
       "voided": 0,
-      "net": 39,
-      "owed": 1,
-      "percent": 98
+      "net": 41,
+      "owed": 0,
+      "percent": 102
     },
     {
       "firm_name": "Steve Kerman",
@@ -196,10 +196,10 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 71,
+      "gross": 72,
       "voided": 0,
-      "net": 71,
-      "owed": 39,
+      "net": 72,
+      "owed": 38,
       "percent": 65
     },
     {
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 39,
+      "gross": 40,
       "voided": 0,
-      "net": 39,
-      "owed": 21,
-      "percent": 65
+      "net": 40,
+      "owed": 20,
+      "percent": 67
     },
     {
       "firm_name": "Big Ben",
@@ -366,21 +366,21 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
+      "net": 18,
       "owed": 0,
-      "percent": 113
+      "percent": 120
     },
     {
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 37,
+      "gross": 38,
       "voided": 0,
-      "net": 37,
-      "owed": 23,
-      "percent": 62
+      "net": 38,
+      "owed": 22,
+      "percent": 63
     },
     {
       "firm_name": "Bernheim",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 91,
+      "gross": 92,
       "voided": 0,
-      "net": 91,
-      "owed": 9,
-      "percent": 91
+      "net": 92,
+      "owed": 8,
+      "percent": 92
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 88,
+      "gross": 89,
       "voided": 0,
-      "net": 88,
+      "net": 89,
       "owed": 0,
-      "percent": 251
+      "percent": 254
     },
     {
       "firm_name": "Scarfone",
