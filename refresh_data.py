@@ -13,16 +13,39 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from lib.supabase_client import get_client
-from lib.supabase_postgres import execute_sql
+try:
+    from lib.supabase_postgres import execute_sql
+    _HAS_DIRECT_PG = True
+except ImportError:
+    _HAS_DIRECT_PG = False
+
+
+def _try_execute_sql(query, fetch=False):
+    """Try direct PG; return None on connection failure so callers can fall back to REST."""
+    if not _HAS_DIRECT_PG:
+        return None
+    try:
+        return execute_sql(query, fetch=fetch)
+    except Exception as e:
+        if 'Connection refused' in str(e) or 'connection' in str(e).lower():
+            print(f"Direct PG unavailable, falling back to REST API")
+            return None
+        raise
+
 
 def get_payment_status(year: int, month: int) -> dict:
     """Get payment status by attorney from executive.payments table."""
     try:
-        result = execute_sql(f'''
+        result = _try_execute_sql(f'''
             SELECT name, payments_amount, is_active
             FROM executive.payments 
             WHERE year = {year} AND month = {month}
         ''', fetch=True)
+        
+        if result is None:
+            # REST API can't access executive schema easily, skip
+            print("Warning: Payment status unavailable (direct PG down)")
+            return {}
         
         status = {}
         for row in result:
@@ -50,9 +73,37 @@ def load_mapping():
             return json.load(f)
     return {'mappings': {}, 'ignored': []}
 
+def _fetch_leads_rest(sb, start_date: str, end_date: str, dropped_only=False) -> list:
+    """Fetch leads via REST API with pagination. Returns list of (attorney, accidentState) tuples."""
+    from lib.supabase_client import fetch_all
+    query = sb.table('leads').select('attorney,accidentState')
+    query = query.gte('dateSigned', start_date).lt('dateSigned', end_date)
+    query = query.eq('sourceType', 'TNFG').neq('attorney', 'null')
+    if dropped_only:
+        query = query.neq('dateDropped', 'null')
+    
+    # Use fetch_all for pagination
+    all_rows = []
+    page_size = 1000
+    offset = 0
+    while True:
+        q = sb.table('leads').select('attorney,accidentState')
+        q = q.gte('dateSigned', start_date).lt('dateSigned', end_date)
+        q = q.eq('sourceType', 'TNFG').not_.is_('attorney', 'null')
+        if dropped_only:
+            q = q.not_.is_('dateDropped', 'null')
+        result = q.range(offset, offset + page_size - 1).execute()
+        rows = result.data
+        all_rows.extend(rows)
+        if len(rows) < page_size:
+            break
+        offset += page_size
+    return all_rows
+
+
 def get_lockdown_counts(sb, start_date: str, end_date: str) -> dict:
-    """Get signed counts by attorney from leads table (dateSigned + TNFG only). Uses SQL aggregation."""
-    result = execute_sql(f'''
+    """Get signed counts by attorney from leads table (dateSigned + TNFG only). Uses SQL aggregation with REST fallback."""
+    result = _try_execute_sql(f'''
         SELECT attorney, "accidentState", COUNT(*) as cnt
         FROM leads
         WHERE "dateSigned" >= '{start_date}'
@@ -62,17 +113,30 @@ def get_lockdown_counts(sb, start_date: str, end_date: str) -> dict:
         GROUP BY attorney, "accidentState"
     ''', fetch=True)
     
-    counts = {}
-    for row in result:
-        attorney = row[0]
-        state = row[1] or 'Unknown'
-        counts[(attorney, state)] = row[2]
+    if result is not None:
+        counts = {}
+        for row in result:
+            attorney = row[0]
+            state = row[1] or 'Unknown'
+            counts[(attorney, state)] = row[2]
+        return counts
     
-    return counts
+    # REST API fallback — aggregate in Python (only when SQL unavailable)
+    print("Using REST API fallback for lockdown counts...")
+    rows = _fetch_leads_rest(sb, start_date, end_date)
+    from collections import Counter
+    counts = Counter()
+    for row in rows:
+        attorney = row.get('attorney')
+        state = row.get('accidentState') or 'Unknown'
+        if attorney:
+            counts[(attorney, state)] += 1
+    return dict(counts)
+
 
 def get_voided_counts(sb, start_date: str, end_date: str) -> dict:
-    """Get voided/dropped counts by attorney (dateSigned + TNFG only). Uses SQL aggregation."""
-    result = execute_sql(f'''
+    """Get voided/dropped counts by attorney (dateSigned + TNFG only). Uses SQL aggregation with REST fallback."""
+    result = _try_execute_sql(f'''
         SELECT attorney, "accidentState", COUNT(*) as cnt
         FROM leads
         WHERE "dateSigned" >= '{start_date}'
@@ -83,13 +147,25 @@ def get_voided_counts(sb, start_date: str, end_date: str) -> dict:
         GROUP BY attorney, "accidentState"
     ''', fetch=True)
     
-    counts = {}
-    for row in result:
-        attorney = row[0]
-        state = row[1] or 'Unknown'
-        counts[(attorney, state)] = row[2]
+    if result is not None:
+        counts = {}
+        for row in result:
+            attorney = row[0]
+            state = row[1] or 'Unknown'
+            counts[(attorney, state)] = row[2]
+        return counts
     
-    return counts
+    # REST API fallback
+    print("Using REST API fallback for voided counts...")
+    rows = _fetch_leads_rest(sb, start_date, end_date, dropped_only=True)
+    from collections import Counter
+    counts = Counter()
+    for row in rows:
+        attorney = row.get('attorney')
+        state = row.get('accidentState') or 'Unknown'
+        if attorney:
+            counts[(attorney, state)] += 1
+    return dict(counts)
 
 def normalize_name(name: str) -> str:
     """Normalize attorney name for matching."""
