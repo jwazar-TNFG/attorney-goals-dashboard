@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-19T09:02:02",
+  "updated": "2026-06-19T11:04:15",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 217,
+      "gross": 223,
       "voided": 0,
-      "net": 217,
-      "owed": 83,
-      "percent": 72
+      "net": 223,
+      "owed": 77,
+      "percent": 74
     },
     {
       "firm_name": "ASK GARY",
@@ -26,21 +26,21 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 62,
+      "gross": 64,
       "voided": 0,
-      "net": 62,
+      "net": 64,
       "owed": 0,
-      "percent": 124
+      "percent": 128
     },
     {
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 14,
-      "percent": 65
+      "net": 27,
+      "owed": 13,
+      "percent": 68
     },
     {
       "firm_name": "YIA",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 109,
+      "gross": 111,
       "voided": 0,
-      "net": 109,
+      "net": 111,
       "owed": 0,
-      "percent": 121
+      "percent": 123
     },
     {
       "firm_name": "HESS",
