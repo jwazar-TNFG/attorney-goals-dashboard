@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T07:00:30",
+  "updated": "2026-06-19T09:02:02",
   "month": "June 2026",
   "data": [
     {
@@ -186,11 +186,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60
+      "net": 4,
+      "owed": 1,
+      "percent": 80
     },
     {
       "firm_name": "Shulman MVA",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 55,
+      "gross": 56,
       "voided": 0,
-      "net": 55,
-      "owed": 45,
-      "percent": 55
+      "net": 56,
+      "owed": 44,
+      "percent": 56
     },
     {
       "firm_name": "The Founders Law",
