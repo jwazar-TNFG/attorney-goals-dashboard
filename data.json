@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T11:01:31",
+  "updated": "2026-06-20T13:01:46",
   "month": "June 2026",
   "data": [
     {
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 59,
+      "gross": 61,
       "voided": 0,
-      "net": 59,
-      "owed": 41,
-      "percent": 59
+      "net": 61,
+      "owed": 39,
+      "percent": 61
     },
     {
       "firm_name": "The Founders Law",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 47,
+      "gross": 48,
       "voided": 0,
-      "net": 47,
-      "owed": 13,
-      "percent": 78
+      "net": 48,
+      "owed": 12,
+      "percent": 80
     },
     {
       "firm_name": "Big Ben",
