@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T07:00:16",
+  "updated": "2026-06-20T09:01:29",
   "month": "June 2026",
   "data": [
     {
@@ -106,11 +106,11 @@
       "firm_name": "Arias & Abbass",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 18,
-      "percent": 10
+      "net": 3,
+      "owed": 17,
+      "percent": 15
     },
     {
       "firm_name": "Big Ben",
