@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T17:01:44",
+  "updated": "2026-06-20T19:01:57",
   "month": "June 2026",
   "data": [
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 54,
+      "gross": 55,
       "voided": 0,
-      "net": 54,
+      "net": 55,
       "owed": 0,
-      "percent": 108
+      "percent": 110
     },
     {
       "firm_name": "Shulman WC",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 43,
+      "gross": 44,
       "voided": 0,
-      "net": 43,
-      "owed": 17,
-      "percent": 72
+      "net": 44,
+      "owed": 16,
+      "percent": 73
     },
     {
       "firm_name": "Bernheim",
@@ -396,11 +396,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 25,
+      "gross": 27,
       "voided": 0,
-      "net": 25,
+      "net": 27,
       "owed": 0,
-      "percent": 125
+      "percent": 135
     },
     {
       "firm_name": "Michael Kelly",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 102,
+      "gross": 103,
       "voided": 0,
-      "net": 102,
+      "net": 103,
       "owed": 0,
-      "percent": 291
+      "percent": 294
     },
     {
       "firm_name": "Scarfone",
