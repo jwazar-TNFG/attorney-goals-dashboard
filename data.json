@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-19T21:04:47",
+  "updated": "2026-06-19T23:00:23",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 231,
+      "gross": 232,
       "voided": 0,
-      "net": 231,
-      "owed": 69,
+      "net": 232,
+      "owed": 68,
       "percent": 77
     },
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 70,
+      "gross": 71,
       "voided": 0,
-      "net": 70,
+      "net": 71,
       "owed": 0,
-      "percent": 140
+      "percent": 142
     },
     {
       "firm_name": "SGF",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 125,
+      "gross": 126,
       "voided": 0,
-      "net": 125,
-      "owed": 168,
+      "net": 126,
+      "owed": 167,
       "percent": 43
     },
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 50,
+      "gross": 52,
       "voided": 0,
-      "net": 50,
+      "net": 52,
       "owed": 0,
-      "percent": 100
+      "percent": 104
     },
     {
       "firm_name": "Shulman WC",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 117,
+      "gross": 118,
       "voided": 0,
-      "net": 117,
+      "net": 118,
       "owed": 0,
-      "percent": 130
+      "percent": 131
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 58,
+      "gross": 59,
       "voided": 0,
-      "net": 58,
-      "owed": 42,
-      "percent": 58
+      "net": 59,
+      "owed": 41,
+      "percent": 59
     },
     {
       "firm_name": "The Founders Law",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 30,
+      "gross": 31,
       "voided": 0,
-      "net": 30,
-      "owed": 16,
-      "percent": 65
+      "net": 31,
+      "owed": 15,
+      "percent": 67
     },
     {
       "firm_name": "YIA",
