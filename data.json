@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-20T15:01:58",
+  "updated": "2026-06-20T17:01:44",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 232,
+      "gross": 239,
       "voided": 0,
-      "net": 232,
-      "owed": 68,
-      "percent": 77
+      "net": 239,
+      "owed": 61,
+      "percent": 80
     },
     {
       "firm_name": "ASK GARY",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 43,
+      "gross": 45,
       "voided": 0,
-      "net": 43,
+      "net": 45,
       "owed": 0,
-      "percent": 108
+      "percent": 112
     },
     {
       "firm_name": "Steve Kerman",
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 5,
+      "gross": 7,
       "voided": 0,
-      "net": 5,
-      "owed": 45,
-      "percent": 10
+      "net": 7,
+      "owed": 43,
+      "percent": 14
     },
     {
       "firm_name": "YIA",
@@ -316,11 +316,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 1,
-      "percent": 93
+      "net": 15,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "Friedland",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 42,
+      "gross": 43,
       "voided": 0,
-      "net": 42,
-      "owed": 18,
-      "percent": 70
+      "net": 43,
+      "owed": 17,
+      "percent": 72
     },
     {
       "firm_name": "Bernheim",
@@ -406,21 +406,21 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 109,
+      "gross": 111,
       "voided": 0,
-      "net": 109,
+      "net": 111,
       "owed": 0,
-      "percent": 109
+      "percent": 111
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 22,
-      "percent": 27
+      "net": 9,
+      "owed": 21,
+      "percent": 30
     },
     {
       "firm_name": "Kelly McCallum",
