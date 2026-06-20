@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T23:00:23",
+  "updated": "2026-06-20T07:00:16",
   "month": "June 2026",
   "data": [
     {
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 100,
+      "gross": 102,
       "voided": 0,
-      "net": 100,
+      "net": 102,
       "owed": 0,
-      "percent": 286
+      "percent": 291
     },
     {
       "firm_name": "Scarfone",
