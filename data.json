@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T09:01:29",
+  "updated": "2026-06-20T11:01:31",
   "month": "June 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 126,
+      "gross": 127,
       "voided": 0,
-      "net": 126,
-      "owed": 167,
+      "net": 127,
+      "owed": 166,
       "percent": 43
     },
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 52,
+      "gross": 54,
       "voided": 0,
-      "net": 52,
+      "net": 54,
       "owed": 0,
-      "percent": 104
+      "percent": 108
     },
     {
       "firm_name": "Shulman WC",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 118,
+      "gross": 120,
       "voided": 0,
-      "net": 118,
+      "net": 120,
       "owed": 0,
-      "percent": 131
+      "percent": 133
     },
     {
       "firm_name": "HESS",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 108,
+      "gross": 109,
       "voided": 0,
-      "net": 108,
+      "net": 109,
       "owed": 0,
-      "percent": 108
+      "percent": 109
     },
     {
       "firm_name": "Robert Rubenstein",
