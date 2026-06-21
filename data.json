@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T13:02:28",
+  "updated": "2026-06-21T15:01:33",
   "month": "June 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 72,
+      "gross": 73,
       "voided": 0,
-      "net": 72,
+      "net": 73,
       "owed": 0,
-      "percent": 144
+      "percent": 146
     },
     {
       "firm_name": "SGF",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 130,
+      "gross": 131,
       "voided": 0,
-      "net": 130,
-      "owed": 163,
-      "percent": 44
+      "net": 131,
+      "owed": 162,
+      "percent": 45
     },
     {
       "firm_name": "Mike F",
@@ -396,11 +396,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 27,
+      "gross": 28,
       "voided": 0,
-      "net": 27,
+      "net": 28,
       "owed": 0,
-      "percent": 135
+      "percent": 140
     },
     {
       "firm_name": "Michael Kelly",
