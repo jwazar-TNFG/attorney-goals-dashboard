@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:02:32",
+  "updated": "2026-06-21T19:02:11",
   "month": "June 2026",
   "data": [
     {
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 133,
+      "gross": 134,
       "voided": 0,
-      "net": 133,
-      "owed": 160,
-      "percent": 45
+      "net": 134,
+      "owed": 159,
+      "percent": 46
     },
     {
       "firm_name": "Mike F",
@@ -316,11 +316,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
+      "net": 16,
       "owed": 0,
-      "percent": 100
+      "percent": 107
     },
     {
       "firm_name": "Friedland",
