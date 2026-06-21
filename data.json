@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T21:01:47",
+  "updated": "2026-06-20T23:00:19",
   "month": "June 2026",
   "data": [
     {
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 48,
+      "gross": 50,
       "voided": 0,
-      "net": 48,
-      "owed": 12,
-      "percent": 80
+      "net": 50,
+      "owed": 10,
+      "percent": 83
     },
     {
       "firm_name": "Big Ben",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 111,
+      "gross": 112,
       "voided": 0,
-      "net": 111,
+      "net": 112,
       "owed": 0,
-      "percent": 111
+      "percent": 112
     },
     {
       "firm_name": "Robert Rubenstein",
