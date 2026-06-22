@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T21:01:54",
+  "updated": "2026-06-21T23:00:27",
   "month": "June 2026",
   "data": [
     {
@@ -316,11 +316,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
+      "net": 17,
       "owed": 0,
-      "percent": 107
+      "percent": 113
     },
     {
       "firm_name": "Friedland",
@@ -396,21 +396,21 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 30,
+      "gross": 31,
       "voided": 0,
-      "net": 30,
+      "net": 31,
       "owed": 0,
-      "percent": 150
+      "percent": 155
     },
     {
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 112,
+      "gross": 113,
       "voided": 0,
-      "net": 112,
+      "net": 113,
       "owed": 0,
-      "percent": 112
+      "percent": 113
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 103,
+      "gross": 104,
       "voided": 0,
-      "net": 103,
+      "net": 104,
       "owed": 0,
-      "percent": 294
+      "percent": 297
     },
     {
       "firm_name": "Scarfone",
