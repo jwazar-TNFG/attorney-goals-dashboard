@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-21T19:02:11",
+  "updated": "2026-06-21T21:01:54",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 242,
+      "gross": 243,
       "voided": 0,
-      "net": 242,
-      "owed": 58,
+      "net": 243,
+      "owed": 57,
       "percent": 81
     },
     {
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 121,
+      "gross": 123,
       "voided": 0,
-      "net": 121,
+      "net": 123,
       "owed": 0,
-      "percent": 134
+      "percent": 137
     },
     {
       "firm_name": "HESS",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 28,
+      "gross": 29,
       "voided": 0,
-      "net": 28,
-      "owed": 7,
-      "percent": 80
+      "net": 29,
+      "owed": 6,
+      "percent": 83
     },
     {
       "firm_name": "Schwed Law",
@@ -466,11 +466,11 @@
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
+      "net": 9,
       "owed": 0,
-      "percent": 160
+      "percent": 180
     },
     {
       "firm_name": "Founders Law",
