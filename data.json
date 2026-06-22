@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T23:00:27",
+  "updated": "2026-06-22T07:00:22",
   "month": "June 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 134,
+      "gross": 135,
       "voided": 0,
-      "net": 134,
-      "owed": 159,
+      "net": 135,
+      "owed": 158,
       "percent": 46
     },
     {
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 31,
+      "gross": 32,
       "voided": 0,
-      "net": 31,
-      "owed": 15,
-      "percent": 67
+      "net": 32,
+      "owed": 14,
+      "percent": 70
     },
     {
       "firm_name": "YIA",
