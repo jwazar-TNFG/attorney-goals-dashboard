@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-22T11:04:36",
+  "updated": "2026-06-22T13:03:18",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 243,
+      "gross": 245,
       "voided": 0,
-      "net": 243,
-      "owed": 57,
-      "percent": 81
+      "net": 245,
+      "owed": 55,
+      "percent": 82
     },
     {
       "firm_name": "ASK GARY",
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 135,
+      "gross": 137,
       "voided": 0,
-      "net": 135,
-      "owed": 158,
-      "percent": 46
+      "net": 137,
+      "owed": 156,
+      "percent": 47
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 67,
+      "gross": 68,
       "voided": 0,
-      "net": 67,
-      "owed": 3,
-      "percent": 96
+      "net": 68,
+      "owed": 2,
+      "percent": 97
     },
     {
       "firm_name": "The Founders Law",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 79,
+      "gross": 81,
       "voided": 0,
-      "net": 79,
-      "owed": 31,
-      "percent": 72
+      "net": 81,
+      "owed": 29,
+      "percent": 74
     },
     {
       "firm_name": "Friedland",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 126,
+      "gross": 128,
       "voided": 0,
-      "net": 126,
+      "net": 128,
       "owed": 0,
-      "percent": 140
+      "percent": 142
     },
     {
       "firm_name": "HESS",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 50,
+      "gross": 52,
       "voided": 0,
-      "net": 50,
-      "owed": 10,
-      "percent": 83
+      "net": 52,
+      "owed": 8,
+      "percent": 87
     },
     {
       "firm_name": "Big Ben",
@@ -406,21 +406,21 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 113,
+      "gross": 115,
       "voided": 0,
-      "net": 113,
+      "net": 115,
       "owed": 0,
-      "percent": 113
+      "percent": 115
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 20,
-      "percent": 33
+      "net": 11,
+      "owed": 19,
+      "percent": 37
     },
     {
       "firm_name": "Kelly McCallum",
