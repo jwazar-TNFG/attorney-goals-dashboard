@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T09:02:58",
+  "updated": "2026-06-22T11:04:36",
   "month": "June 2026",
   "data": [
     {
@@ -246,21 +246,21 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 123,
+      "gross": 126,
       "voided": 0,
-      "net": 123,
+      "net": 126,
       "owed": 0,
-      "percent": 137
+      "percent": 140
     },
     {
       "firm_name": "HESS",
       "state": "New Jersey",
       "monthly_goal": 5,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 3,
-      "percent": 40
+      "net": 3,
+      "owed": 2,
+      "percent": 60
     },
     {
       "firm_name": "Bader Law",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 32,
+      "gross": 34,
       "voided": 0,
-      "net": 32,
-      "owed": 14,
-      "percent": 70
+      "net": 34,
+      "owed": 12,
+      "percent": 74
     },
     {
       "firm_name": "YIA",
@@ -416,11 +416,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 21,
-      "percent": 30
+      "net": 10,
+      "owed": 20,
+      "percent": 33
     },
     {
       "firm_name": "Kelly McCallum",
