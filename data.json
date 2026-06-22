@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-22T15:02:33",
+  "updated": "2026-06-22T17:03:03",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 244,
+      "gross": 245,
       "voided": 0,
-      "net": 244,
-      "owed": 56,
-      "percent": 81
+      "net": 245,
+      "owed": 55,
+      "percent": 82
     },
     {
       "firm_name": "ASK GARY",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 45,
+      "gross": 46,
       "voided": 0,
-      "net": 45,
+      "net": 46,
       "owed": 0,
-      "percent": 112
+      "percent": 115
     },
     {
       "firm_name": "Steve Kerman",
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 137,
+      "gross": 138,
       "voided": 0,
-      "net": 137,
-      "owed": 156,
+      "net": 138,
+      "owed": 155,
       "percent": 47
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 69,
+      "gross": 70,
       "voided": 0,
-      "net": 69,
-      "owed": 1,
-      "percent": 99
+      "net": 70,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "The Founders Law",
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 6,
+      "gross": 8,
       "voided": 0,
-      "net": 6,
-      "owed": 14,
-      "percent": 30
+      "net": 8,
+      "owed": 12,
+      "percent": 40
     },
     {
       "firm_name": "Newman Injury Law",
@@ -176,11 +176,11 @@
       "firm_name": "VG LAW",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
+      "net": 11,
       "owed": 0,
-      "percent": 200
+      "percent": 220
     },
     {
       "firm_name": "Jimmy DLE",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 81,
+      "gross": 83,
       "voided": 0,
-      "net": 81,
-      "owed": 29,
-      "percent": 74
+      "net": 83,
+      "owed": 27,
+      "percent": 75
     },
     {
       "firm_name": "Friedland",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 128,
+      "gross": 129,
       "voided": 0,
-      "net": 128,
+      "net": 129,
       "owed": 0,
-      "percent": 142
+      "percent": 143
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 64,
+      "gross": 66,
       "voided": 0,
-      "net": 64,
-      "owed": 36,
-      "percent": 64
+      "net": 66,
+      "owed": 34,
+      "percent": 66
     },
     {
       "firm_name": "The Founders Law",
@@ -326,21 +326,21 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 31,
+      "gross": 33,
       "voided": 0,
-      "net": 31,
-      "owed": 39,
-      "percent": 44
+      "net": 33,
+      "owed": 37,
+      "percent": 47
     },
     {
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 56,
+      "gross": 61,
       "voided": 0,
-      "net": 56,
-      "owed": 4,
-      "percent": 93
+      "net": 61,
+      "owed": 0,
+      "percent": 102
     },
     {
       "firm_name": "Big Ben",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 45,
+      "gross": 49,
       "voided": 0,
-      "net": 45,
-      "owed": 15,
-      "percent": 75
+      "net": 49,
+      "owed": 11,
+      "percent": 82
     },
     {
       "firm_name": "Bernheim",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 116,
+      "gross": 117,
       "voided": 0,
-      "net": 116,
+      "net": 117,
       "owed": 0,
-      "percent": 116
+      "percent": 117
     },
     {
       "firm_name": "Robert Rubenstein",
