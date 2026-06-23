@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-22T21:04:07",
+  "updated": "2026-06-22T23:00:23",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 247,
+      "gross": 249,
       "voided": 0,
-      "net": 247,
-      "owed": 53,
-      "percent": 82
+      "net": 249,
+      "owed": 51,
+      "percent": 83
     },
     {
       "firm_name": "ASK GARY",
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 74,
+      "gross": 75,
       "voided": 0,
-      "net": 74,
+      "net": 75,
       "owed": 0,
-      "percent": 148
+      "percent": 150
     },
     {
       "firm_name": "SGF",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 138,
+      "gross": 139,
       "voided": 0,
-      "net": 138,
-      "owed": 155,
+      "net": 139,
+      "owed": 154,
       "percent": 47
     },
     {
@@ -146,11 +146,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 27,
-      "percent": 10
+      "net": 4,
+      "owed": 26,
+      "percent": 13
     },
     {
       "firm_name": "YIA",
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 57,
+      "gross": 58,
       "voided": 0,
-      "net": 57,
+      "net": 58,
       "owed": 0,
-      "percent": 114
+      "percent": 116
     },
     {
       "firm_name": "Shulman WC",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 133,
+      "gross": 135,
       "voided": 0,
-      "net": 133,
+      "net": 135,
       "owed": 0,
-      "percent": 148
+      "percent": 150
     },
     {
       "firm_name": "HESS",
@@ -406,21 +406,21 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 120,
+      "gross": 122,
       "voided": 0,
-      "net": 120,
+      "net": 122,
       "owed": 0,
-      "percent": 120
+      "percent": 122
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 12,
+      "gross": 13,
       "voided": 0,
-      "net": 12,
-      "owed": 18,
-      "percent": 40
+      "net": 13,
+      "owed": 17,
+      "percent": 43
     },
     {
       "firm_name": "Kelly McCallum",
