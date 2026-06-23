@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T07:00:24",
+  "updated": "2026-06-23T09:02:07",
   "month": "June 2026",
   "data": [
     {
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 72,
+      "gross": 74,
       "voided": 0,
-      "net": 72,
+      "net": 74,
       "owed": 0,
-      "percent": 103
+      "percent": 106
     },
     {
       "firm_name": "The Founders Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 34,
+      "gross": 36,
       "voided": 0,
-      "net": 34,
-      "owed": 36,
-      "percent": 49
+      "net": 36,
+      "owed": 34,
+      "percent": 51
     },
     {
       "firm_name": "The IL Hammer",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 31,
+      "gross": 32,
       "voided": 0,
-      "net": 31,
-      "owed": 4,
-      "percent": 89
+      "net": 32,
+      "owed": 3,
+      "percent": 91
     },
     {
       "firm_name": "Schwed Law",
