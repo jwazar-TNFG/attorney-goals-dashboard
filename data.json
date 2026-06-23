@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-23T17:03:12",
+  "updated": "2026-06-23T19:03:20",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 251,
+      "gross": 257,
       "voided": 0,
-      "net": 251,
-      "owed": 49,
-      "percent": 84
+      "net": 257,
+      "owed": 43,
+      "percent": 86
     },
     {
       "firm_name": "ASK GARY",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 143,
+      "gross": 144,
       "voided": 0,
-      "net": 143,
-      "owed": 150,
+      "net": 144,
+      "owed": 149,
       "percent": 49
     },
     {
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 90,
+      "gross": 92,
       "voided": 0,
-      "net": 90,
-      "owed": 20,
-      "percent": 82
+      "net": 92,
+      "owed": 18,
+      "percent": 84
     },
     {
       "firm_name": "Friedland",
@@ -236,11 +236,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 28,
+      "gross": 31,
       "voided": 0,
-      "net": 28,
+      "net": 31,
       "owed": 0,
-      "percent": 560
+      "percent": 620
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 69,
+      "gross": 71,
       "voided": 0,
-      "net": 69,
-      "owed": 31,
-      "percent": 69
+      "net": 71,
+      "owed": 29,
+      "percent": 71
     },
     {
       "firm_name": "The Founders Law",
@@ -416,11 +416,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 13,
+      "gross": 14,
       "voided": 0,
-      "net": 13,
-      "owed": 17,
-      "percent": 43
+      "net": 14,
+      "owed": 16,
+      "percent": 47
     },
     {
       "firm_name": "Kelly McCallum",
