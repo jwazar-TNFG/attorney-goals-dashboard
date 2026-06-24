@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-24T11:02:31",
+  "updated": "2026-06-24T13:03:07",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 258,
+      "gross": 257,
       "voided": 0,
-      "net": 258,
-      "owed": 42,
+      "net": 257,
+      "owed": 43,
       "percent": 86
     },
     {
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 27,
+      "gross": 28,
       "voided": 0,
-      "net": 27,
-      "owed": 13,
-      "percent": 68
+      "net": 28,
+      "owed": 12,
+      "percent": 70
     },
     {
       "firm_name": "YIA",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 145,
+      "gross": 146,
       "voided": 0,
-      "net": 145,
-      "owed": 148,
-      "percent": 49
+      "net": 146,
+      "owed": 147,
+      "percent": 50
     },
     {
       "firm_name": "Mike F",
@@ -196,10 +196,10 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 93,
+      "gross": 94,
       "voided": 0,
-      "net": 93,
-      "owed": 17,
+      "net": 94,
+      "owed": 16,
       "percent": 85
     },
     {
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 33,
+      "gross": 34,
       "voided": 0,
-      "net": 33,
-      "owed": 2,
-      "percent": 94
+      "net": 34,
+      "owed": 1,
+      "percent": 97
     },
     {
       "firm_name": "Schwed Law",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 132,
+      "gross": 133,
       "voided": 0,
-      "net": 132,
+      "net": 133,
       "owed": 0,
-      "percent": 132
+      "percent": 133
     },
     {
       "firm_name": "Robert Rubenstein",
