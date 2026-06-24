@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T19:03:20",
+  "updated": "2026-06-23T21:01:55",
   "month": "June 2026",
   "data": [
     {
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 71,
+      "gross": 73,
       "voided": 0,
-      "net": 71,
-      "owed": 29,
-      "percent": 71
+      "net": 73,
+      "owed": 27,
+      "percent": 73
     },
     {
       "firm_name": "The Founders Law",
@@ -386,41 +386,41 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 32,
+      "gross": 33,
       "voided": 0,
-      "net": 32,
-      "owed": 3,
-      "percent": 91
+      "net": 33,
+      "owed": 2,
+      "percent": 94
     },
     {
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 33,
+      "gross": 34,
       "voided": 0,
-      "net": 33,
+      "net": 34,
       "owed": 0,
-      "percent": 165
+      "percent": 170
     },
     {
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 126,
+      "gross": 130,
       "voided": 0,
-      "net": 126,
+      "net": 130,
       "owed": 0,
-      "percent": 126
+      "percent": 130
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 16,
-      "percent": 47
+      "net": 15,
+      "owed": 15,
+      "percent": 50
     },
     {
       "firm_name": "Kelly McCallum",
@@ -456,21 +456,21 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 109,
+      "gross": 110,
       "voided": 0,
-      "net": 109,
+      "net": 110,
       "owed": 0,
-      "percent": 311
+      "percent": 314
     },
     {
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
+      "net": 11,
       "owed": 0,
-      "percent": 200
+      "percent": 220
     },
     {
       "firm_name": "Founders Law",
