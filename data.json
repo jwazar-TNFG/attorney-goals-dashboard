@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-24T15:03:25",
+  "updated": "2026-06-24T17:03:03",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 261,
+      "gross": 264,
       "voided": 0,
-      "net": 261,
-      "owed": 39,
-      "percent": 87
+      "net": 264,
+      "owed": 36,
+      "percent": 88
     },
     {
       "firm_name": "ASK GARY",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 150,
+      "gross": 154,
       "voided": 0,
-      "net": 150,
-      "owed": 143,
-      "percent": 51
+      "net": 154,
+      "owed": 139,
+      "percent": 53
     },
     {
       "firm_name": "Mike F",
@@ -186,11 +186,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 1,
-      "percent": 80
+      "net": 5,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "Shulman MVA",
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 60,
+      "gross": 62,
       "voided": 0,
-      "net": 60,
+      "net": 62,
       "owed": 0,
-      "percent": 120
+      "percent": 124
     },
     {
       "firm_name": "Shulman WC",
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 10,
+      "gross": 13,
       "voided": 0,
-      "net": 10,
-      "owed": 40,
-      "percent": 20
+      "net": 13,
+      "owed": 37,
+      "percent": 26
     },
     {
       "firm_name": "YIA",
@@ -306,21 +306,21 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 12,
-      "percent": 40
+      "net": 9,
+      "owed": 11,
+      "percent": 45
     },
     {
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 22,
+      "gross": 23,
       "voided": 0,
-      "net": 22,
+      "net": 23,
       "owed": 0,
-      "percent": 147
+      "percent": 153
     },
     {
       "firm_name": "Friedland",
@@ -406,21 +406,21 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 133,
+      "gross": 134,
       "voided": 0,
-      "net": 133,
+      "net": 134,
       "owed": 0,
-      "percent": 133
+      "percent": 134
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 14,
-      "percent": 53
+      "net": 17,
+      "owed": 13,
+      "percent": 57
     },
     {
       "firm_name": "Kelly McCallum",
