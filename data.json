@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T09:02:10",
+  "updated": "2026-06-24T11:02:31",
   "month": "June 2026",
   "data": [
     {
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 92,
+      "gross": 93,
       "voided": 0,
-      "net": 92,
-      "owed": 18,
-      "percent": 84
+      "net": 93,
+      "owed": 17,
+      "percent": 85
     },
     {
       "firm_name": "Friedland",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 135,
+      "gross": 136,
       "voided": 0,
-      "net": 135,
+      "net": 136,
       "owed": 0,
-      "percent": 150
+      "percent": 151
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 75,
+      "gross": 76,
       "voided": 0,
-      "net": 75,
-      "owed": 25,
-      "percent": 75
+      "net": 76,
+      "owed": 24,
+      "percent": 76
     },
     {
       "firm_name": "The Founders Law",
@@ -396,11 +396,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 34,
+      "gross": 35,
       "voided": 0,
-      "net": 34,
+      "net": 35,
       "owed": 0,
-      "percent": 170
+      "percent": 175
     },
     {
       "firm_name": "Michael Kelly",
