@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T23:00:24",
+  "updated": "2026-06-24T07:00:21",
   "month": "June 2026",
   "data": [
     {
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 8,
+      "gross": 10,
       "voided": 0,
-      "net": 8,
-      "owed": 42,
-      "percent": 16
+      "net": 10,
+      "owed": 40,
+      "percent": 20
     },
     {
       "firm_name": "YIA",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 131,
+      "gross": 132,
       "voided": 0,
-      "net": 131,
+      "net": 132,
       "owed": 0,
-      "percent": 131
+      "percent": 132
     },
     {
       "firm_name": "Robert Rubenstein",
