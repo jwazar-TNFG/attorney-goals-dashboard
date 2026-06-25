@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T11:01:48",
+  "updated": "2026-06-25T13:01:40",
   "month": "June 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 48,
+      "gross": 49,
       "voided": 0,
-      "net": 48,
+      "net": 49,
       "owed": 0,
-      "percent": 120
+      "percent": 123
     },
     {
       "firm_name": "Steve Kerman",
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 156,
+      "gross": 157,
       "voided": 0,
-      "net": 156,
-      "owed": 137,
-      "percent": 53
+      "net": 157,
+      "owed": 136,
+      "percent": 54
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 77,
+      "gross": 78,
       "voided": 0,
-      "net": 77,
+      "net": 78,
       "owed": 0,
-      "percent": 110
+      "percent": 111
     },
     {
       "firm_name": "The Founders Law",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 136,
+      "gross": 138,
       "voided": 0,
-      "net": 136,
+      "net": 138,
       "owed": 0,
-      "percent": 136
+      "percent": 138
     },
     {
       "firm_name": "Robert Rubenstein",
