@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T15:02:15",
+  "updated": "2026-06-25T17:02:17",
   "month": "June 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 49,
+      "gross": 51,
       "voided": 0,
-      "net": 49,
+      "net": 51,
       "owed": 0,
-      "percent": 123
+      "percent": 127
     },
     {
       "firm_name": "Steve Kerman",
@@ -76,11 +76,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 11,
-      "percent": 63
+      "net": 20,
+      "owed": 10,
+      "percent": 67
     },
     {
       "firm_name": "OVADIA LAW",
@@ -226,11 +226,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 13,
-      "percent": 41
+      "net": 10,
+      "owed": 12,
+      "percent": 45
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 81,
+      "gross": 82,
       "voided": 0,
-      "net": 81,
-      "owed": 19,
-      "percent": 81
+      "net": 82,
+      "owed": 18,
+      "percent": 82
     },
     {
       "firm_name": "The Founders Law",
@@ -296,11 +296,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 21,
+      "gross": 22,
       "voided": 0,
-      "net": 21,
-      "owed": 3,
-      "percent": 88
+      "net": 22,
+      "owed": 2,
+      "percent": 92
     },
     {
       "firm_name": "Jimmy DLE",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 77,
+      "gross": 78,
       "voided": 0,
-      "net": 77,
+      "net": 78,
       "owed": 0,
-      "percent": 128
+      "percent": 130
     },
     {
       "firm_name": "Big Ben",
@@ -376,21 +376,21 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 49,
+      "gross": 51,
       "voided": 0,
-      "net": 49,
-      "owed": 11,
-      "percent": 82
+      "net": 51,
+      "owed": 9,
+      "percent": 85
     },
     {
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 34,
+      "gross": 35,
       "voided": 0,
-      "net": 34,
-      "owed": 1,
-      "percent": 97
+      "net": 35,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "Schwed Law",
