@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-24T21:02:24",
+  "updated": "2026-06-24T23:00:28",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 266,
+      "gross": 271,
       "voided": 0,
-      "net": 266,
-      "owed": 34,
-      "percent": 89
+      "net": 271,
+      "owed": 29,
+      "percent": 90
     },
     {
       "firm_name": "ASK GARY",
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 9,
+      "gross": 11,
       "voided": 0,
-      "net": 9,
-      "owed": 11,
-      "percent": 45
+      "net": 11,
+      "owed": 9,
+      "percent": 55
     },
     {
       "firm_name": "Hines Law (WC)",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 76,
+      "gross": 77,
       "voided": 0,
-      "net": 76,
+      "net": 77,
       "owed": 0,
-      "percent": 127
+      "percent": 128
     },
     {
       "firm_name": "Big Ben",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 40,
+      "gross": 42,
       "voided": 0,
-      "net": 40,
-      "owed": 6,
-      "percent": 87
+      "net": 42,
+      "owed": 4,
+      "percent": 91
     },
     {
       "firm_name": "YIA",
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 60,
+      "gross": 61,
       "voided": 0,
-      "net": 60,
+      "net": 61,
       "owed": 0,
-      "percent": 100
+      "percent": 102
     },
     {
       "firm_name": "Schwed Law",
