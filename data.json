@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-24T19:02:11",
+  "updated": "2026-06-24T21:02:24",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 264,
+      "gross": 266,
       "voided": 0,
-      "net": 264,
-      "owed": 36,
-      "percent": 88
+      "net": 266,
+      "owed": 34,
+      "percent": 89
     },
     {
       "firm_name": "ASK GARY",
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 80,
+      "gross": 85,
       "voided": 0,
-      "net": 80,
+      "net": 85,
       "owed": 0,
-      "percent": 160
+      "percent": 170
     },
     {
       "firm_name": "SGF",
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 26,
+      "gross": 28,
       "voided": 0,
-      "net": 26,
-      "owed": 24,
-      "percent": 52
+      "net": 28,
+      "owed": 22,
+      "percent": 56
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -236,11 +236,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 31,
+      "gross": 32,
       "voided": 0,
-      "net": 31,
+      "net": 32,
       "owed": 0,
-      "percent": 620
+      "percent": 640
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 73,
+      "gross": 76,
       "voided": 0,
-      "net": 73,
+      "net": 76,
       "owed": 0,
-      "percent": 122
+      "percent": 127
     },
     {
       "firm_name": "Big Ben",
@@ -366,11 +366,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 21,
+      "gross": 23,
       "voided": 0,
-      "net": 21,
+      "net": 23,
       "owed": 0,
-      "percent": 140
+      "percent": 153
     },
     {
       "firm_name": "YIA",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 113,
+      "gross": 118,
       "voided": 0,
-      "net": 113,
+      "net": 118,
       "owed": 0,
-      "percent": 323
+      "percent": 337
     },
     {
       "firm_name": "Scarfone",
@@ -486,11 +486,11 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 10,
+      "gross": 12,
       "voided": 0,
-      "net": 10,
+      "net": 12,
       "owed": 0,
-      "percent": 200
+      "percent": 240
     },
     {
       "firm_name": "Lady Law (FL/Premium)",
