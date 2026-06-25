@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-25T13:01:40",
+  "updated": "2026-06-25T15:02:15",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 271,
+      "gross": 272,
       "voided": 0,
-      "net": 271,
-      "owed": 29,
-      "percent": 90
+      "net": 272,
+      "owed": 28,
+      "percent": 91
     },
     {
       "firm_name": "ASK GARY",
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 28,
+      "gross": 29,
       "voided": 0,
-      "net": 28,
-      "owed": 12,
-      "percent": 70
+      "net": 29,
+      "owed": 11,
+      "percent": 72
     },
     {
       "firm_name": "YIA",
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 6,
-      "percent": 80
+      "net": 25,
+      "owed": 5,
+      "percent": 83
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 157,
+      "gross": 161,
       "voided": 0,
-      "net": 157,
-      "owed": 136,
-      "percent": 54
+      "net": 161,
+      "owed": 132,
+      "percent": 55
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 78,
+      "gross": 79,
       "voided": 0,
-      "net": 78,
+      "net": 79,
       "owed": 0,
-      "percent": 111
+      "percent": 113
     },
     {
       "firm_name": "The Founders Law",
@@ -366,11 +366,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
+      "net": 24,
       "owed": 0,
-      "percent": 153
+      "percent": 160
     },
     {
       "firm_name": "YIA",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 138,
+      "gross": 139,
       "voided": 0,
-      "net": 138,
+      "net": 139,
       "owed": 0,
-      "percent": 138
+      "percent": 139
     },
     {
       "firm_name": "Robert Rubenstein",
