@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T23:00:24",
+  "updated": "2026-06-26T07:00:26",
   "month": "June 2026",
   "data": [
     {
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 81,
+      "gross": 82,
       "voided": 0,
-      "net": 81,
+      "net": 82,
       "owed": 0,
-      "percent": 116
+      "percent": 117
     },
     {
       "firm_name": "The Founders Law",
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 30,
+      "gross": 33,
       "voided": 0,
-      "net": 30,
-      "owed": 20,
-      "percent": 60
+      "net": 33,
+      "owed": 17,
+      "percent": 66
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 44,
+      "gross": 45,
       "voided": 0,
-      "net": 44,
-      "owed": 2,
-      "percent": 96
+      "net": 45,
+      "owed": 1,
+      "percent": 98
     },
     {
       "firm_name": "YIA",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 120,
+      "gross": 121,
       "voided": 0,
-      "net": 120,
+      "net": 121,
       "owed": 0,
-      "percent": 343
+      "percent": 346
     },
     {
       "firm_name": "Scarfone",
