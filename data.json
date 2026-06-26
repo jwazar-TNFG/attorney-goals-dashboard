@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-26T13:06:08",
+  "updated": "2026-06-26T15:02:26",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 286,
+      "gross": 283,
       "voided": 0,
-      "net": 286,
-      "owed": 14,
-      "percent": 95
+      "net": 283,
+      "owed": 17,
+      "percent": 94
     },
     {
       "firm_name": "ASK GARY",
@@ -76,11 +76,11 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 20,
+      "gross": 22,
       "voided": 0,
-      "net": 20,
-      "owed": 10,
-      "percent": 67
+      "net": 22,
+      "owed": 8,
+      "percent": 73
     },
     {
       "firm_name": "OVADIA LAW",
@@ -116,20 +116,20 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
+      "net": 19,
       "owed": 0,
-      "percent": 180
+      "percent": 190
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 170,
+      "gross": 171,
       "voided": 0,
-      "net": 170,
-      "owed": 123,
+      "net": 171,
+      "owed": 122,
       "percent": 58
     },
     {
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 141,
+      "gross": 142,
       "voided": 0,
-      "net": 141,
+      "net": 142,
       "owed": 0,
-      "percent": 141
+      "percent": 142
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 121,
+      "gross": 122,
       "voided": 0,
-      "net": 121,
+      "net": 122,
       "owed": 0,
-      "percent": 346
+      "percent": 349
     },
     {
       "firm_name": "Scarfone",
