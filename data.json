@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-27T11:01:49",
+  "updated": "2026-06-27T13:02:18",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 293,
+      "gross": 294,
       "voided": 0,
-      "net": 293,
-      "owed": 7,
+      "net": 294,
+      "owed": 6,
       "percent": 98
     },
     {
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 33,
+      "gross": 34,
       "voided": 0,
-      "net": 33,
-      "owed": 17,
-      "percent": 66
+      "net": 34,
+      "owed": 16,
+      "percent": 68
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 40,
+      "gross": 41,
       "voided": 0,
-      "net": 40,
-      "owed": 30,
-      "percent": 57
+      "net": 41,
+      "owed": 29,
+      "percent": 59
     },
     {
       "firm_name": "The IL Hammer",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 143,
+      "gross": 144,
       "voided": 0,
-      "net": 143,
+      "net": 144,
       "owed": 0,
-      "percent": 143
+      "percent": 144
     },
     {
       "firm_name": "Robert Rubenstein",
