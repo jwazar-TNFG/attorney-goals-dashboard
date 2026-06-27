@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-27T15:01:29",
+  "updated": "2026-06-27T17:01:50",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 296,
+      "gross": 297,
       "voided": 0,
-      "net": 296,
-      "owed": 4,
+      "net": 297,
+      "owed": 3,
       "percent": 99
     },
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 53,
+      "gross": 54,
       "voided": 0,
-      "net": 53,
+      "net": 54,
       "owed": 0,
-      "percent": 132
+      "percent": 135
     },
     {
       "firm_name": "Steve Kerman",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 38,
+      "gross": 39,
       "voided": 0,
-      "net": 38,
+      "net": 39,
       "owed": 0,
-      "percent": 109
+      "percent": 111
     },
     {
       "firm_name": "Schwed Law",
