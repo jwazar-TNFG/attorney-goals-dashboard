@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T19:02:26",
+  "updated": "2026-06-26T21:03:06",
   "month": "June 2026",
   "data": [
     {
@@ -286,21 +286,21 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 36,
-      "percent": 28
+      "net": 15,
+      "owed": 35,
+      "percent": 30
     },
     {
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 25,
+      "gross": 26,
       "voided": 0,
-      "net": 25,
+      "net": 26,
       "owed": 0,
-      "percent": 104
+      "percent": 108
     },
     {
       "firm_name": "Jimmy DLE",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 45,
+      "gross": 46,
       "voided": 0,
-      "net": 45,
-      "owed": 1,
-      "percent": 98
+      "net": 46,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "YIA",
