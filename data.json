@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T23:00:26",
+  "updated": "2026-06-27T11:01:49",
   "month": "June 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 178,
+      "gross": 180,
       "voided": 0,
-      "net": 178,
-      "owed": 115,
+      "net": 180,
+      "owed": 113,
       "percent": 61
     },
     {
@@ -266,10 +266,10 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 37,
+      "gross": 38,
       "voided": 0,
-      "net": 37,
-      "owed": 88,
+      "net": 38,
+      "owed": 87,
       "percent": 30
     },
     {
