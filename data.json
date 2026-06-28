@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-28T13:01:45",
+  "updated": "2026-06-28T15:02:31",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 300,
+      "gross": 302,
       "voided": 0,
-      "net": 300,
+      "net": 302,
       "owed": 0,
-      "percent": 100
+      "percent": 101
     },
     {
       "firm_name": "ASK GARY",
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 90,
+      "gross": 91,
       "voided": 0,
-      "net": 90,
+      "net": 91,
       "owed": 0,
-      "percent": 180
+      "percent": 182
     },
     {
       "firm_name": "SGF",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 188,
+      "gross": 190,
       "voided": 0,
-      "net": 188,
-      "owed": 105,
-      "percent": 64
+      "net": 190,
+      "owed": 103,
+      "percent": 65
     },
     {
       "firm_name": "Mike F",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 86,
+      "gross": 87,
       "voided": 0,
-      "net": 86,
-      "owed": 14,
-      "percent": 86
+      "net": 87,
+      "owed": 13,
+      "percent": 87
     },
     {
       "firm_name": "The Founders Law",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 57,
+      "gross": 60,
       "voided": 0,
-      "net": 57,
-      "owed": 3,
-      "percent": 95
+      "net": 60,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "Bernheim",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 148,
+      "gross": 149,
       "voided": 0,
-      "net": 148,
+      "net": 149,
       "owed": 0,
-      "percent": 148
+      "percent": 149
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -436,21 +436,21 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 62,
+      "gross": 63,
       "voided": 0,
-      "net": 62,
+      "net": 63,
       "owed": 0,
-      "percent": 103
+      "percent": 105
     },
     {
       "firm_name": "Schwed Law",
       "state": "Arkansas",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60
+      "net": 4,
+      "owed": 1,
+      "percent": 80
     },
     {
       "firm_name": "Founders Law",
