@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T19:01:35",
+  "updated": "2026-06-27T21:01:23",
   "month": "June 2026",
   "data": [
     {
@@ -326,21 +326,21 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 41,
+      "gross": 42,
       "voided": 0,
-      "net": 41,
-      "owed": 29,
-      "percent": 59
+      "net": 42,
+      "owed": 28,
+      "percent": 60
     },
     {
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 83,
+      "gross": 84,
       "voided": 0,
-      "net": 83,
+      "net": 84,
       "owed": 0,
-      "percent": 138
+      "percent": 140
     },
     {
       "firm_name": "Big Ben",
