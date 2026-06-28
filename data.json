@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-28T11:02:14",
+  "updated": "2026-06-28T13:01:45",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 298,
+      "gross": 300,
       "voided": 0,
-      "net": 298,
-      "owed": 2,
-      "percent": 99
+      "net": 300,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "ASK GARY",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 187,
+      "gross": 188,
       "voided": 0,
-      "net": 187,
-      "owed": 106,
+      "net": 188,
+      "owed": 105,
       "percent": 64
     },
     {
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 147,
+      "gross": 148,
       "voided": 0,
-      "net": 147,
+      "net": 148,
       "owed": 0,
-      "percent": 147
+      "percent": 148
     },
     {
       "firm_name": "Robert Rubenstein",
