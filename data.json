@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T09:01:26",
+  "updated": "2026-06-28T11:02:14",
   "month": "June 2026",
   "data": [
     {
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 30,
+      "gross": 32,
       "voided": 0,
-      "net": 30,
+      "net": 32,
       "owed": 0,
-      "percent": 100
+      "percent": 107
     },
     {
       "firm_name": "Friedland (TPA)",
