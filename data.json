@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:02:31",
+  "updated": "2026-06-28T17:01:54",
   "month": "June 2026",
   "data": [
     {
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 103,
+      "gross": 104,
       "voided": 0,
-      "net": 103,
-      "owed": 7,
-      "percent": 94
+      "net": 104,
+      "owed": 6,
+      "percent": 95
     },
     {
       "firm_name": "Friedland",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 46,
+      "gross": 47,
       "voided": 0,
-      "net": 46,
+      "net": 47,
       "owed": 0,
-      "percent": 100
+      "percent": 102
     },
     {
       "firm_name": "YIA",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 149,
+      "gross": 150,
       "voided": 0,
-      "net": 149,
+      "net": 150,
       "owed": 0,
-      "percent": 149
+      "percent": 150
     },
     {
       "firm_name": "Robert Rubenstein",
