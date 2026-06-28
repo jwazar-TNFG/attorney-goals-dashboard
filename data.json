@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T17:01:54",
+  "updated": "2026-06-28T19:02:14",
   "month": "June 2026",
   "data": [
     {
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 190,
+      "gross": 192,
       "voided": 0,
-      "net": 190,
-      "owed": 103,
-      "percent": 65
+      "net": 192,
+      "owed": 101,
+      "percent": 66
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 84,
+      "gross": 89,
       "voided": 0,
-      "net": 84,
+      "net": 89,
       "owed": 0,
-      "percent": 120
+      "percent": 127
     },
     {
       "firm_name": "The Founders Law",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 87,
+      "gross": 90,
       "voided": 0,
-      "net": 87,
-      "owed": 13,
-      "percent": 87
+      "net": 90,
+      "owed": 10,
+      "percent": 90
     },
     {
       "firm_name": "The Founders Law",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 47,
+      "gross": 48,
       "voided": 0,
-      "net": 47,
+      "net": 48,
       "owed": 0,
-      "percent": 102
+      "percent": 104
     },
     {
       "firm_name": "YIA",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 150,
+      "gross": 151,
       "voided": 0,
-      "net": 150,
+      "net": 151,
       "owed": 0,
-      "percent": 150
+      "percent": 151
     },
     {
       "firm_name": "Robert Rubenstein",
