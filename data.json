@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-29T09:02:56",
+  "updated": "2026-06-29T11:02:52",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 310,
+      "gross": 312,
       "voided": 0,
-      "net": 310,
+      "net": 312,
       "owed": 0,
-      "percent": 103
+      "percent": 104
     },
     {
       "firm_name": "ASK GARY",
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 29,
+      "gross": 30,
       "voided": 0,
-      "net": 29,
-      "owed": 11,
-      "percent": 72
+      "net": 30,
+      "owed": 10,
+      "percent": 75
     },
     {
       "firm_name": "YIA",
@@ -146,11 +146,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 24,
-      "percent": 20
+      "net": 7,
+      "owed": 23,
+      "percent": 23
     },
     {
       "firm_name": "YIA",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 146,
+      "gross": 148,
       "voided": 0,
-      "net": 146,
+      "net": 148,
       "owed": 0,
-      "percent": 162
+      "percent": 164
     },
     {
       "firm_name": "HESS",
@@ -396,11 +396,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 36,
+      "gross": 37,
       "voided": 0,
-      "net": 36,
+      "net": 37,
       "owed": 0,
-      "percent": 180
+      "percent": 185
     },
     {
       "firm_name": "Michael Kelly",
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 64,
+      "gross": 66,
       "voided": 0,
-      "net": 64,
+      "net": 66,
       "owed": 0,
-      "percent": 107
+      "percent": 110
     },
     {
       "firm_name": "Schwed Law",
