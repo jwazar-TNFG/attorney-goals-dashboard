@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T07:00:25",
+  "updated": "2026-06-29T09:02:56",
   "month": "June 2026",
   "data": [
     {
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 11,
+      "gross": 13,
       "voided": 0,
-      "net": 11,
-      "owed": 9,
-      "percent": 55
+      "net": 13,
+      "owed": 7,
+      "percent": 65
     },
     {
       "firm_name": "Newman Injury Law",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 128,
+      "gross": 129,
       "voided": 0,
-      "net": 128,
+      "net": 129,
       "owed": 0,
-      "percent": 366
+      "percent": 369
     },
     {
       "firm_name": "Scarfone",
