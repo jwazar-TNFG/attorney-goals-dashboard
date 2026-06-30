@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T23:00:17",
+  "updated": "2026-06-30T07:00:24",
   "month": "June 2026",
   "data": [
     {
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 32,
+      "gross": 33,
       "voided": 0,
-      "net": 32,
+      "net": 33,
       "owed": 0,
-      "percent": 107
+      "percent": 110
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -186,11 +186,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Texas",
       "monthly_goal": 5,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
+      "net": 8,
       "owed": 0,
-      "percent": 140
+      "percent": 160
     },
     {
       "firm_name": "Shulman MVA",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 40,
+      "gross": 41,
       "voided": 0,
-      "net": 40,
+      "net": 41,
       "owed": 0,
-      "percent": 114
+      "percent": 117
     },
     {
       "firm_name": "Schwed Law",
