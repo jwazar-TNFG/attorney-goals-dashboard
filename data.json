@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T13:02:44",
+  "updated": "2026-06-30T15:02:03",
   "month": "June 2026",
   "data": [
     {
@@ -66,11 +66,11 @@
       "firm_name": "Friedland (JAX)",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 25,
-      "percent": 38
+      "net": 16,
+      "owed": 24,
+      "percent": 40
     },
     {
       "firm_name": "Friedland (ORL)",
@@ -236,11 +236,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 38,
+      "gross": 40,
       "voided": 0,
-      "net": 38,
+      "net": 40,
       "owed": 0,
-      "percent": 760
+      "percent": 800
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -256,11 +256,11 @@
       "firm_name": "HESS",
       "state": "New Jersey",
       "monthly_goal": 5,
-      "gross": 5,
+      "gross": 9,
       "voided": 0,
-      "net": 5,
+      "net": 9,
       "owed": 0,
-      "percent": 100
+      "percent": 180
     },
     {
       "firm_name": "Bader Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 49,
+      "gross": 50,
       "voided": 0,
-      "net": 49,
-      "owed": 21,
-      "percent": 70
+      "net": 50,
+      "owed": 20,
+      "percent": 71
     },
     {
       "firm_name": "The IL Hammer",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 164,
+      "gross": 166,
       "voided": 0,
-      "net": 164,
+      "net": 166,
       "owed": 0,
-      "percent": 164
+      "percent": 166
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 136,
+      "gross": 139,
       "voided": 0,
-      "net": 136,
+      "net": 139,
       "owed": 0,
-      "percent": 389
+      "percent": 397
     },
     {
       "firm_name": "Scarfone",
