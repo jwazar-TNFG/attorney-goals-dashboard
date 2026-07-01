@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-30T21:02:45",
+  "updated": "2026-06-30T23:00:16",
   "month": "June 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 334,
+      "gross": 336,
       "voided": 0,
-      "net": 334,
+      "net": 336,
       "owed": 0,
-      "percent": 111
+      "percent": 112
     },
     {
       "firm_name": "ASK GARY",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 59,
+      "gross": 60,
       "voided": 0,
-      "net": 59,
+      "net": 60,
       "owed": 0,
-      "percent": 148
+      "percent": 150
     },
     {
       "firm_name": "Steve Kerman",
@@ -66,11 +66,11 @@
       "firm_name": "Friedland (JAX)",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 23,
-      "percent": 42
+      "net": 18,
+      "owed": 22,
+      "percent": 45
     },
     {
       "firm_name": "Friedland (ORL)",
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 213,
+      "gross": 215,
       "voided": 0,
-      "net": 213,
-      "owed": 80,
+      "net": 215,
+      "owed": 78,
       "percent": 73
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 92,
+      "gross": 95,
       "voided": 0,
-      "net": 92,
+      "net": 95,
       "owed": 0,
-      "percent": 131
+      "percent": 136
     },
     {
       "firm_name": "The Founders Law",
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 79,
+      "gross": 82,
       "voided": 0,
-      "net": 79,
+      "net": 82,
       "owed": 0,
-      "percent": 158
+      "percent": 164
     },
     {
       "firm_name": "Shulman WC",
@@ -296,11 +296,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 27,
+      "gross": 28,
       "voided": 0,
-      "net": 27,
+      "net": 28,
       "owed": 0,
-      "percent": 112
+      "percent": 117
     },
     {
       "firm_name": "Jimmy DLE",
@@ -316,21 +316,21 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 31,
+      "gross": 32,
       "voided": 0,
-      "net": 31,
+      "net": 32,
       "owed": 0,
-      "percent": 207
+      "percent": 213
     },
     {
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 50,
+      "gross": 51,
       "voided": 0,
-      "net": 50,
-      "owed": 20,
-      "percent": 71
+      "net": 51,
+      "owed": 19,
+      "percent": 73
     },
     {
       "firm_name": "The IL Hammer",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 64,
+      "gross": 65,
       "voided": 0,
-      "net": 64,
+      "net": 65,
       "owed": 0,
-      "percent": 107
+      "percent": 108
     },
     {
       "firm_name": "Bernheim",
@@ -406,21 +406,21 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 167,
+      "gross": 169,
       "voided": 0,
-      "net": 167,
+      "net": 169,
       "owed": 0,
-      "percent": 167
+      "percent": 169
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "Massachusetts",
       "monthly_goal": 30,
-      "gross": 21,
+      "gross": 22,
       "voided": 0,
-      "net": 21,
-      "owed": 9,
-      "percent": 70
+      "net": 22,
+      "owed": 8,
+      "percent": 73
     },
     {
       "firm_name": "Kelly McCallum",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 140,
+      "gross": 142,
       "voided": 0,
-      "net": 140,
+      "net": 142,
       "owed": 0,
-      "percent": 400
+      "percent": 406
     },
     {
       "firm_name": "Scarfone",
