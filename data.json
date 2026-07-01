@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-01T15:02:55",
+  "updated": "2026-07-01T17:05:42",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 1,
+      "gross": 4,
       "voided": 0,
-      "net": 1,
-      "owed": 299,
-      "percent": 0
+      "net": 4,
+      "owed": 296,
+      "percent": 1
     },
     {
       "firm_name": "ASK GARY",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 289,
-      "percent": 1
+      "net": 5,
+      "owed": 288,
+      "percent": 2
     },
     {
       "firm_name": "Mike F",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 2,
+      "gross": 4,
       "voided": 0,
-      "net": 2,
-      "owed": 108,
-      "percent": 2
+      "net": 4,
+      "owed": 106,
+      "percent": 4
     },
     {
       "firm_name": "Friedland",
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 50,
-      "percent": 0
+      "net": 1,
+      "owed": 49,
+      "percent": 2
     },
     {
       "firm_name": "Shulman WC",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 2,
+      "gross": 4,
       "voided": 0,
-      "net": 2,
-      "owed": 98,
-      "percent": 2
+      "net": 4,
+      "owed": 96,
+      "percent": 4
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 60,
-      "percent": 0
+      "net": 1,
+      "owed": 59,
+      "percent": 2
     },
     {
       "firm_name": "Schwed Law",
@@ -486,11 +486,11 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0
+      "net": 1,
+      "owed": 4,
+      "percent": 20
     },
     {
       "firm_name": "Lady Law (FL/Premium)",
