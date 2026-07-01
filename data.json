@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T11:06:19",
+  "updated": "2026-07-01T13:02:08",
   "month": "July 2026",
   "data": [
     {
@@ -76,21 +76,21 @@
       "firm_name": "Friedland (ORL)",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 30,
-      "percent": 0
+      "net": 1,
+      "owed": 29,
+      "percent": 3
     },
     {
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 30,
-      "percent": 0
+      "net": 1,
+      "owed": 29,
+      "percent": 3
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 2,
+      "gross": 4,
       "voided": 0,
-      "net": 2,
-      "owed": 291,
+      "net": 4,
+      "owed": 289,
       "percent": 1
     },
     {
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 125,
-      "percent": 0
+      "net": 1,
+      "owed": 124,
+      "percent": 1
     },
     {
       "firm_name": "Scarfone Law",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 60,
-      "percent": 0
+      "net": 1,
+      "owed": 59,
+      "percent": 2
     },
     {
       "firm_name": "Bernheim",
@@ -466,11 +466,11 @@
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0
+      "net": 1,
+      "owed": 4,
+      "percent": 20
     },
     {
       "firm_name": "Founders Law",
