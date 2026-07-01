@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T13:02:08",
+  "updated": "2026-07-01T15:02:55",
   "month": "July 2026",
   "data": [
     {
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 1,
+      "gross": 4,
       "voided": 0,
-      "net": 1,
-      "owed": 29,
-      "percent": 3
+      "net": 4,
+      "owed": 26,
+      "percent": 13
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 0,
+      "gross": 5,
       "voided": 0,
-      "net": 0,
-      "owed": 20,
-      "percent": 0
+      "net": 5,
+      "owed": 15,
+      "percent": 25
     },
     {
       "firm_name": "Newman Injury Law",
@@ -196,21 +196,21 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 0,
+      "gross": 2,
       "voided": 0,
-      "net": 0,
-      "owed": 110,
-      "percent": 0
+      "net": 2,
+      "owed": 108,
+      "percent": 2
     },
     {
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 50,
-      "percent": 0
+      "net": 1,
+      "owed": 49,
+      "percent": 2
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 35,
-      "percent": 0
+      "net": 1,
+      "owed": 34,
+      "percent": 3
     },
     {
       "firm_name": "Scarfone",
