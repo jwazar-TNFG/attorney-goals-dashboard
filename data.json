@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T13:03:01",
+  "updated": "2026-07-02T15:03:33",
   "month": "July 2026",
   "data": [
     {
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 40,
-      "percent": 0
+      "net": 1,
+      "owed": 39,
+      "percent": 2
     },
     {
       "firm_name": "YIA",
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 22,
-      "percent": 27
+      "net": 9,
+      "owed": 21,
+      "percent": 30
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -116,11 +116,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 9,
-      "percent": 10
+      "net": 2,
+      "owed": 8,
+      "percent": 20
     },
     {
       "firm_name": "Edward Law",
@@ -256,31 +256,31 @@
       "firm_name": "HESS",
       "state": "New Jersey",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0
+      "net": 1,
+      "owed": 4,
+      "percent": 20
     },
     {
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 122,
-      "percent": 2
+      "net": 4,
+      "owed": 121,
+      "percent": 3
     },
     {
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 99,
-      "percent": 1
+      "net": 2,
+      "owed": 98,
+      "percent": 2
     },
     {
       "firm_name": "The Founders Law",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 45,
-      "percent": 2
+      "net": 2,
+      "owed": 44,
+      "percent": 4
     },
     {
       "firm_name": "YIA",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 32,
-      "percent": 9
+      "net": 4,
+      "owed": 31,
+      "percent": 11
     },
     {
       "firm_name": "Scarfone",
@@ -486,11 +486,11 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 4,
-      "percent": 20
+      "net": 2,
+      "owed": 3,
+      "percent": 40
     },
     {
       "firm_name": "Lady Law (FL/Premium)",
