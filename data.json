@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T07:00:15",
+  "updated": "2026-07-02T09:02:23",
   "month": "July 2026",
   "data": [
     {
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 70,
-      "percent": 0
+      "net": 1,
+      "owed": 69,
+      "percent": 1
     },
     {
       "firm_name": "The IL Hammer",
