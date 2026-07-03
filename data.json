@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T17:02:06",
+  "updated": "2026-07-03T19:01:38",
   "month": "July 2026",
   "data": [
     {
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 20,
+      "gross": 22,
       "voided": 0,
-      "net": 20,
-      "owed": 273,
-      "percent": 7
+      "net": 22,
+      "owed": 271,
+      "percent": 8
     },
     {
       "firm_name": "Mike F",
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 46,
-      "percent": 8
+      "net": 5,
+      "owed": 45,
+      "percent": 10
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -266,21 +266,21 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 14,
+      "gross": 17,
       "voided": 0,
-      "net": 14,
-      "owed": 111,
-      "percent": 11
+      "net": 17,
+      "owed": 108,
+      "percent": 14
     },
     {
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 95,
-      "percent": 5
+      "net": 6,
+      "owed": 94,
+      "percent": 6
     },
     {
       "firm_name": "The Founders Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 3,
+      "gross": 5,
       "voided": 0,
-      "net": 3,
-      "owed": 67,
-      "percent": 4
+      "net": 5,
+      "owed": 65,
+      "percent": 7
     },
     {
       "firm_name": "The IL Hammer",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 42,
-      "percent": 9
+      "net": 5,
+      "owed": 41,
+      "percent": 11
     },
     {
       "firm_name": "YIA",
