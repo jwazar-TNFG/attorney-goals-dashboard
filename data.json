@@ -1,15 +1,15 @@
 {
-  "updated": "2026-07-02T19:02:40",
+  "updated": "2026-07-02T21:06:26",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 17,
+      "gross": 19,
       "voided": 0,
-      "net": 17,
-      "owed": 283,
+      "net": 19,
+      "owed": 281,
       "percent": 6
     },
     {
@@ -36,21 +36,21 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 39,
-      "percent": 2
+      "net": 2,
+      "owed": 38,
+      "percent": 5
     },
     {
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 3,
+      "gross": 5,
       "voided": 0,
-      "net": 3,
-      "owed": 37,
-      "percent": 8
+      "net": 5,
+      "owed": 35,
+      "percent": 12
     },
     {
       "firm_name": "Steve Kerman",
@@ -106,11 +106,11 @@
       "firm_name": "Arias & Abbass",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 2,
+      "gross": 4,
       "voided": 0,
-      "net": 2,
-      "owed": 18,
-      "percent": 10
+      "net": 4,
+      "owed": 16,
+      "percent": 20
     },
     {
       "firm_name": "Big Ben",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 101,
-      "percent": 8
+      "net": 10,
+      "owed": 100,
+      "percent": 9
     },
     {
       "firm_name": "Friedland",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 86,
-      "percent": 4
+      "net": 5,
+      "owed": 85,
+      "percent": 6
     },
     {
       "firm_name": "HESS",
@@ -326,21 +326,21 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 69,
-      "percent": 1
+      "net": 2,
+      "owed": 68,
+      "percent": 3
     },
     {
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 7,
+      "gross": 10,
       "voided": 0,
-      "net": 7,
-      "owed": 53,
-      "percent": 12
+      "net": 10,
+      "owed": 50,
+      "percent": 17
     },
     {
       "firm_name": "Big Ben",
@@ -396,21 +396,21 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 18,
-      "percent": 10
+      "net": 3,
+      "owed": 17,
+      "percent": 15
     },
     {
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 11,
+      "gross": 12,
       "voided": 0,
-      "net": 11,
-      "owed": 89,
-      "percent": 11
+      "net": 12,
+      "owed": 88,
+      "percent": 12
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 57,
-      "percent": 5
+      "net": 4,
+      "owed": 56,
+      "percent": 7
     },
     {
       "firm_name": "Schwed Law",
