@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T13:03:06",
+  "updated": "2026-07-03T15:01:18",
   "month": "July 2026",
   "data": [
     {
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 20,
-      "percent": 33
+      "net": 11,
+      "owed": 19,
+      "percent": 37
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -116,11 +116,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 5,
-      "percent": 50
+      "net": 6,
+      "owed": 4,
+      "percent": 60
     },
     {
       "firm_name": "Edward Law",
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 47,
-      "percent": 6
+      "net": 4,
+      "owed": 46,
+      "percent": 8
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -266,21 +266,21 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 5,
+      "gross": 13,
       "voided": 0,
-      "net": 5,
-      "owed": 120,
-      "percent": 4
+      "net": 13,
+      "owed": 112,
+      "percent": 10
     },
     {
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 96,
-      "percent": 4
+      "net": 5,
+      "owed": 95,
+      "percent": 5
     },
     {
       "firm_name": "The Founders Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 68,
-      "percent": 3
+      "net": 3,
+      "owed": 67,
+      "percent": 4
     },
     {
       "firm_name": "The IL Hammer",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 43,
-      "percent": 7
+      "net": 4,
+      "owed": 42,
+      "percent": 9
     },
     {
       "firm_name": "YIA",
