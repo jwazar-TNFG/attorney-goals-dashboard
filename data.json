@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T15:01:18",
+  "updated": "2026-07-03T17:02:06",
   "month": "July 2026",
   "data": [
     {
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 274,
-      "percent": 6
+      "net": 20,
+      "owed": 273,
+      "percent": 7
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 66,
-      "percent": 6
+      "net": 5,
+      "owed": 65,
+      "percent": 7
     },
     {
       "firm_name": "The Founders Law",
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 13,
+      "gross": 14,
       "voided": 0,
-      "net": 13,
-      "owed": 112,
-      "percent": 10
+      "net": 14,
+      "owed": 111,
+      "percent": 11
     },
     {
       "firm_name": "Scarfone Law",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 50,
-      "percent": 17
+      "net": 11,
+      "owed": 49,
+      "percent": 18
     },
     {
       "firm_name": "Big Ben",
@@ -366,21 +366,21 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 13,
-      "percent": 13
+      "net": 3,
+      "owed": 12,
+      "percent": 20
     },
     {
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 3,
+      "gross": 5,
       "voided": 0,
-      "net": 3,
-      "owed": 57,
-      "percent": 5
+      "net": 5,
+      "owed": 55,
+      "percent": 8
     },
     {
       "firm_name": "Bernheim",
