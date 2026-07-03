@@ -1,15 +1,15 @@
 {
-  "updated": "2026-07-03T11:02:40",
+  "updated": "2026-07-03T13:03:06",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 20,
+      "gross": 21,
       "voided": 0,
-      "net": 20,
-      "owed": 280,
+      "net": 21,
+      "owed": 279,
       "percent": 7
     },
     {
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 19,
-      "percent": 5
+      "net": 2,
+      "owed": 18,
+      "percent": 10
     },
     {
       "firm_name": "Newman Injury Law",
@@ -206,21 +206,21 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 48,
-      "percent": 4
+      "net": 3,
+      "owed": 47,
+      "percent": 6
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 44,
-      "percent": 12
+      "net": 7,
+      "owed": 43,
+      "percent": 14
     },
     {
       "firm_name": "Shulman WC",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 13,
+      "gross": 14,
       "voided": 0,
-      "net": 13,
-      "owed": 87,
-      "percent": 13
+      "net": 14,
+      "owed": 86,
+      "percent": 14
     },
     {
       "firm_name": "Robert Rubenstein",
