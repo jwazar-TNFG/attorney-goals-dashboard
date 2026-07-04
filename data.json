@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T07:00:14",
+  "updated": "2026-07-04T09:22:49",
   "month": "July 2026",
   "data": [
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 43,
-      "percent": 14
+      "net": 8,
+      "owed": 42,
+      "percent": 16
     },
     {
       "firm_name": "Shulman WC",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 6,
+      "gross": 12,
       "voided": 0,
-      "net": 6,
-      "owed": 84,
-      "percent": 7
+      "net": 12,
+      "owed": 78,
+      "percent": 13
     },
     {
       "firm_name": "HESS",
