@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T23:00:05",
+  "updated": "2026-07-04T07:00:14",
   "month": "July 2026",
   "data": [
     {
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 18,
+      "gross": 20,
       "voided": 0,
-      "net": 18,
-      "owed": 107,
-      "percent": 14
+      "net": 20,
+      "owed": 105,
+      "percent": 16
     },
     {
       "firm_name": "Scarfone Law",
