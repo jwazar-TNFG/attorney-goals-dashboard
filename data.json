@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T19:01:38",
+  "updated": "2026-07-03T21:02:05",
   "month": "July 2026",
   "data": [
     {
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 2,
+      "gross": 4,
       "voided": 0,
-      "net": 2,
-      "owed": 38,
-      "percent": 5
+      "net": 4,
+      "owed": 36,
+      "percent": 10
     },
     {
       "firm_name": "YIA",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 22,
+      "gross": 23,
       "voided": 0,
-      "net": 22,
-      "owed": 271,
+      "net": 23,
+      "owed": 270,
       "percent": 8
     },
     {
@@ -266,10 +266,10 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 108,
+      "net": 18,
+      "owed": 107,
       "percent": 14
     },
     {
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 19,
-      "percent": 5
+      "net": 2,
+      "owed": 18,
+      "percent": 10
     },
     {
       "firm_name": "Hines Law (WC)",
