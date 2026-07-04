@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T13:03:16",
+  "updated": "2026-07-04T15:01:25",
   "month": "July 2026",
   "data": [
     {
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 35,
-      "percent": 12
+      "net": 6,
+      "owed": 34,
+      "percent": 15
     },
     {
       "firm_name": "YIA",
@@ -116,20 +116,20 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 4,
-      "percent": 60
+      "net": 7,
+      "owed": 3,
+      "percent": 70
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 25,
+      "gross": 26,
       "voided": 0,
-      "net": 25,
-      "owed": 268,
+      "net": 26,
+      "owed": 267,
       "percent": 9
     },
     {
@@ -296,11 +296,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 21,
-      "percent": 12
+      "net": 4,
+      "owed": 20,
+      "percent": 17
     },
     {
       "firm_name": "Jimmy DLE",
@@ -396,11 +396,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 15,
-      "percent": 25
+      "net": 6,
+      "owed": 14,
+      "percent": 30
     },
     {
       "firm_name": "Michael Kelly",
