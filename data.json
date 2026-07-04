@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T11:08:23",
+  "updated": "2026-07-04T13:03:16",
   "month": "July 2026",
   "data": [
     {
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 23,
+      "gross": 25,
       "voided": 0,
-      "net": 23,
-      "owed": 270,
-      "percent": 8
+      "net": 25,
+      "owed": 268,
+      "percent": 9
     },
     {
       "firm_name": "Mike F",
