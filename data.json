@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T09:02:11",
+  "updated": "2026-07-05T11:01:35",
   "month": "July 2026",
   "data": [
     {
@@ -236,11 +236,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 5,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60
+      "net": 5,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -396,11 +396,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 14,
-      "percent": 30
+      "net": 7,
+      "owed": 13,
+      "percent": 35
     },
     {
       "firm_name": "Michael Kelly",
