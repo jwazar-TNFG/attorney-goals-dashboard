@@ -1,15 +1,15 @@
 {
-  "updated": "2026-07-05T15:01:55",
+  "updated": "2026-07-05T17:01:36",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 30,
+      "gross": 31,
       "voided": 0,
-      "net": 30,
-      "owed": 270,
+      "net": 31,
+      "owed": 269,
       "percent": 10
     },
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 28,
+      "gross": 30,
       "voided": 0,
-      "net": 28,
-      "owed": 265,
+      "net": 30,
+      "owed": 263,
       "percent": 10
     },
     {
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 11,
+      "gross": 12,
       "voided": 0,
-      "net": 11,
-      "owed": 99,
-      "percent": 10
+      "net": 12,
+      "owed": 98,
+      "percent": 11
     },
     {
       "firm_name": "Friedland",
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 12,
+      "gross": 15,
       "voided": 0,
-      "net": 12,
-      "owed": 38,
-      "percent": 24
+      "net": 15,
+      "owed": 35,
+      "percent": 30
     },
     {
       "firm_name": "Shulman WC",
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 28,
+      "gross": 29,
       "voided": 0,
-      "net": 28,
-      "owed": 97,
-      "percent": 22
+      "net": 29,
+      "owed": 96,
+      "percent": 23
     },
     {
       "firm_name": "Scarfone Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 64,
-      "percent": 9
+      "net": 7,
+      "owed": 63,
+      "percent": 10
     },
     {
       "firm_name": "The IL Hammer",
