@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T11:01:35",
+  "updated": "2026-07-05T13:02:02",
   "month": "July 2026",
   "data": [
     {
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 4,
+      "gross": 6,
       "voided": 0,
-      "net": 4,
-      "owed": 31,
-      "percent": 11
+      "net": 6,
+      "owed": 29,
+      "percent": 17
     },
     {
       "firm_name": "Schwed Law",
