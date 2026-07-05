@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-05T17:01:36",
+  "updated": "2026-07-05T19:01:09",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 31,
+      "gross": 35,
       "voided": 0,
-      "net": 31,
-      "owed": 269,
-      "percent": 10
+      "net": 35,
+      "owed": 265,
+      "percent": 12
     },
     {
       "firm_name": "ASK GARY",
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 63,
-      "percent": 10
+      "net": 8,
+      "owed": 62,
+      "percent": 11
     },
     {
       "firm_name": "The Founders Law",
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 42,
-      "percent": 16
+      "net": 9,
+      "owed": 41,
+      "percent": 18
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 29,
-      "percent": 17
+      "net": 7,
+      "owed": 28,
+      "percent": 20
     },
     {
       "firm_name": "Schwed Law",
