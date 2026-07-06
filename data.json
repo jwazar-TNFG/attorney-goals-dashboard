@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T23:00:15",
+  "updated": "2026-07-06T07:00:14",
   "month": "July 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 33,
-      "percent": 18
+      "net": 8,
+      "owed": 32,
+      "percent": 20
     },
     {
       "firm_name": "Steve Kerman",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 31,
+      "gross": 33,
       "voided": 0,
-      "net": 31,
-      "owed": 262,
+      "net": 33,
+      "owed": 260,
       "percent": 11
     },
     {
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 63,
-      "percent": 10
+      "net": 8,
+      "owed": 62,
+      "percent": 11
     },
     {
       "firm_name": "The IL Hammer",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 40,
-      "percent": 13
+      "net": 7,
+      "owed": 39,
+      "percent": 15
     },
     {
       "firm_name": "YIA",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 85,
-      "percent": 15
+      "net": 16,
+      "owed": 84,
+      "percent": 16
     },
     {
       "firm_name": "Robert Rubenstein",
