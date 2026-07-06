@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T11:03:12",
+  "updated": "2026-07-06T13:03:58",
   "month": "July 2026",
   "data": [
     {
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 91,
-      "percent": 9
+      "net": 10,
+      "owed": 90,
+      "percent": 10
     },
     {
       "firm_name": "The Founders Law",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 16,
+      "gross": 19,
       "voided": 0,
-      "net": 16,
-      "owed": 84,
-      "percent": 16
+      "net": 19,
+      "owed": 81,
+      "percent": 19
     },
     {
       "firm_name": "Robert Rubenstein",
