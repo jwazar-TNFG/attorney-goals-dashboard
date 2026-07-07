@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T21:03:06",
+  "updated": "2026-07-06T23:00:16",
   "month": "July 2026",
   "data": [
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 21,
+      "gross": 23,
       "voided": 0,
-      "net": 21,
-      "owed": 29,
-      "percent": 42
+      "net": 23,
+      "owed": 27,
+      "percent": 46
     },
     {
       "firm_name": "Shulman WC",
@@ -236,21 +236,21 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
+      "net": 9,
       "owed": 0,
-      "percent": 160
+      "percent": 180
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 19,
+      "gross": 21,
       "voided": 0,
-      "net": 19,
-      "owed": 71,
-      "percent": 21
+      "net": 21,
+      "owed": 69,
+      "percent": 23
     },
     {
       "firm_name": "HESS",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 13,
+      "gross": 14,
       "voided": 0,
-      "net": 13,
-      "owed": 87,
-      "percent": 13
+      "net": 14,
+      "owed": 86,
+      "percent": 14
     },
     {
       "firm_name": "The Founders Law",
@@ -316,11 +316,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 12,
-      "percent": 20
+      "net": 4,
+      "owed": 11,
+      "percent": 27
     },
     {
       "firm_name": "Friedland",
@@ -366,11 +366,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 12,
-      "percent": 20
+      "net": 4,
+      "owed": 11,
+      "percent": 27
     },
     {
       "firm_name": "YIA",
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 6,
+      "gross": 9,
       "voided": 0,
-      "net": 6,
-      "owed": 54,
-      "percent": 10
+      "net": 9,
+      "owed": 51,
+      "percent": 15
     },
     {
       "firm_name": "Schwed Law",
