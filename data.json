@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T07:00:10",
+  "updated": "2026-07-07T09:01:49",
   "month": "July 2026",
   "data": [
     {
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 50,
-      "percent": 17
+      "net": 11,
+      "owed": 49,
+      "percent": 18
     },
     {
       "firm_name": "Schwed Law",
