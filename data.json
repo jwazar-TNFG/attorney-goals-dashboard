@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T11:02:28",
+  "updated": "2026-07-07T13:02:32",
   "month": "July 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 1,
+      "gross": 3,
       "voided": 0,
-      "net": 1,
-      "owed": 49,
-      "percent": 2
+      "net": 3,
+      "owed": 47,
+      "percent": 6
     },
     {
       "firm_name": "SGF",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 85,
-      "percent": 15
+      "net": 16,
+      "owed": 84,
+      "percent": 16
     },
     {
       "firm_name": "The Founders Law",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 8,
+      "gross": 11,
       "voided": 0,
-      "net": 8,
-      "owed": 52,
-      "percent": 13
+      "net": 11,
+      "owed": 49,
+      "percent": 18
     },
     {
       "firm_name": "Bernheim",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 30,
+      "gross": 31,
       "voided": 0,
-      "net": 30,
-      "owed": 70,
-      "percent": 30
+      "net": 31,
+      "owed": 69,
+      "percent": 31
     },
     {
       "firm_name": "Robert Rubenstein",
