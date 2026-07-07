@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T17:03:56",
+  "updated": "2026-07-07T19:04:08",
   "month": "July 2026",
   "data": [
     {
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 32,
-      "percent": 20
+      "net": 9,
+      "owed": 31,
+      "percent": 22
     },
     {
       "firm_name": "YIA",
@@ -66,11 +66,11 @@
       "firm_name": "Friedland (JAX)",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 38,
-      "percent": 5
+      "net": 3,
+      "owed": 37,
+      "percent": 8
     },
     {
       "firm_name": "Friedland (ORL)",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 26,
+      "gross": 28,
       "voided": 0,
-      "net": 26,
-      "owed": 84,
-      "percent": 24
+      "net": 28,
+      "owed": 82,
+      "percent": 25
     },
     {
       "firm_name": "Friedland",
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 40,
+      "gross": 41,
       "voided": 0,
-      "net": 40,
-      "owed": 85,
-      "percent": 32
+      "net": 41,
+      "owed": 84,
+      "percent": 33
     },
     {
       "firm_name": "Scarfone Law",
@@ -466,11 +466,11 @@
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 1,
+      "gross": 3,
       "voided": 0,
-      "net": 1,
-      "owed": 4,
-      "percent": 20
+      "net": 3,
+      "owed": 2,
+      "percent": 60
     },
     {
       "firm_name": "Founders Law",
