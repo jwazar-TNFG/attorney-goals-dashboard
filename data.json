@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-07T13:02:32",
+  "updated": "2026-07-07T14:35:28",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 58,
+      "gross": 59,
       "voided": 0,
-      "net": 58,
-      "owed": 242,
-      "percent": 19
+      "net": 59,
+      "owed": 241,
+      "percent": 20
     },
     {
       "firm_name": "ASK GARY",
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 47,
-      "percent": 6
+      "net": 4,
+      "owed": 46,
+      "percent": 8
     },
     {
       "firm_name": "SGF",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 32,
-      "percent": 20
+      "net": 9,
+      "owed": 31,
+      "percent": 22
     },
     {
       "firm_name": "Steve Kerman",
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 11,
+      "gross": 12,
       "voided": 0,
-      "net": 11,
-      "owed": 19,
-      "percent": 37
+      "net": 12,
+      "owed": 18,
+      "percent": 40
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -146,11 +146,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 29,
-      "percent": 3
+      "net": 2,
+      "owed": 28,
+      "percent": 7
     },
     {
       "firm_name": "YIA",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 21,
+      "gross": 22,
       "voided": 0,
-      "net": 21,
-      "owed": 69,
-      "percent": 23
+      "net": 22,
+      "owed": 68,
+      "percent": 24
     },
     {
       "firm_name": "HESS",
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 34,
+      "gross": 36,
       "voided": 0,
-      "net": 34,
-      "owed": 91,
-      "percent": 27
+      "net": 36,
+      "owed": 89,
+      "percent": 29
     },
     {
       "firm_name": "Scarfone Law",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 16,
+      "gross": 19,
       "voided": 0,
-      "net": 16,
-      "owed": 44,
-      "percent": 27
+      "net": 19,
+      "owed": 41,
+      "percent": 32
     },
     {
       "firm_name": "Big Ben",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 31,
+      "gross": 33,
       "voided": 0,
-      "net": 31,
-      "owed": 69,
-      "percent": 31
+      "net": 33,
+      "owed": 67,
+      "percent": 33
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -436,11 +436,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 12,
+      "gross": 13,
       "voided": 0,
-      "net": 12,
-      "owed": 48,
-      "percent": 20
+      "net": 13,
+      "owed": 47,
+      "percent": 22
     },
     {
       "firm_name": "Schwed Law",
