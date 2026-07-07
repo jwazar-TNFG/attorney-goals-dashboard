@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-07T15:03:12",
+  "updated": "2026-07-07T17:03:56",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 59,
+      "gross": 70,
       "voided": 0,
-      "net": 59,
-      "owed": 241,
-      "percent": 20
+      "net": 70,
+      "owed": 230,
+      "percent": 23
     },
     {
       "firm_name": "ASK GARY",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 31,
-      "percent": 22
+      "net": 10,
+      "owed": 30,
+      "percent": 25
     },
     {
       "firm_name": "Steve Kerman",
@@ -86,21 +86,21 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 12,
+      "gross": 13,
       "voided": 0,
-      "net": 12,
-      "owed": 18,
-      "percent": 40
+      "net": 13,
+      "owed": 17,
+      "percent": 43
     },
     {
       "firm_name": "Friedland (TPA)",
       "state": "Florida",
       "monthly_goal": 24,
-      "gross": 2,
+      "gross": 4,
       "voided": 0,
-      "net": 2,
-      "owed": 22,
-      "percent": 8
+      "net": 4,
+      "owed": 20,
+      "percent": 17
     },
     {
       "firm_name": "Arias & Abbass",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 43,
+      "gross": 45,
       "voided": 0,
-      "net": 43,
-      "owed": 250,
+      "net": 45,
+      "owed": 248,
       "percent": 15
     },
     {
@@ -196,31 +196,31 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 24,
+      "gross": 26,
       "voided": 0,
-      "net": 24,
-      "owed": 86,
-      "percent": 22
+      "net": 26,
+      "owed": 84,
+      "percent": 24
     },
     {
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 13,
+      "gross": 15,
       "voided": 0,
-      "net": 13,
-      "owed": 37,
-      "percent": 26
+      "net": 15,
+      "owed": 35,
+      "percent": 30
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
-      "owed": 27,
-      "percent": 46
+      "net": 24,
+      "owed": 26,
+      "percent": 48
     },
     {
       "firm_name": "Shulman WC",
@@ -236,21 +236,21 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 12,
+      "gross": 13,
       "voided": 0,
-      "net": 12,
+      "net": 13,
       "owed": 0,
-      "percent": 240
+      "percent": 260
     },
     {
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 22,
+      "gross": 26,
       "voided": 0,
-      "net": 22,
-      "owed": 68,
-      "percent": 24
+      "net": 26,
+      "owed": 64,
+      "percent": 29
     },
     {
       "firm_name": "HESS",
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 36,
+      "gross": 40,
       "voided": 0,
-      "net": 36,
-      "owed": 89,
-      "percent": 29
+      "net": 40,
+      "owed": 85,
+      "percent": 32
     },
     {
       "firm_name": "Scarfone Law",
@@ -366,11 +366,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 11,
-      "percent": 27
+      "net": 5,
+      "owed": 10,
+      "percent": 33
     },
     {
       "firm_name": "YIA",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 28,
-      "percent": 20
+      "net": 8,
+      "owed": 27,
+      "percent": 23
     },
     {
       "firm_name": "Schwed Law",
