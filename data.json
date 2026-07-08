@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T23:00:07",
+  "updated": "2026-07-08T07:00:09",
   "month": "July 2026",
   "data": [
     {
@@ -146,11 +146,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 28,
-      "percent": 7
+      "net": 3,
+      "owed": 27,
+      "percent": 10
     },
     {
       "firm_name": "YIA",
@@ -236,11 +236,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 13,
+      "gross": 17,
       "voided": 0,
-      "net": 13,
+      "net": 17,
       "owed": 0,
-      "percent": 260
+      "percent": 340
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -266,21 +266,21 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 43,
+      "gross": 45,
       "voided": 0,
-      "net": 43,
-      "owed": 82,
-      "percent": 34
+      "net": 45,
+      "owed": 80,
+      "percent": 36
     },
     {
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 84,
-      "percent": 16
+      "net": 17,
+      "owed": 83,
+      "percent": 17
     },
     {
       "firm_name": "The Founders Law",
@@ -316,11 +316,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 4,
+      "gross": 6,
       "voided": 0,
-      "net": 4,
-      "owed": 11,
-      "percent": 27
+      "net": 6,
+      "owed": 9,
+      "percent": 40
     },
     {
       "firm_name": "Friedland",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 41,
-      "percent": 32
+      "net": 20,
+      "owed": 40,
+      "percent": 33
     },
     {
       "firm_name": "Big Ben",
