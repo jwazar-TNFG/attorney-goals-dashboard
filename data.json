@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T09:03:07",
+  "updated": "2026-07-08T11:03:04",
   "month": "July 2026",
   "data": [
     {
@@ -316,21 +316,21 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 9,
-      "percent": 40
+      "net": 7,
+      "owed": 8,
+      "percent": 47
     },
     {
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 61,
-      "percent": 13
+      "net": 10,
+      "owed": 60,
+      "percent": 14
     },
     {
       "firm_name": "The IL Hammer",
@@ -356,11 +356,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 36,
-      "percent": 22
+      "net": 11,
+      "owed": 35,
+      "percent": 24
     },
     {
       "firm_name": "YIA",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 15,
+      "gross": 18,
       "voided": 0,
-      "net": 15,
-      "owed": 20,
-      "percent": 43
+      "net": 18,
+      "owed": 17,
+      "percent": 51
     },
     {
       "firm_name": "Scarfone",
