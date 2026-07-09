@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T11:03:35",
+  "updated": "2026-07-09T13:02:36",
   "month": "July 2026",
   "data": [
     {
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 15,
+      "gross": 17,
       "voided": 0,
-      "net": 15,
-      "owed": 15,
-      "percent": 50
+      "net": 17,
+      "owed": 13,
+      "percent": 57
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 55,
+      "gross": 57,
       "voided": 0,
-      "net": 55,
-      "owed": 238,
+      "net": 57,
+      "owed": 236,
       "percent": 19
     },
     {
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 13,
-      "percent": 35
+      "net": 8,
+      "owed": 12,
+      "percent": 40
     },
     {
       "firm_name": "Newman Injury Law",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 30,
+      "gross": 33,
       "voided": 0,
-      "net": 30,
-      "owed": 80,
-      "percent": 27
+      "net": 33,
+      "owed": 77,
+      "percent": 30
     },
     {
       "firm_name": "Friedland",
@@ -226,11 +226,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 15,
-      "percent": 32
+      "net": 8,
+      "owed": 14,
+      "percent": 36
     },
     {
       "firm_name": "HESS",
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 1,
+      "gross": 2,
       "voided": 0,
-      "net": 1,
-      "owed": 49,
-      "percent": 2
+      "net": 2,
+      "owed": 48,
+      "percent": 4
     },
     {
       "firm_name": "YIA",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
-      "owed": 37,
-      "percent": 38
+      "net": 24,
+      "owed": 36,
+      "percent": 40
     },
     {
       "firm_name": "Big Ben",
