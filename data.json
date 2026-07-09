@@ -1,15 +1,15 @@
 {
-  "updated": "2026-07-08T19:02:59",
+  "updated": "2026-07-08T21:02:44",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 81,
+      "gross": 82,
       "voided": 0,
-      "net": 81,
-      "owed": 219,
+      "net": 82,
+      "owed": 218,
       "percent": 27
     },
     {
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 51,
+      "gross": 54,
       "voided": 0,
-      "net": 51,
-      "owed": 242,
-      "percent": 17
+      "net": 54,
+      "owed": 239,
+      "percent": 18
     },
     {
       "firm_name": "Mike F",
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 5,
+      "gross": 7,
       "voided": 0,
-      "net": 5,
-      "owed": 15,
-      "percent": 25
+      "net": 7,
+      "owed": 13,
+      "percent": 35
     },
     {
       "firm_name": "Newman Injury Law",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 22,
+      "gross": 23,
       "voided": 0,
-      "net": 22,
-      "owed": 38,
-      "percent": 37
+      "net": 23,
+      "owed": 37,
+      "percent": 38
     },
     {
       "firm_name": "Big Ben",
@@ -366,11 +366,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 10,
-      "percent": 33
+      "net": 6,
+      "owed": 9,
+      "percent": 40
     },
     {
       "firm_name": "YIA",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 47,
+      "gross": 49,
       "voided": 0,
-      "net": 47,
-      "owed": 53,
-      "percent": 47
+      "net": 49,
+      "owed": 51,
+      "percent": 49
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -456,11 +456,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 19,
-      "percent": 46
+      "net": 17,
+      "owed": 18,
+      "percent": 49
     },
     {
       "firm_name": "Scarfone",
