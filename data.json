@@ -1,15 +1,15 @@
 {
-  "updated": "2026-07-09T07:00:07",
+  "updated": "2026-07-09T09:06:57",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 93,
+      "gross": 92,
       "voided": 0,
-      "net": 93,
-      "owed": 207,
+      "net": 92,
+      "owed": 208,
       "percent": 31
     },
     {
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 33,
+      "gross": 32,
       "voided": 0,
-      "net": 33,
-      "owed": 57,
-      "percent": 37
+      "net": 32,
+      "owed": 58,
+      "percent": 36
     },
     {
       "firm_name": "HESS",
