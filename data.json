@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-10T13:02:18",
+  "updated": "2026-07-10T15:02:22",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 110,
+      "gross": 114,
       "voided": 0,
-      "net": 110,
-      "owed": 190,
-      "percent": 37
+      "net": 114,
+      "owed": 186,
+      "percent": 38
     },
     {
       "firm_name": "ASK GARY",
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 44,
-      "percent": 12
+      "net": 7,
+      "owed": 43,
+      "percent": 14
     },
     {
       "firm_name": "SGF",
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 15,
+      "gross": 17,
       "voided": 0,
-      "net": 15,
-      "owed": 55,
-      "percent": 21
+      "net": 17,
+      "owed": 53,
+      "percent": 24
     },
     {
       "firm_name": "The Founders Law",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 42,
+      "gross": 43,
       "voided": 0,
-      "net": 42,
-      "owed": 48,
-      "percent": 47
+      "net": 43,
+      "owed": 47,
+      "percent": 48
     },
     {
       "firm_name": "HESS",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 13,
+      "gross": 14,
       "voided": 0,
-      "net": 13,
-      "owed": 57,
-      "percent": 19
+      "net": 14,
+      "owed": 56,
+      "percent": 20
     },
     {
       "firm_name": "The IL Hammer",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 55,
+      "gross": 56,
       "voided": 0,
-      "net": 55,
-      "owed": 45,
-      "percent": 55
+      "net": 56,
+      "owed": 44,
+      "percent": 56
     },
     {
       "firm_name": "Robert Rubenstein",
