@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T23:00:11",
+  "updated": "2026-07-10T07:00:13",
   "month": "July 2026",
   "data": [
     {
@@ -36,21 +36,21 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 9,
+      "gross": 10,
       "voided": 0,
-      "net": 9,
-      "owed": 31,
-      "percent": 22
+      "net": 10,
+      "owed": 30,
+      "percent": 25
     },
     {
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 26,
-      "percent": 35
+      "net": 15,
+      "owed": 25,
+      "percent": 38
     },
     {
       "firm_name": "Steve Kerman",
