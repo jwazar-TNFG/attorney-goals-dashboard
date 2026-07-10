@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-09T21:01:45",
+  "updated": "2026-07-09T23:00:11",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 100,
+      "gross": 105,
       "voided": 0,
-      "net": 100,
-      "owed": 200,
-      "percent": 33
+      "net": 105,
+      "owed": 195,
+      "percent": 35
     },
     {
       "firm_name": "ASK GARY",
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 22,
+      "gross": 23,
       "voided": 0,
-      "net": 22,
-      "owed": 8,
-      "percent": 73
+      "net": 23,
+      "owed": 7,
+      "percent": 77
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 29,
+      "gross": 31,
       "voided": 0,
-      "net": 29,
-      "owed": 21,
-      "percent": 58
+      "net": 31,
+      "owed": 19,
+      "percent": 62
     },
     {
       "firm_name": "Shulman WC",
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 18,
-      "percent": 10
+      "net": 3,
+      "owed": 17,
+      "percent": 15
     },
     {
       "firm_name": "Hines Law (WC)",
@@ -366,11 +366,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 5,
-      "percent": 67
+      "net": 11,
+      "owed": 4,
+      "percent": 73
     },
     {
       "firm_name": "YIA",
