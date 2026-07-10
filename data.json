@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-10T09:02:18",
+  "updated": "2026-07-10T11:02:19",
   "month": "July 2026",
   "data": [
     {
       "firm_name": "Robert Rubenstein",
       "state": "Florida",
       "monthly_goal": 300,
-      "gross": 105,
+      "gross": 110,
       "voided": 0,
-      "net": 105,
-      "owed": 195,
-      "percent": 35
+      "net": 110,
+      "owed": 190,
+      "percent": 37
     },
     {
       "firm_name": "ASK GARY",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 37,
+      "gross": 43,
       "voided": 0,
-      "net": 37,
-      "owed": 53,
-      "percent": 41
+      "net": 43,
+      "owed": 47,
+      "percent": 48
     },
     {
       "firm_name": "HESS",
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 56,
+      "gross": 57,
       "voided": 0,
-      "net": 56,
-      "owed": 69,
-      "percent": 45
+      "net": 57,
+      "owed": 68,
+      "percent": 46
     },
     {
       "firm_name": "Scarfone Law",
@@ -336,11 +336,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 60,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 34,
-      "percent": 43
+      "net": 27,
+      "owed": 33,
+      "percent": 45
     },
     {
       "firm_name": "Big Ben",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 11,
+      "gross": 12,
       "voided": 0,
-      "net": 11,
-      "owed": 24,
-      "percent": 31
+      "net": 12,
+      "owed": 23,
+      "percent": 34
     },
     {
       "firm_name": "Schwed Law",
