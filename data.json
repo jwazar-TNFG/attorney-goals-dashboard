@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T17:01:51",
+  "updated": "2026-07-10T19:02:16",
   "month": "July 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 15,
+      "gross": 17,
       "voided": 0,
-      "net": 15,
-      "owed": 25,
-      "percent": 38
+      "net": 17,
+      "owed": 23,
+      "percent": 42
     },
     {
       "firm_name": "Steve Kerman",
@@ -106,11 +106,11 @@
       "firm_name": "Arias & Abbass",
       "state": "Florida",
       "monthly_goal": 20,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 15,
-      "percent": 25
+      "net": 6,
+      "owed": 14,
+      "percent": 30
     },
     {
       "firm_name": "Big Ben",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 14,
+      "gross": 16,
       "voided": 0,
-      "net": 14,
-      "owed": 56,
-      "percent": 20
+      "net": 16,
+      "owed": 54,
+      "percent": 23
     },
     {
       "firm_name": "The IL Hammer",
@@ -376,21 +376,21 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 45,
-      "percent": 25
+      "net": 16,
+      "owed": 44,
+      "percent": 27
     },
     {
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 20,
-      "percent": 43
+      "net": 16,
+      "owed": 19,
+      "percent": 46
     },
     {
       "firm_name": "Schwed Law",
@@ -406,11 +406,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 60,
+      "gross": 61,
       "voided": 0,
-      "net": 60,
-      "owed": 40,
-      "percent": 60
+      "net": 61,
+      "owed": 39,
+      "percent": 61
     },
     {
       "firm_name": "Robert Rubenstein",
