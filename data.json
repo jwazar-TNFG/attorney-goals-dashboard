@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T21:00:17",
+  "updated": "2026-07-10T23:00:29",
   "month": "July 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 9,
+      "gross": 11,
       "voided": 0,
-      "net": 9,
-      "owed": 41,
-      "percent": 18
+      "net": 11,
+      "owed": 39,
+      "percent": 22
     },
     {
       "firm_name": "SGF",
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 23,
-      "percent": 42
+      "net": 18,
+      "owed": 22,
+      "percent": 45
     },
     {
       "firm_name": "Steve Kerman",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 62,
+      "gross": 63,
       "voided": 0,
-      "net": 62,
-      "owed": 231,
-      "percent": 21
+      "net": 63,
+      "owed": 230,
+      "percent": 22
     },
     {
       "firm_name": "Mike F",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 54,
-      "percent": 23
+      "net": 17,
+      "owed": 53,
+      "percent": 24
     },
     {
       "firm_name": "The IL Hammer",
