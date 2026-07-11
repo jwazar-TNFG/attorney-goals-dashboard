@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T23:00:29",
+  "updated": "2026-07-11T07:00:28",
   "month": "July 2026",
   "data": [
     {
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 10,
-      "percent": 50
+      "net": 11,
+      "owed": 9,
+      "percent": 55
     },
     {
       "firm_name": "Newman Injury Law",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 44,
-      "percent": 27
+      "net": 17,
+      "owed": 43,
+      "percent": 28
     },
     {
       "firm_name": "Bernheim",
