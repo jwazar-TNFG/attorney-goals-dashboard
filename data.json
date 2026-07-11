@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T09:00:31",
+  "updated": "2026-07-11T11:00:32",
   "month": "July 2026",
   "data": [
     {
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 41,
+      "gross": 42,
       "voided": 0,
-      "net": 41,
-      "owed": 69,
-      "percent": 37
+      "net": 42,
+      "owed": 68,
+      "percent": 38
     },
     {
       "firm_name": "Friedland",
