@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T11:00:32",
+  "updated": "2026-07-11T13:00:35",
   "month": "July 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 63,
+      "gross": 64,
       "voided": 0,
-      "net": 63,
-      "owed": 230,
+      "net": 64,
+      "owed": 229,
       "percent": 22
     },
     {
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
-      "owed": 82,
-      "percent": 18
+      "net": 19,
+      "owed": 81,
+      "percent": 19
     },
     {
       "firm_name": "The Founders Law",
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 17,
-      "percent": 15
+      "net": 4,
+      "owed": 16,
+      "percent": 20
     },
     {
       "firm_name": "Hines Law (WC)",
