@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T21:00:20",
+  "updated": "2026-07-11T23:00:24",
   "month": "July 2026",
   "data": [
     {
@@ -66,11 +66,11 @@
       "firm_name": "Friedland (JAX)",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 4,
+      "gross": 6,
       "voided": 0,
-      "net": 4,
-      "owed": 36,
-      "percent": 10
+      "net": 6,
+      "owed": 34,
+      "percent": 15
     },
     {
       "firm_name": "Friedland (ORL)",
@@ -116,11 +116,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 2,
-      "percent": 80
+      "net": 9,
+      "owed": 1,
+      "percent": 90
     },
     {
       "firm_name": "Edward Law",
@@ -146,11 +146,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
-      "owed": 26,
-      "percent": 13
+      "net": 5,
+      "owed": 25,
+      "percent": 17
     },
     {
       "firm_name": "YIA",
@@ -376,11 +376,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 18,
+      "gross": 20,
       "voided": 0,
-      "net": 18,
-      "owed": 42,
-      "percent": 30
+      "net": 20,
+      "owed": 40,
+      "percent": 33
     },
     {
       "firm_name": "Bernheim",
