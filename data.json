@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T15:00:27",
+  "updated": "2026-07-12T17:00:17",
   "month": "July 2026",
   "data": [
     {
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 51,
-      "percent": 27
+      "net": 20,
+      "owed": 50,
+      "percent": 29
     },
     {
       "firm_name": "The IL Hammer",
@@ -396,11 +396,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 14,
+      "gross": 17,
       "voided": 0,
-      "net": 14,
-      "owed": 6,
-      "percent": 70
+      "net": 17,
+      "owed": 3,
+      "percent": 85
     },
     {
       "firm_name": "Michael Kelly",
