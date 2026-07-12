@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T23:00:24",
+  "updated": "2026-07-12T07:00:19",
   "month": "July 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 21,
-      "percent": 48
+      "net": 20,
+      "owed": 20,
+      "percent": 50
     },
     {
       "firm_name": "Steve Kerman",
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 6,
-      "percent": 70
+      "net": 15,
+      "owed": 5,
+      "percent": 75
     },
     {
       "firm_name": "Newman Injury Law",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 81,
-      "percent": 19
+      "net": 20,
+      "owed": 80,
+      "percent": 20
     },
     {
       "firm_name": "The Founders Law",
@@ -366,11 +366,11 @@
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 14,
+      "gross": 15,
       "voided": 0,
-      "net": 14,
-      "owed": 1,
-      "percent": 93
+      "net": 15,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "YIA",
