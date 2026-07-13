@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T19:00:32",
+  "updated": "2026-07-12T21:00:07",
   "month": "July 2026",
   "data": [
     {
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 5,
-      "percent": 75
+      "net": 16,
+      "owed": 4,
+      "percent": 80
     },
     {
       "firm_name": "Newman Injury Law",
@@ -386,11 +386,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 16,
-      "percent": 54
+      "net": 20,
+      "owed": 15,
+      "percent": 57
     },
     {
       "firm_name": "Schwed Law",
