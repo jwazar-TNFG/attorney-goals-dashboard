@@ -74,30 +74,35 @@ def load_mapping():
     return {'mappings': {}, 'ignored': []}
 
 def _fetch_leads_rest(sb, start_date: str, end_date: str, dropped_only=False) -> list:
-    """Fetch leads via REST API with pagination. Returns list of (attorney, accidentState) tuples."""
-    from lib.supabase_client import fetch_all
-    query = sb.table('leads').select('attorney,accidentState')
-    query = query.gte('dateSigned', start_date).lt('dateSigned', end_date)
-    query = query.eq('sourceType', 'TNFG').neq('attorney', 'null')
-    if dropped_only:
-        query = query.neq('dateDropped', 'null')
-    
-    # Use fetch_all for pagination
+    """Fetch leads via REST API with pagination and retry. Returns list of dicts."""
+    import time
     all_rows = []
-    page_size = 1000
+    page_size = 500  # smaller pages to avoid statement timeouts
     offset = 0
+    max_retries = 3
     while True:
         q = sb.table('leads').select('attorney,accidentState')
         q = q.gte('dateSigned', start_date).lt('dateSigned', end_date)
         q = q.eq('sourceType', 'TNFG').not_.is_('attorney', 'null')
         if dropped_only:
             q = q.not_.is_('dateDropped', 'null')
-        result = q.range(offset, offset + page_size - 1).execute()
+        for attempt in range(max_retries):
+            try:
+                result = q.range(offset, offset + page_size - 1).execute()
+                break
+            except Exception as e:
+                if '57014' in str(e) and attempt < max_retries - 1:
+                    wait = 2 ** attempt
+                    print(f"  Statement timeout on page at offset {offset}, retrying in {wait}s...")
+                    time.sleep(wait)
+                else:
+                    raise
         rows = result.data
         all_rows.extend(rows)
         if len(rows) < page_size:
             break
         offset += page_size
+        time.sleep(0.5)  # brief pause between pages
     return all_rows
 
 
