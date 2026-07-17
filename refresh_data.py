@@ -20,15 +20,41 @@ except ImportError:
     _HAS_DIRECT_PG = False
 
 
-def _try_execute_sql(query, fetch=False):
-    """Try direct PG; return None on connection failure so callers can fall back to REST."""
+def _try_execute_sql(query, fetch=False, timeout_ms=300000):
+    """Try direct PG with explicit statement timeout; return None on failure so callers can fall back to REST."""
     if not _HAS_DIRECT_PG:
         return None
     try:
-        return execute_sql(query, fetch=fetch)
+        from lib.supabase_postgres import get_connection
+        conn = get_connection()
+        try:
+            cur = conn.cursor()
+            cur.execute(f"SET statement_timeout = '{timeout_ms}'")
+            cur.execute(query)
+            if fetch:
+                results = cur.fetchall()
+                cur.close()
+                conn.close()
+                return results
+            else:
+                conn.commit()
+                cur.close()
+                conn.close()
+                return True  # non-None to indicate success
+        except Exception as e:
+            conn.rollback()
+            conn.close()
+            raise
     except Exception as e:
-        if 'Connection refused' in str(e) or 'connection' in str(e).lower():
+        err_str = str(e)
+        if 'Connection refused' in err_str or 'connection' in err_str.lower():
             print(f"Direct PG unavailable, falling back to REST API")
+            return None
+        if '57014' in err_str or 'statement timeout' in err_str.lower() or 'QueryCanceled' in err_str:
+            print(f"Statement timeout on direct PG ({timeout_ms}ms), falling back to REST API")
+            return None
+        if 'PGRST' in err_str or 'schema cache' in err_str.lower():
+            print(f"PostgREST unavailable, falling back")
             return None
         raise
 
@@ -74,35 +100,42 @@ def load_mapping():
     return {'mappings': {}, 'ignored': []}
 
 def _fetch_leads_rest(sb, start_date: str, end_date: str, dropped_only=False) -> list:
-    """Fetch leads via REST API with pagination and retry. Returns list of dicts."""
+    """Fetch leads via REST API with keyset pagination and retry. Returns list of dicts."""
     import time
     all_rows = []
-    page_size = 500  # smaller pages to avoid statement timeouts
-    offset = 0
-    max_retries = 3
+    page_size = 100  # small pages to avoid statement timeouts on large tables
+    last_id = 0
+    max_retries = 5
+    page = 0
     while True:
-        q = sb.table('leads').select('attorney,accidentState')
+        q = sb.table('leads').select('idLead,attorney,accidentState')
         q = q.gte('dateSigned', start_date).lt('dateSigned', end_date)
         q = q.eq('sourceType', 'TNFG').not_.is_('attorney', 'null')
+        q = q.gt('idLead', str(last_id)).order('idLead').limit(page_size)
         if dropped_only:
             q = q.not_.is_('dateDropped', 'null')
         for attempt in range(max_retries):
             try:
-                result = q.range(offset, offset + page_size - 1).execute()
+                result = q.execute()
                 break
             except Exception as e:
-                if '57014' in str(e) and attempt < max_retries - 1:
-                    wait = 2 ** attempt
-                    print(f"  Statement timeout on page at offset {offset}, retrying in {wait}s...")
+                err = str(e)
+                if ('57014' in err or 'timeout' in err.lower() or 'schema cache' in err.lower()) and attempt < max_retries - 1:
+                    wait = min(2 ** attempt * 2, 30)
+                    print(f"  REST page {page} attempt {attempt+1} failed, retrying in {wait}s...")
                     time.sleep(wait)
                 else:
                     raise
         rows = result.data
-        all_rows.extend(rows)
+        page += 1
+        if rows:
+            all_rows.extend(rows)
+            last_id = rows[-1]['idLead']
+            if page % 20 == 0:
+                print(f"  Fetched {len(all_rows)} rows so far...")
         if len(rows) < page_size:
             break
-        offset += page_size
-        time.sleep(0.5)  # brief pause between pages
+        time.sleep(0.3)  # brief pause between pages
     return all_rows
 
 
