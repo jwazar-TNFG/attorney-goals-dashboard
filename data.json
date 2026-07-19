@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T23:00:11",
+  "updated": "2026-07-19T07:00:07",
   "month": "July 2026",
   "data": [
     {
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
-      "owed": 27,
-      "percent": 46
+      "net": 24,
+      "owed": 26,
+      "percent": 48
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -356,11 +356,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 36,
+      "gross": 38,
       "voided": 0,
-      "net": 36,
-      "owed": 24,
-      "percent": 60
+      "net": 38,
+      "owed": 22,
+      "percent": 63
     },
     {
       "firm_name": "Bernheim",
