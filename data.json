@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T23:00:13",
+  "updated": "2026-07-26T07:00:13",
   "month": "July 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 28,
+      "gross": 30,
       "voided": 0,
-      "net": 28,
-      "owed": 12,
-      "percent": 70
+      "net": 30,
+      "owed": 10,
+      "percent": 75
     },
     {
       "firm_name": "Steve Kerman",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 176,
+      "gross": 178,
       "voided": 0,
-      "net": 176,
-      "owed": 117,
-      "percent": 60
+      "net": 178,
+      "owed": 115,
+      "percent": 61
     },
     {
       "firm_name": "Mike F",
@@ -146,11 +146,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 21,
+      "gross": 24,
       "voided": 0,
-      "net": 21,
-      "owed": 9,
-      "percent": 70
+      "net": 24,
+      "owed": 6,
+      "percent": 80
     },
     {
       "firm_name": "YIA",
@@ -336,31 +336,31 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 37,
+      "gross": 38,
       "voided": 0,
-      "net": 37,
-      "owed": 9,
-      "percent": 80
+      "net": 38,
+      "owed": 8,
+      "percent": 83
     },
     {
       "firm_name": "YIA",
       "state": "Colorado",
       "monthly_goal": 15,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
+      "net": 24,
       "owed": 0,
-      "percent": 153
+      "percent": 160
     },
     {
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 50,
+      "gross": 51,
       "voided": 0,
-      "net": 50,
-      "owed": 10,
-      "percent": 83
+      "net": 51,
+      "owed": 9,
+      "percent": 85
     },
     {
       "firm_name": "Bernheim",
@@ -386,11 +386,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 166,
+      "gross": 167,
       "voided": 0,
-      "net": 166,
+      "net": 167,
       "owed": 0,
-      "percent": 166
+      "percent": 167
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -466,11 +466,11 @@
       "firm_name": "Scarfone",
       "state": "District of Columbia",
       "monthly_goal": 5,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 2,
-      "percent": 60
+      "net": 4,
+      "owed": 1,
+      "percent": 80
     },
     {
       "firm_name": "Lady Law (FL/Premium)",
