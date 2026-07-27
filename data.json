@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T23:00:10",
+  "updated": "2026-07-27T07:00:18",
   "month": "July 2026",
   "data": [
     {
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 42,
+      "gross": 43,
       "voided": 0,
-      "net": 42,
-      "owed": 28,
-      "percent": 60
+      "net": 43,
+      "owed": 27,
+      "percent": 61
     },
     {
       "firm_name": "The Founders Law",
@@ -376,11 +376,11 @@
       "firm_name": "Schwed Law",
       "state": "Tennessee",
       "monthly_goal": 20,
-      "gross": 30,
+      "gross": 32,
       "voided": 0,
-      "net": 30,
+      "net": 32,
       "owed": 0,
-      "percent": 150
+      "percent": 160
     },
     {
       "firm_name": "Michael Kelly",
