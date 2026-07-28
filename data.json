@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T23:00:06",
+  "updated": "2026-07-28T07:00:07",
   "month": "July 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 185,
+      "gross": 186,
       "voided": 0,
-      "net": 185,
-      "owed": 108,
+      "net": 186,
+      "owed": 107,
       "percent": 63
     },
     {
@@ -236,11 +236,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 38,
+      "gross": 39,
       "voided": 0,
-      "net": 38,
+      "net": 39,
       "owed": 0,
-      "percent": 760
+      "percent": 780
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 26,
-      "percent": 48
+      "net": 25,
+      "owed": 25,
+      "percent": 50
     },
     {
       "firm_name": "YIA",
