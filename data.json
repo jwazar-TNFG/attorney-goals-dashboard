@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T23:00:06",
+  "updated": "2026-07-29T07:00:07",
   "month": "July 2026",
   "data": [
     {
@@ -336,11 +336,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 43,
+      "gross": 46,
       "voided": 0,
-      "net": 43,
-      "owed": 3,
-      "percent": 93
+      "net": 46,
+      "owed": 0,
+      "percent": 100
     },
     {
       "firm_name": "YIA",
@@ -486,11 +486,11 @@
       "firm_name": "The IL Hammer",
       "state": "Illinois",
       "monthly_goal": 75,
-      "gross": 109,
+      "gross": 110,
       "voided": 0,
-      "net": 109,
+      "net": 110,
       "owed": 0,
-      "percent": 145
+      "percent": 147
     },
     {
       "firm_name": "Big Ben",
