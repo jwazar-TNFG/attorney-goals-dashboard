@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T23:00:07",
+  "updated": "2026-08-07T07:00:07",
   "month": "August 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 38,
-      "percent": 5
+      "net": 3,
+      "owed": 37,
+      "percent": 8
     },
     {
       "firm_name": "Steve Kerman",
@@ -246,11 +246,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New Jersey",
       "monthly_goal": 90,
-      "gross": 40,
+      "gross": 41,
       "voided": 0,
-      "net": 40,
-      "owed": 50,
-      "percent": 44
+      "net": 41,
+      "owed": 49,
+      "percent": 46
     },
     {
       "firm_name": "HESS",
