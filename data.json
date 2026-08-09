@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T23:00:05",
+  "updated": "2026-08-09T07:00:06",
   "month": "August 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 35,
-      "percent": 30
+      "net": 16,
+      "owed": 34,
+      "percent": 32
     },
     {
       "firm_name": "SGF",
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 82,
+      "gross": 83,
       "voided": 0,
-      "net": 82,
-      "owed": 211,
+      "net": 83,
+      "owed": 210,
       "percent": 28
     },
     {
@@ -236,11 +236,11 @@
       "firm_name": "HESS",
       "state": "New York",
       "monthly_goal": 5,
-      "gross": 17,
+      "gross": 19,
       "voided": 0,
-      "net": 17,
+      "net": 19,
       "owed": 0,
-      "percent": 340
+      "percent": 380
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
-      "owed": 42,
-      "percent": 16
+      "net": 9,
+      "owed": 41,
+      "percent": 18
     },
     {
       "firm_name": "YIA",
@@ -336,11 +336,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 30,
-      "percent": 35
+      "net": 17,
+      "owed": 29,
+      "percent": 37
     },
     {
       "firm_name": "YIA",
@@ -436,11 +436,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 13,
+      "gross": 14,
       "voided": 0,
-      "net": 13,
-      "owed": 22,
-      "percent": 37
+      "net": 14,
+      "owed": 21,
+      "percent": 40
     },
     {
       "firm_name": "Scarfone",
