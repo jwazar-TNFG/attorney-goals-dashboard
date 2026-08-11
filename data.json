@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T23:00:04",
+  "updated": "2026-08-11T07:00:05",
   "month": "August 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 12,
+      "gross": 14,
       "voided": 0,
-      "net": 12,
-      "owed": 28,
-      "percent": 30
+      "net": 14,
+      "owed": 26,
+      "percent": 35
     },
     {
       "firm_name": "Steve Kerman",
@@ -296,11 +296,11 @@
       "firm_name": "YIA",
       "state": "Georgia",
       "monthly_goal": 24,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
-      "owed": 6,
-      "percent": 75
+      "net": 19,
+      "owed": 5,
+      "percent": 79
     },
     {
       "firm_name": "Jimmy DLE",
@@ -336,11 +336,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 21,
+      "gross": 24,
       "voided": 0,
-      "net": 21,
-      "owed": 25,
-      "percent": 46
+      "net": 24,
+      "owed": 22,
+      "percent": 52
     },
     {
       "firm_name": "YIA",
@@ -356,21 +356,21 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 20,
+      "gross": 21,
       "voided": 0,
-      "net": 20,
-      "owed": 40,
-      "percent": 33
+      "net": 21,
+      "owed": 39,
+      "percent": 35
     },
     {
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 19,
-      "percent": 46
+      "net": 17,
+      "owed": 18,
+      "percent": 49
     },
     {
       "firm_name": "Schwed Law",
@@ -436,11 +436,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 21,
+      "gross": 22,
       "voided": 0,
-      "net": 21,
-      "owed": 14,
-      "percent": 60
+      "net": 22,
+      "owed": 13,
+      "percent": 63
     },
     {
       "firm_name": "Scarfone",
