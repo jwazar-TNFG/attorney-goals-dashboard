@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T23:00:04",
+  "updated": "2026-08-16T07:00:04",
   "month": "August 2026",
   "data": [
     {
@@ -356,11 +356,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 32,
+      "gross": 33,
       "voided": 0,
-      "net": 32,
-      "owed": 28,
-      "percent": 53
+      "net": 33,
+      "owed": 27,
+      "percent": 55
     },
     {
       "firm_name": "Bernheim",
