@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T23:00:04",
+  "updated": "2026-08-19T07:00:05",
   "month": "August 2026",
   "data": [
     {
@@ -156,11 +156,11 @@
       "firm_name": "YIA",
       "state": "Texas",
       "monthly_goal": 20,
-      "gross": 33,
+      "gross": 34,
       "voided": 0,
-      "net": 33,
+      "net": 34,
       "owed": 0,
-      "percent": 165
+      "percent": 170
     },
     {
       "firm_name": "Newman Injury Law",
@@ -226,11 +226,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 12,
+      "gross": 13,
       "voided": 0,
-      "net": 12,
-      "owed": 10,
-      "percent": 55
+      "net": 13,
+      "owed": 9,
+      "percent": 59
     },
     {
       "firm_name": "HESS",
