@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T23:00:07",
+  "updated": "2026-08-20T07:00:05",
   "month": "August 2026",
   "data": [
     {
@@ -216,11 +216,11 @@
       "firm_name": "Robert Rubenstein",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 39,
+      "gross": 40,
       "voided": 0,
-      "net": 39,
-      "owed": 11,
-      "percent": 78
+      "net": 40,
+      "owed": 10,
+      "percent": 80
     },
     {
       "firm_name": "Shulman WC",
@@ -336,11 +336,11 @@
       "firm_name": "The Founders Law",
       "state": "Colorado",
       "monthly_goal": 46,
-      "gross": 41,
+      "gross": 42,
       "voided": 0,
-      "net": 41,
-      "owed": 5,
-      "percent": 89
+      "net": 42,
+      "owed": 4,
+      "percent": 91
     },
     {
       "firm_name": "YIA",
