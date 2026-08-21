@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T23:00:05",
+  "updated": "2026-08-21T07:00:05",
   "month": "August 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 51,
+      "gross": 52,
       "voided": 0,
-      "net": 51,
+      "net": 52,
       "owed": 0,
-      "percent": 102
+      "percent": 104
     },
     {
       "firm_name": "SGF",
@@ -126,21 +126,21 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 182,
+      "gross": 184,
       "voided": 0,
-      "net": 182,
-      "owed": 111,
-      "percent": 62
+      "net": 184,
+      "owed": 109,
+      "percent": 63
     },
     {
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 25,
+      "gross": 26,
       "voided": 0,
-      "net": 25,
-      "owed": 45,
-      "percent": 36
+      "net": 26,
+      "owed": 44,
+      "percent": 37
     },
     {
       "firm_name": "The Founders Law",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 70,
+      "gross": 72,
       "voided": 0,
-      "net": 70,
-      "owed": 40,
-      "percent": 64
+      "net": 72,
+      "owed": 38,
+      "percent": 65
     },
     {
       "firm_name": "Friedland",
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 4,
-      "percent": 80
+      "net": 17,
+      "owed": 3,
+      "percent": 85
     },
     {
       "firm_name": "Hines Law (WC)",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 41,
+      "gross": 42,
       "voided": 0,
-      "net": 41,
-      "owed": 29,
-      "percent": 59
+      "net": 42,
+      "owed": 28,
+      "percent": 60
     },
     {
       "firm_name": "The Founders Law",
@@ -426,21 +426,21 @@
       "firm_name": "Schwed Law",
       "state": "Arkansas",
       "monthly_goal": 5,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 5,
-      "percent": 0
+      "net": 1,
+      "owed": 4,
+      "percent": 20
     },
     {
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 44,
+      "gross": 45,
       "voided": 0,
-      "net": 44,
+      "net": 45,
       "owed": 0,
-      "percent": 126
+      "percent": 129
     },
     {
       "firm_name": "Scarfone",
