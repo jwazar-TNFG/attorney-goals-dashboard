@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T23:00:05",
+  "updated": "2026-08-24T07:00:08",
   "month": "August 2026",
   "data": [
     {
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 48,
+      "gross": 49,
       "voided": 0,
-      "net": 48,
-      "owed": 2,
-      "percent": 96
+      "net": 49,
+      "owed": 1,
+      "percent": 98
     },
     {
       "firm_name": "Robert Rubenstein",
