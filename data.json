@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T23:00:04",
+  "updated": "2026-08-26T07:00:04",
   "month": "August 2026",
   "data": [
     {
@@ -316,11 +316,11 @@
       "firm_name": "Hines Law (WC)",
       "state": "Georgia",
       "monthly_goal": 15,
-      "gross": 37,
+      "gross": 38,
       "voided": 0,
-      "net": 37,
+      "net": 38,
       "owed": 0,
-      "percent": 247
+      "percent": 253
     },
     {
       "firm_name": "Friedland",
