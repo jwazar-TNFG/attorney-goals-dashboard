@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T23:00:05",
+  "updated": "2026-08-27T07:00:05",
   "month": "August 2026",
   "data": [
     {
@@ -226,11 +226,11 @@
       "firm_name": "Shulman WC",
       "state": "New York",
       "monthly_goal": 22,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 5,
-      "percent": 77
+      "net": 18,
+      "owed": 4,
+      "percent": 82
     },
     {
       "firm_name": "HESS",
@@ -436,11 +436,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 71,
+      "gross": 73,
       "voided": 0,
-      "net": 71,
+      "net": 73,
       "owed": 0,
-      "percent": 203
+      "percent": 209
     },
     {
       "firm_name": "Scarfone",
