@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T23:00:05",
+  "updated": "2026-08-29T07:00:04",
   "month": "August 2026",
   "data": [
     {
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 39,
+      "gross": 40,
       "voided": 0,
-      "net": 39,
-      "owed": 11,
-      "percent": 78
+      "net": 40,
+      "owed": 10,
+      "percent": 80
     },
     {
       "firm_name": "YIA",
@@ -416,11 +416,11 @@
       "firm_name": "Buckeye Law",
       "state": "Ohio",
       "monthly_goal": 60,
-      "gross": 53,
+      "gross": 54,
       "voided": 0,
-      "net": 53,
-      "owed": 7,
-      "percent": 88
+      "net": 54,
+      "owed": 6,
+      "percent": 90
     },
     {
       "firm_name": "Schwed Law",
@@ -436,11 +436,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 79,
+      "gross": 80,
       "voided": 0,
-      "net": 79,
+      "net": 80,
       "owed": 0,
-      "percent": 226
+      "percent": 229
     },
     {
       "firm_name": "Scarfone",
