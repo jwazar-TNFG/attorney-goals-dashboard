@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T23:00:04",
+  "updated": "2026-08-30T07:00:04",
   "month": "August 2026",
   "data": [
     {
@@ -36,11 +36,11 @@
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 92,
+      "gross": 94,
       "voided": 0,
-      "net": 92,
+      "net": 94,
       "owed": 0,
-      "percent": 230
+      "percent": 235
     },
     {
       "firm_name": "YIA",
