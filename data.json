@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T23:00:05",
+  "updated": "2026-08-31T07:00:05",
   "month": "August 2026",
   "data": [
     {
@@ -386,11 +386,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 270,
+      "gross": 271,
       "voided": 0,
-      "net": 270,
+      "net": 271,
       "owed": 0,
-      "percent": 270
+      "percent": 271
     },
     {
       "firm_name": "Robert Rubenstein",
