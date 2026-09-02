@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T23:00:04",
+  "updated": "2026-09-02T07:00:21",
   "month": "September 2026",
   "data": [
     {
@@ -116,21 +116,21 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 5,
+      "gross": 6,
       "voided": 0,
-      "net": 5,
-      "owed": 5,
-      "percent": 50
+      "net": 6,
+      "owed": 4,
+      "percent": 60
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 0,
+      "gross": 2,
       "voided": 0,
-      "net": 0,
-      "owed": 293,
-      "percent": 0
+      "net": 2,
+      "owed": 291,
+      "percent": 1
     },
     {
       "firm_name": "Mike F",
@@ -206,11 +206,11 @@
       "firm_name": "Friedland",
       "state": "New York",
       "monthly_goal": 50,
-      "gross": 0,
+      "gross": 2,
       "voided": 0,
-      "net": 0,
-      "owed": 50,
-      "percent": 0
+      "net": 2,
+      "owed": 48,
+      "percent": 4
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 97,
-      "percent": 3
+      "net": 4,
+      "owed": 96,
+      "percent": 4
     },
     {
       "firm_name": "The Founders Law",
@@ -386,11 +386,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 6,
+      "gross": 7,
       "voided": 0,
-      "net": 6,
-      "owed": 94,
-      "percent": 6
+      "net": 7,
+      "owed": 93,
+      "percent": 7
     },
     {
       "firm_name": "Robert Rubenstein",
@@ -436,11 +436,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 33,
-      "percent": 6
+      "net": 3,
+      "owed": 32,
+      "percent": 9
     },
     {
       "firm_name": "Scarfone",
