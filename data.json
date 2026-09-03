@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T23:00:04",
+  "updated": "2026-09-03T07:00:08",
   "month": "September 2026",
   "data": [
     {
@@ -146,11 +146,11 @@
       "firm_name": "The Founders Law",
       "state": "Texas",
       "monthly_goal": 30,
-      "gross": 0,
+      "gross": 3,
       "voided": 0,
-      "net": 0,
-      "owed": 30,
-      "percent": 0
+      "net": 3,
+      "owed": 27,
+      "percent": 10
     },
     {
       "firm_name": "YIA",
