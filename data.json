@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T23:00:10",
+  "updated": "2026-09-04T07:00:46",
   "month": "September 2026",
   "data": [
     {
@@ -436,21 +436,21 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 12,
+      "gross": 13,
       "voided": 0,
-      "net": 12,
-      "owed": 23,
-      "percent": 34
+      "net": 13,
+      "owed": 22,
+      "percent": 37
     },
     {
       "firm_name": "Scarfone",
       "state": "Utah",
       "monthly_goal": 5,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 3,
-      "percent": 40
+      "net": 3,
+      "owed": 2,
+      "percent": 60
     },
     {
       "firm_name": "Founders Law",
