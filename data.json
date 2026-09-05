@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T23:00:04",
+  "updated": "2026-09-05T07:00:04",
   "month": "September 2026",
   "data": [
     {
@@ -96,11 +96,11 @@
       "firm_name": "Friedland (TPA)",
       "state": "Florida",
       "monthly_goal": 24,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 21,
-      "percent": 12
+      "net": 4,
+      "owed": 20,
+      "percent": 17
     },
     {
       "firm_name": "Arias & Abbass",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 31,
+      "gross": 34,
       "voided": 0,
-      "net": 31,
-      "owed": 262,
-      "percent": 11
+      "net": 34,
+      "owed": 259,
+      "percent": 12
     },
     {
       "firm_name": "Mike F",
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 2,
+      "gross": 3,
       "voided": 0,
-      "net": 2,
-      "owed": 18,
-      "percent": 10
+      "net": 3,
+      "owed": 17,
+      "percent": 15
     },
     {
       "firm_name": "Hines Law (WC)",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 17,
+      "gross": 19,
       "voided": 0,
-      "net": 17,
-      "owed": 53,
-      "percent": 24
+      "net": 19,
+      "owed": 51,
+      "percent": 27
     },
     {
       "firm_name": "The Founders Law",
