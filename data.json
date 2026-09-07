@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T23:00:04",
+  "updated": "2026-09-07T07:00:04",
   "month": "September 2026",
   "data": [
     {
@@ -116,11 +116,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 37,
+      "gross": 38,
       "voided": 0,
-      "net": 37,
+      "net": 38,
       "owed": 0,
-      "percent": 370
+      "percent": 380
     },
     {
       "firm_name": "Edward Law",
