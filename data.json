@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T23:00:06",
+  "updated": "2026-09-08T07:00:04",
   "month": "September 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 49,
+      "gross": 51,
       "voided": 0,
-      "net": 49,
-      "owed": 244,
+      "net": 51,
+      "owed": 242,
       "percent": 17
     },
     {
@@ -436,11 +436,11 @@
       "firm_name": "Founders Law",
       "state": "California",
       "monthly_goal": 35,
-      "gross": 17,
+      "gross": 18,
       "voided": 0,
-      "net": 17,
-      "owed": 18,
-      "percent": 49
+      "net": 18,
+      "owed": 17,
+      "percent": 51
     },
     {
       "firm_name": "Scarfone",
