@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T23:00:04",
+  "updated": "2026-09-09T07:00:09",
   "month": "September 2026",
   "data": [
     {
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 31,
+      "gross": 32,
       "voided": 0,
-      "net": 31,
-      "owed": 39,
-      "percent": 44
+      "net": 32,
+      "owed": 38,
+      "percent": 46
     },
     {
       "firm_name": "The Founders Law",
