@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T23:00:04",
+  "updated": "2026-09-11T07:00:04",
   "month": "September 2026",
   "data": [
     {
@@ -116,11 +116,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 98,
+      "gross": 99,
       "voided": 0,
-      "net": 98,
+      "net": 99,
       "owed": 0,
-      "percent": 980
+      "percent": 990
     },
     {
       "firm_name": "Edward Law",
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 18,
+      "gross": 20,
       "voided": 0,
-      "net": 18,
-      "owed": 52,
-      "percent": 26
+      "net": 20,
+      "owed": 50,
+      "percent": 29
     },
     {
       "firm_name": "The Founders Law",
@@ -266,10 +266,10 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 32,
+      "gross": 33,
       "voided": 0,
-      "net": 32,
-      "owed": 93,
+      "net": 33,
+      "owed": 92,
       "percent": 26
     },
     {
@@ -356,11 +356,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 15,
+      "gross": 16,
       "voided": 0,
-      "net": 15,
-      "owed": 45,
-      "percent": 25
+      "net": 16,
+      "owed": 44,
+      "percent": 27
     },
     {
       "firm_name": "Bernheim",
