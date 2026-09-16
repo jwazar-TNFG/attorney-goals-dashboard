@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T23:00:04",
+  "updated": "2026-09-16T07:00:05",
   "month": "September 2026",
   "data": [
     {
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 51,
+      "gross": 52,
       "voided": 0,
-      "net": 51,
-      "owed": 19,
-      "percent": 73
+      "net": 52,
+      "owed": 18,
+      "percent": 74
     },
     {
       "firm_name": "The Founders Law",
