@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T23:00:09",
+  "updated": "2026-09-18T07:00:04",
   "month": "September 2026",
   "data": [
     {
@@ -66,11 +66,11 @@
       "firm_name": "Friedland (JAX)",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 8,
+      "gross": 12,
       "voided": 0,
-      "net": 8,
-      "owed": 32,
-      "percent": 20
+      "net": 12,
+      "owed": 28,
+      "percent": 30
     },
     {
       "firm_name": "Friedland (ORL)",
@@ -116,20 +116,20 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 151,
+      "gross": 152,
       "voided": 0,
-      "net": 151,
+      "net": 152,
       "owed": 0,
-      "percent": 1510
+      "percent": 1520
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 113,
+      "gross": 114,
       "voided": 0,
-      "net": 113,
-      "owed": 180,
+      "net": 114,
+      "owed": 179,
       "percent": 39
     },
     {
@@ -266,11 +266,11 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 54,
+      "gross": 55,
       "voided": 0,
-      "net": 54,
-      "owed": 71,
-      "percent": 43
+      "net": 55,
+      "owed": 70,
+      "percent": 44
     },
     {
       "firm_name": "Scarfone Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 61,
+      "gross": 63,
       "voided": 0,
-      "net": 61,
-      "owed": 9,
-      "percent": 87
+      "net": 63,
+      "owed": 7,
+      "percent": 90
     },
     {
       "firm_name": "The Founders Law",
@@ -356,11 +356,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 34,
-      "percent": 43
+      "net": 27,
+      "owed": 33,
+      "percent": 45
     },
     {
       "firm_name": "Bernheim",
