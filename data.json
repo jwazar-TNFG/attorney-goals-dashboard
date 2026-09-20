@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:00:06",
+  "updated": "2026-09-20T07:00:04",
   "month": "September 2026",
   "data": [
     {
@@ -46,11 +46,11 @@
       "firm_name": "YIA",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 24,
+      "gross": 26,
       "voided": 0,
-      "net": 24,
-      "owed": 16,
-      "percent": 60
+      "net": 26,
+      "owed": 14,
+      "percent": 65
     },
     {
       "firm_name": "Steve Kerman",
