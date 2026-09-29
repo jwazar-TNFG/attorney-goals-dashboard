@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T23:00:05",
+  "updated": "2026-09-29T07:00:11",
   "month": "September 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 123,
+      "gross": 125,
       "voided": 1,
-      "net": 122,
+      "net": 124,
       "owed": 0,
-      "percent": 244
+      "percent": 248
     },
     {
       "firm_name": "SGF",
