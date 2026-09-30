@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T23:00:06",
+  "updated": "2026-09-30T07:00:08",
   "month": "September 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 131,
+      "gross": 133,
       "voided": 1,
-      "net": 130,
+      "net": 132,
       "owed": 0,
-      "percent": 260
+      "percent": 264
     },
     {
       "firm_name": "SGF",
@@ -306,11 +306,11 @@
       "firm_name": "Jimmy DLE",
       "state": "Georgia",
       "monthly_goal": 20,
-      "gross": 15,
+      "gross": 17,
       "voided": 0,
-      "net": 15,
-      "owed": 5,
-      "percent": 75
+      "net": 17,
+      "owed": 3,
+      "percent": 85
     },
     {
       "firm_name": "Hines Law (WC)",
@@ -386,11 +386,11 @@
       "firm_name": "Michael Kelly",
       "state": "Massachusetts",
       "monthly_goal": 100,
-      "gross": 248,
+      "gross": 249,
       "voided": 0,
-      "net": 248,
+      "net": 249,
       "owed": 0,
-      "percent": 248
+      "percent": 249
     },
     {
       "firm_name": "Robert Rubenstein",
