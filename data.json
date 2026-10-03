@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T23:00:04",
+  "updated": "2026-10-03T07:00:04",
   "month": "October 2026",
   "data": [
     {
@@ -286,11 +286,11 @@
       "firm_name": "The Founders Law",
       "state": "Georgia",
       "monthly_goal": 50,
-      "gross": 1,
+      "gross": 2,
       "voided": 1,
-      "net": 0,
-      "owed": 50,
-      "percent": 0
+      "net": 1,
+      "owed": 49,
+      "percent": 2
     },
     {
       "firm_name": "YIA",
