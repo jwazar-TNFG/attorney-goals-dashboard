@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T23:00:01",
+  "updated": "2026-10-10T07:00:01",
   "month": "October 2026",
   "data": [
     {
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 28,
+      "gross": 29,
       "voided": 0,
-      "net": 28,
-      "owed": 72,
-      "percent": 28
+      "net": 29,
+      "owed": 71,
+      "percent": 29
     },
     {
       "firm_name": "The Founders Law",
