@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T23:00:01",
+  "updated": "2026-10-16T07:00:04",
   "month": "October 2026",
   "data": [
     {
@@ -86,11 +86,11 @@
       "firm_name": "OVADIA LAW",
       "state": "Florida",
       "monthly_goal": 30,
-      "gross": 26,
+      "gross": 27,
       "voided": 0,
-      "net": 26,
-      "owed": 4,
-      "percent": 87
+      "net": 27,
+      "owed": 3,
+      "percent": 90
     },
     {
       "firm_name": "Friedland (TPA)",
@@ -366,11 +366,11 @@
       "firm_name": "Bernheim",
       "state": "Tennessee",
       "monthly_goal": 35,
-      "gross": 19,
+      "gross": 20,
       "voided": 0,
-      "net": 19,
-      "owed": 16,
-      "percent": 54
+      "net": 20,
+      "owed": 15,
+      "percent": 57
     },
     {
       "firm_name": "Schwed Law",
