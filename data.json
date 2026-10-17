@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T23:00:02",
+  "updated": "2026-10-17T07:00:02",
   "month": "October 2026",
   "data": [
     {
@@ -26,21 +26,21 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 86,
+      "gross": 87,
       "voided": 0,
-      "net": 86,
+      "net": 87,
       "owed": 0,
-      "percent": 172
+      "percent": 174
     },
     {
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 29,
+      "gross": 30,
       "voided": 0,
-      "net": 29,
-      "owed": 11,
-      "percent": 72
+      "net": 30,
+      "owed": 10,
+      "percent": 75
     },
     {
       "firm_name": "YIA",
@@ -126,11 +126,11 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 92,
+      "gross": 93,
       "voided": 0,
-      "net": 92,
-      "owed": 201,
-      "percent": 31
+      "net": 93,
+      "owed": 200,
+      "percent": 32
     },
     {
       "firm_name": "Mike F",
@@ -276,11 +276,11 @@
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 53,
+      "gross": 54,
       "voided": 0,
-      "net": 53,
-      "owed": 47,
-      "percent": 53
+      "net": 54,
+      "owed": 46,
+      "percent": 54
     },
     {
       "firm_name": "The Founders Law",
