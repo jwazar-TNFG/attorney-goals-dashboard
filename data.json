@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T23:00:01",
+  "updated": "2026-10-18T07:00:04",
   "month": "October 2026",
   "data": [
     {
@@ -26,21 +26,21 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 90,
+      "gross": 91,
       "voided": 0,
-      "net": 90,
+      "net": 91,
       "owed": 0,
-      "percent": 180
+      "percent": 182
     },
     {
       "firm_name": "SGF",
       "state": "Florida",
       "monthly_goal": 40,
-      "gross": 32,
+      "gross": 31,
       "voided": 0,
-      "net": 32,
-      "owed": 8,
-      "percent": 80
+      "net": 31,
+      "owed": 9,
+      "percent": 78
     },
     {
       "firm_name": "YIA",
@@ -116,21 +116,21 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 152,
+      "gross": 151,
       "voided": 0,
-      "net": 152,
+      "net": 151,
       "owed": 0,
-      "percent": 1520
+      "percent": 1510
     },
     {
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 99,
+      "gross": 102,
       "voided": 0,
-      "net": 99,
-      "owed": 194,
-      "percent": 34
+      "net": 102,
+      "owed": 191,
+      "percent": 35
     },
     {
       "firm_name": "Mike F",
