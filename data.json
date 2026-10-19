@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T23:00:02",
+  "updated": "2026-10-19T07:00:02",
   "month": "October 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 107,
+      "gross": 108,
       "voided": 0,
-      "net": 107,
-      "owed": 186,
+      "net": 108,
+      "owed": 185,
       "percent": 37
     },
     {
@@ -356,11 +356,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 49,
+      "gross": 51,
       "voided": 0,
-      "net": 49,
-      "owed": 11,
-      "percent": 82
+      "net": 51,
+      "owed": 9,
+      "percent": 85
     },
     {
       "firm_name": "Bernheim",
