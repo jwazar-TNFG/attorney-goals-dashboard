@@ -5,6 +5,8 @@ Run manually or via cron to keep data.json current.
 """
 
 import json
+import sys as _sys; _sys.path.insert(0, '/Users/claudebot/clawd/scripts')
+from lead_exclusions import apply_postgrest
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -111,6 +113,7 @@ def _fetch_leads_rest(sb, start_date: str, end_date: str, dropped_only=False) ->
         q = sb.table('leads').select('idLead,attorney,accidentState')
         q = q.gte('dateSigned', start_date).lt('dateSigned', end_date)
         q = q.eq('sourceType', 'TNFG').not_.is_('attorney', 'null')
+        q = apply_postgrest(q)  # canonical fleet exclusions
         q = q.gt('idLead', str(last_id)).order('idLead').limit(page_size)
         if dropped_only:
             q = q.not_.is_('dateDropped', 'null')
@@ -148,6 +151,7 @@ def get_lockdown_counts(sb, start_date: str, end_date: str) -> dict:
           AND "dateSigned" < '{end_date}'
           AND "sourceType" = 'TNFG'
           AND attorney IS NOT NULL
+          AND NOT public.is_excluded_lead("intakeSpecialist", "submitterName", "officeLabel", "sourceType", attorney)
         GROUP BY attorney, "accidentState"
     ''', fetch=True)
     
@@ -181,6 +185,7 @@ def get_voided_counts(sb, start_date: str, end_date: str) -> dict:
           AND "dateSigned" < '{end_date}'
           AND "sourceType" = 'TNFG'
           AND attorney IS NOT NULL
+          AND NOT public.is_excluded_lead("intakeSpecialist", "submitterName", "officeLabel", "sourceType", attorney)
           AND "dateDropped" IS NOT NULL
         GROUP BY attorney, "accidentState"
     ''', fetch=True)
