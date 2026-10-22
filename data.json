@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T23:00:03",
+  "updated": "2026-10-22T07:00:03",
   "month": "October 2026",
   "data": [
     {
@@ -126,10 +126,10 @@
       "firm_name": "Edward Law",
       "state": "Texas",
       "monthly_goal": 293,
-      "gross": 138,
+      "gross": 139,
       "voided": 0,
-      "net": 138,
-      "owed": 155,
+      "net": 139,
+      "owed": 154,
       "percent": 47
     },
     {
@@ -266,21 +266,21 @@
       "firm_name": "Bader Law",
       "state": "Georgia",
       "monthly_goal": 125,
-      "gross": 56,
+      "gross": 57,
       "voided": 0,
-      "net": 56,
-      "owed": 69,
-      "percent": 45
+      "net": 57,
+      "owed": 68,
+      "percent": 46
     },
     {
       "firm_name": "Scarfone Law",
       "state": "Georgia",
       "monthly_goal": 100,
-      "gross": 66,
+      "gross": 67,
       "voided": 0,
-      "net": 66,
-      "owed": 34,
-      "percent": 66
+      "net": 67,
+      "owed": 33,
+      "percent": 67
     },
     {
       "firm_name": "The Founders Law",
