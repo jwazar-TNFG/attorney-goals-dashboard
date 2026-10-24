@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T23:00:03",
+  "updated": "2026-10-24T07:00:03",
   "month": "October 2026",
   "data": [
     {
@@ -116,11 +116,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 200,
+      "gross": 201,
       "voided": 0,
-      "net": 200,
+      "net": 201,
       "owed": 0,
-      "percent": 2000
+      "percent": 2010
     },
     {
       "firm_name": "Edward Law",
@@ -196,11 +196,11 @@
       "firm_name": "Shulman MVA",
       "state": "New York",
       "monthly_goal": 110,
-      "gross": 123,
+      "gross": 124,
       "voided": 0,
-      "net": 123,
+      "net": 124,
       "owed": 0,
-      "percent": 112
+      "percent": 113
     },
     {
       "firm_name": "Friedland",
