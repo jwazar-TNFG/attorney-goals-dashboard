@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T23:00:04",
+  "updated": "2026-10-28T07:00:03",
   "month": "October 2026",
   "data": [
     {
@@ -26,11 +26,11 @@
       "firm_name": "Scarfone Law",
       "state": "Florida",
       "monthly_goal": 50,
-      "gross": 132,
+      "gross": 133,
       "voided": 0,
-      "net": 132,
+      "net": 133,
       "owed": 0,
-      "percent": 264
+      "percent": 266
     },
     {
       "firm_name": "SGF",
@@ -116,11 +116,11 @@
       "firm_name": "Big Ben",
       "state": "Florida",
       "monthly_goal": 10,
-      "gross": 229,
+      "gross": 230,
       "voided": 0,
-      "net": 229,
+      "net": 230,
       "owed": 0,
-      "percent": 2290
+      "percent": 2300
     },
     {
       "firm_name": "Edward Law",
@@ -356,11 +356,11 @@
       "firm_name": "YIA",
       "state": "North Carolina",
       "monthly_goal": 60,
-      "gross": 82,
+      "gross": 83,
       "voided": 0,
-      "net": 82,
+      "net": 83,
       "owed": 0,
-      "percent": 137
+      "percent": 138
     },
     {
       "firm_name": "Bernheim",
