@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T23:00:01",
+  "updated": "2026-11-02T07:00:01",
   "month": "November 2026",
   "data": [
     {
@@ -136,11 +136,11 @@
       "firm_name": "Mike F",
       "state": "Texas",
       "monthly_goal": 70,
-      "gross": 0,
+      "gross": 1,
       "voided": 0,
-      "net": 0,
-      "owed": 70,
-      "percent": 0
+      "net": 1,
+      "owed": 69,
+      "percent": 1
     },
     {
       "firm_name": "The Founders Law",
@@ -326,11 +326,11 @@
       "firm_name": "Friedland",
       "state": "Illinois",
       "monthly_goal": 70,
-      "gross": 4,
+      "gross": 6,
       "voided": 0,
-      "net": 4,
-      "owed": 66,
-      "percent": 6
+      "net": 6,
+      "owed": 64,
+      "percent": 9
     },
     {
       "firm_name": "The Founders Law",
