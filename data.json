@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-02T23:00:02",
+  "updated": "2026-11-03T07:00:02",
   "month": "November 2026",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "source": "carol_attygoals",
   "data": [
     {
@@ -118,11 +118,11 @@
       "firm_name": "Friedland & Associates (Illinois)",
       "state": "Illinois",
       "monthly_goal": 60.0,
-      "gross": 16,
+      "gross": 17,
       "voided": 0,
-      "net": 16,
-      "owed": 44.0,
-      "percent": 27
+      "net": 17,
+      "owed": 43.0,
+      "percent": 28
     },
     {
       "firm_name": "Friedland & Associates (JAC)",
@@ -408,11 +408,11 @@
       "firm_name": "Kanner & Pintaluga (Wisconsin)",
       "state": "Wisconsin",
       "monthly_goal": 7.0,
-      "gross": 3,
+      "gross": 4,
       "voided": 0,
-      "net": 3,
-      "owed": 4.0,
-      "percent": 43
+      "net": 4,
+      "owed": 3.0,
+      "percent": 57
     },
     {
       "firm_name": "KNR Legal",
@@ -848,11 +848,11 @@
       "firm_name": "The Dream Team",
       "state": "Texas",
       "monthly_goal": 2.0,
-      "gross": 4,
+      "gross": 5,
       "voided": 0,
-      "net": 4,
+      "net": 5,
       "owed": 0,
-      "percent": 200
+      "percent": 250
     },
     {
       "firm_name": "Ward Law FL",
