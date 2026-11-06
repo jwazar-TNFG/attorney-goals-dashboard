@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-05T23:00:02",
+  "updated": "2026-11-06T07:00:02",
   "month": "November 2026",
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "source": "carol_attygoals",
   "data": [
     {
@@ -68,11 +68,11 @@
       "firm_name": "Big Ben Injury Lawyer (Florida)",
       "state": "Florida",
       "monthly_goal": 30.0,
-      "gross": 27,
+      "gross": 29,
       "voided": 0,
-      "net": 27,
-      "owed": 3.0,
-      "percent": 90
+      "net": 29,
+      "owed": 1.0,
+      "percent": 97
     },
     {
       "firm_name": "Big Ben Injury Lawyer (Illinois)",
