@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T23:00:02",
+  "updated": "2026-11-07T07:00:02",
   "month": "November 2026",
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "source": "carol_attygoals",
   "data": [
     {
@@ -288,11 +288,11 @@
       "firm_name": "Kanner & Pintaluga (Georgia)",
       "state": "Georgia",
       "monthly_goal": 65.0,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
-      "owed": 41.0,
-      "percent": 37
+      "net": 25,
+      "owed": 40.0,
+      "percent": 38
     },
     {
       "firm_name": "Kanner & Pintaluga (Illinois)",
@@ -668,11 +668,11 @@
       "firm_name": "Scarfone - FL",
       "state": "Florida",
       "monthly_goal": 50.0,
-      "gross": 23,
+      "gross": 24,
       "voided": 0,
-      "net": 23,
-      "owed": 27.0,
-      "percent": 46
+      "net": 24,
+      "owed": 26.0,
+      "percent": 48
     },
     {
       "firm_name": "Scarfone - GA",
