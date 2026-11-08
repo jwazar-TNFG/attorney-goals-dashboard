@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T23:00:02",
+  "updated": "2026-11-08T07:00:02",
   "month": "November 2026",
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-08",
   "source": "carol_attygoals",
   "data": [
     {
@@ -38,11 +38,11 @@
       "firm_name": "Bernheim Kelly Battista & Bliss (TN)",
       "state": "Tennessee",
       "monthly_goal": 10.0,
-      "gross": 7,
+      "gross": 8,
       "voided": 0,
-      "net": 7,
-      "owed": 3.0,
-      "percent": 70
+      "net": 8,
+      "owed": 2.0,
+      "percent": 80
     },
     {
       "firm_name": "Bernheim Kelly Battista & Bliss (Wc)",
@@ -668,11 +668,11 @@
       "firm_name": "Scarfone - FL",
       "state": "Florida",
       "monthly_goal": 50.0,
-      "gross": 28,
+      "gross": 26,
       "voided": 0,
-      "net": 28,
-      "owed": 22.0,
-      "percent": 56
+      "net": 26,
+      "owed": 24.0,
+      "percent": 52
     },
     {
       "firm_name": "Scarfone - GA",
