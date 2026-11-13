@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12T23:00:02",
+  "updated": "2026-11-13T07:00:02",
   "month": "November 2026",
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "source": "carol_attygoals",
   "data": [
     {
@@ -118,11 +118,11 @@
       "firm_name": "Friedland & Associates (Illinois)",
       "state": "Illinois",
       "monthly_goal": 60.0,
-      "gross": 79,
+      "gross": 81,
       "voided": 0,
-      "net": 79,
+      "net": 81,
       "owed": 0,
-      "percent": 132
+      "percent": 135
     },
     {
       "firm_name": "Friedland & Associates (JAC)",
