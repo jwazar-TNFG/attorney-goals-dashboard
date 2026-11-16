@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-15T23:00:02",
+  "updated": "2026-11-16T07:00:02",
   "month": "November 2026",
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "source": "carol_attygoals",
   "data": [
     {
@@ -108,21 +108,21 @@
       "firm_name": "Edward Law Group (Texas)",
       "state": "Texas",
       "monthly_goal": 167.0,
-      "gross": 121,
+      "gross": 122,
       "voided": 1,
-      "net": 120,
-      "owed": 47.0,
+      "net": 121,
+      "owed": 46.0,
       "percent": 72
     },
     {
       "firm_name": "Friedland & Associates (Illinois)",
       "state": "Illinois",
       "monthly_goal": 60.0,
-      "gross": 106,
+      "gross": 107,
       "voided": 0,
-      "net": 106,
+      "net": 107,
       "owed": 0,
-      "percent": 177
+      "percent": 178
     },
     {
       "firm_name": "Friedland & Associates (JAC)",
@@ -528,11 +528,11 @@
       "firm_name": "Robert Dominguez (Colorado)",
       "state": "Colorado",
       "monthly_goal": 45.0,
-      "gross": 37,
+      "gross": 39,
       "voided": 0,
-      "net": 37,
-      "owed": 8.0,
-      "percent": 82
+      "net": 39,
+      "owed": 6.0,
+      "percent": 87
     },
     {
       "firm_name": "Robert Dominguez (Georgia)",
