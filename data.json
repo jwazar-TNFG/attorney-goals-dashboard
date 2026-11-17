@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16T23:00:02",
+  "updated": "2026-11-17T07:00:04",
   "month": "November 2026",
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "source": "carol_attygoals",
   "data": [
     {
@@ -108,11 +108,11 @@
       "firm_name": "Edward Law Group (Texas)",
       "state": "Texas",
       "monthly_goal": 167.0,
-      "gross": 137,
+      "gross": 139,
       "voided": 1,
-      "net": 136,
-      "owed": 31.0,
-      "percent": 81
+      "net": 138,
+      "owed": 29.0,
+      "percent": 83
     },
     {
       "firm_name": "Friedland & Associates (Illinois)",
@@ -268,11 +268,11 @@
       "firm_name": "Kanner & Pintaluga (Colorado)",
       "state": "Colorado",
       "monthly_goal": 17.0,
-      "gross": 21,
+      "gross": 22,
       "voided": 0,
-      "net": 21,
+      "net": 22,
       "owed": 0,
-      "percent": 124
+      "percent": 129
     },
     {
       "firm_name": "Kanner & Pintaluga (Florida)",
