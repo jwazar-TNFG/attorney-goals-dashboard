@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-17T23:00:03",
+  "updated": "2026-11-18T07:00:03",
   "month": "November 2026",
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "source": "carol_attygoals",
   "data": [
     {
@@ -118,11 +118,11 @@
       "firm_name": "Friedland & Associates (Illinois)",
       "state": "Illinois",
       "monthly_goal": 60.0,
-      "gross": 111,
+      "gross": 114,
       "voided": 0,
-      "net": 111,
+      "net": 114,
       "owed": 0,
-      "percent": 185
+      "percent": 190
     },
     {
       "firm_name": "Friedland & Associates (JAC)",
@@ -268,11 +268,11 @@
       "firm_name": "Kanner & Pintaluga (Colorado)",
       "state": "Colorado",
       "monthly_goal": 17.0,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
+      "net": 25,
       "owed": 0,
-      "percent": 141
+      "percent": 147
     },
     {
       "firm_name": "Kanner & Pintaluga (Florida)",
@@ -398,11 +398,11 @@
       "firm_name": "Kanner & Pintaluga (Texas)",
       "state": "Texas",
       "monthly_goal": 50.0,
-      "gross": 43,
+      "gross": 45,
       "voided": 1,
-      "net": 42,
-      "owed": 8.0,
-      "percent": 84
+      "net": 44,
+      "owed": 6.0,
+      "percent": 88
     },
     {
       "firm_name": "Kanner & Pintaluga (Wisconsin)",
@@ -548,11 +548,11 @@
       "firm_name": "Robert Dominguez (Maryland)",
       "state": "Maryland",
       "monthly_goal": 5.0,
-      "gross": 8,
+      "gross": 9,
       "voided": 0,
-      "net": 8,
+      "net": 9,
       "owed": 0,
-      "percent": 160
+      "percent": 180
     },
     {
       "firm_name": "Robert Dominguez (Michigan)",
@@ -588,11 +588,11 @@
       "firm_name": "Robert Dominguez (Washington)",
       "state": "Washington DC",
       "monthly_goal": 2.0,
-      "gross": 18,
+      "gross": 19,
       "voided": 0,
-      "net": 18,
+      "net": 19,
       "owed": 0,
-      "percent": 900
+      "percent": 950
     },
     {
       "firm_name": "Robert Rubenstein (Boston)",
@@ -648,11 +648,11 @@
       "firm_name": "RTR WC",
       "state": "Florida",
       "monthly_goal": 25.0,
-      "gross": 12,
+      "gross": 11,
       "voided": 0,
-      "net": 12,
-      "owed": 13.0,
-      "percent": 48
+      "net": 11,
+      "owed": 14.0,
+      "percent": 44
     },
     {
       "firm_name": "Scarfone - DC",
