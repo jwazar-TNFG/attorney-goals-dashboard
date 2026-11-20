@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T23:00:03",
+  "updated": "2026-11-20T07:00:03",
   "month": "November 2026",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "source": "carol_attygoals",
   "data": [
     {
@@ -58,9 +58,9 @@
       "firm_name": "Big Ben Injury Lawyer (Colorado)",
       "state": "Colorado",
       "monthly_goal": 0.0,
-      "gross": 3,
+      "gross": 5,
       "voided": 0,
-      "net": 3,
+      "net": 5,
       "owed": 0,
       "percent": 0
     },
