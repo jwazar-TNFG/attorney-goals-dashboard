@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-22T23:00:04",
+  "updated": "2026-11-23T07:00:03",
   "month": "November 2026",
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "source": "carol_attygoals",
   "data": [
     {
@@ -128,11 +128,11 @@
       "firm_name": "Friedland & Associates (JAC)",
       "state": "Florida",
       "monthly_goal": 35.0,
-      "gross": 10,
+      "gross": 11,
       "voided": 0,
-      "net": 10,
-      "owed": 25.0,
-      "percent": 29
+      "net": 11,
+      "owed": 24.0,
+      "percent": 31
     },
     {
       "firm_name": "Friedland & Associates (MA)",
@@ -478,11 +478,11 @@
       "firm_name": "Ovadia Law (RO)",
       "state": "Florida",
       "monthly_goal": 20.0,
-      "gross": 32,
+      "gross": 33,
       "voided": 0,
-      "net": 32,
+      "net": 33,
       "owed": 0,
-      "percent": 160
+      "percent": 165
     },
     {
       "firm_name": "Rafi Law (California)",
