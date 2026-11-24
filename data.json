@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-23T23:00:04",
+  "updated": "2026-11-24T07:00:04",
   "month": "November 2026",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "source": "carol_attygoals",
   "data": [
     {
@@ -298,11 +298,11 @@
       "firm_name": "Kanner & Pintaluga (Illinois)",
       "state": "Illinois",
       "monthly_goal": 48.0,
-      "gross": 90,
+      "gross": 91,
       "voided": 0,
-      "net": 90,
+      "net": 91,
       "owed": 0,
-      "percent": 188
+      "percent": 190
     },
     {
       "firm_name": "Kanner & Pintaluga (Indiana)",
@@ -588,11 +588,11 @@
       "firm_name": "Robert Dominguez (Washington)",
       "state": "Washington DC",
       "monthly_goal": 2.0,
-      "gross": 24,
+      "gross": 25,
       "voided": 0,
-      "net": 24,
+      "net": 25,
       "owed": 0,
-      "percent": 1200
+      "percent": 1250
     },
     {
       "firm_name": "Robert Rubenstein (Boston)",
@@ -668,11 +668,11 @@
       "firm_name": "Scarfone - FL",
       "state": "Florida",
       "monthly_goal": 50.0,
-      "gross": 75,
+      "gross": 76,
       "voided": 0,
-      "net": 75,
+      "net": 76,
       "owed": 0,
-      "percent": 150
+      "percent": 152
     },
     {
       "firm_name": "Scarfone - GA",
