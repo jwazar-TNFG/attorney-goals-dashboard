@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26T23:00:03",
+  "updated": "2026-11-27T07:00:05",
   "month": "November 2026",
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "source": "carol_attygoals",
   "data": [
     {
@@ -298,11 +298,11 @@
       "firm_name": "Kanner & Pintaluga (Illinois)",
       "state": "Illinois",
       "monthly_goal": 48.0,
-      "gross": 114,
+      "gross": 115,
       "voided": 0,
-      "net": 114,
+      "net": 115,
       "owed": 0,
-      "percent": 238
+      "percent": 240
     },
     {
       "firm_name": "Kanner & Pintaluga (Indiana)",
